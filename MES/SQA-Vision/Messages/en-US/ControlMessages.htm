@@ -1,0 +1,213 @@
+﻿<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
+<head>
+    <style type="text/css">
+        .style1
+        {
+            font-size: x-large;
+        }
+    </style>
+</head>
+
+
+<script type="text/javascript">
+
+// ===================================
+// A function to Show Div Block
+// ===================================
+function showHide(elstring){
+    var el = document.getElementById(elstring);
+    el.style.display = 'block';
+}
+
+// =============================================================
+// A function to retrive a parameter from the get (address) link
+// =============================================================
+function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split('=');
+            if (decodeURIComponent(pair[0]) == variable) {
+                return decodeURIComponent(pair[1]);
+            }
+        }
+    }
+    function delayer(){
+        window.location = getQueryVariable('url')
+    }
+
+
+// ======================================
+// Extract and assign global Parameters
+// ======================================
+var TestType = getQueryVariable("testtype");
+var Status = getQueryVariable("Status");
+var SampleTested = getQueryVariable("SampleTested");
+var LongStep = getQueryVariable("LongStep");
+
+</script>
+
+
+<body background="../Images/Background.png">
+ 
+<!-- File name: ControlMessages  Version: 103.11.2  Language: English  Updated: 15 December 2019 CHANGES: New version assignment -->
+
+
+
+<div id='CalControl' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamation.png" alt="exclamation">
+</td></tr>
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;text-align:center;line-height:1.0; padding-top:20; padding-bottom:20;">
+SYSTEM IS CALIBRATING<br />DO NOT INSERT CAPILLARY
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:70; padding-bottom:20; padding-left:220;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX SAMPLE</li>
+<li>FILL CAPILLARY</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+<div id='CalProf' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamation.png" alt="exclamation">
+</td></tr>
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;text-align:center;line-height:1.0; padding-top:20; padding-bottom:20;">
+SYSTEM IS CALIBRATING<br />DO NOT INSERT CAPILLARY
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:70; padding-bottom:20; padding-left:220;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX PROFICIENCY MATERIAL THOROUGHLY</li>
+<li>FILL CAPILLARY</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+
+<div id='InsertControl' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center" style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;line-height:1.0; padding-top:150; padding-bottom:20;">
+PLEASE INSERT TESTING CAPILLARY
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:115; padding-bottom:20; padding-left:220;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX SAMPLE</li>
+<li>FILL CAPILLARY</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+<div id='InsertProf' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center" style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;line-height:1.0; padding-top:150; padding-bottom:20;">
+PLEASE INSERT TESTING CAPILLARY
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:115; padding-bottom:20; padding-left:220;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX PROFICIENCY MATERIAL THOROUGHLY</li>
+<li>FILL CAPILLARY</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+<div id='Testing' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamation.png" alt="exclamation">
+</td></tr>
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;text-align:center;line-height:1.0; padding-top:60; padding-bottom:20;">
+SAMPLE TESTING<br />DO NOT TOUCH THE SYSTEM
+</tr></td>
+</table>
+</div>
+
+<div id='Import' class="style1" style="display: none;">
+<table border="0" cellpadding="50">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/checkmark.png" alt="checkmark">
+</td></tr>
+<tr height="300"><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:45px; font-weight:bold; color:#000000; line-height:2.0; padding-top:50;">
+IMPORTING TEST RESULTS
+</td></tr>
+</table>
+</div>
+
+<div id='esc'  style="display: none; font-family:Arial Unicode MS; font-size:20; font-weight:normal; color:#000000; line-height:1.0; margin-left:650; margin-top:30;">
+<br /><br />PRESS ESC ON SQA-VISION TO CANCEL TESTING
+</div>
+
+</body>
+
+
+
+<script type="text/javascript">
+
+    // =======================
+    // Show the relevant block
+    // =======================
+    
+    switch (Status) {
+        case "Insert":
+            
+            switch (TestType) {
+
+                case "latex":
+                    showHide("InsertControl");
+                    break;
+
+                case "stab":
+                    showHide("InsertControl");
+                    break;
+
+                case "proficiency":
+                    showHide("InsertProf");
+                    break;
+            }
+            showHide("esc");
+            break;
+
+        case "AutoCal":
+            switch (TestType) {
+   
+                case "latex":
+                    showHide("CalControl");
+                    break;
+
+                case "stab":
+                    showHide("CalControl");
+                    break;
+
+                case "proficiency":
+                    showHide("CalProf");
+                    break;
+            }
+            break;
+
+        case "Testing":
+            showHide("Testing");
+            break;
+
+        case "Import":
+            showHide("Import");
+            break;
+    }
+
+</script>
+
+</html>

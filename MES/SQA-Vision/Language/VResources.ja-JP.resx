@@ -1,0 +1,5143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="0_2_4" xml:space="preserve">
+    <value>アーカイブ</value>
+  </data>
+  <data name="0_1_H_Clinical" xml:space="preserve">
+    <value>クリニカル</value>
+  </data>
+  <data name="0_1_H_Cryo" xml:space="preserve">
+    <value>精子バンク</value>
+  </data>
+  <data name="0_1_T_Exit" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="0_1_T_Time" xml:space="preserve">
+    <value>調整の為に日付をダブルクリックする</value>
+  </data>
+  <data name="0_1_T_Help" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="0_1_T_Home" xml:space="preserve">
+    <value>ホーム</value>
+  </data>
+  <data name="0_1_T_LongTimer" xml:space="preserve">
+    <value>寿命検査注意タイマー</value>
+  </data>
+  <data name="0_1_T_Minimize" xml:space="preserve">
+    <value>最小限</value>
+  </data>
+  <data name="0_1_L_NP" xml:space="preserve">
+    <value>実行しない</value>
+  </data>
+  <data name="0_1_T_Preview" xml:space="preserve">
+    <value>ビデオを見る</value>
+  </data>
+  <data name="0_2_2" xml:space="preserve">
+    <value>精度管理/習熟度</value>
+  </data>
+  <data name="0_2_5" xml:space="preserve">
+    <value>サービス</value>
+  </data>
+  <data name="0_2_6" xml:space="preserve">
+    <value>セッテイング</value>
+  </data>
+  <data name="0_2_1" xml:space="preserve">
+    <value>患者を検査する</value>
+  </data>
+  <data name="0_2_3" xml:space="preserve">
+    <value>ヴィジュアル化</value>
+  </data>
+  <data name="1_2_B_Dilution" xml:space="preserve">
+    <value>2倍希釈検体</value>
+  </data>
+  <data name="1_2_B_20" xml:space="preserve">
+    <value>10μl</value>
+  </data>
+  <data name="1_1_L_ABNormal" xml:space="preserve">
+    <value>異常</value>
+  </data>
+  <data name="1_1_L_Abstinence" xml:space="preserve">
+    <value>禁欲（期間）</value>
+  </data>
+  <data name="1_2_B_AddIB" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="1_1_L_Pat_Age" xml:space="preserve">
+    <value>年齢</value>
+  </data>
+  <data name="1_1_L_Appearance" xml:space="preserve">
+    <value>外観（目視）</value>
+  </data>
+  <data name="1_1_L_Pat_BD" xml:space="preserve">
+    <value>生まれた日</value>
+  </data>
+  <data name="1_1_L_Pat_BDY" xml:space="preserve">
+    <value>生まれた年</value>
+  </data>
+  <data name="1_2_B_Cent" xml:space="preserve">
+    <value>遠心分離</value>
+  </data>
+  <data name="1_2_B_CloseSession" xml:space="preserve">
+    <value>セッション終了</value>
+  </data>
+  <data name="1_1_L_DateColl" xml:space="preserve">
+    <value>検体を採取した日</value>
+  </data>
+  <data name="1_1_L_TimeColl" xml:space="preserve">
+    <value>検体を採取した時</value>
+  </data>
+  <data name="1_1_L_Comments" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="1_2_B_Continue" xml:space="preserve">
+    <value>続ける</value>
+  </data>
+  <data name="1_1_L_Decreased" xml:space="preserve">
+    <value>低下する</value>
+  </data>
+  <data name="1_2_B_DNA" xml:space="preserve">
+    <value>DNA断片化</value>
+  </data>
+  <data name="1_1_P_MainTestID" xml:space="preserve">
+    <value>検体番号</value>
+  </data>
+  <data name="1_1_P_DonorID" xml:space="preserve">
+    <value>ドナーID</value>
+  </data>
+  <data name="1_1_L_FinalVol" xml:space="preserve">
+    <value>調整後の量(ml)</value>
+  </data>
+  <data name="1_1_L_PatientFName" xml:space="preserve">
+    <value>患者の名前</value>
+  </data>
+  <data name="1_2_B_Fresh" xml:space="preserve">
+    <value>新鮮検体</value>
+  </data>
+  <data name="1_2_B_Frozen" xml:space="preserve">
+    <value>凍結検体</value>
+  </data>
+  <data name="1_2_B_Grad" xml:space="preserve">
+    <value>密度勾配法</value>
+  </data>
+  <data name="1_1_P_IDT" xml:space="preserve">
+    <value>デイリーテストをインポートしています</value>
+  </data>
+  <data name="1_2_B_Step1" xml:space="preserve">
+    <value>調整前</value>
+  </data>
+  <data name="1_1_L_INVol" xml:space="preserve">
+    <value>調整前の量 (ml)</value>
+  </data>
+  <data name="1_1_L_PatientLName" xml:space="preserve">
+    <value>患者の苗字</value>
+  </data>
+  <data name="1_1_L_Liquefaction" xml:space="preserve">
+    <value>液化の状態</value>
+  </data>
+  <data name="1_2_B_Long" xml:space="preserve">
+    <value>寿命検査</value>
+  </data>
+  <data name="1_1_L_Longevity" xml:space="preserve">
+    <value>寿命検査</value>
+  </data>
+  <data name="1_2_B_ManualTT" xml:space="preserve">
+    <value>手動測定</value>
+  </data>
+  <data name="1_2_B_Manual" xml:space="preserve">
+    <value>手動測定</value>
+  </data>
+  <data name="1_2_B_ManualTest" xml:space="preserve">
+    <value>手動検査</value>
+  </data>
+  <data name="1_2_B_No" xml:space="preserve">
+    <value>ノー</value>
+  </data>
+  <data name="1_1_L_Normal" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="1_2_B_Offline" xml:space="preserve">
+    <value>オフライン</value>
+  </data>
+  <data name="1_1_L_Optional" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="1_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="1_1_L_Pending" xml:space="preserve">
+    <value>保留</value>
+  </data>
+  <data name="1_1_L_PH" xml:space="preserve">
+    <value>pH</value>
+  </data>
+  <data name="1_1_H_NoControls1" xml:space="preserve">
+    <value>検体のタイプの選択</value>
+  </data>
+  <data name="1_2_B_PV" xml:space="preserve">
+    <value>精管切除後</value>
+  </data>
+  <data name="1_2_B_STAGE3" xml:space="preserve">
+    <value>解凍後</value>
+  </data>
+  <data name="1_2_B_STAGE2" xml:space="preserve">
+    <value>凍結前</value>
+  </data>
+  <data name="1_2_B_Raw" xml:space="preserve">
+    <value>低質な検体</value>
+  </data>
+  <data name="1_1_L_DateRec" xml:space="preserve">
+    <value>検体を受領した日</value>
+  </data>
+  <data name="1_1_L_TimeRec" xml:space="preserve">
+    <value>検体を受領時間</value>
+  </data>
+  <data name="1_2_B_Retry" xml:space="preserve">
+    <value>再検査</value>
+  </data>
+  <data name="1_1_L_SampleID" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="1_2_B_SEMEN" xml:space="preserve">
+    <value>精液分析</value>
+  </data>
+  <data name="1_2_B_SemiAuto" xml:space="preserve">
+    <value>半自動検査</value>
+  </data>
+  <data name="1_2_B_Step" xml:space="preserve">
+    <value>ｽﾃｯﾌﾟ</value>
+  </data>
+  <data name="1_2_B_Swim" xml:space="preserve">
+    <value>スイムアップ</value>
+  </data>
+  <data name="1_1_P_TestID" xml:space="preserve">
+    <value>テスト ID</value>
+  </data>
+  <data name="1_2_B_TestNow" xml:space="preserve">
+    <value>検査開始</value>
+  </data>
+  <data name="1_2_B_TestNow10Mic" xml:space="preserve">
+    <value>検査開始
+(10μl)</value>
+  </data>
+  <data name="1_1_L_Viscocity" xml:space="preserve">
+    <value>粘調度</value>
+  </data>
+  <data name="1_2_B_Vitality" xml:space="preserve">
+    <value>活性検査</value>
+  </data>
+  <data name="1_1_L_Volume" xml:space="preserve">
+    <value>精液の全量 (ml)</value>
+  </data>
+  <data name="1_2_B_Washed" xml:space="preserve">
+    <value>洗浄検体</value>
+  </data>
+  <data name="1_1_L_WBCConc" xml:space="preserve">
+    <value>白血球濃度 (M/ml)</value>
+  </data>
+  <data name="1_2_B_Yes" xml:space="preserve">
+    <value>イエス</value>
+  </data>
+  <data name="2_4_P_PV_ImmotileVol" xml:space="preserve">
+    <value>運動性を持たない精子の数/全量</value>
+  </data>
+  <data name="2_4_L_MSPERM" xml:space="preserve">
+    <value># 運動性精子</value>
+  </data>
+  <data name="2_4_P_PV_MotileVol" xml:space="preserve">
+    <value>運動性精子の数/全量</value>
+  </data>
+  <data name="2_4_L_PSPERM" xml:space="preserve">
+    <value># 前進運動精子</value>
+  </data>
+  <data name="2_4_L_TSPERM" xml:space="preserve">
+    <value># 総精子</value>
+  </data>
+  <data name="2_4_P_PV_TotalVol" xml:space="preserve">
+    <value>精子の総数</value>
+  </data>
+  <data name="2_4_L_MolEjec" xml:space="preserve">
+    <value>μmol/射精</value>
+  </data>
+  <data name="2_4_L_20" xml:space="preserve">
+    <value>10マイクロリットル</value>
+  </data>
+  <data name="2_4_L_ABNormal" xml:space="preserve">
+    <value>異常</value>
+  </data>
+  <data name="2_4_P_Abnormal" xml:space="preserve">
+    <value>異常</value>
+  </data>
+  <data name="2_4_P_Abstinence" xml:space="preserve">
+    <value>禁欲</value>
+  </data>
+  <data name="2_2_B_Add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="2_4_P_PatAgeTest" xml:space="preserve">
+    <value>年齢</value>
+  </data>
+  <data name="2_4_P_TestAge" xml:space="preserve">
+    <value>年齢</value>
+  </data>
+  <data name="2_4_P_Aggl" xml:space="preserve">
+    <value>凝集(1-4,A-E)</value>
+  </data>
+  <data name="2_4_P_Appearance" xml:space="preserve">
+    <value>外観（目視）</value>
+  </data>
+  <data name="2_4_L_Auto" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="2_4_P_PatAge" xml:space="preserve">
+    <value>誕生日/年齢</value>
+  </data>
+  <data name="2_4_P_PatAgeYear" xml:space="preserve">
+    <value>生まれた年/年齢</value>
+  </data>
+  <data name="2_2_B_Capture" xml:space="preserve">
+    <value>キャプチャー</value>
+  </data>
+  <data name="2_4_L_Cent" xml:space="preserve">
+    <value>遠心分離</value>
+  </data>
+  <data name="2_4_L_CC" xml:space="preserve">
+    <value>操作ｷｰでｸﾘｯｸ</value>
+  </data>
+  <data name="2_4_P_DateColl" xml:space="preserve">
+    <value>検体採取日/時間</value>
+  </data>
+  <data name="2_1_L_Comments" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="2_4_P_TSC" xml:space="preserve">
+    <value>濃度</value>
+  </data>
+  <data name="2_4_P_MorphType" xml:space="preserve">
+    <value>基準</value>
+  </data>
+  <data name="2_4_P_CryoBank" xml:space="preserve">
+    <value>精子バンク</value>
+  </data>
+  <data name="2_4_L_Days" xml:space="preserve">
+    <value>日数</value>
+  </data>
+  <data name="2_2_B_Debris" xml:space="preserve">
+    <value>細胞片</value>
+  </data>
+  <data name="2_4_P_Deb_Round" xml:space="preserve">
+    <value>細胞片/円形細胞</value>
+  </data>
+  <data name="2_4_L_Decreased" xml:space="preserve">
+    <value>低下する</value>
+  </data>
+  <data name="2_4_L_DILUTE" xml:space="preserve">
+    <value>2倍希釈</value>
+  </data>
+  <data name="2_2_B_DNA" xml:space="preserve">
+    <value>DNA断片化</value>
+  </data>
+  <data name="2_4_P_VRTCountTypeD" xml:space="preserve">
+    <value>DNA断片化カウント型</value>
+  </data>
+  <data name="2_4_P_DFI" xml:space="preserve">
+    <value>DNA断片化指数DFI</value>
+  </data>
+  <data name="2_4_P_MainTestID" xml:space="preserve">
+    <value>検体番号</value>
+  </data>
+  <data name="2_4_P_DonorID" xml:space="preserve">
+    <value>ドナーID</value>
+  </data>
+  <data name="2_2_B_DOSING" xml:space="preserve">
+    <value>投薬</value>
+  </data>
+  <data name="2_2_B_Close" xml:space="preserve">
+    <value>テスト終了</value>
+  </data>
+  <data name="2_4_L_Fail" xml:space="preserve">
+    <value>不合格</value>
+  </data>
+  <data name="2_4_L_Fresh" xml:space="preserve">
+    <value>新鮮検体</value>
+  </data>
+  <data name="2_4_L_Frozen" xml:space="preserve">
+    <value>凍結検体</value>
+  </data>
+  <data name="2_4_L_FD" xml:space="preserve">
+    <value>全ての差異</value>
+  </data>
+  <data name="2_4_P_FuncSperm" xml:space="preserve">
+    <value>機能性精子</value>
+  </data>
+  <data name="2_4_P_FSC" xml:space="preserve">
+    <value>機能性精子濃度</value>
+  </data>
+  <data name="2_4_L_Grad" xml:space="preserve">
+    <value>密度勾配法</value>
+  </data>
+  <data name="2_2_B_Graph" xml:space="preserve">
+    <value>グラフ</value>
+  </data>
+  <data name="2_4_L_Gross" xml:space="preserve">
+    <value>全体の</value>
+  </data>
+  <data name="2_4_P_AttachedImage" xml:space="preserve">
+    <value>画像をキャプチャー</value>
+  </data>
+  <data name="2_4_P_Immotility5" xml:space="preserve">
+    <value>非運動精子の割合</value>
+  </data>
+  <data name="2_4_P_PV_Immotile" xml:space="preserve">
+    <value>運動性を持たない精子</value>
+  </data>
+  <data name="2_4_P_Immotility" xml:space="preserve">
+    <value>非運動性精子濃度</value>
+  </data>
+  <data name="2_4_L_Step1" xml:space="preserve">
+    <value>調整前</value>
+  </data>
+  <data name="2_4_L_Initial" xml:space="preserve">
+    <value>調整前</value>
+  </data>
+  <data name="2_4_P_Liquefaction" xml:space="preserve">
+    <value>液化の状態</value>
+  </data>
+  <data name="2_1_L_Live" xml:space="preserve">
+    <value>生存</value>
+  </data>
+  <data name="2_4_L_Long" xml:space="preserve">
+    <value>寿命検査</value>
+  </data>
+  <data name="2_4_P_LongID" xml:space="preserve">
+    <value>寿命検査ID</value>
+  </data>
+  <data name="2_4_P_LongStep" xml:space="preserve">
+    <value>寿命検査ステップ</value>
+  </data>
+  <data name="2_4_L_MEjac" xml:space="preserve">
+    <value>M/射精</value>
+  </data>
+  <data name="2_4_L_MVol" xml:space="preserve">
+    <value>百万/量</value>
+  </data>
+  <data name="2_4_L_Manual" xml:space="preserve">
+    <value>手動測定</value>
+  </data>
+  <data name="2_4_L_Many" xml:space="preserve">
+    <value>多い</value>
+  </data>
+  <data name="2_4_L_MAC" xml:space="preserve">
+    <value>〇印をつけて数える</value>
+  </data>
+  <data name="2_4_L_MicSec" xml:space="preserve">
+    <value>mic/秒</value>
+  </data>
+  <data name="2_4_L_Mod" xml:space="preserve">
+    <value>ほどほど</value>
+  </data>
+  <data name="2_2_B_Morph" xml:space="preserve">
+    <value>形態</value>
+  </data>
+  <data name="2_4_P_VRTCountType" xml:space="preserve">
+    <value>形態検査のカウント方法</value>
+  </data>
+  <data name="2_4_P_TotalMorph" xml:space="preserve">
+    <value>正常形態精子</value>
+  </data>
+  <data name="2_4_P_VRTTestType" xml:space="preserve">
+    <value>形態検査のテスト方法</value>
+  </data>
+  <data name="2_4_P_MotileSperm" xml:space="preserve">
+    <value>運動性精子</value>
+  </data>
+  <data name="2_4_P_PV_Motile" xml:space="preserve">
+    <value>運動性精子</value>
+  </data>
+  <data name="2_4_P_MSC" xml:space="preserve">
+    <value>運動性精子濃度</value>
+  </data>
+  <data name="2_4_P_Motility" xml:space="preserve">
+    <value>運動性</value>
+  </data>
+  <data name="2_2_B_Motility" xml:space="preserve">
+    <value>運動性</value>
+  </data>
+  <data name="2_4_L_MUEjac" xml:space="preserve">
+    <value>mU/射精</value>
+  </data>
+  <data name="2_4_L_NoneFew" xml:space="preserve">
+    <value>0/少ない</value>
+  </data>
+  <data name="2_4_P_Nonprog" xml:space="preserve">
+    <value>非前進運動精子　C</value>
+  </data>
+  <data name="2_4_P_Nonprog5" xml:space="preserve">
+    <value>非前進運動精子　NP</value>
+  </data>
+  <data name="2_4_L_Normal" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="2_4_L_ANN" xml:space="preserve">
+    <value>正常/異常</value>
+  </data>
+  <data name="2_4_P_Morph" xml:space="preserve">
+    <value>正常な形態</value>
+  </data>
+  <data name="2_4_L_NormVol" xml:space="preserve">
+    <value>正常な量</value>
+  </data>
+  <data name="2_4_P_OI" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="2_4_P_PV_Option" xml:space="preserve">
+    <value>ｵﾌﾟｼｮﾝ</value>
+  </data>
+  <data name="2_4_L_Parameter" xml:space="preserve">
+    <value>パラメータ</value>
+  </data>
+  <data name="2_4_L_Pass" xml:space="preserve">
+    <value>パス</value>
+  </data>
+  <data name="2_4_P_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="2_4_P_PatFullName" xml:space="preserve">
+    <value>患者氏名</value>
+  </data>
+  <data name="2_4_P_PH" xml:space="preserve">
+    <value>pH</value>
+  </data>
+  <data name="2_4_P_AB10" xml:space="preserve">
+    <value>ピンヘッド</value>
+  </data>
+  <data name="2_4_L_PV" xml:space="preserve">
+    <value>精管切除後の検体</value>
+  </data>
+  <data name="2_4_P_PostThaw" xml:space="preserve">
+    <value>解凍後</value>
+  </data>
+  <data name="2_4_P_PreFreeze" xml:space="preserve">
+    <value>凍結前</value>
+  </data>
+  <data name="2_4_P_ProgMotile" xml:space="preserve">
+    <value>前進運動精子</value>
+  </data>
+  <data name="2_4_P_PMSC" xml:space="preserve">
+    <value>前進運動精子濃度</value>
+  </data>
+  <data name="2_4_P_PMSCA" xml:space="preserve">
+    <value>高速前進運動精子濃度 (a)</value>
+  </data>
+  <data name="2_4_P_PMSCB" xml:space="preserve">
+    <value>低速前進運動精子濃度 (b)</value>
+  </data>
+  <data name="2_4_P_PMOT" xml:space="preserve">
+    <value>前進運動性を示す精子の割合</value>
+  </data>
+  <data name="2_4_P_PMOTA" xml:space="preserve">
+    <value>高速前進(a)　</value>
+  </data>
+  <data name="2_4_L_Raw" xml:space="preserve">
+    <value>未処理</value>
+  </data>
+  <data name="2_4_P_DateRec" xml:space="preserve">
+    <value>検体受領日/時間</value>
+  </data>
+  <data name="2_4_L_RefVal" xml:space="preserve">
+    <value>REF. VALUE</value>
+  </data>
+  <data name="2_2_B_Report" xml:space="preserve">
+    <value>レポート</value>
+  </data>
+  <data name="2_4_L_Result" xml:space="preserve">
+    <value>結果</value>
+  </data>
+  <data name="2_2_B_Retest" xml:space="preserve">
+    <value>再検査</value>
+  </data>
+  <data name="2_4_P_TEST_PF" xml:space="preserve">
+    <value>検体の評価</value>
+  </data>
+  <data name="2_4_P_SampleID" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="2_4_L_SamInf" xml:space="preserve">
+    <value>検体情報</value>
+  </data>
+  <data name="2_4_P_TestMode" xml:space="preserve">
+    <value>検査後の検体</value>
+  </data>
+  <data name="2_2_B_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="2_4_L_SemiAuto" xml:space="preserve">
+    <value>半自動検査</value>
+  </data>
+  <data name="2_2_B_Send" xml:space="preserve">
+    <value>送信</value>
+  </data>
+  <data name="2_4_P_PMOTB" xml:space="preserve">
+    <value>低速前進運動精子(b)</value>
+  </data>
+  <data name="2_4_P_TotalSperm" xml:space="preserve">
+    <value>精子数</value>
+  </data>
+  <data name="2_4_P_SMI" xml:space="preserve">
+    <value>SMI</value>
+  </data>
+  <data name="2_4_L_Status" xml:space="preserve">
+    <value>ｽﾃｰﾀｽ</value>
+  </data>
+  <data name="2_4_L_Step" xml:space="preserve">
+    <value>ｽﾃｯﾌﾟ</value>
+  </data>
+  <data name="2_4_P_TestTime" xml:space="preserve">
+    <value>ステップタイム</value>
+  </data>
+  <data name="2_4_L_Swim" xml:space="preserve">
+    <value>スイムアップ</value>
+  </data>
+  <data name="2_2_B_TestCent" xml:space="preserve">
+    <value>遠心分離検査</value>
+  </data>
+  <data name="2_4_P_TestDate" xml:space="preserve">
+    <value>検査日/時間</value>
+  </data>
+  <data name="2_4_P_TestID" xml:space="preserve">
+    <value>テスト ID</value>
+  </data>
+  <data name="2_4_P_UserName" xml:space="preserve">
+    <value>検査者</value>
+  </data>
+  <data name="2_4_P_SampleType" xml:space="preserve">
+    <value>ﾃｽﾄﾀｲﾌﾟ</value>
+  </data>
+  <data name="2_4_P_Motility5" xml:space="preserve">
+    <value>総運動精子　PR+NP</value>
+  </data>
+  <data name="2_4_P_PV_Total" xml:space="preserve">
+    <value>総精子</value>
+  </data>
+  <data name="2_4_P_Velocity" xml:space="preserve">
+    <value>平均速度</value>
+  </data>
+  <data name="2_4_P_AttachedVideo" xml:space="preserve">
+    <value>ビデオ画像</value>
+  </data>
+  <data name="2_4_P_Viscocity" xml:space="preserve">
+    <value>粘調度</value>
+  </data>
+  <data name="2_1_L_VisualAss" xml:space="preserve">
+    <value>ヴィジュアルアセスメント</value>
+  </data>
+  <data name="2_2_B_Vitality" xml:space="preserve">
+    <value>活性検査</value>
+  </data>
+  <data name="2_4_P_ViabLive" xml:space="preserve">
+    <value>活性検査</value>
+  </data>
+  <data name="2_4_P_VRTCountTypeV" xml:space="preserve">
+    <value>活性検査のタイプ</value>
+  </data>
+  <data name="2_4_P_Volume" xml:space="preserve">
+    <value>量</value>
+  </data>
+  <data name="2_4_L_Washed" xml:space="preserve">
+    <value>洗浄検体</value>
+  </data>
+  <data name="2_4_P_WBCConc" xml:space="preserve">
+    <value>白血球濃度</value>
+  </data>
+  <data name="3_1_H_Slides" xml:space="preserve">
+    <value>スライドの数</value>
+  </data>
+  <data name="3_1_L_PatAge" xml:space="preserve">
+    <value>誕生日/年齢</value>
+  </data>
+  <data name="3_2_P_AttachedImage" xml:space="preserve">
+    <value>写真撮影</value>
+  </data>
+  <data name="3_1_L_TestTypeCEN" xml:space="preserve">
+    <value>遠心分離処理検体</value>
+  </data>
+  <data name="3_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>付属の電源ケーブルとコネクタの接続確認</value>
+  </data>
+  <data name="3_2_B_ClearAll" xml:space="preserve">
+    <value>全て消去</value>
+  </data>
+  <data name="3_2_B_ClearLast" xml:space="preserve">
+    <value>最後にｶｳﾝﾄした数</value>
+  </data>
+  <data name="3_1_H_NoVideoCheck" xml:space="preserve">
+    <value>リフレッシュボタンを押す</value>
+  </data>
+  <data name="3_1_L_MorphType" xml:space="preserve">
+    <value>基準</value>
+  </data>
+  <data name="3_1_L_Elapsed" xml:space="preserve">
+    <value>経過した</value>
+  </data>
+  <data name="3_1_L_ManScreen" xml:space="preserve">
+    <value>計測した視野の数</value>
+  </data>
+  <data name="3_2_B_Freeze" xml:space="preserve">
+    <value>静止画像</value>
+  </data>
+  <data name="3_2_B_Fresh" xml:space="preserve">
+    <value>新鮮モード</value>
+  </data>
+  <data name="3_2_B_FULL" xml:space="preserve">
+    <value>全画面</value>
+  </data>
+  <data name="3_2_B_GridOff" xml:space="preserve">
+    <value>グリッド消去</value>
+  </data>
+  <data name="3_2_B_Grid" xml:space="preserve">
+    <value>グリッド表示</value>
+  </data>
+  <data name="3_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>問題が発生したら</value>
+  </data>
+  <data name="3_1_L_ImageCap" xml:space="preserve">
+    <value>画像をキャプチャー</value>
+  </data>
+  <data name="3_1_H_Immotile" xml:space="preserve">
+    <value>非運動性</value>
+  </data>
+  <data name="3_1_L_HeaderLQ" xml:space="preserve">
+    <value>ﾀﾞｲﾅﾐｯｸﾚﾝｼﾞを下回った時</value>
+  </data>
+  <data name="3_1_L_HeaderMN" xml:space="preserve">
+    <value>手動カウンター</value>
+  </data>
+  <data name="3_1_H_Motile" xml:space="preserve">
+    <value>運動性</value>
+  </data>
+  <data name="3_1_L_Detected" xml:space="preserve">
+    <value>自動的に検知された運動精子</value>
+  </data>
+  <data name="3_2_B_NextField" xml:space="preserve">
+    <value>次の視野</value>
+  </data>
+  <data name="3_1_L_No" xml:space="preserve">
+    <value>ノー</value>
+  </data>
+  <data name="3_1_L_NoSperm" xml:space="preserve">
+    <value>精子がみえない</value>
+  </data>
+  <data name="3_1_L_Nprog" xml:space="preserve">
+    <value>非前進</value>
+  </data>
+  <data name="3_1_L_None" xml:space="preserve">
+    <value>ほとんどなし</value>
+  </data>
+  <data name="3_1_L_Option" xml:space="preserve">
+    <value>ｵﾌﾟｼｮﾝ</value>
+  </data>
+  <data name="3_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="3_1_L_PatientName" xml:space="preserve">
+    <value>患者氏名</value>
+  </data>
+  <data name="3_1_L_HeaderPV" xml:space="preserve">
+    <value>精管切除後の数</value>
+  </data>
+  <data name="3_1_H_PMOT" xml:space="preserve">
+    <value>前進運動精子</value>
+  </data>
+  <data name="3_1_L_RAPID" xml:space="preserve">
+    <value>高速前進</value>
+  </data>
+  <data name="3_1_L_TestTypeRAW" xml:space="preserve">
+    <value>未処理検体（遠心分離してない）</value>
+  </data>
+  <data name="3_2_B_RealTime" xml:space="preserve">
+    <value>リアルタイム</value>
+  </data>
+  <data name="3_2_P_AttachedVideo" xml:space="preserve">
+    <value>動画録画</value>
+  </data>
+  <data name="3_2_B_Refresh" xml:space="preserve">
+    <value>リフレッシュ</value>
+  </data>
+  <data name="3_2_B_Next" xml:space="preserve">
+    <value>検査結果</value>
+  </data>
+  <data name="3_1_L_DilutionList" xml:space="preserve">
+    <value>希釈後の検体？</value>
+  </data>
+  <data name="3_1_L_DilutionList2" xml:space="preserve">
+    <value>希釈検体</value>
+  </data>
+  <data name="3_1_L_SampleID" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="3_1_L_SS" xml:space="preserve">
+    <value>検査後の検体</value>
+  </data>
+  <data name="3_2_B_Settings" xml:space="preserve">
+    <value>セッテイング</value>
+  </data>
+  <data name="3_1_L_SLOW" xml:space="preserve">
+    <value>低速前進</value>
+  </data>
+  <data name="3_1_L_StopCapture" xml:space="preserve">
+    <value>動画停止</value>
+  </data>
+  <data name="3_1_L_TestDate" xml:space="preserve">
+    <value>検査日/時間</value>
+  </data>
+  <data name="3_1_L_SampleType" xml:space="preserve">
+    <value>ﾃｽﾄﾀｲﾌﾟ</value>
+  </data>
+  <data name="3_1_L_Total" xml:space="preserve">
+    <value>合計</value>
+  </data>
+  <data name="3_1_L_TCELLS" xml:space="preserve">
+    <value>総精子数</value>
+  </data>
+  <data name="3_1_H_VideoError" xml:space="preserve">
+    <value>録画失敗</value>
+  </data>
+  <data name="3_1_L_VideoCap" xml:space="preserve">
+    <value>ビデオ録画</value>
+  </data>
+  <data name="3_1_H_Zoom" xml:space="preserve">
+    <value>可視化の為のズームアウト</value>
+  </data>
+  <data name="4_2_P_Abnormal" xml:space="preserve">
+    <value>異常</value>
+  </data>
+  <data name="4_1_L_PatAge" xml:space="preserve">
+    <value>誕生日/年齢</value>
+  </data>
+  <data name="4_2_P_MorphScreen" xml:space="preserve">
+    <value>視野を取り込む</value>
+  </data>
+  <data name="4_1_L_Comments" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="4_1_L_MorphType" xml:space="preserve">
+    <value>基準</value>
+  </data>
+  <data name="4_1_T_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="4_1_L_TS" xml:space="preserve">
+    <value>計測した視野の数</value>
+  </data>
+  <data name="4_1_T_Item" xml:space="preserve">
+    <value>アイテム</value>
+  </data>
+  <data name="4_1_T_ManageAll" xml:space="preserve">
+    <value>キャプチャー画像処理</value>
+  </data>
+  <data name="4_1_H_SelectImage" xml:space="preserve">
+    <value>画像処理</value>
+  </data>
+  <data name="4_1_H_MorphHeader" xml:space="preserve">
+    <value>形態検査</value>
+  </data>
+  <data name="4_2_P_Normal" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="4_1_T_of" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="4_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="4_1_L_PatientName" xml:space="preserve">
+    <value>患者氏名</value>
+  </data>
+  <data name="4_2_B_RemoveAll" xml:space="preserve">
+    <value>全て移す</value>
+  </data>
+  <data name="4_2_B_Remove" xml:space="preserve">
+    <value>最後を削除</value>
+  </data>
+  <data name="4_1_L_ReportName" xml:space="preserve">
+    <value>レポート名</value>
+  </data>
+  <data name="4_1_L_SampleID" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="4_1_L_SS" xml:space="preserve">
+    <value>検査後の検体</value>
+  </data>
+  <data name="4_1_T_SaveAs" xml:space="preserve">
+    <value>名前を付けて保存</value>
+  </data>
+  <data name="4_2_B_SaveField" xml:space="preserve">
+    <value>視野を保存す</value>
+  </data>
+  <data name="4_1_L_TestDate" xml:space="preserve">
+    <value>検査日/時間</value>
+  </data>
+  <data name="4_1_L_SampleType" xml:space="preserve">
+    <value>ﾃｽﾄﾀｲﾌﾟ</value>
+  </data>
+  <data name="4_1_L_CC" xml:space="preserve">
+    <value>総精子数</value>
+  </data>
+  <data name="5_1_L_PatAge" xml:space="preserve">
+    <value>誕生日/年齢</value>
+  </data>
+  <data name="5_2_P_ViabScreen" xml:space="preserve">
+    <value>視野を取り込む</value>
+  </data>
+  <data name="5_1_L_Comments" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="5_1_L_MorphType" xml:space="preserve">
+    <value>基準</value>
+  </data>
+  <data name="5_2_P_ViabDead" xml:space="preserve">
+    <value>死亡</value>
+  </data>
+  <data name="5_1_T_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="5_1_L_TS" xml:space="preserve">
+    <value>計測した視野の数</value>
+  </data>
+  <data name="5_1_T_Item" xml:space="preserve">
+    <value>アイテム</value>
+  </data>
+  <data name="5_2_P_ViabLive" xml:space="preserve">
+    <value>生存</value>
+  </data>
+  <data name="5_1_T_ManageAll" xml:space="preserve">
+    <value>キャプチャー画像処理</value>
+  </data>
+  <data name="5_1_H_SelectImage" xml:space="preserve">
+    <value>画像処理</value>
+  </data>
+  <data name="5_1_T_of" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="5_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="5_1_L_PatientName" xml:space="preserve">
+    <value>患者氏名</value>
+  </data>
+  <data name="5_2_B_RemoveAll" xml:space="preserve">
+    <value>全て移す</value>
+  </data>
+  <data name="5_2_B_Remove" xml:space="preserve">
+    <value>最後を削除</value>
+  </data>
+  <data name="5_1_L_ReportName" xml:space="preserve">
+    <value>レポート名</value>
+  </data>
+  <data name="5_1_L_SampleID" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="5_1_L_SS" xml:space="preserve">
+    <value>検査後の検体</value>
+  </data>
+  <data name="5_1_T_SaveAs" xml:space="preserve">
+    <value>名前を付けて保存</value>
+  </data>
+  <data name="5_2_B_SaveField" xml:space="preserve">
+    <value>視野を保存す</value>
+  </data>
+  <data name="5_1_L_TestDate" xml:space="preserve">
+    <value>検査日/時間</value>
+  </data>
+  <data name="5_1_L_SampleType" xml:space="preserve">
+    <value>ﾃｽﾄﾀｲﾌﾟ</value>
+  </data>
+  <data name="5_1_L_CC" xml:space="preserve">
+    <value>総精子数</value>
+  </data>
+  <data name="5_1_H_VitHeader" xml:space="preserve">
+    <value>活性検査</value>
+  </data>
+  <data name="6_1_L_PatAge" xml:space="preserve">
+    <value>誕生日/年齢</value>
+  </data>
+  <data name="6_2_P_AttachedImage" xml:space="preserve">
+    <value>写真撮影</value>
+  </data>
+  <data name="6_1_L_Comments" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="6_1_L_MorphType" xml:space="preserve">
+    <value>基準</value>
+  </data>
+  <data name="6_1_T_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="6_1_L_Elapsed" xml:space="preserve">
+    <value>経過した</value>
+  </data>
+  <data name="6_1_H_CaptureHeader" xml:space="preserve">
+    <value>画像の写真や動画を撮る</value>
+  </data>
+  <data name="6_1_T_Item" xml:space="preserve">
+    <value>アイテム</value>
+  </data>
+  <data name="6_1_T_ManageAll" xml:space="preserve">
+    <value>キャプチャー画像処理</value>
+  </data>
+  <data name="6_1_T_ManageAllV" xml:space="preserve">
+    <value>全てのビデオの管理</value>
+  </data>
+  <data name="6_1_H_ManageImage" xml:space="preserve">
+    <value>画像処理</value>
+  </data>
+  <data name="6_1_H_ManageVideo" xml:space="preserve">
+    <value>録画処理</value>
+  </data>
+  <data name="6_1_T_of" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="6_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="6_1_L_PatientName" xml:space="preserve">
+    <value>患者氏名</value>
+  </data>
+  <data name="6_2_P_AttachedVideo" xml:space="preserve">
+    <value>動画録画</value>
+  </data>
+  <data name="6_1_L_ReportName" xml:space="preserve">
+    <value>レポート名</value>
+  </data>
+  <data name="6_1_L_SampleID" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="6_1_L_SS" xml:space="preserve">
+    <value>検査後の検体</value>
+  </data>
+  <data name="6_1_T_SaveAs" xml:space="preserve">
+    <value>名前を付けて保存</value>
+  </data>
+  <data name="6_1_L_StopCapture" xml:space="preserve">
+    <value>動画停止</value>
+  </data>
+  <data name="6_1_L_TestDate" xml:space="preserve">
+    <value>検査日/時間</value>
+  </data>
+  <data name="6_1_L_SampleType" xml:space="preserve">
+    <value>ﾃｽﾄﾀｲﾌﾟ</value>
+  </data>
+  <data name="7_2_B_AddIB" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="7_2_B_CloseCA" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="7_4_CA_Clean" xml:space="preserve">
+    <value>ｸﾘｰﾆﾝｸﾞして再検査する</value>
+  </data>
+  <data name="7_1_P_CON_RE" xml:space="preserve">
+    <value>濃度(M/ml)</value>
+  </data>
+  <data name="7_2_B_Continue" xml:space="preserve">
+    <value>続ける</value>
+  </data>
+  <data name="7_4_D_Storage" xml:space="preserve">
+    <value>コントロールビーズが不適切に保存された</value>
+  </data>
+  <data name="7_4_D_Expired" xml:space="preserve">
+    <value>コントロールビーズの有効期限</value>
+  </data>
+  <data name="7_4_CA_SETUP" xml:space="preserve">
+    <value>再検査</value>
+  </data>
+  <data name="7_2_B_CorrectiveAction" xml:space="preserve">
+    <value>修正処置</value>
+  </data>
+  <data name="7_4_P_CA" xml:space="preserve">
+    <value>修正処置</value>
+  </data>
+  <data name="7_4_P_CON_CA" xml:space="preserve">
+    <value>修正処置</value>
+  </data>
+  <data name="7_1_P_CON_Date" xml:space="preserve">
+    <value>日付/時間</value>
+  </data>
+  <data name="7_1_H_NoControlsDEF" xml:space="preserve">
+    <value>デフォルト</value>
+  </data>
+  <data name="7_1_P_CON_EXPDA" xml:space="preserve">
+    <value>使用期限</value>
+  </data>
+  <data name="7_1_L_Fail" xml:space="preserve">
+    <value>不合格</value>
+  </data>
+  <data name="7_4_CA_MIX" xml:space="preserve">
+    <value>均一化をして再テスト</value>
+  </data>
+  <data name="7_1_P_Con_Issue" xml:space="preserve">
+    <value>契約日</value>
+  </data>
+  <data name="7_1_P_CON_LR" xml:space="preserve">
+    <value>最後の検査</value>
+  </data>
+  <data name="7_1_P_LevelID" xml:space="preserve">
+    <value>レベル</value>
+  </data>
+  <data name="7_1_P_CON_LOT" xml:space="preserve">
+    <value>ロット番号</value>
+  </data>
+  <data name="7_2_B_VISUAL" xml:space="preserve">
+    <value>〇印をつけてカウント</value>
+  </data>
+  <data name="7_1_P_CON_MSC" xml:space="preserve">
+    <value>運動精子濃度 (M/ml)</value>
+  </data>
+  <data name="7_4_D_NonAss" xml:space="preserve">
+    <value>NON-ASSAYEDをASSAYEDｺﾝﾄﾛｰﾙとして実行</value>
+  </data>
+  <data name="7_1_P_CON_NOTE" xml:space="preserve">
+    <value>注意</value>
+  </data>
+  <data name="7_2_B_Offline" xml:space="preserve">
+    <value>オフライン</value>
+  </data>
+  <data name="7_1_L_Pass" xml:space="preserve">
+    <value>パス</value>
+  </data>
+  <data name="7_1_P_CON_PR" xml:space="preserve">
+    <value>パスレンジ</value>
+  </data>
+  <data name="7_1_L_Pending" xml:space="preserve">
+    <value>保留</value>
+  </data>
+  <data name="7_1_H_NoControlsPS" xml:space="preserve">
+    <value>セットアップして下さい</value>
+  </data>
+  <data name="7_4_P_ProDesc" xml:space="preserve">
+    <value>問題の説明</value>
+  </data>
+  <data name="7_1_L_PR" xml:space="preserve">
+    <value>習熟度検査</value>
+  </data>
+  <data name="7_2_B_PR" xml:space="preserve">
+    <value>習熟度検査</value>
+  </data>
+  <data name="7_2_B_Archive" xml:space="preserve">
+    <value>QC　ARCHIVE</value>
+  </data>
+  <data name="7_1_P_CON_RAN" xml:space="preserve">
+    <value>レンジ</value>
+  </data>
+  <data name="7_1_P_CON_NC_RAN" xml:space="preserve">
+    <value>レンジ</value>
+  </data>
+  <data name="7_2_B_Report" xml:space="preserve">
+    <value>レポート</value>
+  </data>
+  <data name="7_4_CA_NonAss" xml:space="preserve">
+    <value>NON-ASSAYEDコントロールとして再検査</value>
+  </data>
+  <data name="7_2_B_Retry" xml:space="preserve">
+    <value>再検査</value>
+  </data>
+  <data name="7_4_CA_WrongLevel" xml:space="preserve">
+    <value>検査レベルを修正する</value>
+  </data>
+  <data name="7_4_CA_Storage" xml:space="preserve">
+    <value>新しいバッチを実行する</value>
+  </data>
+  <data name="7_4_CA_Expired" xml:space="preserve">
+    <value>コントロールの新しいビーズを実行する</value>
+  </data>
+  <data name="7_4_D_MIX" xml:space="preserve">
+    <value>検体を取り上げて撹拌する</value>
+  </data>
+  <data name="7_1_P_CON_SAMPLE" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="7_1_P_SampleID" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="7_1_L_SI" xml:space="preserve">
+    <value>検体情報</value>
+  </data>
+  <data name="7_2_B_SaveCA" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="7_2_B_Setup" xml:space="preserve">
+    <value>セットアップ</value>
+  </data>
+  <data name="7_1_P_CON_STA" xml:space="preserve">
+    <value>ｽﾃｰﾀｽ</value>
+  </data>
+  <data name="7_4_D_Clean" xml:space="preserve">
+    <value>システムが要求するｸﾘｰﾆﾝｸﾞ</value>
+  </data>
+  <data name="7_1_P_CON_TAR" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="7_4_D_SETUP" xml:space="preserve">
+    <value>目標数値/ レンジのセットアップ</value>
+  </data>
+  <data name="7_1_P_CON_NC_TAR" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="7_2_B_TestNow" xml:space="preserve">
+    <value>検査開始</value>
+  </data>
+  <data name="7_1_L_TR" xml:space="preserve">
+    <value>検査結果</value>
+  </data>
+  <data name="7_4_D_User" xml:space="preserve">
+    <value>顧客情報</value>
+  </data>
+  <data name="7_4_D_WrongLevel" xml:space="preserve">
+    <value>違ったレベルの検査</value>
+  </data>
+  <data name="8_1_T_Camera" xml:space="preserve">
+    <value>[カメラ］画像／ビデオ</value>
+  </data>
+  <data name="8_1_T_DNA" xml:space="preserve">
+    <value>（DNA　helix)-DNA断片化</value>
+  </data>
+  <data name="8_1_L_20" xml:space="preserve">
+    <value>10マイクロリットル</value>
+  </data>
+  <data name="8_4_P_MainAllComp" xml:space="preserve">
+    <value>全てのステップが実行されたか？</value>
+  </data>
+  <data name="8_1_L_Capture" xml:space="preserve">
+    <value>キャプチャー</value>
+  </data>
+  <data name="8_4_P_Con_RE" xml:space="preserve">
+    <value>濃度(M/ml)</value>
+  </data>
+  <data name="8_4_P_Con_CA" xml:space="preserve">
+    <value>修正処置</value>
+  </data>
+  <data name="8_2_B_CB" xml:space="preserve">
+    <value>精子バンク</value>
+  </data>
+  <data name="8_1_T_Debris" xml:space="preserve">
+    <value>細胞片</value>
+  </data>
+  <data name="8_4_P_MainDate" xml:space="preserve">
+    <value>日付/時間</value>
+  </data>
+  <data name="8_4_P_Con_Date" xml:space="preserve">
+    <value>日付/時間</value>
+  </data>
+  <data name="8_2_B_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="8_1_L_DILUTE" xml:space="preserve">
+    <value>2倍希釈</value>
+  </data>
+  <data name="8_1_L_DNA" xml:space="preserve">
+    <value>DNA断片化</value>
+  </data>
+  <data name="8_4_P_MainTestID" xml:space="preserve">
+    <value>検体番号</value>
+  </data>
+  <data name="8_4_P_DonorID" xml:space="preserve">
+    <value>ドナーID</value>
+  </data>
+  <data name="8_4_P_EXPDA" xml:space="preserve">
+    <value>使用期限</value>
+  </data>
+  <data name="8_2_B_Export" xml:space="preserve">
+    <value>エクスポートする</value>
+  </data>
+  <data name="8_1_L_Fail" xml:space="preserve">
+    <value>不合格</value>
+  </data>
+  <data name="8_2_B_GO" xml:space="preserve">
+    <value>フィルター</value>
+  </data>
+  <data name="8_1_H_DateRange" xml:space="preserve">
+    <value>日付フィルター</value>
+  </data>
+  <data name="8_1_H_Filter2CBI" xml:space="preserve">
+    <value>検体＃フィルター</value>
+  </data>
+  <data name="8_1_H_Filter1CB" xml:space="preserve">
+    <value>ドナーIDフィルター</value>
+  </data>
+  <data name="8_1_H_Filter1LE" xml:space="preserve">
+    <value>レベルフィルター</value>
+  </data>
+  <data name="8_1_H_Filter1MT" xml:space="preserve">
+    <value>メディアタイプフィルター</value>
+  </data>
+  <data name="8_1_H_Filter1PI" xml:space="preserve">
+    <value>患者IDフィルター</value>
+  </data>
+  <data name="8_1_H_Filter2PN" xml:space="preserve">
+    <value>患者氏名フィルター</value>
+  </data>
+  <data name="8_1_H_Filter1PB" xml:space="preserve">
+    <value>～によってフィルタリングする</value>
+  </data>
+  <data name="8_1_H_Filter1PR" xml:space="preserve">
+    <value>習熟度検査フィルター</value>
+  </data>
+  <data name="8_1_H_Filter2ST" xml:space="preserve">
+    <value>ステータスフィルター</value>
+  </data>
+  <data name="8_1_H_Filter1ST" xml:space="preserve">
+    <value>ステータスフィルター</value>
+  </data>
+  <data name="8_1_L_Fresh" xml:space="preserve">
+    <value>新鮮検体</value>
+  </data>
+  <data name="8_1_L_Frozen" xml:space="preserve">
+    <value>凍結検体</value>
+  </data>
+  <data name="8_1_L_Grad" xml:space="preserve">
+    <value>密度勾配法</value>
+  </data>
+  <data name="8_1_L_Int" xml:space="preserve">
+    <value>内部</value>
+  </data>
+  <data name="8_4_P_Con_Issue" xml:space="preserve">
+    <value>契約日</value>
+  </data>
+  <data name="8_1_L_Long" xml:space="preserve">
+    <value>寿命検査</value>
+  </data>
+  <data name="8_4_P_Con_Lot" xml:space="preserve">
+    <value>ロット番号</value>
+  </data>
+  <data name="8_1_T_Morphology" xml:space="preserve">
+    <value>手動形態検査</value>
+  </data>
+  <data name="8_2_B_Main" xml:space="preserve">
+    <value>メンテナンス</value>
+  </data>
+  <data name="8_1_L_Manual" xml:space="preserve">
+    <value>手動測定</value>
+  </data>
+  <data name="8_1_L_Morph" xml:space="preserve">
+    <value>精子形態</value>
+  </data>
+  <data name="8_4_P_CON_MSC" xml:space="preserve">
+    <value>運動精子濃度 (M/ml)</value>
+  </data>
+  <data name="8_1_L_No" xml:space="preserve">
+    <value>ノー</value>
+  </data>
+  <data name="8_4_P_Con_Note" xml:space="preserve">
+    <value>注意</value>
+  </data>
+  <data name="8_2_B_OpenTest" xml:space="preserve">
+    <value>検査結果</value>
+  </data>
+  <data name="8_1_L_Pass" xml:space="preserve">
+    <value>パス</value>
+  </data>
+  <data name="8_4_P_CON_RAN" xml:space="preserve">
+    <value>パスレンジ</value>
+  </data>
+  <data name="8_4_P_CON_NC_RAN" xml:space="preserve">
+    <value>パスレンジ</value>
+  </data>
+  <data name="8_2_B_PD" xml:space="preserve">
+    <value>患者のデータ</value>
+  </data>
+  <data name="8_4_P_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="8_4_P_PatFullName" xml:space="preserve">
+    <value>患者氏名</value>
+  </data>
+  <data name="8_4_P_MainUser" xml:space="preserve">
+    <value>によって行われ</value>
+  </data>
+  <data name="8_1_L_PV" xml:space="preserve">
+    <value>精管切除後の検体</value>
+  </data>
+  <data name="8_2_B_PR" xml:space="preserve">
+    <value>習熟度検査</value>
+  </data>
+  <data name="8_4_P_Con_PRONUM" xml:space="preserve">
+    <value>習熟度検査数</value>
+  </data>
+  <data name="8_1_L_VQC" xml:space="preserve">
+    <value>QC (品質管理) マーク数</value>
+  </data>
+  <data name="8_2_B_Report" xml:space="preserve">
+    <value>レポート</value>
+  </data>
+  <data name="8_2_B_OnlyReport" xml:space="preserve">
+    <value>レポート</value>
+  </data>
+  <data name="8_4_P_VisName" xml:space="preserve">
+    <value>レポート名</value>
+  </data>
+  <data name="8_4_P_SampleID" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="8_1_L_ST" xml:space="preserve">
+    <value>セルフテスト</value>
+  </data>
+  <data name="8_2_B_SD" xml:space="preserve">
+    <value>サービスデータ</value>
+  </data>
+  <data name="8_4_P_SDDate" xml:space="preserve">
+    <value>サービスデータ日時</value>
+  </data>
+  <data name="8_2_B_ShowAll" xml:space="preserve">
+    <value>全ての記録の表示</value>
+  </data>
+  <data name="8_2_P_SubSampleType" xml:space="preserve">
+    <value>段階</value>
+  </data>
+  <data name="8_4_P_SDStatus" xml:space="preserve">
+    <value>ｽﾃｰﾀｽ</value>
+  </data>
+  <data name="8_4_P_CON_STA" xml:space="preserve">
+    <value>ｽﾃｰﾀｽ</value>
+  </data>
+  <data name="8_1_L_Swim" xml:space="preserve">
+    <value>スイムアップ</value>
+  </data>
+  <data name="8_4_P_CON_TAR" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="8_4_P_Con_NC_TAR" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="8_4_P_TestDate" xml:space="preserve">
+    <value>検査日/時間</value>
+  </data>
+  <data name="8_4_P_SampleType" xml:space="preserve">
+    <value>ﾃｽﾄﾀｲﾌﾟ</value>
+  </data>
+  <data name="8_1_H_To" xml:space="preserve">
+    <value>へ</value>
+  </data>
+  <data name="8_1_L_To" xml:space="preserve">
+    <value>へ</value>
+  </data>
+  <data name="8_4_P_CounterType" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="8_4_P_LAST_TEST" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="8_1_T_Vitality" xml:space="preserve">
+    <value>V－活性化</value>
+  </data>
+  <data name="8_4_P_VisualAss" xml:space="preserve">
+    <value>ヴィジュアルアセスメント</value>
+  </data>
+  <data name="8_2_B_VS" xml:space="preserve">
+    <value>ヴィジュアル化</value>
+  </data>
+  <data name="8_1_L_Vitality" xml:space="preserve">
+    <value>活性検査</value>
+  </data>
+  <data name="8_1_L_Washed" xml:space="preserve">
+    <value>洗浄検体</value>
+  </data>
+  <data name="8_1_L_Yes" xml:space="preserve">
+    <value>イエス</value>
+  </data>
+  <data name="9_1_L_PatAge" xml:space="preserve">
+    <value>誕生日/年齢</value>
+  </data>
+  <data name="9_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>付属の電源ケーブルとコネクタの接続確認</value>
+  </data>
+  <data name="9_1_H_NoVideoCheck" xml:space="preserve">
+    <value>リフレッシュボタンを押す</value>
+  </data>
+  <data name="9_2_B_Next" xml:space="preserve">
+    <value>続ける</value>
+  </data>
+  <data name="9_1_L_MorphType" xml:space="preserve">
+    <value>基準</value>
+  </data>
+  <data name="9_1_H_DebrisHeader" xml:space="preserve">
+    <value>破片/円形細胞スキャナー</value>
+  </data>
+  <data name="9_1_L_Diluted" xml:space="preserve">
+    <value>2倍希釈</value>
+  </data>
+  <data name="9_1_H_Ex4" xml:space="preserve">
+    <value>例</value>
+  </data>
+  <data name="9_1_H_Ex2" xml:space="preserve">
+    <value>例</value>
+  </data>
+  <data name="9_1_H_Ex3" xml:space="preserve">
+    <value>例</value>
+  </data>
+  <data name="9_1_H_Ex1" xml:space="preserve">
+    <value>例</value>
+  </data>
+  <data name="9_2_B_Freeze" xml:space="preserve">
+    <value>静止画像</value>
+  </data>
+  <data name="9_2_B_FULL" xml:space="preserve">
+    <value>全画面</value>
+  </data>
+  <data name="9_2_B_GridOff" xml:space="preserve">
+    <value>グリッド消去</value>
+  </data>
+  <data name="9_2_B_Grid" xml:space="preserve">
+    <value>グリッド表示</value>
+  </data>
+  <data name="9_2_B_Gross" xml:space="preserve">
+    <value>全体の</value>
+  </data>
+  <data name="9_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>問題が発生したら</value>
+  </data>
+  <data name="9_2_B_Many" xml:space="preserve">
+    <value>多い</value>
+  </data>
+  <data name="9_2_B_Mod" xml:space="preserve">
+    <value>ほどほど</value>
+  </data>
+  <data name="9_1_L_NoSperm" xml:space="preserve">
+    <value>精子がみえない</value>
+  </data>
+  <data name="9_2_B_None" xml:space="preserve">
+    <value>0/少ない</value>
+  </data>
+  <data name="9_1_L_Vol" xml:space="preserve">
+    <value>正常な量</value>
+  </data>
+  <data name="9_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="9_1_L_PatientName" xml:space="preserve">
+    <value>患者氏名</value>
+  </data>
+  <data name="9_2_B_RealTime" xml:space="preserve">
+    <value>リアルタイム</value>
+  </data>
+  <data name="9_2_B_Refresh" xml:space="preserve">
+    <value>リフレッシュ</value>
+  </data>
+  <data name="9_1_L_SampleID" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="9_1_L_SS" xml:space="preserve">
+    <value>検査後の検体</value>
+  </data>
+  <data name="9_2_B_Settings" xml:space="preserve">
+    <value>セッテイング</value>
+  </data>
+  <data name="9_1_L_TestDate" xml:space="preserve">
+    <value>検査日/時間</value>
+  </data>
+  <data name="9_1_L_SampleType" xml:space="preserve">
+    <value>ﾃｽﾄﾀｲﾌﾟ</value>
+  </data>
+  <data name="9_1_H_VideoError" xml:space="preserve">
+    <value>録画失敗</value>
+  </data>
+  <data name="9_1_H_Zoom" xml:space="preserve">
+    <value>可視化の為のズームアウト</value>
+  </data>
+  <data name="10_1_H_DataField" xml:space="preserve">
+    <value>追加項目の入力</value>
+  </data>
+  <data name="10_1_L_Aggl" xml:space="preserve">
+    <value>凝集(1-4,A-E)</value>
+  </data>
+  <data name="10_2_B_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="10_1_L_CollLoc" xml:space="preserve">
+    <value>採取場所(1検査所：2自宅)</value>
+  </data>
+  <data name="10_1_L_ComSample" xml:space="preserve">
+    <value>完全検体（1.完全　2.不完全）</value>
+  </data>
+  <data name="10_2_B_Save" xml:space="preserve">
+    <value>続ける</value>
+  </data>
+  <data name="10_1_L_CollDiff" xml:space="preserve">
+    <value>採取困難</value>
+  </data>
+  <data name="10_1_L_DirIBTestIgA" xml:space="preserve">
+    <value>IgA抗体のイムノビーズテスト[&lt;50]</value>
+  </data>
+  <data name="10_1_L_DirIBTestIgG" xml:space="preserve">
+    <value>IgG抗体のイムノビーズテストテスト[&lt;50]</value>
+  </data>
+  <data name="10_1_L_DirMarTestIgA" xml:space="preserve">
+    <value>IgA抗体のMARテスト（3or10min)[&lt;50]</value>
+  </data>
+  <data name="10_1_L_DirMarTestIgG" xml:space="preserve">
+    <value>IgG抗体のMARテスト（3or10min)[&lt;50]</value>
+  </data>
+  <data name="10_1_H_EnterData" xml:space="preserve">
+    <value>データ入力</value>
+  </data>
+  <data name="10_1_L_Fructose" xml:space="preserve">
+    <value>フルクトース</value>
+  </data>
+  <data name="10_1_L_Glucose" xml:space="preserve">
+    <value>グルコシダーゼ</value>
+  </data>
+  <data name="10_1_L_Mediac" xml:space="preserve">
+    <value>投薬</value>
+  </data>
+  <data name="10_1_L_OM" xml:space="preserve">
+    <value>備考欄に記入</value>
+  </data>
+  <data name="10_1_L_PeroxPos" xml:space="preserve">
+    <value>ペルオキシダーゼ陽性白血球</value>
+  </data>
+  <data name="10_1_L_Treat" xml:space="preserve">
+    <value>精子の調整（ブロメライン/キモトリプシン）</value>
+  </data>
+  <data name="10_1_L_Zinc" xml:space="preserve">
+    <value>亜鉛</value>
+  </data>
+  <data name="11_1_H_Offline4" xml:space="preserve">
+    <value>オフラインモード</value>
+  </data>
+  <data name="11_1_L_AvgTestDay" xml:space="preserve">
+    <value>一日あたりの平均検査</value>
+  </data>
+  <data name="11_1_L_ACStatus" xml:space="preserve">
+    <value>システムの安定化とキャリブレーション</value>
+  </data>
+  <data name="11_1_H_OOR2" xml:space="preserve">
+    <value>詳細はアイコンをクリック</value>
+  </data>
+  <data name="11_1_H_Offline2" xml:space="preserve">
+    <value>接続する</value>
+  </data>
+  <data name="11_1_H_CNHeader" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="11_1_H_CNHeaderData" xml:space="preserve">
+    <value>データ</value>
+  </data>
+  <data name="11_1_L_UseSpace" xml:space="preserve">
+    <value>HDDの使用容量</value>
+  </data>
+  <data name="11_1_L_LastBackup" xml:space="preserve">
+    <value>最終バックアップ</value>
+  </data>
+  <data name="11_1_L_LR" xml:space="preserve">
+    <value>最後の検査</value>
+  </data>
+  <data name="11_2_B_Main" xml:space="preserve">
+    <value>メンテナンス</value>
+  </data>
+  <data name="11_1_L_NextBackup" xml:space="preserve">
+    <value>次回のバックアップ</value>
+  </data>
+  <data name="11_1_L_NR" xml:space="preserve">
+    <value>検査しない</value>
+  </data>
+  <data name="11_2_B_Offline" xml:space="preserve">
+    <value>オフライン</value>
+  </data>
+  <data name="11_1_L_Pending" xml:space="preserve">
+    <value>保留</value>
+  </data>
+  <data name="11_2_B_Refresh" xml:space="preserve">
+    <value>リフレッシュ</value>
+  </data>
+  <data name="11_2_B_Report" xml:space="preserve">
+    <value>レポート</value>
+  </data>
+  <data name="11_2_B_Continue" xml:space="preserve">
+    <value>再検査</value>
+  </data>
+  <data name="11_2_B_Retry" xml:space="preserve">
+    <value>再検査</value>
+  </data>
+  <data name="11_1_L_STStatus" xml:space="preserve">
+    <value>セルフテスト結果</value>
+  </data>
+  <data name="11_1_H_SDHeader" xml:space="preserve">
+    <value>サービスデータ－キーパラメーター</value>
+  </data>
+  <data name="11_1_H_BKHeader" xml:space="preserve">
+    <value>SQA-VISION バックアップステータス</value>
+  </data>
+  <data name="11_1_H_IBHeader" xml:space="preserve">
+    <value>検査統計</value>
+  </data>
+  <data name="11_1_H_Offline3" xml:space="preserve">
+    <value>検査機器</value>
+  </data>
+  <data name="11_1_L_RemainTests" xml:space="preserve">
+    <value>残ってる検査数</value>
+  </data>
+  <data name="11_1_L_TestCount" xml:space="preserve">
+    <value>全ての検査</value>
+  </data>
+  <data name="11_1_H_Offline1" xml:space="preserve">
+    <value>VISIONは不可</value>
+  </data>
+  <data name="12_2_B_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="12_2_B_Enter" xml:space="preserve">
+    <value>エンター</value>
+  </data>
+  <data name="12_1_L_Pass" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="12_1_L_User" xml:space="preserve">
+    <value>顧客名</value>
+  </data>
+  <data name="12_1_L_Version" xml:space="preserve">
+    <value>バージョン</value>
+  </data>
+  <data name="12_1_L_WrongPass" xml:space="preserve">
+    <value>ﾊﾟｽﾜｰﾄﾞが違います</value>
+  </data>
+  <data name="12_1_L_WrongUser" xml:space="preserve">
+    <value>ﾕｰｻﾞｰ名が違います</value>
+  </data>
+  <data name="13_2_B_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="13_2_B_CaptureVid" xml:space="preserve">
+    <value>キャプチャー</value>
+  </data>
+  <data name="13_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>付属の電源ケーブルとコネクタの接続確認</value>
+  </data>
+  <data name="13_1_H_NoVideoCheck" xml:space="preserve">
+    <value>リフレッシュボタンを押す</value>
+  </data>
+  <data name="13_2_B_Close" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="13_2_B_Continue" xml:space="preserve">
+    <value>続ける</value>
+  </data>
+  <data name="13_2_B_DNA" xml:space="preserve">
+    <value>DNA断片化</value>
+  </data>
+  <data name="13_1_L_Exit" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="13_2_B_Freeze" xml:space="preserve">
+    <value>静止画像</value>
+  </data>
+  <data name="13_1_L_FreezeUnFreeze" xml:space="preserve">
+    <value>静止/動画</value>
+  </data>
+  <data name="13_2_B_FULL" xml:space="preserve">
+    <value>全画面</value>
+  </data>
+  <data name="13_2_B_GridOff" xml:space="preserve">
+    <value>グリッド消去</value>
+  </data>
+  <data name="13_2_B_Grid" xml:space="preserve">
+    <value>グリッド表示</value>
+  </data>
+  <data name="13_1_L_GridOnOff" xml:space="preserve">
+    <value>グリッドON/OFF</value>
+  </data>
+  <data name="13_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>問題が発生したら</value>
+  </data>
+  <data name="13_2_B_Morph" xml:space="preserve">
+    <value>形態</value>
+  </data>
+  <data name="13_2_B_New" xml:space="preserve">
+    <value>新しい</value>
+  </data>
+  <data name="13_2_B_RealTime" xml:space="preserve">
+    <value>リアルタイム</value>
+  </data>
+  <data name="13_2_B_Refresh" xml:space="preserve">
+    <value>リフレッシュ</value>
+  </data>
+  <data name="13_2_B_Report" xml:space="preserve">
+    <value>レポート</value>
+  </data>
+  <data name="13_2_B_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="13_1_L_SaveasV" xml:space="preserve">
+    <value>動画保存</value>
+  </data>
+  <data name="13_1_L_SaveasI" xml:space="preserve">
+    <value>画像保存</value>
+  </data>
+  <data name="13_2_B_Settings" xml:space="preserve">
+    <value>セッテイング</value>
+  </data>
+  <data name="13_1_H_VideoError" xml:space="preserve">
+    <value>録画失敗</value>
+  </data>
+  <data name="13_2_B_Vitality" xml:space="preserve">
+    <value>活性検査</value>
+  </data>
+  <data name="14_2_B_ClearAll" xml:space="preserve">
+    <value>全て消去</value>
+  </data>
+  <data name="14_2_B_Controls" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="14_2_B_Defaults" xml:space="preserve">
+    <value>デフォルト</value>
+  </data>
+  <data name="14_2_B_QwikLink" xml:space="preserve">
+    <value>検査室ｲﾝﾀｰﾌｪｰｽ</value>
+  </data>
+  <data name="14_2_B_ControlsProp" xml:space="preserve">
+    <value>習熟度検査</value>
+  </data>
+  <data name="14_2_B_Report" xml:space="preserve">
+    <value>レポート</value>
+  </data>
+  <data name="14_2_B_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="14_2_B_Service" xml:space="preserve">
+    <value>サービス</value>
+  </data>
+  <data name="14_2_B_System" xml:space="preserve">
+    <value>システム</value>
+  </data>
+  <data name="14_2_B_Patients" xml:space="preserve">
+    <value>患者を検査する</value>
+  </data>
+  <data name="14_2_B_Vis" xml:space="preserve">
+    <value>ヴィジュアル化</value>
+  </data>
+  <data name="15_2_B_C3Clear1" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="15_2_B_C3Clear2" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="15_2_B_C3Clear3" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="15_2_B_C3Clear4" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="15_1_L_C3ED1" xml:space="preserve">
+    <value>契約日</value>
+  </data>
+  <data name="15_1_L_C3ED4" xml:space="preserve">
+    <value>契約日</value>
+  </data>
+  <data name="15_1_L_C3ED2" xml:space="preserve">
+    <value>契約日</value>
+  </data>
+  <data name="15_1_L_C3ED3" xml:space="preserve">
+    <value>契約日</value>
+  </data>
+  <data name="15_1_L_C3NOTE1" xml:space="preserve">
+    <value>注意</value>
+  </data>
+  <data name="15_1_L_C3NOTE2" xml:space="preserve">
+    <value>注意</value>
+  </data>
+  <data name="15_1_L_C3NOTE3" xml:space="preserve">
+    <value>注意</value>
+  </data>
+  <data name="15_1_L_C3NOTE4" xml:space="preserve">
+    <value>注意</value>
+  </data>
+  <data name="15_1_H_PR_L1" xml:space="preserve">
+    <value>習熟度検査1</value>
+  </data>
+  <data name="15_1_H_PR_L2" xml:space="preserve">
+    <value>習熟度検査2</value>
+  </data>
+  <data name="15_1_H_PR_L3" xml:space="preserve">
+    <value>習熟度検査3</value>
+  </data>
+  <data name="15_1_H_PR_L4" xml:space="preserve">
+    <value>習熟度検査4</value>
+  </data>
+  <data name="15_1_L_C3Lot2" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="15_1_L_C3Lot3" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="15_1_L_C3Lot1" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="15_1_L_C3Lot4" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="15_1_L_CSSType" xml:space="preserve">
+    <value>標準</value>
+  </data>
+  <data name="16_1_H_Offline4" xml:space="preserve">
+    <value>オフラインモード</value>
+  </data>
+  <data name="16_2_B_MESTech" xml:space="preserve">
+    <value>分析する</value>
+  </data>
+  <data name="16_1_L_AvgTestDay" xml:space="preserve">
+    <value>一日あたりの平均検査</value>
+  </data>
+  <data name="16_2_B_BackupNow" xml:space="preserve">
+    <value>バックアップ</value>
+  </data>
+  <data name="16_1_L_by" xml:space="preserve">
+    <value>に</value>
+  </data>
+  <data name="16_2_B_Calendar" xml:space="preserve">
+    <value>カレンダー</value>
+  </data>
+  <data name="16_4_P_CleanChamber" xml:space="preserve">
+    <value>検査用ﾁｬﾝﾊﾞｰのｸﾘｰﾆﾝｸﾞ</value>
+  </data>
+  <data name="16_1_H_OOR2" xml:space="preserve">
+    <value>詳細はアイコンをクリック</value>
+  </data>
+  <data name="16_4_P_PassSelfTest" xml:space="preserve">
+    <value>セルフテストをパスすることを認める</value>
+  </data>
+  <data name="16_1_H_Offline2" xml:space="preserve">
+    <value>接続する</value>
+  </data>
+  <data name="16_2_B_Continue" xml:space="preserve">
+    <value>続ける</value>
+  </data>
+  <data name="16_1_H_CNHeader" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="16_1_H_CNHeaderData" xml:space="preserve">
+    <value>データ</value>
+  </data>
+  <data name="16_4_P_DryChamber" xml:space="preserve">
+    <value>テストチャンバーをブラシで乾かす</value>
+  </data>
+  <data name="16_4_P_DustChamber" xml:space="preserve">
+    <value>テストチャンバーのほこりを取る</value>
+  </data>
+  <data name="16_1_L_UseSpace" xml:space="preserve">
+    <value>HDDの使用容量</value>
+  </data>
+  <data name="16_1_L_LastBackup" xml:space="preserve">
+    <value>最終バックアップ</value>
+  </data>
+  <data name="16_1_P_LastData" xml:space="preserve">
+    <value>最後の作業</value>
+  </data>
+  <data name="16_1_L_LR" xml:space="preserve">
+    <value>最後の検査</value>
+  </data>
+  <data name="16_1_H_DailyMain" xml:space="preserve">
+    <value>メンテナンスのチェックリスト</value>
+  </data>
+  <data name="16_1_L_NextBackup" xml:space="preserve">
+    <value>次回のバックアップ</value>
+  </data>
+  <data name="16_1_P_NotRun" xml:space="preserve">
+    <value>検査しない</value>
+  </data>
+  <data name="16_2_B_Offline" xml:space="preserve">
+    <value>オフライン</value>
+  </data>
+  <data name="16_1_P_Pending" xml:space="preserve">
+    <value>保留</value>
+  </data>
+  <data name="16_1_L_ComBy" xml:space="preserve">
+    <value>によって行われ</value>
+  </data>
+  <data name="16_2_B_Refresh" xml:space="preserve">
+    <value>リフレッシュ</value>
+  </data>
+  <data name="16_2_B_ReportMain" xml:space="preserve">
+    <value>レポート</value>
+  </data>
+  <data name="16_2_B_Restore" xml:space="preserve">
+    <value>ﾃﾞｰﾀの復元</value>
+  </data>
+  <data name="16_2_B_Retry" xml:space="preserve">
+    <value>再検査</value>
+  </data>
+  <data name="16_4_P_RunDailyQC" xml:space="preserve">
+    <value>日々の精度管理検査</value>
+  </data>
+  <data name="16_4_P_RunWBCPHStrip" xml:space="preserve">
+    <value>白血球検査/PH検査紙　（もし必要なら）</value>
+  </data>
+  <data name="16_2_B_SaveMain" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="16_2_B_SelfTest" xml:space="preserve">
+    <value>セルフテスト</value>
+  </data>
+  <data name="16_1_L_STStatus" xml:space="preserve">
+    <value>セルフテスト結果</value>
+  </data>
+  <data name="16_2_B_Service" xml:space="preserve">
+    <value>サービス</value>
+  </data>
+  <data name="16_1_H_SDPar" xml:space="preserve">
+    <value>サービスデータ－キーパラメーター</value>
+  </data>
+  <data name="16_2_B_ReportSD" xml:space="preserve">
+    <value>サービスレポート</value>
+  </data>
+  <data name="16_2_B_BackupSetup" xml:space="preserve">
+    <value>セッテイング</value>
+  </data>
+  <data name="16_2_B_ReportSetup" xml:space="preserve">
+    <value>レポートのセット</value>
+  </data>
+  <data name="16_1_H_BackIB" xml:space="preserve">
+    <value>SQA-VISION バックアップステータス</value>
+  </data>
+  <data name="16_1_H_IBHeader" xml:space="preserve">
+    <value>検査統計</value>
+  </data>
+  <data name="16_1_H_Offline3" xml:space="preserve">
+    <value>検査機器</value>
+  </data>
+  <data name="16_1_L_RemainTests" xml:space="preserve">
+    <value>残ってる検査数</value>
+  </data>
+  <data name="16_1_L_TestCount" xml:space="preserve">
+    <value>全ての検査</value>
+  </data>
+  <data name="16_4_P_VerifyDateTime" xml:space="preserve">
+    <value>日と時間の確認</value>
+  </data>
+  <data name="16_4_P_SuppInv" xml:space="preserve">
+    <value>供給在庫を確認する</value>
+  </data>
+  <data name="16_1_H_Offline1" xml:space="preserve">
+    <value>VISIONは不可</value>
+  </data>
+  <data name="17_2_B_C2Clear1" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="17_2_B_C2Clear3" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="17_2_B_C2Clear2" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="17_2_B_C1Clear2" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="17_2_B_C1Clear1" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="17_2_B_C1Clear3" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="17_1_H_C1L3GC" xml:space="preserve">
+    <value>濃度.グラフの色</value>
+  </data>
+  <data name="17_1_L_C1ED1" xml:space="preserve">
+    <value>使用期限</value>
+  </data>
+  <data name="17_1_L_C1ED2" xml:space="preserve">
+    <value>使用期限</value>
+  </data>
+  <data name="17_1_L_C1ED3" xml:space="preserve">
+    <value>使用期限</value>
+  </data>
+  <data name="17_1_L_C2ED1" xml:space="preserve">
+    <value>使用期限</value>
+  </data>
+  <data name="17_1_L_C2ED2" xml:space="preserve">
+    <value>使用期限</value>
+  </data>
+  <data name="17_1_L_C2ED3" xml:space="preserve">
+    <value>使用期限</value>
+  </data>
+  <data name="17_1_H_C2L2GC" xml:space="preserve">
+    <value>グラフの色</value>
+  </data>
+  <data name="17_1_H_C2L3GC" xml:space="preserve">
+    <value>グラフの色</value>
+  </data>
+  <data name="17_1_H_C1L2GC" xml:space="preserve">
+    <value>グラフの色</value>
+  </data>
+  <data name="17_1_H_C1L1GC" xml:space="preserve">
+    <value>グラフの色</value>
+  </data>
+  <data name="17_1_H_C2L1GC" xml:space="preserve">
+    <value>グラフの色</value>
+  </data>
+  <data name="17_1_L_C2Lot2" xml:space="preserve">
+    <value>ロット番号</value>
+  </data>
+  <data name="17_1_L_C1Lot1" xml:space="preserve">
+    <value>ロット番号</value>
+  </data>
+  <data name="17_1_L_C2Lot3" xml:space="preserve">
+    <value>ロット番号</value>
+  </data>
+  <data name="17_1_L_C2Lot1" xml:space="preserve">
+    <value>ロット番号</value>
+  </data>
+  <data name="17_1_L_C1Lot3" xml:space="preserve">
+    <value>ロット番号</value>
+  </data>
+  <data name="17_1_L_C1Lot2" xml:space="preserve">
+    <value>ロット番号</value>
+  </data>
+  <data name="17_1_H_C1L3GCM" xml:space="preserve">
+    <value>MSCグラフの色</value>
+  </data>
+  <data name="17_1_H_QCData" xml:space="preserve">
+    <value>QC</value>
+  </data>
+  <data name="17_1_L_C2RAN3" xml:space="preserve">
+    <value>レンジ</value>
+  </data>
+  <data name="17_1_L_C1RAN1" xml:space="preserve">
+    <value>レンジ</value>
+  </data>
+  <data name="17_1_L_C1RAN2" xml:space="preserve">
+    <value>レンジ</value>
+  </data>
+  <data name="17_1_L_C2RAN1" xml:space="preserve">
+    <value>レンジ</value>
+  </data>
+  <data name="17_1_L_C2RAN2" xml:space="preserve">
+    <value>レンジ</value>
+  </data>
+  <data name="17_1_L_C1RAN3" xml:space="preserve">
+    <value>レンジ</value>
+  </data>
+  <data name="17_1_L_CSetup" xml:space="preserve">
+    <value>セットアップ</value>
+  </data>
+  <data name="17_1_L_C1TAR1" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="17_1_L_C1TAR2" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="17_1_L_C2TAR1" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="17_1_L_C2TAR2" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="17_1_L_C2TAR3" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="17_1_L_C1TAR3" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="18_1_H_10MICRO2" xml:space="preserve">
+    <value>運動性の予測</value>
+  </data>
+  <data name="18_1_H_10MICRO1" xml:space="preserve">
+    <value>少量検体（10μl）</value>
+  </data>
+  <data name="18_1_H_BDY" xml:space="preserve">
+    <value>生まれた年</value>
+  </data>
+  <data name="18_2_B_ClearAll" xml:space="preserve">
+    <value>全て消去</value>
+  </data>
+  <data name="18_1_H_Cutoff1" xml:space="preserve">
+    <value>精子濃度&lt;15M/ml または運動率が＜40％</value>
+  </data>
+  <data name="18_5_H_Chamber" xml:space="preserve">
+    <value>濃度・標準</value>
+  </data>
+  <data name="18_1_H_ConcSt" xml:space="preserve">
+    <value>濃度・標準</value>
+  </data>
+  <data name="18_1_H_Deb" xml:space="preserve">
+    <value>破片/円形細胞片スキャンカットオフ</value>
+  </data>
+  <data name="18_1_H_ST" xml:space="preserve">
+    <value>デフォルトテストタイプ</value>
+  </data>
+  <data name="18_1_H_DST1" xml:space="preserve">
+    <value>新鮮検体</value>
+  </data>
+  <data name="18_1_H_DST6" xml:space="preserve">
+    <value>凍結検体</value>
+  </data>
+  <data name="18_1_H_DST5" xml:space="preserve">
+    <value>密度勾配法</value>
+  </data>
+  <data name="18_1_L_OL1" xml:space="preserve">
+    <value>調整前</value>
+  </data>
+  <data name="18_1_H_DST7" xml:space="preserve">
+    <value>寿命検査</value>
+  </data>
+  <data name="18_1_H_LongTestIn" xml:space="preserve">
+    <value>寿命検査の計測時間</value>
+  </data>
+  <data name="18_1_H_VIS1" xml:space="preserve">
+    <value>ﾀﾞｲﾅﾐｯｸﾚﾝｼﾞを下回った時</value>
+  </data>
+  <data name="18_1_H_DST8" xml:space="preserve">
+    <value>手動測定</value>
+  </data>
+  <data name="18_1_H_MDE_OF" xml:space="preserve">
+    <value>備考欄にマニュアルデータを入力</value>
+  </data>
+  <data name="18_1_H_MDE" xml:space="preserve">
+    <value>顕微鏡下で得た形態のデータ入力</value>
+  </data>
+  <data name="18_1_H_VDE" xml:space="preserve">
+    <value>活性検査手動データ入力</value>
+  </data>
+  <data name="18_1_H_Cutoff3" xml:space="preserve">
+    <value>細胞片がない</value>
+  </data>
+  <data name="18_1_H_DST9" xml:space="preserve">
+    <value>ﾃﾞﾌｫﾙﾄ以外の項目</value>
+  </data>
+  <data name="18_4_L_None" xml:space="preserve">
+    <value>ほとんどなし</value>
+  </data>
+  <data name="18_1_L_OI" xml:space="preserve">
+    <value>備考欄に記入</value>
+  </data>
+  <data name="18_1_L_OM" xml:space="preserve">
+    <value>備考欄に記入</value>
+  </data>
+  <data name="18_7_G_Par" xml:space="preserve">
+    <value>パラメータ</value>
+  </data>
+  <data name="18_1_H_AgeTest" xml:space="preserve">
+    <value>患者の年齢のみ（誕生日は不要）</value>
+  </data>
+  <data name="18_1_H_PDE_OF" xml:space="preserve">
+    <value>備考欄に患者データを入力</value>
+  </data>
+  <data name="18_1_H_PVDE" xml:space="preserve">
+    <value>精管切除後フィールド数別のフィールド</value>
+  </data>
+  <data name="18_1_H_DST2" xml:space="preserve">
+    <value>精管切除後の検体</value>
+  </data>
+  <data name="18_7_G_RangeType" xml:space="preserve">
+    <value>レンジタイプ</value>
+  </data>
+  <data name="18_7_G_RefValue" xml:space="preserve">
+    <value>REF. VALUE</value>
+  </data>
+  <data name="18_1_H_Cutoff2" xml:space="preserve">
+    <value>全ての検体から常に細胞片スキャナー起動</value>
+  </data>
+  <data name="18_2_B_SelectAll" xml:space="preserve">
+    <value>全てを選択</value>
+  </data>
+  <data name="18_1_H_ShowRanges" xml:space="preserve">
+    <value>レンジを見る</value>
+  </data>
+  <data name="18_1_L_OL" xml:space="preserve">
+    <value>ｽﾃｯﾌﾟ</value>
+  </data>
+  <data name="18_1_H_DST4" xml:space="preserve">
+    <value>スイムアップ</value>
+  </data>
+  <data name="18_1_H_TestCri" xml:space="preserve">
+    <value>WHO基準ﾏﾆｭｱﾙのｾｯﾄ　</value>
+  </data>
+  <data name="18_7_G_Unit" xml:space="preserve">
+    <value>ﾕﾆｯﾄ</value>
+  </data>
+  <data name="18_2_B_Upload" xml:space="preserve">
+    <value>ｱｯﾌﾟﾛｰﾄﾞ</value>
+  </data>
+  <data name="18_1_H_DST3" xml:space="preserve">
+    <value>洗浄検体</value>
+  </data>
+  <data name="18_1_H_MorphType1" xml:space="preserve">
+    <value>WHO第3版</value>
+  </data>
+  <data name="18_1_H_MorphType2" xml:space="preserve">
+    <value>WHO第4版</value>
+  </data>
+  <data name="18_1_H_MorphType3" xml:space="preserve">
+    <value>WHO第5版</value>
+  </data>
+  <data name="18_1_H_WHOC" xml:space="preserve">
+    <value>WHO カウンター</value>
+  </data>
+  <data name="19_1_L_VisSet" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="19_2_B_VisSet" xml:space="preserve">
+    <value>ｱﾄﾞｳﾞｧﾝｽﾄﾞｾｯﾃｨﾝｸﾞ</value>
+  </data>
+  <data name="19_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>付属の電源ケーブルとコネクタの接続確認</value>
+  </data>
+  <data name="19_1_H_CirSize" xml:space="preserve">
+    <value>〇の大きさ</value>
+  </data>
+  <data name="19_1_H_ClickM" xml:space="preserve">
+    <value>操作ｷｰでｸﾘｯｸ</value>
+  </data>
+  <data name="19_1_H_ClickD" xml:space="preserve">
+    <value>操作ｷｰでｸﾘｯｸ</value>
+  </data>
+  <data name="19_1_H_ClickV" xml:space="preserve">
+    <value>操作ｷｰでｸﾘｯｸ</value>
+  </data>
+  <data name="19_1_H_NoVideoCheck" xml:space="preserve">
+    <value>リフレッシュボタンを押す</value>
+  </data>
+  <data name="19_1_L_GridColor" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="19_1_L_Comp" xml:space="preserve">
+    <value>圧縮</value>
+  </data>
+  <data name="19_1_H_CountTypeD" xml:space="preserve">
+    <value>カウント方法</value>
+  </data>
+  <data name="19_1_H_CountTypeV" xml:space="preserve">
+    <value>カウント方法</value>
+  </data>
+  <data name="19_1_H_CountType" xml:space="preserve">
+    <value>カウント方法</value>
+  </data>
+  <data name="19_1_L_MorphType" xml:space="preserve">
+    <value>基準</value>
+  </data>
+  <data name="19_1_P_ViabDead" xml:space="preserve">
+    <value>死亡</value>
+  </data>
+  <data name="19_1_L_Device" xml:space="preserve">
+    <value>装置</value>
+  </data>
+  <data name="19_1_H_DNAData" xml:space="preserve">
+    <value>DNA断片化の設定</value>
+  </data>
+  <data name="19_1_L_GridEx" xml:space="preserve">
+    <value>例</value>
+  </data>
+  <data name="19_1_L_CirEx" xml:space="preserve">
+    <value>例</value>
+  </data>
+  <data name="19_2_B_Freeze" xml:space="preserve">
+    <value>静止画像</value>
+  </data>
+  <data name="19_1_H_FD" xml:space="preserve">
+    <value>全ての差異</value>
+  </data>
+  <data name="19_2_B_FULL" xml:space="preserve">
+    <value>全画面</value>
+  </data>
+  <data name="19_2_B_GridOff" xml:space="preserve">
+    <value>グリッド消去</value>
+  </data>
+  <data name="19_2_B_Grid" xml:space="preserve">
+    <value>グリッド表示</value>
+  </data>
+  <data name="19_1_H_GridData" xml:space="preserve">
+    <value>グリッドの色を指定</value>
+  </data>
+  <data name="19_1_P_DNANonFreg" xml:space="preserve">
+    <value>ハロー</value>
+  </data>
+  <data name="19_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>問題が発生したら</value>
+  </data>
+  <data name="19_1_P_AB10" xml:space="preserve">
+    <value>ピンヘッドの検知を含む</value>
+  </data>
+  <data name="19_1_P_ViabLive" xml:space="preserve">
+    <value>生存</value>
+  </data>
+  <data name="19_1_H_MarkM" xml:space="preserve">
+    <value>〇印をつけて数える</value>
+  </data>
+  <data name="19_1_H_MarkD" xml:space="preserve">
+    <value>〇印をつけて数える</value>
+  </data>
+  <data name="19_1_H_MarkV" xml:space="preserve">
+    <value>〇印をつけて数える</value>
+  </data>
+  <data name="19_1_H_MorphData" xml:space="preserve">
+    <value>形態検査のセッテイング</value>
+  </data>
+  <data name="19_1_P_DNAFreg" xml:space="preserve">
+    <value>NO ハロー</value>
+  </data>
+  <data name="19_1_H_ANN" xml:space="preserve">
+    <value>正常/異常</value>
+  </data>
+  <data name="19_1_L_CirPixSize" xml:space="preserve">
+    <value>ﾋﾟｸｾﾙｻｲｽﾞ</value>
+  </data>
+  <data name="19_1_L_GridPixSize" xml:space="preserve">
+    <value>ﾋﾟｸｾﾙｻｲｽﾞ</value>
+  </data>
+  <data name="19_1_L_CirRad" xml:space="preserve">
+    <value>半径</value>
+  </data>
+  <data name="19_2_B_RealTime" xml:space="preserve">
+    <value>リアルタイム</value>
+  </data>
+  <data name="19_2_B_Refresh" xml:space="preserve">
+    <value>リフレッシュ</value>
+  </data>
+  <data name="19_2_B_Settings" xml:space="preserve">
+    <value>セッテイング</value>
+  </data>
+  <data name="19_1_H_TestType" xml:space="preserve">
+    <value>ﾃｽﾄﾀｲﾌﾟ</value>
+  </data>
+  <data name="19_1_H_VideoError" xml:space="preserve">
+    <value>録画失敗</value>
+  </data>
+  <data name="19_1_L_VidIn" xml:space="preserve">
+    <value>ビデオ入力</value>
+  </data>
+  <data name="19_1_H_VidSet" xml:space="preserve">
+    <value>ﾋﾞﾃﾞｵ設定</value>
+  </data>
+  <data name="19_1_L_VidAna" xml:space="preserve">
+    <value>ビデオの標準</value>
+  </data>
+  <data name="19_1_L_VidSub" xml:space="preserve">
+    <value>ビデオのサブタイプ</value>
+  </data>
+  <data name="19_1_H_VitData" xml:space="preserve">
+    <value>生きてる精子細胞と死んでる精子細胞を数える</value>
+  </data>
+  <data name="20_1_H_MediaRatio" xml:space="preserve">
+    <value>2 媒体希釈比</value>
+  </data>
+  <data name="20_1_H_TFAdd" xml:space="preserve">
+    <value>住所</value>
+  </data>
+  <data name="20_1_H_UsPa" xml:space="preserve">
+    <value>権限のある担当者</value>
+  </data>
+  <data name="20_1_H_PMLF" xml:space="preserve">
+    <value>最後の平均値</value>
+  </data>
+  <data name="20_2_B_BrowseReport" xml:space="preserve">
+    <value>閲覧する</value>
+  </data>
+  <data name="20_2_B_BrowseExport" xml:space="preserve">
+    <value>閲覧する</value>
+  </data>
+  <data name="20_1_H_CON_PASS" xml:space="preserve">
+    <value>パスワードの確認</value>
+  </data>
+  <data name="20_1_H_SF" xml:space="preserve">
+    <value>報告書に施設情報を表示しない</value>
+  </data>
+  <data name="20_1_H_DosingSet" xml:space="preserve">
+    <value>投与設定</value>
+  </data>
+  <data name="20_1_H_TFMail" xml:space="preserve">
+    <value>E-MAIL</value>
+  </data>
+  <data name="20_1_H_AutoExport" xml:space="preserve">
+    <value>自動にﾃﾞｰﾀをｴｸｽﾎﾟｰﾄ</value>
+  </data>
+  <data name="20_1_H_CB" xml:space="preserve">
+    <value>精子バンクモードの有効</value>
+  </data>
+  <data name="20_1_L_Enter" xml:space="preserve">
+    <value>最後の入力</value>
+  </data>
+  <data name="20_1_H_AEP" xml:space="preserve">
+    <value>ｴｸｽﾎﾟｰﾄﾊﾟｽ</value>
+  </data>
+  <data name="20_1_H_ExtSteps" xml:space="preserve">
+    <value>延長ステップ</value>
+  </data>
+  <data name="20_1_H_TFName" xml:space="preserve">
+    <value>施設名</value>
+  </data>
+  <data name="20_1_H_TFFax" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="20_4_L_UFN" xml:space="preserve">
+    <value>フルネーム</value>
+  </data>
+  <data name="20_1_H_HidePNFirstPage" xml:space="preserve">
+    <value>最初のページのページ番号を非表示にする</value>
+  </data>
+  <data name="20_1_H_AEImage" xml:space="preserve">
+    <value>画像を含む</value>
+  </data>
+  <data name="20_1_H_Lang" xml:space="preserve">
+    <value>言語ファイルのアップロード</value>
+  </data>
+  <data name="20_1_H_TFLogo" xml:space="preserve">
+    <value>ロゴ</value>
+  </data>
+  <data name="20_1_L_MediaRatio" xml:space="preserve">
+    <value>媒体比率</value>
+  </data>
+  <data name="20_1_H_MODE" xml:space="preserve">
+    <value>モード設定</value>
+  </data>
+  <data name="20_1_L_Month" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="20_1_H_ImageInPage" xml:space="preserve">
+    <value>画像のページ番号</value>
+  </data>
+  <data name="20_1_H_OptImageSize" xml:space="preserve">
+    <value>選択された画像</value>
+  </data>
+  <data name="20_4_L_PASS" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="20_1_H_TFPhone" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="20_1_H_FresCorr" xml:space="preserve">
+    <value>処理ロス(%)</value>
+  </data>
+  <data name="20_1_H_RerportProgram" xml:space="preserve">
+    <value>レポートのプログラム</value>
+  </data>
+  <data name="20_1_H_Report" xml:space="preserve">
+    <value>レポートの設定</value>
+  </data>
+  <data name="20_1_H_ReportType" xml:space="preserve">
+    <value>レポートのタイプ</value>
+  </data>
+  <data name="20_1_H_SMS" xml:space="preserve">
+    <value>モードセレクターを表示</value>
+  </data>
+  <data name="20_1_H_ShowSIHeader" xml:space="preserve">
+    <value>最初のページのみサンプル情報を表示する</value>
+  </data>
+  <data name="20_1_H_Sound" xml:space="preserve">
+    <value>完了音</value>
+  </data>
+  <data name="20_1_L_SpTarDose" xml:space="preserve">
+    <value>精子ターゲット投与</value>
+  </data>
+  <data name="20_1_H_IH" xml:space="preserve">
+    <value>ホストから開始されたテスト</value>
+  </data>
+  <data name="20_1_H_UM" xml:space="preserve">
+    <value>上余白</value>
+  </data>
+  <data name="20_4_L_User" xml:space="preserve">
+    <value>顧客名</value>
+  </data>
+  <data name="20_1_L_VolDose" xml:space="preserve">
+    <value>ボリューム投与</value>
+  </data>
+  <data name="20_1_H_TFSite" xml:space="preserve">
+    <value>ウェブ</value>
+  </data>
+  <data name="20_1_L_Week" xml:space="preserve">
+    <value>週</value>
+  </data>
+  <data name="20_1_L_Year" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="22_2_B_Accept" xml:space="preserve">
+    <value>承認</value>
+  </data>
+  <data name="22_2_B_AddComments" xml:space="preserve">
+    <value>コメントを足す</value>
+  </data>
+  <data name="22_2_B_Attach" xml:space="preserve">
+    <value>差し込む</value>
+  </data>
+  <data name="22_2_B_Continue" xml:space="preserve">
+    <value>続ける</value>
+  </data>
+  <data name="22_2_B_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="22_2_B_Ignore" xml:space="preserve">
+    <value>無視する</value>
+  </data>
+  <data name="22_2_B_No" xml:space="preserve">
+    <value>ノー</value>
+  </data>
+  <data name="22_2_B_Reassess" xml:space="preserve">
+    <value>再分析</value>
+  </data>
+  <data name="22_2_B_Reenter" xml:space="preserve">
+    <value>数え直す</value>
+  </data>
+  <data name="22_2_B_ReTest" xml:space="preserve">
+    <value>再検査</value>
+  </data>
+  <data name="22_2_B_Yes" xml:space="preserve">
+    <value>イエス</value>
+  </data>
+  <data name="24_2_B_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="24_1_H_Msg1" xml:space="preserve">
+    <value>サービスレポートを出す</value>
+  </data>
+  <data name="24_1_H_Msg2" xml:space="preserve">
+    <value>しばらくお待ちください</value>
+  </data>
+  <data name="24_1_H_MsgPW" xml:space="preserve">
+    <value>しばらくお待ちください</value>
+  </data>
+  <data name="26_1_P_Completed" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="26_2_B_Edit" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="26_1_P_Step" xml:space="preserve">
+    <value>ｽﾃｯﾌﾟ</value>
+  </data>
+  <data name="26_1_P_TestDate" xml:space="preserve">
+    <value>検査日/時間</value>
+  </data>
+  <data name="26_1_H_TimerHeader" xml:space="preserve">
+    <value>時間割</value>
+  </data>
+  <data name="27_1_L_AlarmDate" xml:space="preserve">
+    <value>ｱﾗｰﾑ　日付/時間</value>
+  </data>
+  <data name="27_1_H_EditTimerHeader" xml:space="preserve">
+    <value>タイマーの編集</value>
+  </data>
+  <data name="27_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="27_1_L_SampleID" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="27_2_B_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="27_1_L_Step" xml:space="preserve">
+    <value>ｽﾃｯﾌﾟ</value>
+  </data>
+  <data name="28_2_B_ExportSys" xml:space="preserve">
+    <value>エクスポートする</value>
+  </data>
+  <data name="28_1_H_ExportHeader" xml:space="preserve">
+    <value>ｼｽﾃﾑﾃﾞｰﾀをエクスポートする</value>
+  </data>
+  <data name="28_2_B_Open" xml:space="preserve">
+    <value>開ける</value>
+  </data>
+  <data name="28_1_L_Parameter" xml:space="preserve">
+    <value>パラメータ</value>
+  </data>
+  <data name="28_1_H_RTHeader" xml:space="preserve">
+    <value>リアルタイムモニタリング</value>
+  </data>
+  <data name="28_1_L_FROM" xml:space="preserve">
+    <value>レンジの日付を選ぶ</value>
+  </data>
+  <data name="28_1_L_GraphPar" xml:space="preserve">
+    <value>グラフのパラメーターを選ぶ</value>
+  </data>
+  <data name="28_1_L_SelectParameter" xml:space="preserve">
+    <value>読み込みの為のパラメータを選ぶ</value>
+  </data>
+  <data name="28_2_B_Start" xml:space="preserve">
+    <value>スタート</value>
+  </data>
+  <data name="28_2_B_Stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="28_1_C_Time" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="28_1_H_To" xml:space="preserve">
+    <value>へ</value>
+  </data>
+  <data name="28_1_L_Value" xml:space="preserve">
+    <value>数値</value>
+  </data>
+  <data name="29_1_L_MOES" xml:space="preserve">
+    <value>少量検体検査時に運動性の予測</value>
+  </data>
+  <data name="29_1_L_2MediaRatio" xml:space="preserve">
+    <value>2 媒体希釈比</value>
+  </data>
+  <data name="29_1_L_FooterData2" xml:space="preserve">
+    <value>に</value>
+  </data>
+  <data name="29_1_L_AUE" xml:space="preserve">
+    <value>自動エクスポート可能</value>
+  </data>
+  <data name="29_1_L_AUEI" xml:space="preserve">
+    <value>自動エクスポートが画像を含む</value>
+  </data>
+  <data name="29_1_L_PmlfAvg" xml:space="preserve">
+    <value>最後の平均　MLF/PMLF </value>
+  </data>
+  <data name="29_1_L_BF" xml:space="preserve">
+    <value>ﾊﾞｯｸｱｯﾌﾟを頻繁にする</value>
+  </data>
+  <data name="29_1_L_YBD" xml:space="preserve">
+    <value>生まれた年</value>
+  </data>
+  <data name="29_1_L_CS" xml:space="preserve">
+    <value>〇のピクセルサイズ</value>
+  </data>
+  <data name="29_1_L_CR" xml:space="preserve">
+    <value>半径</value>
+  </data>
+  <data name="29_1_L_CC" xml:space="preserve">
+    <value>操作ｷｰでｸﾘｯｸ</value>
+  </data>
+  <data name="29_1_P_Clinical" xml:space="preserve">
+    <value>クリニカル</value>
+  </data>
+  <data name="29_1_L_COP" xml:space="preserve">
+    <value>COMポート</value>
+  </data>
+  <data name="29_1_P_DebCutoff1" xml:space="preserve">
+    <value>精子濃度&lt;15M/ml または運動率が＜40％</value>
+  </data>
+  <data name="29_1_L_ST" xml:space="preserve">
+    <value>濃度・標準</value>
+  </data>
+  <data name="29_1_P_StandardType1" xml:space="preserve">
+    <value>濃度・標準1</value>
+  </data>
+  <data name="29_1_P_StandardType2" xml:space="preserve">
+    <value>濃度・標準2</value>
+  </data>
+  <data name="29_1_L_ContInf" xml:space="preserve">
+    <value>連絡先</value>
+  </data>
+  <data name="29_1_P_CB" xml:space="preserve">
+    <value>精子バンク</value>
+  </data>
+  <data name="29_1_L_Days" xml:space="preserve">
+    <value>日数</value>
+  </data>
+  <data name="29_1_P_ViabDead" xml:space="preserve">
+    <value>死亡</value>
+  </data>
+  <data name="29_1_L_VS" xml:space="preserve">
+    <value>細胞片スキャナー起動</value>
+  </data>
+  <data name="29_1_L_DST" xml:space="preserve">
+    <value>デフォルトテストタイプ</value>
+  </data>
+  <data name="29_1_L_DV" xml:space="preserve">
+    <value>機種のバージョン</value>
+  </data>
+  <data name="29_1_L_QLD" xml:space="preserve">
+    <value>無効</value>
+  </data>
+  <data name="29_1_L_DC" xml:space="preserve">
+    <value>DNA断片化カウント</value>
+  </data>
+  <data name="29_1_L_DCT" xml:space="preserve">
+    <value>DNA断片化カウント型</value>
+  </data>
+  <data name="29_1_L_SF" xml:space="preserve">
+    <value>報告書に施設情報を表示しない</value>
+  </data>
+  <data name="29_1_L_email" xml:space="preserve">
+    <value>E-MAIL</value>
+  </data>
+  <data name="29_1_L_CBM" xml:space="preserve">
+    <value>精子バンクモードの有効</value>
+  </data>
+  <data name="29_1_L_QLE" xml:space="preserve">
+    <value>有効</value>
+  </data>
+  <data name="29_1_L_ExDate" xml:space="preserve">
+    <value>使用期限</value>
+  </data>
+  <data name="29_1_L_ESteps" xml:space="preserve">
+    <value>延長ステップ</value>
+  </data>
+  <data name="29_1_L_FacAdd" xml:space="preserve">
+    <value>施設案内</value>
+  </data>
+  <data name="29_1_L_Fax" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="29_1_L_RFL" xml:space="preserve">
+    <value>ﾌﾚｷｼﾌﾞﾙ</value>
+  </data>
+  <data name="29_1_P_SampleDef1" xml:space="preserve">
+    <value>新鮮検体</value>
+  </data>
+  <data name="29_1_P_SampleDef3" xml:space="preserve">
+    <value>凍結検体</value>
+  </data>
+  <data name="29_1_L_FD" xml:space="preserve">
+    <value>全ての差異</value>
+  </data>
+  <data name="29_1_P_SampleDef8" xml:space="preserve">
+    <value>密度勾配法</value>
+  </data>
+  <data name="29_1_L_GL" xml:space="preserve">
+    <value>グリッドラインの色</value>
+  </data>
+  <data name="29_1_L_GLS" xml:space="preserve">
+    <value>ｸﾞﾘｯﾄﾞﾗｲﾝｻｲｽﾞ</value>
+  </data>
+  <data name="29_1_P_DNANonFreg" xml:space="preserve">
+    <value>ハロー</value>
+  </data>
+  <data name="29_1_L_HPN" xml:space="preserve">
+    <value>最初のページのページ番号を非表示にする</value>
+  </data>
+  <data name="29_1_L_MC11" xml:space="preserve">
+    <value>ピンヘッドを含む</value>
+  </data>
+  <data name="29_1_L_PR_DATE" xml:space="preserve">
+    <value>契約日</value>
+  </data>
+  <data name="29_1_L_LIN" xml:space="preserve">
+    <value>検査室ｲﾝﾀｰﾌｪｰｽ</value>
+  </data>
+  <data name="29_1_L_LISE" xml:space="preserve">
+    <value>検査室ｲﾝﾀｰﾌｪｰｽ設定</value>
+  </data>
+  <data name="29_1_L_LAS" xml:space="preserve">
+    <value>言語のファイル</value>
+  </data>
+  <data name="29_1_P_ViabLive" xml:space="preserve">
+    <value>生存</value>
+  </data>
+  <data name="29_1_P_SampleDef5" xml:space="preserve">
+    <value>寿命検査</value>
+  </data>
+  <data name="29_1_L_LN" xml:space="preserve">
+    <value>寿命検査名</value>
+  </data>
+  <data name="29_1_L_LI" xml:space="preserve">
+    <value>寿命検査（ｲﾆｼｬﾙ）</value>
+  </data>
+  <data name="29_1_L_LS" xml:space="preserve">
+    <value>寿命検査時間</value>
+  </data>
+  <data name="29_1_L_Lot" xml:space="preserve">
+    <value>ロット番号</value>
+  </data>
+  <data name="29_1_L_LQC" xml:space="preserve">
+    <value>ﾀﾞｲﾅﾐｯｸﾚﾝｼﾞを下回った時</value>
+  </data>
+  <data name="29_1_P_SampleDef7" xml:space="preserve">
+    <value>手動測定</value>
+  </data>
+  <data name="29_1_L_MMDE" xml:space="preserve">
+    <value>顕微鏡下で得た形態のデータ入力</value>
+  </data>
+  <data name="29_1_L_AOF" xml:space="preserve">
+    <value>手動任意入力</value>
+  </data>
+  <data name="29_1_L_MVDE" xml:space="preserve">
+    <value>活性検査手動データ入力</value>
+  </data>
+  <data name="29_1_L_MAC" xml:space="preserve">
+    <value>〇印をつけて数える</value>
+  </data>
+  <data name="29_1_L_MediaRatio" xml:space="preserve">
+    <value>媒体比率</value>
+  </data>
+  <data name="29_1_L_MINUTE" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="29_1_L_Months" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="29_1_L_MC" xml:space="preserve">
+    <value>形態検査</value>
+  </data>
+  <data name="29_1_L_MCT" xml:space="preserve">
+    <value>形態検査のカウント方法</value>
+  </data>
+  <data name="29_1_L_MTT" xml:space="preserve">
+    <value>形態検査のテスト方法</value>
+  </data>
+  <data name="29_1_P_No" xml:space="preserve">
+    <value>ノー</value>
+  </data>
+  <data name="29_1_P_DebCutoff3" xml:space="preserve">
+    <value>細胞片がない</value>
+  </data>
+  <data name="29_1_P_SampleDef9" xml:space="preserve">
+    <value>ﾃﾞﾌｫﾙﾄ以外の項目</value>
+  </data>
+  <data name="29_1_P_DNAFreg" xml:space="preserve">
+    <value>NO ハロー</value>
+  </data>
+  <data name="29_1_L_ANN" xml:space="preserve">
+    <value>正常/異常</value>
+  </data>
+  <data name="29_1_L_PR_NOTE" xml:space="preserve">
+    <value>注意</value>
+  </data>
+  <data name="29_1_L_RIMC" xml:space="preserve">
+    <value>１ページあたりの画像数</value>
+  </data>
+  <data name="29_1_L_FooterData3" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="29_1_P_OI" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="29_1_P_OL" xml:space="preserve">
+    <value>オプション寿命検査</value>
+  </data>
+  <data name="29_1_P_OM" xml:space="preserve">
+    <value>ｵﾌﾟｼｮﾝ顕微鏡検査</value>
+  </data>
+  <data name="29_1_L_PRANGE" xml:space="preserve">
+    <value>パスレンジ</value>
+  </data>
+  <data name="29_1_L_PRANGE2" xml:space="preserve">
+    <value>パスレンジ</value>
+  </data>
+  <data name="29_1_L_AGBD" xml:space="preserve">
+    <value>患者の年齢のみ（誕生日は不要）</value>
+  </data>
+  <data name="29_1_L_POF" xml:space="preserve">
+    <value>患者情報のオプション入力</value>
+  </data>
+  <data name="29_1_L_Phone" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="29_1_L_MPVDE" xml:space="preserve">
+    <value>精管切除後検体の視野をクリック</value>
+  </data>
+  <data name="29_1_P_SampleDef4" xml:space="preserve">
+    <value>精管切除後の検体</value>
+  </data>
+  <data name="29_1_L_FooterData1" xml:space="preserve">
+    <value>SQA-VSIONのｼﾘｱﾙ番号</value>
+  </data>
+  <data name="29_1_L_PLost" xml:space="preserve">
+    <value>処理ロス(%)</value>
+  </data>
+  <data name="29_1_L_PRO" xml:space="preserve">
+    <value>習熟度検査</value>
+  </data>
+  <data name="29_1_L_PR_LEVEL" xml:space="preserve">
+    <value>習熟度検査数</value>
+  </data>
+  <data name="29_1_L_QC" xml:space="preserve">
+    <value>QC</value>
+  </data>
+  <data name="29_1_L_QF" xml:space="preserve">
+    <value>精度管理</value>
+  </data>
+  <data name="29_1_L_Continued" xml:space="preserve">
+    <value>レポートを続ける</value>
+  </data>
+  <data name="29_1_L_RDT" xml:space="preserve">
+    <value>レポート日時</value>
+  </data>
+  <data name="29_1_L_ReportType" xml:space="preserve">
+    <value>レポートのタイプ</value>
+  </data>
+  <data name="29_1_L_PR_SampleID" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="29_1_P_DebCutoff2" xml:space="preserve">
+    <value>全ての検体から常に細胞片スキャナー起動</value>
+  </data>
+  <data name="29_1_L_Selected" xml:space="preserve">
+    <value>選択</value>
+  </data>
+  <data name="29_1_L_LIFL" xml:space="preserve">
+    <value>検査室ｲﾝﾀｰﾌｪｰｽﾊﾟﾗﾒｰﾀから選択</value>
+  </data>
+  <data name="29_1_H_SE" xml:space="preserve">
+    <value>EOT/ENQに送る</value>
+  </data>
+  <data name="29_1_L_SN" xml:space="preserve">
+    <value>シリアルナンバー</value>
+  </data>
+  <data name="29_1_L_SystemSet" xml:space="preserve">
+    <value>セッテイング</value>
+  </data>
+  <data name="29_1_L_SMS" xml:space="preserve">
+    <value>モードセレクターを表示</value>
+  </data>
+  <data name="29_1_L_SHR" xml:space="preserve">
+    <value>パラメータレンジを参照</value>
+  </data>
+  <data name="29_1_L_SSIH" xml:space="preserve">
+    <value>最初のページのみサンプル情報を表示する</value>
+  </data>
+  <data name="29_1_L_Version" xml:space="preserve">
+    <value>ｿﾌﾄｳｴｱのﾊﾞｰｼﾞｮﾝ</value>
+  </data>
+  <data name="29_1_L_Sound" xml:space="preserve">
+    <value>完了音</value>
+  </data>
+  <data name="29_1_L_SpTarDose" xml:space="preserve">
+    <value>精子ターゲット投与</value>
+  </data>
+  <data name="29_1_L_Header" xml:space="preserve">
+    <value>SQA-VISION 設定レポート</value>
+  </data>
+  <data name="29_1_L_RST" xml:space="preserve">
+    <value>標準</value>
+  </data>
+  <data name="29_1_L_PR_ST" xml:space="preserve">
+    <value>標準</value>
+  </data>
+  <data name="29_1_L_LIStep" xml:space="preserve">
+    <value>ｽﾃｯﾌﾟ</value>
+  </data>
+  <data name="29_1_P_SampleDef6" xml:space="preserve">
+    <value>スイムアップ</value>
+  </data>
+  <data name="29_1_L_InsOver" xml:space="preserve">
+    <value>システム情報</value>
+  </data>
+  <data name="29_1_L_Target" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="29_1_L_Target2" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="29_1_L_TIFH" xml:space="preserve">
+    <value>ホストから開始されたテスト</value>
+  </data>
+  <data name="29_1_L_TC" xml:space="preserve">
+    <value>WHO基準ﾏﾆｭｱﾙのｾｯﾄ　</value>
+  </data>
+  <data name="29_1_L_UM" xml:space="preserve">
+    <value>上余白</value>
+  </data>
+  <data name="29_1_L_VIC" xml:space="preserve">
+    <value>ビデオ圧縮</value>
+  </data>
+  <data name="29_1_L_VD" xml:space="preserve">
+    <value>ビデオデバイス</value>
+  </data>
+  <data name="29_1_L_VI" xml:space="preserve">
+    <value>ビデオ入力</value>
+  </data>
+  <data name="29_1_L_VSD" xml:space="preserve">
+    <value>ビデオの標準</value>
+  </data>
+  <data name="29_1_L_VST" xml:space="preserve">
+    <value>ビデオのサブタイプ</value>
+  </data>
+  <data name="29_1_L_VC" xml:space="preserve">
+    <value>活性検査</value>
+  </data>
+  <data name="29_1_L_VCT" xml:space="preserve">
+    <value>活性検査のタイプ</value>
+  </data>
+  <data name="29_1_L_VolDose" xml:space="preserve">
+    <value>ボリューム投与</value>
+  </data>
+  <data name="29_1_P_SampleDef2" xml:space="preserve">
+    <value>洗浄検体</value>
+  </data>
+  <data name="29_1_L_Site" xml:space="preserve">
+    <value>ウェブ</value>
+  </data>
+  <data name="29_1_L_Weeks" xml:space="preserve">
+    <value>週</value>
+  </data>
+  <data name="29_1_P_MorphType1" xml:space="preserve">
+    <value>WHO３版</value>
+  </data>
+  <data name="29_1_P_MorphType2" xml:space="preserve">
+    <value>WHO4版</value>
+  </data>
+  <data name="29_1_P_MorphType3" xml:space="preserve">
+    <value>WHO5版</value>
+  </data>
+  <data name="29_1_L_LWHOC" xml:space="preserve">
+    <value>WHO カウンター</value>
+  </data>
+  <data name="29_1_L_Years" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="29_1_P_Yes" xml:space="preserve">
+    <value>イエス</value>
+  </data>
+  <data name="30_1_L_FooterData2" xml:space="preserve">
+    <value>に</value>
+  </data>
+  <data name="30_1_L_CalibData" xml:space="preserve">
+    <value>ｷｬﾘﾌﾞﾚｰｼｮﾝﾃﾞｰﾀ</value>
+  </data>
+  <data name="30_1_L_ContInf" xml:space="preserve">
+    <value>連絡先</value>
+  </data>
+  <data name="30_1_L_DV" xml:space="preserve">
+    <value>機種のバージョン</value>
+  </data>
+  <data name="30_1_L_email" xml:space="preserve">
+    <value>E-MAIL</value>
+  </data>
+  <data name="30_1_L_FacAdd" xml:space="preserve">
+    <value>施設案内</value>
+  </data>
+  <data name="30_1_L_FAIL" xml:space="preserve">
+    <value>不合格</value>
+  </data>
+  <data name="30_1_L_Fax" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="30_1_P_STIData" xml:space="preserve">
+    <value>内臓データ</value>
+  </data>
+  <data name="30_1_L_FooterData3" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="30_1_L_Pass" xml:space="preserve">
+    <value>パス</value>
+  </data>
+  <data name="30_1_L_Criteria" xml:space="preserve">
+    <value>基準をパスする</value>
+  </data>
+  <data name="30_1_L_Phone" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="30_1_L_FooterData1" xml:space="preserve">
+    <value>SQA-VSIONのｼﾘｱﾙ番号</value>
+  </data>
+  <data name="30_1_P_SDDate" xml:space="preserve">
+    <value>レポート日時</value>
+  </data>
+  <data name="30_1_L_RDT" xml:space="preserve">
+    <value>レポート日時</value>
+  </data>
+  <data name="30_1_L_Result" xml:space="preserve">
+    <value>検査結果</value>
+  </data>
+  <data name="30_1_P_STData" xml:space="preserve">
+    <value>ｾﾙﾌﾃｽﾄﾃﾞｰﾀ</value>
+  </data>
+  <data name="30_1_L_SN" xml:space="preserve">
+    <value>シリアルナンバー</value>
+  </data>
+  <data name="30_1_P_SN" xml:space="preserve">
+    <value>シリアルナンバー</value>
+  </data>
+  <data name="30_1_L_Version" xml:space="preserve">
+    <value>ｿﾌﾄｳｴｱのﾊﾞｰｼﾞｮﾝ</value>
+  </data>
+  <data name="30_1_L_Header" xml:space="preserve">
+    <value>ｴｽｷｭｰｴｰﾋﾞｼﾞｮﾝｻｰﾋﾞｽﾘﾎﾟｰﾄ</value>
+  </data>
+  <data name="30_1_L_Status" xml:space="preserve">
+    <value>ｽﾃｰﾀｽ</value>
+  </data>
+  <data name="30_1_P_SDStatus" xml:space="preserve">
+    <value>ｽﾃｰﾀｽ</value>
+  </data>
+  <data name="30_1_L_InsOver" xml:space="preserve">
+    <value>システム情報</value>
+  </data>
+  <data name="30_1_L_AlgData" xml:space="preserve">
+    <value>システム値</value>
+  </data>
+  <data name="30_1_L_Unit" xml:space="preserve">
+    <value>ﾕﾆｯﾄ</value>
+  </data>
+  <data name="30_1_L_Site" xml:space="preserve">
+    <value>ウェブ</value>
+  </data>
+  <data name="31_1_L_Additional" xml:space="preserve">
+    <value>追加データ</value>
+  </data>
+  <data name="31_1_L_FooterData2" xml:space="preserve">
+    <value>に</value>
+  </data>
+  <data name="31_1_L_Pat_BD_AGE" xml:space="preserve">
+    <value>誕生日/年齢</value>
+  </data>
+  <data name="31_1_H_CapData" xml:space="preserve">
+    <value>画像取込</value>
+  </data>
+  <data name="31_1_L_Cent" xml:space="preserve">
+    <value>遠心分離</value>
+  </data>
+  <data name="31_1_L_Comments" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="31_1_L_ContInf" xml:space="preserve">
+    <value>連絡先</value>
+  </data>
+  <data name="31_1_H_DNAData" xml:space="preserve">
+    <value>DNA断片化テストレポート</value>
+  </data>
+  <data name="31_1_L_email" xml:space="preserve">
+    <value>E-MAIL</value>
+  </data>
+  <data name="31_1_L_FacAdd" xml:space="preserve">
+    <value>施設案内</value>
+  </data>
+  <data name="31_1_L_Fail" xml:space="preserve">
+    <value>不合格</value>
+  </data>
+  <data name="31_1_L_Fax" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="31_1_L_Pat_FName" xml:space="preserve">
+    <value>患者の名前</value>
+  </data>
+  <data name="31_1_L_Step1" xml:space="preserve">
+    <value>調整前</value>
+  </data>
+  <data name="31_1_L_Pat_LName" xml:space="preserve">
+    <value>患者の苗字</value>
+  </data>
+  <data name="31_1_L_Manual" xml:space="preserve">
+    <value>手動測定</value>
+  </data>
+  <data name="31_1_H_MorphData" xml:space="preserve">
+    <value>形態検査結果</value>
+  </data>
+  <data name="31_1_L_Of" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="31_1_L_FooterData3" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="31_1_L_Page" xml:space="preserve">
+    <value>ﾍﾟｰｼﾞ</value>
+  </data>
+  <data name="31_1_L_Parameter" xml:space="preserve">
+    <value>パラメータ</value>
+  </data>
+  <data name="31_1_L_Pass" xml:space="preserve">
+    <value>パス</value>
+  </data>
+  <data name="31_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="31_1_L_PatInfo" xml:space="preserve">
+    <value>患者情報</value>
+  </data>
+  <data name="31_1_L_Phone" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="31_1_L_FooterData1" xml:space="preserve">
+    <value>SQA-VSIONのｼﾘｱﾙ番号</value>
+  </data>
+  <data name="31_1_L_Raw" xml:space="preserve">
+    <value>未処理</value>
+  </data>
+  <data name="31_1_L_Referance" xml:space="preserve">
+    <value>REF. VALUE</value>
+  </data>
+  <data name="31_1_L_Continued" xml:space="preserve">
+    <value>レポートを続ける</value>
+  </data>
+  <data name="31_1_L_Value" xml:space="preserve">
+    <value>結果</value>
+  </data>
+  <data name="31_1_L_SampleInf" xml:space="preserve">
+    <value>検体情報</value>
+  </data>
+  <data name="31_1_L_Header" xml:space="preserve">
+    <value>精液分析検査レポート</value>
+  </data>
+  <data name="31_1_L_Status" xml:space="preserve">
+    <value>ｽﾃｰﾀｽ</value>
+  </data>
+  <data name="31_1_L_Step" xml:space="preserve">
+    <value>ｽﾃｯﾌﾟ</value>
+  </data>
+  <data name="31_1_L_STVer" xml:space="preserve">
+    <value>ﾃｽﾄﾀｲﾌﾟ</value>
+  </data>
+  <data name="31_1_O_STVer" xml:space="preserve">
+    <value>ﾃｽﾄﾀｲﾌﾟ</value>
+  </data>
+  <data name="31_1_L_Total" xml:space="preserve">
+    <value>合計</value>
+  </data>
+  <data name="31_1_H_VitData" xml:space="preserve">
+    <value>活性検査レポート</value>
+  </data>
+  <data name="31_1_L_Site" xml:space="preserve">
+    <value>ウェブ</value>
+  </data>
+  <data name="32_1_L_FooterData2" xml:space="preserve">
+    <value>に</value>
+  </data>
+  <data name="32_1_L_CapFrameCAP" xml:space="preserve">
+    <value>画像取込</value>
+  </data>
+  <data name="32_1_L_CC" xml:space="preserve">
+    <value>操作ｷｰでｸﾘｯｸ</value>
+  </data>
+  <data name="32_1_L_Color" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="32_1_L_Comments" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="32_1_L_ContInf" xml:space="preserve">
+    <value>連絡先</value>
+  </data>
+  <data name="32_1_L_Criteria" xml:space="preserve">
+    <value>基準</value>
+  </data>
+  <data name="32_1_L_email" xml:space="preserve">
+    <value>E-MAIL</value>
+  </data>
+  <data name="32_1_L_FacAdd" xml:space="preserve">
+    <value>施設案内</value>
+  </data>
+  <data name="32_1_L_Fail" xml:space="preserve">
+    <value>不合格</value>
+  </data>
+  <data name="32_1_L_Fax" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="32_1_L_FD" xml:space="preserve">
+    <value>全ての差異</value>
+  </data>
+  <data name="32_1_L_Image" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="32_1_L_CapFrame" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="32_1_L_MAC" xml:space="preserve">
+    <value>〇印をつけて数える</value>
+  </data>
+  <data name="32_1_L_MCT" xml:space="preserve">
+    <value>形態検査のカウント方法</value>
+  </data>
+  <data name="32_1_L_MTT" xml:space="preserve">
+    <value>形態検査のテスト方法</value>
+  </data>
+  <data name="32_1_L_CapFrameM" xml:space="preserve">
+    <value>形態</value>
+  </data>
+  <data name="32_1_L_MorphHeader" xml:space="preserve">
+    <value>形態検査レポート</value>
+  </data>
+  <data name="32_1_L_ANN" xml:space="preserve">
+    <value>正常/異常</value>
+  </data>
+  <data name="32_1_L_FooterData3" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="32_1_L_Parameter" xml:space="preserve">
+    <value>パラメータ</value>
+  </data>
+  <data name="32_1_L_Pass" xml:space="preserve">
+    <value>パス</value>
+  </data>
+  <data name="32_1_L_Phone" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="32_1_L_FooterData1" xml:space="preserve">
+    <value>SQA-VSIONのｼﾘｱﾙ番号</value>
+  </data>
+  <data name="32_1_L_RefRange" xml:space="preserve">
+    <value>REF. VALUE</value>
+  </data>
+  <data name="32_1_L_Cutoff" xml:space="preserve">
+    <value>REF. VALUE</value>
+  </data>
+  <data name="32_1_L_Continued" xml:space="preserve">
+    <value>レポートを続ける</value>
+  </data>
+  <data name="32_1_L_Date" xml:space="preserve">
+    <value>レポート日時</value>
+  </data>
+  <data name="32_1_L_ReportInf" xml:space="preserve">
+    <value>レポート情報</value>
+  </data>
+  <data name="32_1_L_ReportName" xml:space="preserve">
+    <value>レポート名</value>
+  </data>
+  <data name="32_1_L_Result" xml:space="preserve">
+    <value>結果</value>
+  </data>
+  <data name="32_1_L_Status" xml:space="preserve">
+    <value>ｽﾃｰﾀｽ</value>
+  </data>
+  <data name="32_1_L_CapFrameV" xml:space="preserve">
+    <value>活性検査</value>
+  </data>
+  <data name="32_1_L_VCT" xml:space="preserve">
+    <value>活性検査のタイプ</value>
+  </data>
+  <data name="32_1_L_VitHeader" xml:space="preserve">
+    <value>活性検査レポート</value>
+  </data>
+  <data name="32_1_L_Site" xml:space="preserve">
+    <value>ウェブ</value>
+  </data>
+  <data name="33_1_L_FooterData2" xml:space="preserve">
+    <value>に</value>
+  </data>
+  <data name="33_1_L_CONC" xml:space="preserve">
+    <value>濃度</value>
+  </data>
+  <data name="33_1_P_CON_RE" xml:space="preserve">
+    <value>濃度(M/ml)</value>
+  </data>
+  <data name="33_1_C_ConcRes" xml:space="preserve">
+    <value>濃度　結果</value>
+  </data>
+  <data name="33_1_L_TSCMSC" xml:space="preserve">
+    <value>運動精子濃度</value>
+  </data>
+  <data name="33_1_L_ContInf" xml:space="preserve">
+    <value>連絡先</value>
+  </data>
+  <data name="33_1_P_CON_CA" xml:space="preserve">
+    <value>修正処置</value>
+  </data>
+  <data name="33_1_P_CON_Date" xml:space="preserve">
+    <value>日付/時間</value>
+  </data>
+  <data name="33_1_L_Date" xml:space="preserve">
+    <value>日付/時間</value>
+  </data>
+  <data name="33_1_C_DatePer" xml:space="preserve">
+    <value>検査日</value>
+  </data>
+  <data name="33_1_L_Dates" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="33_1_L_email" xml:space="preserve">
+    <value>E-MAIL</value>
+  </data>
+  <data name="33_1_P_CON_EXPDA" xml:space="preserve">
+    <value>使用期限</value>
+  </data>
+  <data name="33_1_L_FacAdd" xml:space="preserve">
+    <value>施設案内</value>
+  </data>
+  <data name="33_1_L_Fail" xml:space="preserve">
+    <value>不合格</value>
+  </data>
+  <data name="33_1_L_Fax" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="33_1_P_CON_LOT" xml:space="preserve">
+    <value>ロット番号</value>
+  </data>
+  <data name="33_1_L_LowerLimit" xml:space="preserve">
+    <value>下限</value>
+  </data>
+  <data name="33_1_L_MSC" xml:space="preserve">
+    <value>運動精子濃度</value>
+  </data>
+  <data name="33_1_C_MSC" xml:space="preserve">
+    <value>運動精子濃度 (M/ml)</value>
+  </data>
+  <data name="33_1_L_FooterData3" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="33_1_L_Pass" xml:space="preserve">
+    <value>パス</value>
+  </data>
+  <data name="33_1_P_CON_PR" xml:space="preserve">
+    <value>パスレンジ</value>
+  </data>
+  <data name="33_1_P_CON_PRS" xml:space="preserve">
+    <value>パスレンジ</value>
+  </data>
+  <data name="33_1_L_Phone" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="33_1_L_FooterData1" xml:space="preserve">
+    <value>SQA-VSIONのｼﾘｱﾙ番号</value>
+  </data>
+  <data name="33_1_L_ControlType" xml:space="preserve">
+    <value>ＱＣﾀｲﾌﾟ</value>
+  </data>
+  <data name="33_1_L_QuaInfo" xml:space="preserve">
+    <value>精度管理の案内</value>
+  </data>
+  <data name="33_1_L_Header" xml:space="preserve">
+    <value>精度管理の検査</value>
+  </data>
+  <data name="33_1_L_RDT" xml:space="preserve">
+    <value>レポート日時</value>
+  </data>
+  <data name="33_1_P_CON_RES" xml:space="preserve">
+    <value>検査結果</value>
+  </data>
+  <data name="33_1_P_CON_STA" xml:space="preserve">
+    <value>ｽﾃｰﾀｽ</value>
+  </data>
+  <data name="33_1_L_QcInfo" xml:space="preserve">
+    <value>システム情報</value>
+  </data>
+  <data name="33_1_P_CON_TAR" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="33_1_P_CON_TARS" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="33_1_L_UpperLimit" xml:space="preserve">
+    <value>上限</value>
+  </data>
+  <data name="33_1_L_Site" xml:space="preserve">
+    <value>ウェブ</value>
+  </data>
+  <data name="34_1_L_FooterData2" xml:space="preserve">
+    <value>に</value>
+  </data>
+  <data name="34_1_P_CON_RE" xml:space="preserve">
+    <value>濃度(M/ml)</value>
+  </data>
+  <data name="34_1_L_ContInf" xml:space="preserve">
+    <value>連絡先</value>
+  </data>
+  <data name="34_1_L_Date" xml:space="preserve">
+    <value>日付/時間</value>
+  </data>
+  <data name="34_1_L_Dates" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="34_1_L_email" xml:space="preserve">
+    <value>E-MAIL</value>
+  </data>
+  <data name="34_1_L_FacAdd" xml:space="preserve">
+    <value>施設案内</value>
+  </data>
+  <data name="34_1_L_Fax" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="34_1_L_PR_DATE" xml:space="preserve">
+    <value>契約日</value>
+  </data>
+  <data name="34_1_P_CON_NOTE" xml:space="preserve">
+    <value>注意</value>
+  </data>
+  <data name="34_1_L_FooterData3" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="34_1_L_Phone" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="34_1_L_FooterData1" xml:space="preserve">
+    <value>SQA-VSIONのｼﾘｱﾙ番号</value>
+  </data>
+  <data name="34_1_L_PRID" xml:space="preserve">
+    <value>習熟度検査数</value>
+  </data>
+  <data name="34_1_L_PR" xml:space="preserve">
+    <value>習熟度検査数</value>
+  </data>
+  <data name="34_1_L_Header" xml:space="preserve">
+    <value>習熟度検査レポート</value>
+  </data>
+  <data name="34_1_L_QuaInfo" xml:space="preserve">
+    <value>精度管理の案内</value>
+  </data>
+  <data name="34_1_L_RDT" xml:space="preserve">
+    <value>レポート日時</value>
+  </data>
+  <data name="34_1_P_CON_LOT" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="34_1_L_PRControlType" xml:space="preserve">
+    <value>標準</value>
+  </data>
+  <data name="34_1_L_PropInfo" xml:space="preserve">
+    <value>システム情報</value>
+  </data>
+  <data name="34_1_L_Site" xml:space="preserve">
+    <value>ウェブ</value>
+  </data>
+  <data name="35_1_L_FooterData2" xml:space="preserve">
+    <value>に</value>
+  </data>
+  <data name="35_1_L_CaptureImages" xml:space="preserve">
+    <value>画像取込</value>
+  </data>
+  <data name="35_1_L_CaptureHeader" xml:space="preserve">
+    <value>取込画像レポート</value>
+  </data>
+  <data name="35_1_L_Comments" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="35_1_L_ContInf" xml:space="preserve">
+    <value>連絡先</value>
+  </data>
+  <data name="35_1_L_email" xml:space="preserve">
+    <value>E-MAIL</value>
+  </data>
+  <data name="35_1_L_FacAdd" xml:space="preserve">
+    <value>施設案内</value>
+  </data>
+  <data name="35_1_L_Fax" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="35_1_L_Image" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="35_1_L_FooterData3" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="35_1_L_Phone" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="35_1_L_FooterData1" xml:space="preserve">
+    <value>SQA-VSIONのｼﾘｱﾙ番号</value>
+  </data>
+  <data name="35_1_L_Continued" xml:space="preserve">
+    <value>レポートを続ける</value>
+  </data>
+  <data name="35_1_L_Date" xml:space="preserve">
+    <value>レポート日時</value>
+  </data>
+  <data name="35_1_L_ReportInf" xml:space="preserve">
+    <value>レポート情報</value>
+  </data>
+  <data name="35_1_L_ReportName" xml:space="preserve">
+    <value>レポート名</value>
+  </data>
+  <data name="35_1_L_Site" xml:space="preserve">
+    <value>ウェブ</value>
+  </data>
+  <data name="36_1_L_FooterData2" xml:space="preserve">
+    <value>に</value>
+  </data>
+  <data name="36_1_L_Completed" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="36_1_L_ContInf" xml:space="preserve">
+    <value>連絡先</value>
+  </data>
+  <data name="36_1_L_DV" xml:space="preserve">
+    <value>機種のバージョン</value>
+  </data>
+  <data name="36_1_L_email" xml:space="preserve">
+    <value>E-MAIL</value>
+  </data>
+  <data name="36_1_L_FacAdd" xml:space="preserve">
+    <value>施設案内</value>
+  </data>
+  <data name="36_1_L_Fax" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="36_1_P_MainDate" xml:space="preserve">
+    <value>メンテナンス日</value>
+  </data>
+  <data name="36_1_L_MainDate" xml:space="preserve">
+    <value>メンテナンス日</value>
+  </data>
+  <data name="36_1_L_NP" xml:space="preserve">
+    <value>実行しない</value>
+  </data>
+  <data name="36_1_L_FooterData3" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="36_1_P_MainUser" xml:space="preserve">
+    <value>によって行われ</value>
+  </data>
+  <data name="36_1_L_MainPref" xml:space="preserve">
+    <value>によって行われ</value>
+  </data>
+  <data name="36_1_L_Phone" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="36_1_L_FooterData1" xml:space="preserve">
+    <value>SQA-VSIONのｼﾘｱﾙ番号</value>
+  </data>
+  <data name="36_1_L_RDT" xml:space="preserve">
+    <value>レポート日時</value>
+  </data>
+  <data name="36_1_L_SN" xml:space="preserve">
+    <value>シリアルナンバー</value>
+  </data>
+  <data name="36_1_L_Version" xml:space="preserve">
+    <value>ｿﾌﾄｳｴｱのﾊﾞｰｼﾞｮﾝ</value>
+  </data>
+  <data name="36_1_H_MainHeader" xml:space="preserve">
+    <value>SQA－VISIIONのメンテナンスリポート</value>
+  </data>
+  <data name="36_1_L_InsOver" xml:space="preserve">
+    <value>システム情報</value>
+  </data>
+  <data name="36_1_L_Site" xml:space="preserve">
+    <value>ウェブ</value>
+  </data>
+  <data name="37_2_B_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="37_1_H_Header1" xml:space="preserve">
+    <value>アーカイブに保存</value>
+  </data>
+  <data name="37_1_L_of" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="37_1_H_Header2" xml:space="preserve">
+    <value>しばらくお待ちください</value>
+  </data>
+  <data name="37_1_H_NoExport" xml:space="preserve">
+    <value>ファイル出力ができない</value>
+  </data>
+  <data name="38_2_B_VisSet" xml:space="preserve">
+    <value>ｱﾄﾞｳﾞｧﾝｽﾄﾞｾｯﾃｨﾝｸﾞ</value>
+  </data>
+  <data name="38_1_H_Bright" xml:space="preserve">
+    <value>輝度</value>
+  </data>
+  <data name="38_1_H_Contrast" xml:space="preserve">
+    <value>ｺﾝﾄﾗｽﾄ</value>
+  </data>
+  <data name="38_2_B_FacSet" xml:space="preserve">
+    <value>工場出荷時の</value>
+  </data>
+  <data name="38_1_H_Hue" xml:space="preserve">
+    <value>ガンマ</value>
+  </data>
+  <data name="38_1_H_Phaze" xml:space="preserve">
+    <value>彩度</value>
+  </data>
+  <data name="38_1_H_Sharpness" xml:space="preserve">
+    <value>鮮明さ</value>
+  </data>
+  <data name="38_1_H_VidSettings" xml:space="preserve">
+    <value>ﾋﾞﾃﾞｵ設定</value>
+  </data>
+  <data name="39_2_B_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="39_1_L_SelectKeyHeader" xml:space="preserve">
+    <value>キーを選ぶ</value>
+  </data>
+  <data name="40_2_B_Close" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="40_2_B_Print" xml:space="preserve">
+    <value>プリント</value>
+  </data>
+  <data name="40_1_L_Parameter" xml:space="preserve">
+    <value>パラメーターを選ぶ</value>
+  </data>
+  <data name="40_1_C_DateTime" xml:space="preserve">
+    <value>検査日/時間</value>
+  </data>
+  <data name="41_4_P_PV_ImmotileVol" xml:space="preserve">
+    <value>非運動性精子数/量</value>
+  </data>
+  <data name="41_4_P_PV_MotileVol" xml:space="preserve">
+    <value>運動性精子数/量</value>
+  </data>
+  <data name="41_4_P_ND" xml:space="preserve">
+    <value>1回分の番号</value>
+  </data>
+  <data name="41_4_P_NQCV" xml:space="preserve">
+    <value>QCボトル番号</value>
+  </data>
+  <data name="41_4_P_DNATotal" xml:space="preserve">
+    <value>カウント精子</value>
+  </data>
+  <data name="41_4_P_PV_TotalVol" xml:space="preserve">
+    <value>総精子数/量</value>
+  </data>
+  <data name="41_4_P_MediaRatio" xml:space="preserve">
+    <value>2 媒体希釈比</value>
+  </data>
+  <data name="41_4_P_Abnormal" xml:space="preserve">
+    <value>異常</value>
+  </data>
+  <data name="41_4_P_Abstinence" xml:space="preserve">
+    <value>禁欲</value>
+  </data>
+  <data name="41_4_P_FM" xml:space="preserve">
+    <value>凍結液を加える(ml)</value>
+  </data>
+  <data name="41_4_P_WM" xml:space="preserve">
+    <value>洗浄液を加える(ml)</value>
+  </data>
+  <data name="41_4_P_TF_Address" xml:space="preserve">
+    <value>住所</value>
+  </data>
+  <data name="41_4_P_TestAge" xml:space="preserve">
+    <value>年齢</value>
+  </data>
+  <data name="41_4_P_Aggl" xml:space="preserve">
+    <value>凝集(1-4,A-E)</value>
+  </data>
+  <data name="41_4_P_Appearance" xml:space="preserve">
+    <value>外観（目視）</value>
+  </data>
+  <data name="41_4_P_AVGPMLF" xml:space="preserve">
+    <value>平均 MLF/PMLF</value>
+  </data>
+  <data name="41_4_P_Pat_BD" xml:space="preserve">
+    <value>生まれた日</value>
+  </data>
+  <data name="41_4_P_TF_City" xml:space="preserve">
+    <value>町</value>
+  </data>
+  <data name="41_4_P_DateColl" xml:space="preserve">
+    <value>検体採取日/時間</value>
+  </data>
+  <data name="41_4_P_TimeColl" xml:space="preserve">
+    <value>検体を採取した時</value>
+  </data>
+  <data name="41_4_P_CollLoc" xml:space="preserve">
+    <value>検体採取場所（1.検査室2.自宅）</value>
+  </data>
+  <data name="41_4_P_Comments" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="41_1_H_COMSetup" xml:space="preserve">
+    <value>コミュニケーションセットアップ</value>
+  </data>
+  <data name="41_4_P_ComSample" xml:space="preserve">
+    <value>完全検体（1.完全　2.不完全）</value>
+  </data>
+  <data name="41_4_P_CON_RE" xml:space="preserve">
+    <value>濃度</value>
+  </data>
+  <data name="41_4_P_QCConc" xml:space="preserve">
+    <value>濃度(M/ml)</value>
+  </data>
+  <data name="41_4_P_ConcScreen" xml:space="preserve">
+    <value>視野でとらえ濃度</value>
+  </data>
+  <data name="41_4_P_Chamber" xml:space="preserve">
+    <value>濃度・標準</value>
+  </data>
+  <data name="41_4_P_ConcTotal" xml:space="preserve">
+    <value>総濃度</value>
+  </data>
+  <data name="41_4_P_TSC" xml:space="preserve">
+    <value>濃度</value>
+  </data>
+  <data name="41_4_P_ControlType" xml:space="preserve">
+    <value>コントロールタイプ</value>
+  </data>
+  <data name="41_4_P_CON_CA" xml:space="preserve">
+    <value>修正処置</value>
+  </data>
+  <data name="41_4_P_CounterType" xml:space="preserve">
+    <value>カウンタータイプ</value>
+  </data>
+  <data name="41_4_P_MorphType" xml:space="preserve">
+    <value>基準</value>
+  </data>
+  <data name="41_4_P_CON_Date" xml:space="preserve">
+    <value>日付/時間</value>
+  </data>
+  <data name="41_4_P_Deb_Round" xml:space="preserve">
+    <value>細胞片/円形細胞</value>
+  </data>
+  <data name="41_4_P_CollDiff" xml:space="preserve">
+    <value>採取困難</value>
+  </data>
+  <data name="41_4_P_DirIBTestIgA" xml:space="preserve">
+    <value>IgA抗体のイムノビーズテスト[&lt;50]</value>
+  </data>
+  <data name="41_4_P_DirIBTestIgG" xml:space="preserve">
+    <value>IgG抗体のイムノビーズテストテスト[&lt;50]</value>
+  </data>
+  <data name="41_4_P_DirMarTestIgA" xml:space="preserve">
+    <value>IgA抗体のMARテスト（3or10min)[&lt;50]</value>
+  </data>
+  <data name="41_4_P_DirMarTestIgG" xml:space="preserve">
+    <value>IgG抗体のMARテスト（3or10min)[&lt;50]</value>
+  </data>
+  <data name="41_4_P_DFI" xml:space="preserve">
+    <value>DNA断片化指数DFI</value>
+  </data>
+  <data name="41_1_H_HE" xml:space="preserve">
+    <value>ヘッダーに記載しない</value>
+  </data>
+  <data name="41_4_P_MainTestID" xml:space="preserve">
+    <value>検体番号</value>
+  </data>
+  <data name="41_4_P_DonorID" xml:space="preserve">
+    <value>ドナーID</value>
+  </data>
+  <data name="41_4_P_DV" xml:space="preserve">
+    <value>1回分の量(ml)</value>
+  </data>
+  <data name="41_4_P_DoseMethod" xml:space="preserve">
+    <value>投与方法</value>
+  </data>
+  <data name="41_4_P_TF_Email" xml:space="preserve">
+    <value>E-MAIL</value>
+  </data>
+  <data name="41_1_H_EN" xml:space="preserve">
+    <value>ｱﾄﾞｳﾞｧﾝｽﾄﾞﾛｸﾞﾌｧｲﾙを可能にする</value>
+  </data>
+  <data name="41_1_H_QLIsInUse" xml:space="preserve">
+    <value>検査室ｲﾝﾀｰﾌｪｰｽを可能にする</value>
+  </data>
+  <data name="41_4_P_CON_EXPDA" xml:space="preserve">
+    <value>使用期限</value>
+  </data>
+  <data name="41_4_P_TF_Name" xml:space="preserve">
+    <value>施設名</value>
+  </data>
+  <data name="41_4_P_TF_Fax" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="41_1_L_FieldName" xml:space="preserve">
+    <value>項目名</value>
+  </data>
+  <data name="41_4_P_FinalVol" xml:space="preserve">
+    <value>遠心分離後の量</value>
+  </data>
+  <data name="41_4_P_PatientFName" xml:space="preserve">
+    <value>患者の名前</value>
+  </data>
+  <data name="41_1_L_Format" xml:space="preserve">
+    <value>フォーマット</value>
+  </data>
+  <data name="41_4_P_Fructose" xml:space="preserve">
+    <value>フルクトース</value>
+  </data>
+  <data name="41_4_P_FuncSperm" xml:space="preserve">
+    <value>機能性精子</value>
+  </data>
+  <data name="41_4_P_FSC" xml:space="preserve">
+    <value>機能性精子濃度</value>
+  </data>
+  <data name="41_1_H_GS" xml:space="preserve">
+    <value>GET SITE</value>
+  </data>
+  <data name="41_4_P_Glucose" xml:space="preserve">
+    <value>グルコシダーゼ</value>
+  </data>
+  <data name="41_4_P_DNANonFreg" xml:space="preserve">
+    <value>ハロー</value>
+  </data>
+  <data name="41_4_P_AttachedImage" xml:space="preserve">
+    <value>画像をキャプチャー</value>
+  </data>
+  <data name="41_4_P_Immotility5" xml:space="preserve">
+    <value>非運動精子の割合</value>
+  </data>
+  <data name="41_4_P_PV_Immotile" xml:space="preserve">
+    <value> 非運動精子 (PV)</value>
+  </data>
+  <data name="41_4_P_Immotility" xml:space="preserve">
+    <value>非運動性精子濃度</value>
+  </data>
+  <data name="41_4_P_INVol" xml:space="preserve">
+    <value>遠心分離前の量</value>
+  </data>
+  <data name="41_4_P_PatientLName" xml:space="preserve">
+    <value>患者の苗字</value>
+  </data>
+  <data name="41_4_P_LevelID" xml:space="preserve">
+    <value>レベル</value>
+  </data>
+  <data name="41_4_P_Liquefaction" xml:space="preserve">
+    <value>液化の状態</value>
+  </data>
+  <data name="41_4_P_LongID" xml:space="preserve">
+    <value>寿命検査ID</value>
+  </data>
+  <data name="41_4_P_LongStep" xml:space="preserve">
+    <value>寿命検査ステップ</value>
+  </data>
+  <data name="41_4_P_CON_LOT" xml:space="preserve">
+    <value>ロット番号</value>
+  </data>
+  <data name="41_4_P_DV_MediaRatio" xml:space="preserve">
+    <value>媒体比率</value>
+  </data>
+  <data name="41_4_P_Mediac" xml:space="preserve">
+    <value>投薬</value>
+  </data>
+  <data name="41_4_P_MLF" xml:space="preserve">
+    <value>MLF (%)</value>
+  </data>
+  <data name="41_4_P_MorphTotal" xml:space="preserve">
+    <value>形態精子</value>
+  </data>
+  <data name="41_4_P_TotalMorph" xml:space="preserve">
+    <value>正常形態精子</value>
+  </data>
+  <data name="41_4_P_MorphScreen" xml:space="preserve">
+    <value>視野でとらえた精子形態</value>
+  </data>
+  <data name="41_4_P_MotileSperm" xml:space="preserve">
+    <value>運動性精子</value>
+  </data>
+  <data name="41_4_P_PV_Motile" xml:space="preserve">
+    <value>運動性精子（PV)</value>
+  </data>
+  <data name="41_4_P_MSC" xml:space="preserve">
+    <value>運動性精子濃度</value>
+  </data>
+  <data name="41_4_P_Motility" xml:space="preserve">
+    <value>運動性</value>
+  </data>
+  <data name="41_4_P_CON_MSC" xml:space="preserve">
+    <value>運動精子濃度</value>
+  </data>
+  <data name="41_4_P_DNAFreg" xml:space="preserve">
+    <value>NO ハロー</value>
+  </data>
+  <data name="41_4_P_Nonprog" xml:space="preserve">
+    <value>非前進運動精子　C</value>
+  </data>
+  <data name="41_4_P_Nonprog5" xml:space="preserve">
+    <value>非前進運動精子　NP</value>
+  </data>
+  <data name="41_4_P_Morph" xml:space="preserve">
+    <value>正常な形態</value>
+  </data>
+  <data name="41_4_P_OI" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="41_4_P_OM" xml:space="preserve">
+    <value>備考欄に記入</value>
+  </data>
+  <data name="41_4_P_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="41_4_P_PeroxPos" xml:space="preserve">
+    <value>ペルオキシダーゼ陽性白血球</value>
+  </data>
+  <data name="41_4_P_PH" xml:space="preserve">
+    <value>pH</value>
+  </data>
+  <data name="41_4_P_TF_Phone" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="41_4_P_AB10" xml:space="preserve">
+    <value>ピンヘッド</value>
+  </data>
+  <data name="41_4_P_PMLF" xml:space="preserve">
+    <value>PMLF (%)</value>
+  </data>
+  <data name="41_1_H_PS" xml:space="preserve">
+    <value>POST SITE</value>
+  </data>
+  <data name="41_4_P_FreCorr" xml:space="preserve">
+    <value>処理ロス(%)</value>
+  </data>
+  <data name="41_4_P_ProgMotile" xml:space="preserve">
+    <value>前進運動精子</value>
+  </data>
+  <data name="41_4_P_PMSC" xml:space="preserve">
+    <value>前進運動精子濃度</value>
+  </data>
+  <data name="41_4_P_PMSCA" xml:space="preserve">
+    <value>高速前進運動精子濃度 (a)</value>
+  </data>
+  <data name="41_4_P_PMSCB" xml:space="preserve">
+    <value>低速前進運動精子濃度 (b)</value>
+  </data>
+  <data name="41_4_P_PMOT" xml:space="preserve">
+    <value>前進運動性を示す精子の割合</value>
+  </data>
+  <data name="41_1_L_Protocol" xml:space="preserve">
+    <value>プロトコール</value>
+  </data>
+  <data name="41_1_H_Protocol" xml:space="preserve">
+    <value>プロトコールタイプ</value>
+  </data>
+  <data name="41_4_P_QCSV" xml:space="preserve">
+    <value>QC サンプル量 (ml)</value>
+  </data>
+  <data name="41_4_P_CON_RAN" xml:space="preserve">
+    <value>レンジ</value>
+  </data>
+  <data name="41_4_P_PMOTA" xml:space="preserve">
+    <value>高速前進(a)　</value>
+  </data>
+  <data name="41_4_P_DateRec" xml:space="preserve">
+    <value>検体受領日時</value>
+  </data>
+  <data name="41_4_P_TimeRec" xml:space="preserve">
+    <value>検体を受領時間</value>
+  </data>
+  <data name="41_1_H_LF" xml:space="preserve">
+    <value>最終番号を記録する</value>
+  </data>
+  <data name="41_4_P_VisName" xml:space="preserve">
+    <value>レポート名</value>
+  </data>
+  <data name="41_4_P_TEST_PF" xml:space="preserve">
+    <value>検体の評価</value>
+  </data>
+  <data name="41_4_P_TEST_PF" xml:space="preserve">
+    <value>検体の評価</value>
+  </data>
+  <data name="41_4_P_SampleID" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="41_4_P_TestMode" xml:space="preserve">
+    <value>検査後の検体</value>
+  </data>
+  <data name="41_1_H_COMPort" xml:space="preserve">
+    <value>コムのポートを選ぶ</value>
+  </data>
+  <data name="41_1_H_DateRange" xml:space="preserve">
+    <value>レンジの日付を選ぶ</value>
+  </data>
+  <data name="41_1_H_PatientID" xml:space="preserve">
+    <value>患者番号を選ぶ</value>
+  </data>
+  <data name="41_4_P_Treat" xml:space="preserve">
+    <value>精子の調整（ブロメライン/キモトリプシン）</value>
+  </data>
+  <data name="41_2_B_Send" xml:space="preserve">
+    <value>データを送信</value>
+  </data>
+  <data name="41_1_H_SE" xml:space="preserve">
+    <value>EOT/ENQに送る</value>
+  </data>
+  <data name="41_1_H_TT" xml:space="preserve">
+    <value>テストタイプをパラメーターに送る</value>
+  </data>
+  <data name="41_4_P_TF_Site" xml:space="preserve">
+    <value>軌跡</value>
+  </data>
+  <data name="41_4_P_PMOTB" xml:space="preserve">
+    <value>低速前進運動精子(b)</value>
+  </data>
+  <data name="41_4_P_TotalSperm" xml:space="preserve">
+    <value>精子数</value>
+  </data>
+  <data name="41_4_P_SMI" xml:space="preserve">
+    <value>SMI</value>
+  </data>
+  <data name="41_4_P_SubSampleType" xml:space="preserve">
+    <value>段階</value>
+  </data>
+  <data name="41_4_P_CON_StandardType" xml:space="preserve">
+    <value>標準</value>
+  </data>
+  <data name="41_4_P_CON_STA" xml:space="preserve">
+    <value>ｽﾃｰﾀｽ</value>
+  </data>
+  <data name="41_4_P_CON_TAR" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="41_4_P_TN" xml:space="preserve">
+    <value>精子/投与(M)の目標</value>
+  </data>
+  <data name="41_4_P_TestDate" xml:space="preserve">
+    <value>検査日/時間</value>
+  </data>
+  <data name="41_4_P_TestID" xml:space="preserve">
+    <value>テスト ID</value>
+  </data>
+  <data name="41_4_P_PV_Mode" xml:space="preserve">
+    <value>検査モード</value>
+  </data>
+  <data name="41_4_P_UserName" xml:space="preserve">
+    <value>検査者</value>
+  </data>
+  <data name="41_4_P_TestTime" xml:space="preserve">
+    <value>検査時間</value>
+  </data>
+  <data name="41_4_P_SampleType" xml:space="preserve">
+    <value>ﾃｽﾄﾀｲﾌﾟ</value>
+  </data>
+  <data name="41_4_P_PV_TestType" xml:space="preserve">
+    <value>検体のタイプ (PV)</value>
+  </data>
+  <data name="41_4_P_CON_DateTime" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="41_1_H_To" xml:space="preserve">
+    <value>へ</value>
+  </data>
+  <data name="41_1_L_To" xml:space="preserve">
+    <value>へ</value>
+  </data>
+  <data name="41_4_P_Motility5" xml:space="preserve">
+    <value>総運動精子　PR+NP</value>
+  </data>
+  <data name="41_4_P_PV_Total" xml:space="preserve">
+    <value>総精子（PV)</value>
+  </data>
+  <data name="41_4_P_TV" xml:space="preserve">
+    <value>総量 (ml)</value>
+  </data>
+  <data name="41_4_P_Velocity" xml:space="preserve">
+    <value>平均速度</value>
+  </data>
+  <data name="41_4_P_AttachedVideo" xml:space="preserve">
+    <value>ビデオ画像</value>
+  </data>
+  <data name="41_4_P_Viscocity" xml:space="preserve">
+    <value>粘調度</value>
+  </data>
+  <data name="41_4_P_ViabDead" xml:space="preserve">
+    <value>活性（死亡）</value>
+  </data>
+  <data name="41_4_P_ViabLive" xml:space="preserve">
+    <value>活性（生存）</value>
+  </data>
+  <data name="41_4_P_ViabScreen" xml:space="preserve">
+    <value>視野で数えた活性精子</value>
+  </data>
+  <data name="41_4_P_ViabTotal" xml:space="preserve">
+    <value>総活性精子</value>
+  </data>
+  <data name="41_4_P_Volume" xml:space="preserve">
+    <value>量</value>
+  </data>
+  <data name="41_4_P_WBCConc" xml:space="preserve">
+    <value>白血球濃度</value>
+  </data>
+  <data name="41_4_P_Zinc" xml:space="preserve">
+    <value>亜鉛</value>
+  </data>
+  <data name="42_2_B_Save" xml:space="preserve">
+    <value>適用</value>
+  </data>
+  <data name="42_2_B_ClearAll" xml:space="preserve">
+    <value>全て消去</value>
+  </data>
+  <data name="42_2_B_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="42_2_B_SelectAll" xml:space="preserve">
+    <value>全てを選択</value>
+  </data>
+  <data name="42_1_H_HeaderAT" xml:space="preserve">
+    <value>レポートに付ける画像の選択</value>
+  </data>
+  <data name="42_1_H_HeaderDEIM" xml:space="preserve">
+    <value>削除する画像を選択</value>
+  </data>
+  <data name="42_1_H_HeaderDEVI" xml:space="preserve">
+    <value>削除するビデオを選択</value>
+  </data>
+  <data name="43_2_B_Troub" xml:space="preserve">
+    <value>問題解決方法</value>
+  </data>
+  <data name="44_1_H_Msg1" xml:space="preserve">
+    <value>しばらくお待ちください</value>
+  </data>
+  <data name="45_1_H_NOTSHOW" xml:space="preserve">
+    <value>今後はこのメッセージを表示しない</value>
+  </data>
+  <data name="46_1_H_Msg" xml:space="preserve">
+    <value>ﾊﾞｰｺｰﾄﾞで読み取る</value>
+  </data>
+  <data name="47_1_L_ClickD" xml:space="preserve">
+    <value>操作キークリック</value>
+  </data>
+  <data name="47_1_L_ClickV" xml:space="preserve">
+    <value>操作キークリック</value>
+  </data>
+  <data name="47_1_L_ClickM" xml:space="preserve">
+    <value>操作キークリック</value>
+  </data>
+  <data name="47_1_H_Cutoff1" xml:space="preserve">
+    <value>精子濃度&lt;15M/ml または運動率が＜40％</value>
+  </data>
+  <data name="47_1_L_Chamber" xml:space="preserve">
+    <value>濃度・標準</value>
+  </data>
+  <data name="47_1_L_MorphType" xml:space="preserve">
+    <value>基準</value>
+  </data>
+  <data name="47_1_L_DebrisCutoff" xml:space="preserve">
+    <value>細胞片スキャナー起動</value>
+  </data>
+  <data name="47_1_L_VRTCountTypeD" xml:space="preserve">
+    <value>DNA断片化カウント型</value>
+  </data>
+  <data name="47_1_H_H3" xml:space="preserve">
+    <value>以下の通りセット</value>
+  </data>
+  <data name="47_1_L_FD" xml:space="preserve">
+    <value>全ての差異</value>
+  </data>
+  <data name="47_1_L_MarkM" xml:space="preserve">
+    <value>〇印をつけてカウント</value>
+  </data>
+  <data name="47_1_L_MarkD" xml:space="preserve">
+    <value>〇印をつけてカウント</value>
+  </data>
+  <data name="47_1_L_MarkV" xml:space="preserve">
+    <value>〇印をつけてカウント</value>
+  </data>
+  <data name="47_1_L_VRTCountType" xml:space="preserve">
+    <value>形態検査の数え方</value>
+  </data>
+  <data name="47_1_L_VRTTestType" xml:space="preserve">
+    <value>形態検査の種類</value>
+  </data>
+  <data name="47_1_H_Cutoff3" xml:space="preserve">
+    <value>細胞片がない</value>
+  </data>
+  <data name="47_1_L_ANN" xml:space="preserve">
+    <value>正常/異常</value>
+  </data>
+  <data name="47_1_L_H1" xml:space="preserve">
+    <value>注意して下さい</value>
+  </data>
+  <data name="47_1_H_Cutoff2" xml:space="preserve">
+    <value>全ての検体から常に細胞片スキャナー起動</value>
+  </data>
+  <data name="47_1_H_H2" xml:space="preserve">
+    <value>このテストは～を元に実行された</value>
+  </data>
+  <data name="47_1_L_VRTCountTypeV" xml:space="preserve">
+    <value>活性検査のタイプ</value>
+  </data>
+  <data name="50_1_L_AndAB" xml:space="preserve">
+    <value>奇形率と</value>
+  </data>
+  <data name="50_1_L_PatAge" xml:space="preserve">
+    <value>誕生日/年齢</value>
+  </data>
+  <data name="50_2_B_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="50_2_B_Clear" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="50_2_B_ClearAll" xml:space="preserve">
+    <value>全て消去</value>
+  </data>
+  <data name="50_2_B_Continue" xml:space="preserve">
+    <value>続ける</value>
+  </data>
+  <data name="50_1_L_MorphType" xml:space="preserve">
+    <value>基準</value>
+  </data>
+  <data name="50_1_H_PerData" xml:space="preserve">
+    <value>正常形態率を入力する</value>
+  </data>
+  <data name="50_1_H_Header" xml:space="preserve">
+    <value>顕微鏡下で得た形態のデータ入力</value>
+  </data>
+  <data name="50_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="50_1_L_PatientName" xml:space="preserve">
+    <value>患者氏名</value>
+  </data>
+  <data name="50_1_L_SampleID" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="50_1_L_SS" xml:space="preserve">
+    <value>検査後の検体</value>
+  </data>
+  <data name="50_1_L_TestDate" xml:space="preserve">
+    <value>検査日/時間</value>
+  </data>
+  <data name="50_1_L_SampleType" xml:space="preserve">
+    <value>ﾃｽﾄﾀｲﾌﾟ</value>
+  </data>
+  <data name="51_1_L_PatAge" xml:space="preserve">
+    <value>誕生日/年齢</value>
+  </data>
+  <data name="51_2_B_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="51_2_B_Clear" xml:space="preserve">
+    <value>全て消去</value>
+  </data>
+  <data name="51_2_B_Continue" xml:space="preserve">
+    <value>続ける</value>
+  </data>
+  <data name="51_1_L_MorphType" xml:space="preserve">
+    <value>基準</value>
+  </data>
+  <data name="51_1_H_PerData" xml:space="preserve">
+    <value>精子生存率を入力する</value>
+  </data>
+  <data name="51_1_H_Header" xml:space="preserve">
+    <value>活性検査手動データ入力</value>
+  </data>
+  <data name="51_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="51_1_L_PatientName" xml:space="preserve">
+    <value>患者氏名</value>
+  </data>
+  <data name="51_1_L_SampleID" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="51_1_L_SS" xml:space="preserve">
+    <value>検査後の検体</value>
+  </data>
+  <data name="51_1_L_TestDate" xml:space="preserve">
+    <value>検査日/時間</value>
+  </data>
+  <data name="51_1_L_SampleType" xml:space="preserve">
+    <value>ﾃｽﾄﾀｲﾌﾟ</value>
+  </data>
+  <data name="52_1_H_Int" xml:space="preserve">
+    <value>1～100まで</value>
+  </data>
+  <data name="52_1_H_TestResults" xml:space="preserve">
+    <value>自動検査結果</value>
+  </data>
+  <data name="52_1_L_PatAge" xml:space="preserve">
+    <value>誕生日/年齢</value>
+  </data>
+  <data name="52_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>付属の電源ケーブルとコネクタの接続確認</value>
+  </data>
+  <data name="52_2_B_Clear" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="52_1_H_NoVideoCheck" xml:space="preserve">
+    <value>リフレッシュボタンを押す</value>
+  </data>
+  <data name="52_1_L_MorphType" xml:space="preserve">
+    <value>基準</value>
+  </data>
+  <data name="52_1_H_MotilityIns" xml:space="preserve">
+    <value>形態検査の％の入力</value>
+  </data>
+  <data name="52_2_B_Fail" xml:space="preserve">
+    <value>不合格</value>
+  </data>
+  <data name="52_2_B_Freeze" xml:space="preserve">
+    <value>静止画像</value>
+  </data>
+  <data name="52_2_B_FULL" xml:space="preserve">
+    <value>全画面</value>
+  </data>
+  <data name="52_2_B_GridOff" xml:space="preserve">
+    <value>グリッド消去</value>
+  </data>
+  <data name="52_2_B_Grid" xml:space="preserve">
+    <value>グリッド表示</value>
+  </data>
+  <data name="52_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>問題が発生したら</value>
+  </data>
+  <data name="52_1_H_Header" xml:space="preserve">
+    <value>運動性の予測</value>
+  </data>
+  <data name="52_1_L_NoSperm" xml:space="preserve">
+    <value>精子がみえない</value>
+  </data>
+  <data name="52_2_B_Pass" xml:space="preserve">
+    <value>パス</value>
+  </data>
+  <data name="52_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="52_1_L_PatientName" xml:space="preserve">
+    <value>患者氏名</value>
+  </data>
+  <data name="52_2_B_RealTime" xml:space="preserve">
+    <value>リアルタイム</value>
+  </data>
+  <data name="52_2_B_Refresh" xml:space="preserve">
+    <value>リフレッシュ</value>
+  </data>
+  <data name="52_2_B_Next" xml:space="preserve">
+    <value>検査結果</value>
+  </data>
+  <data name="52_1_H_SampleEv" xml:space="preserve">
+    <value>検体の評価</value>
+  </data>
+  <data name="52_1_L_SampleID" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="52_1_L_SS" xml:space="preserve">
+    <value>検査後の検体</value>
+  </data>
+  <data name="52_2_B_Settings" xml:space="preserve">
+    <value>セッテイング</value>
+  </data>
+  <data name="52_1_L_TestDate" xml:space="preserve">
+    <value>検査日/時間</value>
+  </data>
+  <data name="52_1_L_SampleType" xml:space="preserve">
+    <value>ﾃｽﾄﾀｲﾌﾟ</value>
+  </data>
+  <data name="52_1_H_Motility" xml:space="preserve">
+    <value>運動性</value>
+  </data>
+  <data name="52_1_H_VideoError" xml:space="preserve">
+    <value>録画失敗</value>
+  </data>
+  <data name="53_1_L_Pat_BD" xml:space="preserve">
+    <value>生まれた日</value>
+  </data>
+  <data name="53_1_H_UpdateIDHeader" xml:space="preserve">
+    <value>患者のデータ入力</value>
+  </data>
+  <data name="53_1_L_PatientFName" xml:space="preserve">
+    <value>患者の名前</value>
+  </data>
+  <data name="53_1_L_PatientLName" xml:space="preserve">
+    <value>患者の苗字</value>
+  </data>
+  <data name="53_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="54_1_H_MainInsta" xml:space="preserve">
+    <value>項目をｸﾘｯｸして編集</value>
+  </data>
+  <data name="54_1_H_BE" xml:space="preserve">
+    <value>都度ﾊﾞｯｸｱｯﾌﾟ</value>
+  </data>
+  <data name="54_1_H_BACK" xml:space="preserve">
+    <value>ﾊﾞｯｸｱｯﾌﾟを頻繁にする</value>
+  </data>
+  <data name="54_1_H_BP" xml:space="preserve">
+    <value>ﾊﾞｯｸｱｯﾌﾟﾊﾟｽ</value>
+  </data>
+  <data name="54_2_B_Browse" xml:space="preserve">
+    <value>閲覧する</value>
+  </data>
+  <data name="54_1_H_TED" xml:space="preserve">
+    <value>日数</value>
+  </data>
+  <data name="54_1_H_BED" xml:space="preserve">
+    <value>日数</value>
+  </data>
+  <data name="54_1_H_SaveDB" xml:space="preserve">
+    <value>作業開始時にｻｰﾋﾞｽﾃﾞｰﾀを読み込む</value>
+  </data>
+  <data name="54_1_H_MainActive" xml:space="preserve">
+    <value>保守作業</value>
+  </data>
+  <data name="54_1_H_OBMain" xml:space="preserve">
+    <value>メンテナンスは必須です</value>
+  </data>
+  <data name="54_1_H_QC" xml:space="preserve">
+    <value>精度管理</value>
+  </data>
+  <data name="54_1_H_SD" xml:space="preserve">
+    <value>サービスデータ</value>
+  </data>
+  <data name="54_1_H_TE" xml:space="preserve">
+    <value>検査ごと</value>
+  </data>
+  <data name="55_1_L_PatAge" xml:space="preserve">
+    <value>誕生日/年齢</value>
+  </data>
+  <data name="55_2_P_DNAScreen" xml:space="preserve">
+    <value>視野を取り込む</value>
+  </data>
+  <data name="55_1_L_Comments" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="55_1_L_MorphType" xml:space="preserve">
+    <value>基準</value>
+  </data>
+  <data name="55_1_T_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="55_1_H_DNAHeader" xml:space="preserve">
+    <value>DNA断片化カウンター</value>
+  </data>
+  <data name="55_1_L_TS" xml:space="preserve">
+    <value>計測した視野の数</value>
+  </data>
+  <data name="55_2_P_DNANonFreg" xml:space="preserve">
+    <value>ハロー</value>
+  </data>
+  <data name="55_1_T_Item" xml:space="preserve">
+    <value>アイテム</value>
+  </data>
+  <data name="55_1_T_ManageAll" xml:space="preserve">
+    <value>キャプチャー画像処理</value>
+  </data>
+  <data name="55_1_H_SelectImage" xml:space="preserve">
+    <value>画像処理</value>
+  </data>
+  <data name="55_2_P_DNAFreg" xml:space="preserve">
+    <value>NO ハロー</value>
+  </data>
+  <data name="55_1_T_of" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="55_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="55_1_L_PatientName" xml:space="preserve">
+    <value>患者氏名</value>
+  </data>
+  <data name="55_2_B_RemoveAll" xml:space="preserve">
+    <value>全て移す</value>
+  </data>
+  <data name="55_2_B_Remove" xml:space="preserve">
+    <value>最後を削除</value>
+  </data>
+  <data name="55_1_L_ReportName" xml:space="preserve">
+    <value>レポート名</value>
+  </data>
+  <data name="55_1_L_SampleID" xml:space="preserve">
+    <value>サンプルID</value>
+  </data>
+  <data name="55_1_L_SS" xml:space="preserve">
+    <value>検査後の検体</value>
+  </data>
+  <data name="55_1_T_SaveAs" xml:space="preserve">
+    <value>名前を付けて保存</value>
+  </data>
+  <data name="55_2_B_SaveField" xml:space="preserve">
+    <value>視野を保存す</value>
+  </data>
+  <data name="55_1_L_TestDate" xml:space="preserve">
+    <value>検査日/時間</value>
+  </data>
+  <data name="55_1_L_SampleType" xml:space="preserve">
+    <value>ﾃｽﾄﾀｲﾌﾟ</value>
+  </data>
+  <data name="55_1_L_CC" xml:space="preserve">
+    <value>総精子数</value>
+  </data>
+  <data name="56_1_P_DNATotal" xml:space="preserve">
+    <value>カウント精子</value>
+  </data>
+  <data name="56_1_L_CC" xml:space="preserve">
+    <value>操作ｷｰでｸﾘｯｸ</value>
+  </data>
+  <data name="56_1_L_Color" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="56_1_L_Comments" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="56_1_L_Criteria" xml:space="preserve">
+    <value>基準</value>
+  </data>
+  <data name="56_1_L_DCT" xml:space="preserve">
+    <value>DNA断片化カウント型</value>
+  </data>
+  <data name="56_1_L_CapFrameDNA" xml:space="preserve">
+    <value>DNA断片化</value>
+  </data>
+  <data name="56_1_P_DFI" xml:space="preserve">
+    <value>DNA断片化指数DFI</value>
+  </data>
+  <data name="56_1_L_DNAHeader" xml:space="preserve">
+    <value>DNA断片化レポート</value>
+  </data>
+  <data name="56_1_L_email" xml:space="preserve">
+    <value>E-MAIL</value>
+  </data>
+  <data name="56_1_L_Fax" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="56_1_P_DNAFreg" xml:space="preserve">
+    <value>断片化DNA (No Halo)</value>
+  </data>
+  <data name="56_1_L_Image" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="56_1_L_CapFrame" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="56_1_L_MAC" xml:space="preserve">
+    <value>〇印をつけて数える</value>
+  </data>
+  <data name="56_1_P_DNANonFreg" xml:space="preserve">
+    <value>断片化してないDNA(Halo)</value>
+  </data>
+  <data name="56_1_L_FooterData3" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="56_1_L_Parameter" xml:space="preserve">
+    <value>パラメータ</value>
+  </data>
+  <data name="56_1_L_Phone" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="56_1_L_FooterData1" xml:space="preserve">
+    <value>SQA-VSIONのｼﾘｱﾙ番号</value>
+  </data>
+  <data name="56_1_L_Cutoff" xml:space="preserve">
+    <value>REF.VALUE</value>
+  </data>
+  <data name="56_1_L_RefRange" xml:space="preserve">
+    <value>REF.VALUE</value>
+  </data>
+  <data name="56_1_L_Continued" xml:space="preserve">
+    <value>レポートを続ける</value>
+  </data>
+  <data name="56_1_L_Date" xml:space="preserve">
+    <value>レポート日時</value>
+  </data>
+  <data name="56_1_L_ReportInf" xml:space="preserve">
+    <value>レポート情報</value>
+  </data>
+  <data name="56_1_L_ReportName" xml:space="preserve">
+    <value>レポート名</value>
+  </data>
+  <data name="56_1_L_Result" xml:space="preserve">
+    <value>結果</value>
+  </data>
+  <data name="56_1_L_Status" xml:space="preserve">
+    <value>ｽﾃｰﾀｽ</value>
+  </data>
+  <data name="56_1_L_Site" xml:space="preserve">
+    <value>ウェブ</value>
+  </data>
+  <data name="57_1_L_MSPERM" xml:space="preserve">
+    <value># 運動性精子</value>
+  </data>
+  <data name="57_1_L_ND" xml:space="preserve">
+    <value>1回分の番号</value>
+  </data>
+  <data name="57_1_L_NQCV" xml:space="preserve">
+    <value>QCボトル番号</value>
+  </data>
+  <data name="57_1_L_PSPERM" xml:space="preserve">
+    <value># 前進運動精子</value>
+  </data>
+  <data name="57_1_L_TSPERM" xml:space="preserve">
+    <value># 総精子</value>
+  </data>
+  <data name="57_1_L_MediaRatio" xml:space="preserve">
+    <value>2 媒体希釈比</value>
+  </data>
+  <data name="57_1_L_HFM" xml:space="preserve">
+    <value>凍結液を加える(ml)</value>
+  </data>
+  <data name="57_1_L_HWM" xml:space="preserve">
+    <value>洗浄液を加える(ml)</value>
+  </data>
+  <data name="57_2_B_Calculate" xml:space="preserve">
+    <value>算出</value>
+  </data>
+  <data name="57_1_L_DV" xml:space="preserve">
+    <value>1回分の量(ml)</value>
+  </data>
+  <data name="57_1_L_DoseMethod" xml:space="preserve">
+    <value>投与方法</value>
+  </data>
+  <data name="57_1_L_DV_MediaRatio" xml:space="preserve">
+    <value>媒体比率</value>
+  </data>
+  <data name="57_1_L_MLF" xml:space="preserve">
+    <value>MLF (%)</value>
+  </data>
+  <data name="57_1_L_PMLF" xml:space="preserve">
+    <value>PMLF (%)</value>
+  </data>
+  <data name="57_1_L_QCSV" xml:space="preserve">
+    <value>QC サンプル量 (ml)</value>
+  </data>
+  <data name="57_2_B_DoseReport" xml:space="preserve">
+    <value>レポート</value>
+  </data>
+  <data name="57_1_L_TEST_PF" xml:space="preserve">
+    <value>検体の評価</value>
+  </data>
+  <data name="57_2_B_DoseSave" xml:space="preserve">
+    <value>保存と閉じる</value>
+  </data>
+  <data name="57_1_L_DST_Header" xml:space="preserve">
+    <value>精子ターゲット投与セットアップ</value>
+  </data>
+  <data name="57_1_L_TN" xml:space="preserve">
+    <value>精子/投与(M)の目標</value>
+  </data>
+  <data name="57_1_L_TV" xml:space="preserve">
+    <value>総量 (ml)</value>
+  </data>
+  <data name="57_1_L_DSV_Header" xml:space="preserve">
+    <value>ボリューム投与セットアップ</value>
+  </data>
+  <data name="58_2_P_ConcScreen" xml:space="preserve">
+    <value>視野を取り込む</value>
+  </data>
+  <data name="58_1_L_Comments" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="58_2_P_QCConc" xml:space="preserve">
+    <value>濃度</value>
+  </data>
+  <data name="58_1_T_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="58_1_L_TS" xml:space="preserve">
+    <value>計測した視野の数</value>
+  </data>
+  <data name="58_1_T_Item" xml:space="preserve">
+    <value>アイテム</value>
+  </data>
+  <data name="58_1_T_ManageAll" xml:space="preserve">
+    <value>キャプチャー画像処理</value>
+  </data>
+  <data name="58_1_H_SelectImage" xml:space="preserve">
+    <value>画像処理</value>
+  </data>
+  <data name="58_1_T_of" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="58_1_H_QCHeader" xml:space="preserve">
+    <value>QC (品質管理) マーク数</value>
+  </data>
+  <data name="58_2_B_RemoveAll" xml:space="preserve">
+    <value>全て移す</value>
+  </data>
+  <data name="58_2_B_Remove" xml:space="preserve">
+    <value>最後を削除</value>
+  </data>
+  <data name="58_1_L_ReportName" xml:space="preserve">
+    <value>レポート名</value>
+  </data>
+  <data name="58_1_T_SaveAs" xml:space="preserve">
+    <value>名前を付けて保存</value>
+  </data>
+  <data name="58_2_B_SaveField" xml:space="preserve">
+    <value>視野を保存す</value>
+  </data>
+  <data name="58_1_L_CC" xml:space="preserve">
+    <value>総精子数</value>
+  </data>
+  <data name="59_1_H_PMLF" xml:space="preserve">
+    <value>最後の平均値</value>
+  </data>
+  <data name="59_2_B_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="59_1_L_Enter" xml:space="preserve">
+    <value>最後の入力</value>
+  </data>
+  <data name="59_1_H_MLFSet" xml:space="preserve">
+    <value>MLF 設定</value>
+  </data>
+  <data name="59_1_H_PMLFSet" xml:space="preserve">
+    <value>PMLF 設定</value>
+  </data>
+  <data name="59_1_H_FresCorr" xml:space="preserve">
+    <value>処理ロス(%)</value>
+  </data>
+  <data name="59_2_B_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="60_4_P_DateColl" xml:space="preserve">
+    <value>検体採取日/時間</value>
+  </data>
+  <data name="60_2_B_Continue" xml:space="preserve">
+    <value>続ける</value>
+  </data>
+  <data name="60_1_H_DTHeader" xml:space="preserve">
+    <value>ディリーテスト</value>
+  </data>
+  <data name="60_4_P_MainTestID" xml:space="preserve">
+    <value>検体番号</value>
+  </data>
+  <data name="60_4_P_DonorID" xml:space="preserve">
+    <value>ドナーID</value>
+  </data>
+  <data name="60_1_H_INT" xml:space="preserve">
+    <value>ステップに対する新しいテストを開始</value>
+  </data>
+  <data name="60_2_B_Refresh" xml:space="preserve">
+    <value>リフレッシュ</value>
+  </data>
+  <data name="60_4_P_SampleType" xml:space="preserve">
+    <value>サンプルタイプ</value>
+  </data>
+  <data name="60_4_P_TestID" xml:space="preserve">
+    <value>テスト ID</value>
+  </data>
+  <data name="60_1_H_TIP" xml:space="preserve">
+    <value>検査中</value>
+  </data>
+  <data name="61_1_L_FooterData2" xml:space="preserve">
+    <value>に</value>
+  </data>
+  <data name="61_1_L_CapFrameCAP" xml:space="preserve">
+    <value>画像取込</value>
+  </data>
+  <data name="61_1_L_CC" xml:space="preserve">
+    <value>操作ｷｰでｸﾘｯｸ</value>
+  </data>
+  <data name="61_1_L_Color" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="61_1_L_Comments" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="61_1_P_QCConc" xml:space="preserve">
+    <value>濃度</value>
+  </data>
+  <data name="61_1_L_ContInf" xml:space="preserve">
+    <value>連絡先</value>
+  </data>
+  <data name="61_1_L_Criteria" xml:space="preserve">
+    <value>基準</value>
+  </data>
+  <data name="61_1_L_email" xml:space="preserve">
+    <value>E-MAIL</value>
+  </data>
+  <data name="61_1_L_FacAdd" xml:space="preserve">
+    <value>施設案内</value>
+  </data>
+  <data name="61_1_L_Fail" xml:space="preserve">
+    <value>不合格</value>
+  </data>
+  <data name="61_1_L_Fax" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="61_1_L_Image" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="61_1_L_CapFrame" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="61_1_L_MAC" xml:space="preserve">
+    <value>〇印をつけて数える</value>
+  </data>
+  <data name="61_1_L_FooterData3" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="61_1_L_Parameter" xml:space="preserve">
+    <value>パラメータ</value>
+  </data>
+  <data name="61_1_L_Pass" xml:space="preserve">
+    <value>パス</value>
+  </data>
+  <data name="61_1_L_Phone" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="61_1_L_FooterData1" xml:space="preserve">
+    <value>SQA-VSIONのｼﾘｱﾙ番号</value>
+  </data>
+  <data name="61_1_L_QCCT" xml:space="preserve">
+    <value>QC マーク数タイプ</value>
+  </data>
+  <data name="61_1_L_QCHeader" xml:space="preserve">
+    <value>QC マーク数報告書</value>
+  </data>
+  <data name="61_1_L_Cutoff" xml:space="preserve">
+    <value>REF. VALUE</value>
+  </data>
+  <data name="61_1_L_RefRange" xml:space="preserve">
+    <value>REF. VALUE</value>
+  </data>
+  <data name="61_1_L_Continued" xml:space="preserve">
+    <value>レポートを続ける</value>
+  </data>
+  <data name="61_1_L_Date" xml:space="preserve">
+    <value>レポート日時</value>
+  </data>
+  <data name="61_1_L_ReportInf" xml:space="preserve">
+    <value>レポート情報</value>
+  </data>
+  <data name="61_1_L_ReportName" xml:space="preserve">
+    <value>レポート名</value>
+  </data>
+  <data name="61_1_L_Result" xml:space="preserve">
+    <value>結果</value>
+  </data>
+  <data name="61_1_L_Status" xml:space="preserve">
+    <value>ｽﾃｰﾀｽ</value>
+  </data>
+  <data name="61_1_L_Site" xml:space="preserve">
+    <value>ウェブ</value>
+  </data>
+  <data name="62_1_P_ND" xml:space="preserve">
+    <value>1回分の番号</value>
+  </data>
+  <data name="62_1_P_NQCV" xml:space="preserve">
+    <value>QCボトル番号</value>
+  </data>
+  <data name="62_1_P_UseTwoMedia" xml:space="preserve">
+    <value>2 媒体希釈比</value>
+  </data>
+  <data name="62_1_P_FM" xml:space="preserve">
+    <value>凍結液を加える(ml)</value>
+  </data>
+  <data name="62_1_P_WM" xml:space="preserve">
+    <value>洗浄液を加える(ml)</value>
+  </data>
+  <data name="62_1_P_DV" xml:space="preserve">
+    <value>1回分の量(ml)</value>
+  </data>
+  <data name="62_1_L_DoseInst" xml:space="preserve">
+    <value>投与指示</value>
+  </data>
+  <data name="62_1_P_DoseMethod" xml:space="preserve">
+    <value>投与方法</value>
+  </data>
+  <data name="62_1_L_Header" xml:space="preserve">
+    <value>投与レポート</value>
+  </data>
+  <data name="62_1_P_MediaRatio" xml:space="preserve">
+    <value>媒体比率</value>
+  </data>
+  <data name="62_1_L_MLF" xml:space="preserve">
+    <value>MLF (%)</value>
+  </data>
+  <data name="62_1_L_PMLF" xml:space="preserve">
+    <value>PMLF (%)</value>
+  </data>
+  <data name="62_1_P_FreCorr" xml:space="preserve">
+    <value>処理ロス(%)</value>
+  </data>
+  <data name="62_1_P_QCSV" xml:space="preserve">
+    <value>QC サンプル量 (ml)</value>
+  </data>
+  <data name="62_1_L_Referance" xml:space="preserve">
+    <value>REF. VALUE</value>
+  </data>
+  <data name="62_1_L_Result" xml:space="preserve">
+    <value>結果</value>
+  </data>
+  <data name="62_1_L_Status" xml:space="preserve">
+    <value>ｽﾃｰﾀｽ</value>
+  </data>
+  <data name="62_1_P_TN" xml:space="preserve">
+    <value>精子/投与(M)の目標</value>
+  </data>
+  <data name="62_1_P_TV" xml:space="preserve">
+    <value>総量 (ml)</value>
+  </data>
+  <data name="63_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>付属の電源ケーブルとコネクタの接続確認</value>
+  </data>
+  <data name="63_1_H_NoVideoCheck" xml:space="preserve">
+    <value>リフレッシュボタンを押す</value>
+  </data>
+  <data name="63_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>問題が発生したら</value>
+  </data>
+  <data name="63_1_H_VideoError" xml:space="preserve">
+    <value>録画失敗</value>
+  </data>
+  <data name="64_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>付属の電源ケーブルとコネクタの接続確認</value>
+  </data>
+  <data name="64_1_H_NoVideoCheck" xml:space="preserve">
+    <value>リフレッシュボタンを押す</value>
+  </data>
+  <data name="64_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>問題が発生したら</value>
+  </data>
+  <data name="64_1_H_VideoError" xml:space="preserve">
+    <value>録画失敗</value>
+  </data>
+  <data name="100_0_LanguageFileVersion" xml:space="preserve">
+    <value>138.11.0.3</value>
+  </data>
+</root>

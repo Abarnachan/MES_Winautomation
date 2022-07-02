@@ -1,0 +1,109 @@
+﻿<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+    <style type="text/css">
+        .style1
+        {
+            font-size: x-large;
+        }
+    </style>
+</head>
+
+
+<script type="text/javascript">
+
+// ===================================
+// A function to Show Div Block
+// ===================================
+function showHide(elstring){
+    var el = document.getElementById(elstring);
+    el.style.display = 'block';
+}
+
+// =============================================================
+// A function to retrive a parameter from the get (address) link
+// =============================================================
+function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split('=');
+            if (decodeURIComponent(pair[0]) == variable) {
+                return decodeURIComponent(pair[1]);
+            }
+        }
+    }
+    function delayer(){
+        window.location = getQueryVariable('url')
+    }
+
+
+// ======================================
+// Extract and assign global Parameters
+// ======================================
+var Message = getQueryVariable("Message");
+
+</script>
+
+
+<body background="../Images/Background.png">
+
+<!-- File name: SelfTestMessages  Version: 103.11.2  Language: English  Updated: 15 December 2019 CHANGES: New version assignment  -->
+
+
+<div id='6' class="style1" style="display: none;">
+<table border="0" cellpadding="50"><tr style="height:500;"><td width="1200" valign="middle" align="center" style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;text-align:center;line-height:1.0;">
+SYSTEM SELF-TEST
+</td></tr></table>
+</div>
+
+<div id='7' class="style1" style="display: none;">
+<table border="0" cellpadding="50">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/checkmark.png" alt="checkmark">
+</td></tr>
+<tr height="300"><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:45; font-weight:bold; color:#000000; line-height:2.0; padding-top:50;">
+PASSED SELF-TEST
+</td></tr>
+</table>
+</div>
+
+
+
+<div id='8' class="style1" style="display: none;">
+<table border="0" cellpadding="50"><tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamation.png" alt="exclamation">
+</td></tr>
+<tr height="300"><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:45; font-weight:bold; color:#000000; line-height:2.0; padding-top:50;">
+SELF-TEST FAILED<br />CLICK SERVICE FOR DETAILS
+</td></tr>
+</table>
+</div>
+
+
+</body>
+
+
+<script type="text/javascript">
+
+    // =======================
+    // Show the relevant block
+    // =======================
+    
+    switch (Message) {
+        case "6":
+            showHide("6");
+            break;
+
+        case "7":
+            showHide("7");
+            break;
+
+        case "8":
+            showHide("8");
+            break;
+    }
+
+</script>
+
+</html>

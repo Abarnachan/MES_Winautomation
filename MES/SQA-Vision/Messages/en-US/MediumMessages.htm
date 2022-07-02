@@ -1,0 +1,992 @@
+﻿<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+    <style type="text/css">
+        .style1
+        {
+            font-size: x-large;
+        }
+        
+    </style>
+</head>
+
+
+<script type="text/javascript">
+
+// ===================================
+// A function to Show Div Block
+// ===================================
+function showHide(elstring){
+    var el = document.getElementById(elstring);
+    el.style.display = 'block';
+}
+
+// =============================================================
+// A function to retrive a parameter from the get (address) link
+// =============================================================
+function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split('=');
+            if (decodeURIComponent(pair[0]) == variable) {
+                return decodeURIComponent(pair[1]);
+            }
+        }
+    }
+    function delayer(){
+        window.location = getQueryVariable('url')
+    }
+
+
+// ======================================
+// Extract and assign global Parameters
+// ======================================
+
+var Message = getQueryVariable("Message");
+
+var Value = getQueryVariable("Value");
+
+
+</script>
+
+<style>
+        ul{ display:table; list-style-image:url('../Images/circle.png');}
+</style>
+
+<body background="../Images/Background.png">
+
+<!-- File name: MediumMessages  Version: 103.11.2  Language: English  Updated: 15 December 2019 CHANGES: New version assignment.-->
+
+
+<div id='9' style="display:none;">
+<table border="0">
+<tr><td width="870" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:1.5; padding-top:90; padding-bottom:0; padding-left:190;">
+PLEASE ENTER:</td></tr>
+<tr style="height:200;"><td valign="middle" style="padding-left:180;">
+<div>
+<ul style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:1.5; text-align:left;">
+<li>PATIENT ID</li>
+<li>WBC CONCENTRATION</li>
+</ul>
+</div></td></tr>
+</table>
+</div>
+
+
+<div id='10' class="style1" style="display: none;">
+<table border="0" width="870" height="390">
+<tr><td valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamationmed.png" alt="exclamationmed">
+</td></tr>
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0; padding:50;">
+YOUR DATA WILL BE LOST<br />DO YOU WANT TO EXIT?
+</td></tr>
+</table>
+</div>
+
+<div id='11'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+RECEIVED DATE AND / OR TIME<br />NOT VALID<br />PLEASE RE-ENTER
+</td></tr>
+</table>
+</div>
+
+
+<div id='12' style="display:none;">
+<table border="0">
+<tr><td width="870" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:1.5; padding-top:90; padding-bottom:0; padding-left:220;">
+PLEASE ENTER:</td></tr>
+<tr style="height:200;"><td valign="middle" style="padding-left:180;">
+<div>
+<ul style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:1.5; text-align:left;">
+<li>PATIENT ID</li>
+<li>VOLUME</li>
+</ul>
+</div></td></tr>
+</table>
+</div>
+
+<div id='13' style="display:none;">
+<table border="0">
+<tr><td width="870" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:1.5; padding-top:30; padding-bottom:0; padding-left:178;">
+PLEASE ENTER:</td></tr>
+<tr style="height:200;"><td valign="middle" style="padding-left:170;">
+<div>
+<ul style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:1.5; text-align:left;">
+<li>PATIENT ID</li>
+<li>EJACULATE VOLUME</li>
+<li>INITIAL SAMPLE VOLUME</li>
+<li>FINAL SAMPLE VOLUME</li>
+</ul>
+</div></td></tr>
+</table>
+</div>
+
+<div id='14'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+RESULTS MUST BE ENTERED<br />TO COMPLETE TEST<br />CANCEL TEST?
+</td></tr>
+</table>
+</div>
+
+<div id='15'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+PLEASE ENTER:<br />PATIENT ID
+</td></tr>
+</table>
+</div>
+
+<div id='16'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+ACTIVATE DATA ENTRY SCREEN<br />ON TESTING UNIT
+</td></tr>
+</table>
+</div>
+
+<div id='17'  style="display: none;">
+<table border="0" width="870" height="390">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0; padding-left:30; padding-right:30; padding-top:50; padding-bottom:50;">
+VOLUME NOT ENTERED<br />SEMEN TOTALS WILL NOT BE REPORTED<br />CONTINUE?
+</td></tr>
+</table>
+</div>
+
+<div id='18' style="display:none;">
+<table border="0">
+<tr><td width="870" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:1.5; padding-top:90; padding-bottom:0; padding-left:190;">
+PLEASE ENTER:</td></tr>
+<tr style="height:200;"><td valign="middle" style="padding-left:180;">
+<div>
+<ul style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:1.5; text-align:left;">
+<li>PATIENT ID</li>
+<li>SAMPLE ID</li>
+<li>WBC CONCENTRATION</li>
+</ul>
+</div></td></tr>
+</table>
+</div>
+
+<div id='19' class="style1" style="display: none;">
+<table border="0" width="870" height="390">
+<tr><td valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamationmed.png" alt="exclamationmed">
+</td></tr>
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0; padding:50;">
+NEW SAMPLE ID ENTERED<br />START A NEW LONGEVITY TEST?
+</td></tr>
+</table>
+</div>
+
+<div id='20'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+TEST IS NOT COMPLETED<br />CANCEL TEST?
+</td></tr>
+</table>
+</div>
+
+<div id='21' class="style1" style="display: none;">
+<table border="0" width="870" height="390">
+<tr><td valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamationmed.png" alt="exclamationmed">
+</td></tr>
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0; padding-top:30; padding-bottom:30; padding-left:20; padding-right:20;">
+% PROGRESSIVE(A+B) &gt; % MOTILITY<br />PLEASE RE-ENTER VALUES
+</td></tr>
+</table>
+</div>
+
+<div id='22' class="style1" style="display: none;">
+<table border="0" width="870" height="390">
+<tr><td valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamationmed.png" alt="exclamationmed">
+</td></tr>
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0; padding-top:30; padding-bottom:30; padding-left:20; padding-right:20;">
+% PROGRESSIVE(PR) &gt; % MOTILE(PR+NP)<br />PLEASE RE-ENTER VALUES
+</td></tr>
+</table>
+</div>
+
+<div id='24' class="style1" style="display: none;">
+<table border="0" width="870" height="390">
+<tr><td valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamationmed.png" alt="exclamationmed">
+</td></tr>
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0; padding-left:50; padding-right:50; padding-top:30; padding-bottom:30;">
+SELECTING &quot;NO SPERM SEEN&quot;<br />WILL OVERRIDE RESULTS<br />CONTINUE?
+</td></tr>
+</table>
+</div>
+
+<div id='25'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+MANUAL RESULTS NOT ENTERED<br />ONLY AUTOMATED RESULTS<br />WILL BE REPORTED<br />CONTINUE?
+</td></tr>
+</table>
+</div>
+
+<div id='26'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+SAVE CHANGES?
+</td></tr>
+</table>
+</div>
+
+<div id='27' class="style1" style="display: none;">
+<img style="margin-left: 380; margin-top: 48; margin-bottom:10" border="0" src="../Images/exclamationmed.png" alt="exclamationmed" align="middle" width="117" height="103">
+<p style="font-family:Arial Unicode MS; font-weight:bold; font-size:22; text-align:center; line-height:1.5; margin-top:30;">PLEASE NOTE:<br />THIS TEST WAS RUN BASED ON THE FOLLOWING SETTINGS</p>
+<table style="width:800; margin-left:50";>
+<tr><td style="font-family:Arial Unicode MS;font-size:20; font-weight:bold; color:#000000; margin-left:10; line-height:1.5; margin-top:80;">LES:<br />CONC. STANDARD:<br />CRITERIA:<br />DEBRIS SCAN CUTOFF:<br />MORPHOLOGY TEST TYPE:<br />MORPHOLOGY COUNT TYPE:<br />VITALITY COUNT TYPE:
+</td>
+<td style="font-family:Arial Unicode MS;font-size:20; font-weight:normal; color:#000000; margin-left:10; line-height:1.5; margin-top:80; text-align:right;">VALUE<br />VALUE<br />VALUE<br />VALUE<br />VALUE<br />VALUE<br />VALUE</td></tr>
+</table>
+</div>
+
+<div id='28' class="style1" style="display: none;">
+<table border="0" width="870" height="390">
+<tr><td valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamationmed.png" alt="exclamationmed">
+</td></tr>
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0; padding:50;">
+PLEASE CONFIRM:<br />CLOSE LONGEVITY SESSION?
+</td></tr>
+</table>
+</div>
+
+<div id='29'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+WHAT DO YOU WANT TO DO<br /> WITH THE IMAGES?
+</td></tr>
+</table>
+</div>
+
+<div id='30'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+DO YOU WANT TO DELETE<br /> <script>
+
+                                document.write(' ' + Value + ' ');
+</script>SELECTED IMAGE(S)?
+</td></tr>
+</table>
+</div>
+
+<div id='50'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+DO YOU WANT TO DELETE<br /> <script>
+
+                                document.write(' ' + Value + ' ');
+</script>SELECTED VIDEO(S)?
+</td></tr>
+</table>
+</div>
+
+<div id='32' class="style1" style="display: none;">
+<table border="0" width="870" height="390">
+<tr><td valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamationmed.png" alt="exclamationmed">
+</td></tr>
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0; padding:50;">
+% MOTILITY &gt; % VITALITY
+</td></tr>
+</table>
+</div>
+
+<div id='33'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+DO YOU WANT TO SAVE<br />THE LAST COUNT?
+</td></tr>
+</table>
+</div>
+
+<div id='34'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+MICROSOFT EXCEL REQUIRED FOR DATA EXPORT
+</td></tr>
+</table>
+</div>
+
+<div id='35'  style="display: none;">
+<table border="0" width="870" height="390">
+<tr><td align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0; padding-left:50; padding-right:50; padding-top:100;">
+ADOBE READER REQUIRED TO VIEW REPORTS
+</td></tr>
+</table>
+</div>
+
+<div id='36' class="style1" style="display: none;">
+<table border="0" width="870" height="390">
+<tr><td valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamationmed.png" alt="exclamationmed">
+</td></tr>
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0; padding-top:10; padding-left:50; padding-right:50;">
+DELETE THE SELECTED<br />RECORD(S)?
+</td></tr>
+</table>
+</div>
+
+<div id='37'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+DATE RANGE NOT VALID<br />PLEASE RE-ENTER
+</td></tr>
+</table>
+</div>
+
+<div id='38'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+PLEASE SELECT A RECORD
+</td></tr>
+</table>
+</div>
+
+<div id='39'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+PLEASE OPEN ONLY ONE<br />RECORD AT A TIME
+</td></tr>
+</table>
+</div>
+
+<div id='41'  style="display: none;">
+<table border="0" width="870" height="390">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0; padding-top:70; padding-left:50; padding-right:50;">
+SYSTEM IS BUSY
+</td></tr>
+</table>
+</div>
+
+<div id='42'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+SAVE SETTINGS?
+</td></tr>
+</table>
+</div>
+
+<div id='43'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+CLEAR ALL DATA?
+</td></tr>
+</table>
+</div>
+
+<div id='44'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+DATA INPUT ERROR<br />RE-ENTER THE VALUE
+</td></tr>
+</table>
+</div>
+
+<div id='45'  style="display: none;">
+<table border="0" width="870" height="490" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+PLEASE ENTER MISSING DATA
+</td></tr>
+</table>
+</div>
+
+<div id='46' class="style1" style="display: none;">
+<table border="0" width="870" height="390">
+<tr><td valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamationmed.png" alt="exclamationmed">
+</td></tr>
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0; padding:50;">
+RESTORE DEFAULT SETTINGS?
+</td></tr>
+</table>
+</div>
+
+<div id='48' class="style1" style="display: none;">
+<table border="0" width="870" height="390">
+<tr><td valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamationmed.png" alt="exclamationmed">
+</td></tr>
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0; padding-top:10; padding-left:50; padding-right:50;">
+ARE YOU SURE YOU<br />WANT TO EXIT?
+</td></tr>
+</table>
+</div>
+
+<div id='49'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+BACKUP SCHEDULED</br><script>
+
+                    document.write(' ' + Value + ' ');
+</script><br />START BACKUP NOW?
+</td></tr>
+</table>
+
+</div>
+
+<div id='51'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+THE INITIAL VOLUME IS GREATER THAN THE TOTAL VOLUME<br />PLEASE RE-ENTER
+</td></tr>
+</table>
+</div>
+
+<div id='53'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+THE FINAL VOLUME IS GREATER<br />THAN THE INITIAL VOLUME<br />PLEASE RE-ENTER
+</td></tr>
+</table>
+</div>
+
+<div id='54'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+PLEASE ENTER SERVICE SCREEN<br />ON THE DEVICE
+</td></tr>
+</table>
+</div>
+
+<div id='55'  style="display: none;">
+<table border="0" width="870" height="390">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0; padding-left:20; padding-right:20; padding-top:10;">
+THE SYSTEM HAS ENCOUNTERED CRITICAL ERROR AND NEEDS TO CLOSE<br />IF THE PROBLEM PERSISTS, PLEASE CONTACT YOUR LOCAL DISTRIBUTOR
+</td></tr>
+</table>
+</div>
+
+<div id='56'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:1.7; padding-left:50; padding-right:50; padding-top:20;">
+LONGEVITY AUTOMATED TESTING<br />CANNOT BE PERFORMED DUE TO THE<br />LOW QUALITY OF THE SAMPLE.<br />THEREFORE THIS TESTING SESSION<br />IS CLOSED. ALL AUTOMATED TEST<br />RESULTS WILL BE SAVED
+</td></tr>
+</table>
+</div>
+
+<div id='57'  style="display: none;">
+<table border="0" width="870" height="390">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0; padding-left:50; padding-right:50; padding-top:30;">
+CRITICAL DATABASE ERROR<br />CALL FOR TECHNICAL SUPPORT
+</td></tr>
+</table>
+</div>
+
+<div id='83'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+VOLUME VALUE SHOULD BE &gt; 0<br />PLEASE RE-ENTER
+</td></tr>
+</table>
+</div>
+
+<div id='84'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+RESULTS OUT OF DYNAMIC RANGE<br />PLEASE RE-ASSESS<br />% TOTAL MOTILITY
+</td></tr>
+</table>
+</div>
+
+<div id='88'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+% VITALITY &gt; 100%
+</td></tr>
+</table>
+</div>
+
+<div id='93'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+THE SUM OF THE % MORPHOLOGY DIFFERENTIAL RESULTS IS &gt; 100%
+</td></tr>
+</table>
+</div>
+
+<div id='94'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+THE SUM OF THE % MORPHOLOGY DIFFERENTIAL RESULTS IS &lt; 100%<br />RE-ENTER COUNTS
+</td></tr>
+</table>
+</div>
+
+<div id='95'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+THE DATE SELECTED<br />IS IN THE FUTURE<br />PLEASE RE-ENTER A NEW DATE
+</td></tr>
+</table>
+</div>
+
+<div id='96'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+VOLUME VALUE SHOULD BE &gt; 0<br />PLEASE RE-ENTER OR LEAVE EMPTY
+</td></tr>
+</table>
+</div>
+
+<div id='97'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+% NORMAL FORMS &gt; 100%
+</td></tr>
+</table>
+</div>
+
+<div id='98'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+INCOMPLETE SETUP<br />FINISH ENTERING DATA<br />TO SETUP AUTHORIZED USER
+</td></tr>
+</table>
+</div>
+
+<div id='99'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+CANNOT DELETE USER<br />THIS USER IS LINKED TO A TEST
+</td></tr>
+</table>
+</div>
+
+<div id='100'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+THIS USER ALREADY EXISTS
+</td></tr>
+</table>
+</div>
+
+<div id='101'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+ARE YOU SURE YOU WANT<br /> TO SWITCH TO FRESH MODE?
+</td></tr>
+</table>
+</div>
+
+<div id='102'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+DELETE THE SELECTED USER?
+</td></tr>
+</table>
+</div>
+
+<div id='106'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+PLEASE SELECT A PROGRAM<br /> TO OPEN FLEXIBLE REPORTS
+</td></tr>
+</table>
+</div>
+
+<div id='109'  style="display: none;">
+<table border="0" width="870" height="410" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+MLF IS INCORRECT AND CAUSES<br />AN OVERFLOW<br />PLEASE ENTER A CORRECT VALUE
+</td></tr>
+</table>
+</div>
+
+<div id='110'  style="display: none;">
+<table border="0" width="870" height="410" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+PMLF IS INCORRECT AND CAUSES<br />AN OVERFLOW<br />PLEASE ENTER A CORRECT VALUE
+</td></tr>
+</table>
+</div>
+
+<div id='111'  style="display: none;">
+<table border="0" width="870" height="410" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+DOSING SETUP ERROR OR<br />POOR QUALITY SAMPLE
+</td></tr>
+</table>
+</div>
+
+<div id='112'  style="display: none;">
+<table border="0" width="870" height="410" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+ALL MAINTENANCE TASKS SHOULD BE COMPLETED<br />BEFORE STARTING A TEST
+</td></tr>
+</table>
+</div>
+
+<div id='113'  style="display: none;">
+<table border="0" width="870" height="410" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+THE DONATION # WAS ALREADY USED<br />TO PERFORM THE SELECTED TEST
+</td></tr>
+</table>
+</div>
+
+<div id='114'  style="display: none;">
+<table border="0" width="870" height="410" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+THE DONATION # IS ALREADY CONNECTED<br />TO A DIFFERENT DONOR ID
+</td></tr>
+</table>
+</div>
+
+
+<div id='117' style="display:none;">
+<table border="0">
+<tr><td width="870" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:1.5; padding-top:60; padding-bottom:0; padding-left:200;">
+PLEASE ENTER:</td></tr>
+<tr style="height:200;"><td valign="middle" style="padding-left:200;">
+<div>
+<ul style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:1.5; text-align:left;">
+<li>DONOR ID</li>
+<li>DONATION #</li>
+<li>VOLUME</li>
+<li>WBC CONCENTRATION</li>
+</ul>
+</div></td></tr>
+</table>
+</div>
+
+<div id='118'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+TOTAL SPERM # < IMMOTILE SPERM #<br />PLEASE RE-ENTER
+</td></tr>
+</table>
+</div>
+
+<div id='119' style="display:none;">
+<table border="0">
+<tr><td width="870" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:1.5; padding-top:90; padding-bottom:0; padding-left:280;">
+PLEASE ENTER:</td></tr>
+<tr style="height:200;"><td valign="middle" style="padding-left:280;">
+<div>
+<ul style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:1.5; text-align:left;">
+<li>DONOR ID</li>
+<li>DONATION #</li>
+<li>VOLUME</li>
+</ul>
+</div></td></tr>
+</table>
+</div>
+
+<div id='120' style="display: none;">
+    <table border="0" width="870" height="390" cellpadding="50">
+        <tr>
+            <td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+                INCORRECT MEASUREMENT ORDER.<br />MEASURE THE SPERM CORE FIRST <br />AND THEN THE HALO
+            </td>
+        </tr>
+    </table>
+</div>
+
+</body>
+
+
+<script type="text/javascript">
+
+    // =======================
+    // Show the relevant block
+    // =======================
+    
+    switch (Message) {
+        case "9":
+            showHide("9");
+            break;
+
+        case "10":
+            showHide("10");
+            break;
+
+        case "11":
+            showHide("11");
+            break;
+
+        case "12":
+            showHide("12");
+            break;
+
+        case "13":
+            showHide("13");
+            break;
+
+        case "14":
+            showHide("14");
+            break;
+
+        case "15":
+            showHide("15");
+            break;
+
+        case "16":
+            showHide("16");
+            break;
+
+        case "17":
+            showHide("17");
+            break;
+
+        case "18":
+            showHide("18");
+            break;
+
+        case "19":
+            showHide("19");
+            break;
+
+        case "20":
+            showHide("20");
+            break;
+
+        case "21":
+            showHide("21");
+            break;
+
+        case "22":
+            showHide("22");
+            break;
+
+        case "23":
+            showHide("23");
+            break;
+
+        case "24":
+            showHide("24");
+            break;
+
+        case "25":
+            showHide("25");
+            break;
+
+        case "26":
+            showHide("26");
+            break;
+
+        case "27":
+            showHide("27");
+            break;
+
+        case "28":
+            showHide("28");
+            break;
+
+        case "29":
+            showHide("29");
+            break;
+
+        case "30":
+            showHide("30");
+            break;
+
+        case "32":
+            showHide("32");
+            break;
+
+        case "33":
+            showHide("33");
+            break;
+
+        case "34":
+            showHide("34");
+            break;
+
+        case "35":
+            showHide("35");
+            break;
+
+        case "36":
+            showHide("36");
+            break;
+
+        case "37":
+            showHide("37");
+            break;
+
+        case "38":
+            showHide("38");
+            break;
+
+        case "39":
+            showHide("39");
+            break;
+
+        case "41":
+            showHide("41");
+            break;
+
+        case "42":
+            showHide("42");
+            break;
+
+        case "43":
+            showHide("43");
+            break;
+
+        case "44":
+            showHide("44");
+            break;
+
+        case "45":
+            showHide("45");
+            break;
+
+        case "46":
+            showHide("46");
+            break;
+
+        case "48":
+            showHide("48");
+            break;
+
+        case "49":
+            showHide("49");
+            break;
+
+        case "50":
+            showHide("50");
+            break;
+
+        case "51":
+            showHide("51");
+            break;
+
+        case "52":
+            showHide("52");
+            break;
+
+        case "53":
+            showHide("53");
+            break;
+
+        case "54":
+            showHide("54");
+            break;
+
+        case "55":
+            showHide("55");
+            break;
+
+        case "56":
+            showHide("56");
+            break;
+
+        case "57":
+            showHide("57");
+            break;
+
+        case "82":
+            showHide("82");
+            break;
+
+        case "83":
+            showHide("83");
+            break;
+
+        case "84":
+            showHide("84");
+            break;
+
+        case "88":
+            showHide("88");
+            break;
+
+        case "93":
+            showHide("93");
+            break;
+
+        case "94":
+            showHide("94");
+            break;
+
+        case "95":
+            showHide("95");
+            break;
+
+        case "96":
+            showHide("96");
+            break;
+
+        case "97":
+            showHide("97");
+            break;
+
+        case "98":
+            showHide("98");
+            break;
+
+        case "99":
+            showHide("99");
+            break;
+
+        case "100":
+            showHide("100");
+            break;
+
+        case "101":
+            showHide("101");
+            break;
+
+        case "102":
+            showHide("102");
+            break;
+
+        case "106":
+            showHide("106");
+            break;
+
+	case "109":
+            showHide("109");
+            break;
+
+        case "110":
+            showHide("110");
+            break;
+
+        case "111":
+            showHide("111");
+            break;
+
+	case "112":
+            showHide("112");
+            break;
+
+	case "113":
+            showHide("113");
+            break;
+
+	case "114":
+            showHide("114");
+            break;
+
+
+	case "117":
+            showHide("117");
+            break;
+
+	case "118":
+            showHide("118");
+            break;
+
+	case "119":
+            showHide("119");
+            break;
+    case "120":
+            showHide("120");
+            break;
+    }
+
+</script>
+
+</html>

@@ -1,0 +1,574 @@
+﻿<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+    <style type="text/css">
+        .style1
+        {
+            font-size: x-large;
+        }
+    </style>
+</head>
+
+
+<script type="text/javascript">
+
+// ===================================
+// A function to Show Div Block
+// ===================================
+function showHide(elstring){
+    var el = document.getElementById(elstring);
+    el.style.display = 'block';
+}
+
+// =============================================================
+// A function to retrive a parameter from the get (address) link
+// =============================================================
+function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split('=');
+            if (decodeURIComponent(pair[0]) == variable) {
+                return decodeURIComponent(pair[1]);
+            }
+        }
+    }
+    function delayer(){
+        window.location = getQueryVariable('url')
+    }
+
+
+// ======================================
+// Extract and assign global Parameters
+// ======================================
+
+var Message = getQueryVariable("Message");
+
+
+</script>
+
+
+<body background="../Images/Background.png">
+
+<!-- File data File name: IconMessages  Version: 103.11.2  Language: English  Updated: 15 December 2019 CHANGES: New version assignment -->
+
+<div id='50'  style="display: none;">
+<table border="0" width="870" height="490" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+REFERENCE 1 PASSED THE SELF-TEST<br />ACCEPTABLE RANGE: 150mV - 350mV
+</td></tr>
+</table>
+</div>
+
+<div id='51'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+REFERENCE 1 FAILED THE SELF-TEST<br />ACCEPTABLE RANGE: 150mV - 350mV
+</td></tr>
+</table>
+</div>
+
+<div id='52'  style="display: none;">
+<table border="0" width="870" height="490" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+LED CURRENT 1 PASSED<br /> THE SELF-TEST<br />ACCEPTABLE RANGE: 5mA - 20mA
+</td></tr>
+</table>
+</div>
+
+<div id='53'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+LED CURRENT 1 FAILED<br /> THE SELF-TEST<br />ACCEPTABLE RANGE: 5mA - 20mA
+</td></tr>
+</table>
+</div>
+
+<div id='54'  style="display: none;">
+<table border="0" width="870" height="490" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+REFERENCE 2 PASSED THE SELF-TEST<br />ACCEPTABLE RANGE:<br />2500mV - 3500mV
+</td></tr>
+</table>
+</div>
+
+<div id='55'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+REFERENCE 2 PASSED THE SELF-TEST BUT IS NOT OPTIMAL<br />OPTIMAL RANGE: 2800mV - 3200mV
+</td></tr>
+</table>
+</div>
+
+<div id='56'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+REFERENCE 2 FAILED THE SELF-TEST<br />ACCEPTABLE RANGE:<br />2500mV - 3500mV
+</td></tr>
+</table>
+</div>
+
+<div id='57'  style="display: none;">
+<table border="0" width="870" height="490" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+LED CURRENT 2 PASSED<br />THE SELF-TEST<br />ACCEPTABLE RANGE: 10mA - 32mA
+</td></tr>
+</table>
+</div>
+
+<div id='58'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+LED CURRENT 2 FAILED<br />THE SELF-TEST<br />ACCEPTABLE RANGE: 10mA - 32mA
+</td></tr>
+</table>
+</div>
+
+<div id='59'  style="display: none;">
+<table border="0" width="870" height="490" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+ZERO LEVEL PASSED THE SELF-TEST<br />ACCEPTABLE RANGE: 500 - 525
+</td></tr>
+</table>
+</div>
+
+<div id='61'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+ZERO LEVEL FAILED THE SELF-TEST<br />ACCEPTABLE RANGE: 500 - 525
+</td></tr>
+</table>
+</div>
+
+<div id='62'  style="display: none;">
+<table border="0" width="870" height="490" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+SELF-TEST: PASSED
+</td></tr>
+</table>
+</div>
+
+<div id='63'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+SELF-TEST FAILED<br />PLEASE OPEN TROUBLESHOOTING GUIDE
+</td></tr>
+</table>
+</div>
+
+<div id='64'  style="display: none;">
+<table border="0" width="870" height="490" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+AUTO CALIBRATION AND STABILIZATION TEST: PASSED
+</td></tr>
+</table>
+</div>
+
+<div id='65'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+CALIBRATION AND<br />STABILIZATION FAILED<br />PLEASE OPEN<br />TROUBLESHOOTING GUIDE
+</td></tr>
+</table>
+</div>
+
+<div id='66'  style="display: none;">
+<table border="0" width="870" height="490" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+CONTROL LEVEL 1: PASSED
+</td></tr>
+</table>
+</div>
+
+<div id='67'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+CONTROL LEVEL 1 OUT OF RANGE<br />PLEASE OPEN TROUBLESHOOTING GUIDE
+</td></tr>
+</table>
+</div>
+
+<div id='68'  style="display: none;">
+<table border="0" width="870" height="490" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+CONTROL LEVEL 2: PASSED
+</td></tr>
+</table>
+</div>
+
+<div id='69'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+CONTROL LEVEL 2 OUT OF RANGE<br />PLEASE OPEN TROUBLESHOOTING GUIDE
+</td></tr>
+</table>
+</div>
+
+<div id='70'  style="display: none;">
+<table border="0" width="870" height="490" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+NEGATIVE CONTROL: PASSED
+</td></tr>
+</table>
+</div>
+
+<div id='71'  style="display:none">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+NEGATIVE CONTROL OUT OF RANGE<br />PLEASE OPEN TROUBLESHOOTING GUIDE
+</td></tr>
+</table>
+</div>
+
+<div id='72'  style="display: none;">
+<table border="0" width="870" height="490" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+TEST CREDITS REMAINING: &gt; 10
+</td></tr>
+</table>
+</div>
+
+<div id='73' style="display:none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+TEST CREDITS REMAINING: &lt; 10<br />PLEASE LOAD ADDITIONAL<br />TEST CREDITS
+</td></tr>
+</table>
+</div>
+
+<div id='74'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+TEST CREDITS REMAINING: 0<br />PLEASE LOAD ADDITIONAL<br />TEST CREDITS
+</td></tr>
+</table>
+</div>
+
+<div id='75' style="display:none;">
+<table border="0" width="870" height="490" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+THE SYSTEM WAS BACKED-UP<br />AS SCHEDULED
+</td></tr>
+</table>
+</div>
+
+<div id='76'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+A SYSTEM BACKUP NEEDS TO BE PERFORMED
+</td></tr>
+</table>
+</div>
+
+<div id='77'  style="display: none;">
+<table border="0" width="870" height="490" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+THERE IS STILL HDD SPACE REMAINING<br />(USAGE &lt; 80%)
+</td></tr>
+</table>
+</div>
+
+<div id='78'  style="display: none;">
+<table border="0" width="870" height="390">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0; padding-left:50; padding-right:50; padding-top:20;">
+IT IS RECOMMENDED THAT YOU FREE SOME HDD SPACE<br />DELETE UNUSED FILES
+</td></tr>
+</table>
+</div>
+
+<div id='79'  style="display: none;">
+<table border="0" width="870" height="390">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0; padding-left:50; padding-right:50; padding-top:10;">
+THE HDD IS OUT OF SPACE<br />PLEASE DELETE UNUSED FILES TO FREE-UP SPACE
+</td></tr>
+</table>
+</div>
+
+<div id='80'  style="display: none;">
+<table border="0" width="870" height="490" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+CONTROL LEVEL 3: PASSED
+</td></tr>
+</table>
+</div>
+
+<div id='81'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+CONTROL LEVEL 3 OUT OF RANGE<br /> PLEASE OPEN TROUBLESHOOTING GUIDE
+</td></tr>
+</table>
+</div>
+
+<div id='85'  style="display: none;">
+<table border="0" width="870" height="490" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+AMPLITUDE PASSED THE SELF-TEST ACCEPTABLE RANGE: 50mV - 100mV
+</td></tr>
+</table>
+</div>
+
+<div id='86'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+AMPLITUDE FAILED THE SELF-TEST ACCEPTABLE RANGE: 50mV - 100mV
+</td></tr>
+</table>
+</div>
+
+<div id='89'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+MESSQAV.mdf FILE WAS NOT FOUND IN SQA-VISION'S LOCAL PATH
+</td></tr>
+</table>
+</div>
+
+<div id='90'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+ERROR DURING BACKUP PROCESS
+</td></tr>
+</table>
+</div>
+
+<div id='91'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+BACKUP DESCRIPTION FILE WAS NOT SAVED. THIS ERROR DOES NOT CAUSE THE BACKUP PROCESS TO FAIL, SO YOU MAY IGNORE IT
+</td></tr>
+</table>
+</div>
+
+<div id='92'  style="display:none;">
+<table border="0" width="870" height="490" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+BACKUP PROCESS HAS BEEN FINISHED SUCCESSFULLY
+</td></tr>
+</table>
+</div>
+
+<div id='103'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+CONTROL LEVEL 1 STATUS<br />IS NOT DEFINED
+</td></tr>
+</table>
+</div>
+
+<div id='104'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+CONTROL LEVEL 2 STATUS<br />IS NOT DEFINED
+</td></tr>
+</table>
+</div>
+
+<div id='105'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+CONTROL LEVEL 3 STATUS<br />IS NOT DEFINED
+</td></tr>
+</table>
+</div>
+
+<div id='107'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+BACKUP OPERATION</br>CANNOT BE PERFORMED</br>NOT ENOUGH SPACE TO SAVE THE FILES
+</td></tr>
+</table>
+</div>
+
+<div id='108'  style="display: none;">
+<table border="0" width="870" height="390" cellpadding="50">
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; line-height:2.0;">
+BACKUP ERROR</br>PLEASE ENTER A VALID</br>DESTINATION PATH
+</td></tr>
+</table>
+</div>
+
+</body>
+
+
+
+<script type="text/javascript">
+
+    // =======================
+    // Show the relevant block
+    // =======================
+    
+    switch (Message) {
+        case "50":
+            showHide("50");
+            break;
+
+        case "51":
+            showHide("51");
+            break;
+
+        case "52":
+            showHide("52");
+            break;
+
+        case "53":
+            showHide("53");
+            break;
+
+        case "54":
+            showHide("54");
+            break;
+
+        case "55":
+            showHide("55");
+            break;
+
+        case "56":
+            showHide("56");
+            break;
+
+        case "57":
+            showHide("57");
+            break;
+
+        case "58":
+            showHide("58");
+            break;
+
+        case "59":
+            showHide("59");
+            break;
+
+        case "61":
+            showHide("61");
+            break;
+
+        case "62":
+            showHide("62");
+            break;
+
+        case "63":
+            showHide("63");
+            break;
+
+        case "64":
+            showHide("64");
+            break;
+
+        case "65":
+            showHide("65");
+            break;
+
+        case "66":
+            showHide("66");
+            break;
+
+        case "67":
+            showHide("67");
+            break;
+
+        case "68":
+            showHide("68");
+            break;
+
+        case "69":
+            showHide("69");
+            break;
+
+        case "70":
+            showHide("70");
+            break;
+
+        case "71":
+            showHide("71");
+            break;
+
+        case "72":
+            showHide("72");
+            break;
+
+        case "73":
+            showHide("73");
+            break;
+
+        case "74":
+            showHide("74");
+            break;
+
+        case "75":
+            showHide("75");
+            break;
+
+        case "76":
+            showHide("76");
+            break;
+
+        case "77":
+            showHide("77");
+            break;
+
+        case "78":
+            showHide("78");
+            break;
+
+        case "79":
+            showHide("79");
+            break;
+
+        case "80":
+            showHide("80");
+            break;
+
+        case "81":
+            showHide("81");
+            break;
+
+        case "85":
+            showHide("85");
+            break;
+
+        case "86":
+            showHide("86");
+            break;
+
+        case "89":
+            showHide("89");
+            break;
+
+        case "90":
+            showHide("90");
+            break;
+
+        case "91":
+            showHide("91");
+            break;
+
+        case "92":
+            showHide("92");
+            break;
+
+        case "103":
+            showHide("103");
+            break;
+
+        case "104":
+            showHide("104");
+            break;
+
+        case "105":
+            showHide("105");
+            break;
+			
+	case "107":
+            showHide("107");
+            break;
+
+        case "108":
+            showHide("108");
+            break;
+
+    }
+
+</script>
+
+</html>

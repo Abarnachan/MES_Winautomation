@@ -1,0 +1,799 @@
+﻿<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+    <style type="text/css">
+        .style1
+        {
+            font-size: x-large;
+        }
+    </style>
+</head>
+
+
+<script type="text/javascript">
+
+// ===================================
+// A function to Show Div Block
+// ===================================
+function showHide(elstring){
+    var el = document.getElementById(elstring);
+    el.style.display = 'block';
+}
+
+// =============================================================
+// A function to retrive a parameter from the get (address) link
+// =============================================================
+function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split('=');
+            if (decodeURIComponent(pair[0]) == variable) {
+                return decodeURIComponent(pair[1]);
+            }
+        }
+    }
+    function delayer(){
+        window.location = getQueryVariable('url')
+    }
+
+
+// ======================================
+// Extract and assign global Parameters
+// ======================================
+var TestType = getQueryVariable("testtype");
+var Status = getQueryVariable("Status");
+var SampleTested = getQueryVariable("SampleTested");
+var LongStep = getQueryVariable("LongStep");
+
+</script>
+
+
+<body background="../Images/Background.png">
+
+<!-- File name: TestFlowMessages  Version: 103.11.2  Language: English  Updated: 15 December 2019 CHANGES: Messages "InsertPreFreezeUp", "CalPreFreezeUp", "InsertPostThawUp", "CalPostThawUp" editing.  -->
+
+<div id='InsertFreshNorm' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;line-height:1.0; padding-top:150; padding-bottom:20;">
+PLEASE INSERT TESTING CAPILLARY</p>
+<p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#1e90ff; text-align:center; line-height:0.8; margin-top:42;">(FRESH SAMPLE)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:50; padding-bottom:20; padding-left:220;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY WITH SEMEN SAMPLE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+<div id='CalFreshNorm' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamation.png" alt="exclamation">
+</td></tr>
+<tr><td valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;text-align:center;line-height:1.0; padding-top:10; padding-bottom:10;">
+SYSTEM IS CALIBRATING<br />DO NOT INSERT CAPILLARY</p>
+<p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; text-align:center; line-height:0.8;">(FRESH SAMPLE)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:50; padding-bottom:20; padding-left:220;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY WITH SEMEN SAMPLE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+
+<div id='InsertWashedNorm' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;line-height:1.0; padding-top:150; padding-bottom:20;">
+PLEASE INSERT TESTING CAPILLARY</p>
+<p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#1e90ff; text-align:center; line-height:0.8; margin-top:42;">(WASHED SAMPLE)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:50; padding-bottom:20; padding-left:220;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY WITH SEMEN SAMPLE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+<div id='CalWashedNorm' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamation.png" alt="exclamation">
+</td></tr>
+<tr><td valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;text-align:center;line-height:1.0; padding-top:10; padding-bottom:10;">
+SYSTEM IS CALIBRATING<br />DO NOT INSERT CAPILLARY</p>
+<p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; text-align:center; line-height:0.8;">(WASHED SAMPLE)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:50; padding-bottom:20; padding-left:220;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY WITH SEMEN SAMPLE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+
+<div id='InsertPostVas' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;line-height:1.0; padding-top:150; padding-bottom:20;">
+PLEASE INSERT TESTING CAPILLARY</p>
+<p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#1e90ff; text-align:center; line-height:0.8; margin-top:42;">(POST VASECTOMY TEST)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:50; padding-bottom:20; padding-left:220;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY WITH SEMEN SAMPLE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+<div id='CalPostVas' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamation.png" alt="exclamation">
+</td></tr>
+<tr><td valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;text-align:center;line-height:1.0; padding-top:10; padding-bottom:10;">
+SYSTEM IS CALIBRATING<br />DO NOT INSERT CAPILLARY</p>
+<p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; text-align:center; line-height:0.8;">(POST VASECTOMY TEST)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:50; padding-bottom:20; padding-left:220;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY WITH SEMEN SAMPLE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+
+<div id='InsertLongFirst' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;line-height:1.0; padding-top:150; padding-bottom:20;">
+PLEASE INSERT TESTING CAPILLARY</p>
+<p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#1e90ff; text-align:center; line-height:0.8; margin-top:42;">(LONGEVITY TEST)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:50; padding-bottom:20; padding-left:220;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY WITH SEMEN SAMPLE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+<div id='CalLongFirst' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamation.png" alt="exclamation">
+</td></tr>
+<tr><td valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;text-align:center;line-height:1.0; padding-top:10; padding-bottom:10;">
+SYSTEM IS CALIBRATING<br />DO NOT INSERT CAPILLARY</p>
+<p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; text-align:center; line-height:0.8;">(LONGEVITY TEST)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:50; padding-bottom:20; padding-left:220;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY WITH SEMEN SAMPLE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+
+<div id='InsertFreshMicro' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;line-height:1.0; padding-top:150; padding-bottom:20;">
+PLEASE INSERT TESTING CAPILLARY</p>
+<p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#1e90ff; text-align:center; line-height:0.8; margin-top:42;">(FRESH SAMPLE)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:30; padding-left:200;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY TIP WITH 10 MICROLITER SEMEN SAMPLE</li>
+<li>REMOVE SEPARATOR VALVE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+<div id='CalFreshMicro' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamation.png" alt="exclamation">
+</td></tr>
+<tr><td valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;text-align:center;line-height:1.0; padding-top:10; padding-bottom:10;">
+SYSTEM IS CALIBRATING<br />DO NOT INSERT CAPILLARY</p>
+<p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; text-align:center; line-height:0.8;">(FRESH SAMPLE)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:30; padding-left:200;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY TIP WITH 10 MICROLITER SEMEN SAMPLE</li>
+<li>REMOVE SEPARATOR VALVE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+
+<div id='InsertWashedMicro' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;line-height:1.0; padding-top:150; padding-bottom:20;">
+PLEASE INSERT TESTING CAPILLARY</p><p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#1e90ff; text-align:center; line-height:0.8; margin-top:42;">(WASHED SAMPLE)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:30; padding-left:200;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY TIP WITH 10 MICROLITER SEMEN SAMPLE</li>
+<li>REMOVE SEPARATOR VALVE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+<div id='CalWashedMicro' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamation.png" alt="exclamation">
+</td></tr>
+<tr><td valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;text-align:center;line-height:1.0; padding-top:10; padding-bottom:10;">
+SYSTEM IS CALIBRATING<br />DO NOT INSERT CAPILLARY</p>
+<p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; text-align:center; line-height:0.8;">(WASHED SAMPLE)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:30; padding-left:200;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY TIP WITH 10 MICROLITER SEMEN SAMPLE</li>
+<li>REMOVE SEPARATOR VALVE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+
+<div id='InsertSwimUp' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;line-height:1.0; padding-top:150; padding-bottom:20;">
+PLEASE INSERT TESTING CAPILLARY</p><p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#1e90ff; text-align:center; line-height:0.8; margin-top:42;">(SWIM UP TEST)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:30; padding-left:200;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY TIP WITH 10 MICROLITER SEMEN SAMPLE</li>
+<li>REMOVE SEPARATOR VALVE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+<div id='CalSwimUp' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamation.png" alt="exclamation">
+</td></tr>
+<tr><td valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;text-align:center;line-height:1.0; padding-top:10; padding-bottom:10;">
+SYSTEM IS CALIBRATING<br />DO NOT INSERT CAPILLARY</p>
+<p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; text-align:center; line-height:0.8;">(SWIM UP TEST)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:30; padding-left:200;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY TIP WITH 10 MICROLITER SEMEN SAMPLE</li>
+<li>REMOVE SEPARATOR VALVE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+
+<div id='InsertGrad' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;line-height:1.0; padding-top:150; padding-bottom:20;">
+PLEASE INSERT TESTING CAPILLARY</p><p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#1e90ff; text-align:center; line-height:0.8; margin-top:42;">(GRADIENT TEST)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:30; padding-left:200;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY TIP WITH 10 MICROLITER SEMEN SAMPLE</li>
+<li>REMOVE SEPARATOR VALVE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+<div id='CalGrad' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamation.png" alt="exclamation">
+</td></tr>
+<tr><td valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;text-align:center;line-height:1.0; padding-top:10; padding-bottom:10;">
+SYSTEM IS CALIBRATING<br />DO NOT INSERT CAPILLARY</p>
+<p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; text-align:center; line-height:0.8;">(GRADIENT TEST)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:30; padding-left:200;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY TIP WITH 10 MICROLITER SEMEN SAMPLE</li>
+<li>REMOVE SEPARATOR VALVE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+
+<div id='InsertFrozen' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;line-height:1.0; padding-top:150; padding-bottom:20;">
+PLEASE INSERT TESTING CAPILLARY</p><p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#1e90ff; text-align:center; line-height:0.8; margin-top:42;">(FROZEN  SAMPLE)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:30; padding-left:200;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY TIP WITH 10 MICROLITER SEMEN SAMPLE</li>
+<li>REMOVE SEPARATOR VALVE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+<div id='CalFrozen' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamation.png" alt="exclamation">
+</td></tr>
+<tr><td valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;text-align:center;line-height:1.0; padding-top:10; padding-bottom:10;">
+SYSTEM IS CALIBRATING<br />DO NOT INSERT CAPILLARY</p>
+<p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; text-align:center; line-height:0.8;">(FROZEN  SAMPLE)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:30; padding-left:200;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY TIP WITH 10 MICROLITER SEMEN SAMPLE</li>
+<li>REMOVE SEPARATOR VALVE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+
+<div id='InsertPreFreezeUp' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;line-height:1.0; padding-top:150; padding-bottom:20;">
+PLEASE INSERT TESTING CAPILLARY</p><p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#1e90ff; text-align:center; line-height:0.8; margin-top:42;">(PRE-FREEZE TEST)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:30; padding-left:200;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY TIP WITH 10 MICROLITER SEMEN SAMPLE</li>
+<li>REMOVE SEPARATOR VALVE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+<div id='CalPreFreezeUp' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamation.png" alt="exclamation">
+</td></tr>
+<tr><td valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;text-align:center;line-height:1.0; padding-top:10; padding-bottom:10;">
+SYSTEM IS CALIBRATING<br />DO NOT INSERT CAPILLARY</p>
+<p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; text-align:center; line-height:0.8;">(PRE-FREEZE TEST)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:30; padding-left:200;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY TIP WITH 10 MICROLITER SEMEN SAMPLE</li>
+<li>REMOVE SEPARATOR VALVE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+<div id='InsertPostThawUp' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;line-height:1.0; padding-top:150; padding-bottom:20;">
+PLEASE INSERT TESTING CAPILLARY</p><p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#1e90ff; text-align:center; line-height:0.8; margin-top:42;">(POST-THAW TEST)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:30; padding-left:200;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY TIP WITH 10 MICROLITER SEMEN SAMPLE</li>
+<li>REMOVE SEPARATOR VALVE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+<div id='CalPostThawUp' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamation.png" alt="exclamation">
+</td></tr>
+<tr><td valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;text-align:center;line-height:1.0; padding-top:10; padding-bottom:10;">
+SYSTEM IS CALIBRATING<br />DO NOT INSERT CAPILLARY</p>
+<p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; text-align:center; line-height:0.8;">(POST-THAW TEST)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:30; padding-left:200;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY TIP WITH 10 MICROLITER SEMEN SAMPLE</li>
+<li>REMOVE SEPARATOR VALVE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+
+
+
+<div id='InsertLongMicro' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;line-height:1.0; padding-top:150; padding-bottom:20;">
+PLEASE INSERT TESTING CAPILLARY</p><p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#1e90ff; text-align:center; line-height:0.8; margin-top:42;">(LONGEVITY TEST)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:30; padding-left:200;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY TIP WITH 10 MICROLITER SEMEN SAMPLE</li>
+<li>REMOVE SEPARATOR VALVE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+<div id='CalLongMicro' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamation.png" alt="exclamation">
+</td></tr>
+<tr><td valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;text-align:center;line-height:1.0; padding-top:10; padding-bottom:10;">
+SYSTEM IS CALIBRATING<br />DO NOT INSERT CAPILLARY</p>
+<p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; text-align:center; line-height:0.8;">(LONGEVITY TEST)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:30; padding-left:200;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>FILL CAPILLARY TIP WITH 10 MICROLITER SEMEN SAMPLE</li>
+<li>REMOVE SEPARATOR VALVE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+
+<div id='InsertFreshDiluted' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;line-height:1.0; padding-top:150; padding-bottom:20;">
+PLEASE INSERT TESTING CAPILLARY</p><p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#1e90ff; text-align:center; line-height:0.8; margin-top:42;">(FRESH SAMPLE)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:30; padding-left:220;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>DILUTE SAMPLE (1+1)</li>
+<li>FILL CAPILLARY WITH SEMEN SAMPLE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+<div id='CalFreshDiluted' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamation.png" alt="exclamation">
+</td></tr>
+<tr><td valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;text-align:center;line-height:1.0; padding-top:10; padding-bottom:10;">
+SYSTEM IS CALIBRATING<br />DO NOT INSERT CAPILLARY</p>
+<p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; text-align:center; line-height:0.8;">(FRESH SAMPLE)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:30; padding-left:220;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>DILUTE SAMPLE (1+1)</li>
+<li>FILL CAPILLARY WITH SEMEN SAMPLE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+
+<div id='InsertWashedDiluted' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;line-height:1.0; padding-top:150; padding-bottom:20;">
+PLEASE INSERT TESTING CAPILLARY</p><p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#1e90ff; text-align:center; line-height:0.8; margin-top:42;">(WASHED  SAMPLE)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:30; padding-left:220;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>DILUTE SAMPLE (1+1)</li>
+<li>FILL CAPILLARY WITH SEMEN SAMPLE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+<div id='CalWashedDiluted' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamation.png" alt="exclamation">
+</td></tr>
+<tr><td valign="middle" align="center"><p style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;text-align:center;line-height:1.0; padding-top:10; padding-bottom:10;">
+SYSTEM IS CALIBRATING<br />DO NOT INSERT CAPILLARY</p>
+<p style="font-family:Arial Unicode MS; font-size:38; font-weight:bold; color:#000000; text-align:center; line-height:0.8;">(WASHED  SAMPLE)</p>
+</tr></td>
+<tr><td valign="middle" style="padding-left:50; padding-right:30; padding-top:30; padding-left:220;">
+<div>
+<ol style="font-family:Arial Unicode MS; font-size:26; font-weight:normal; color:#000000; line-height:1.5; text-align:left;">
+<li>MIX THE SEMEN SAMPLE THOROUGHLY</li>
+<li>DILUTE SAMPLE (1+1)</li>
+<li>FILL CAPILLARY WITH SEMEN SAMPLE</li>
+<li>CLEAN, WIPE AND INSPECT CAPILLARY FOR BUBBLES</li>
+</ol>
+</div></td></tr>
+</table>
+</div>
+
+
+
+<div id='Testing' class="style1" style="display: none;">
+<table border="0">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/exclamation.png" alt="exclamation">
+</td></tr>
+<tr><td valign="middle" align="center" style="font-family:Arial Unicode MS;font-size:45px;font-weight:bold;color:#000000;text-align:center;line-height:1.0; padding-top:60; padding-bottom:20;">
+SAMPLE TESTING<br />DO NOT TOUCH THE SYSTEM
+</tr></td>
+</table>
+</div>
+
+<div id='Import' class="style1" style="display: none;">
+<table border="0" cellpadding="50">
+<tr><td width="1200" valign="middle" align="center" style="padding-top:10; padding-bottom:10;">
+<img src="../Images/checkmark.png" alt="checkmark">
+</td></tr>
+<tr height="300"><td valign="middle" align="center" style="font-family:Arial Unicode MS; font-size:45px; font-weight:bold; color:#000000; line-height:2.0; padding-top:50;">
+IMPORTING TEST RESULTS
+</td></tr>
+</table>
+</div>
+
+
+<div id='esc'  style="display: none; font-family:Arial Unicode MS; font-size:20; font-weight:normal; color:#000000; line-height:1.0; margin-left:650; margin-top:40;">
+<br />PRESS ESC ON SQA-VISION TO CANCEL TESTING
+</div>
+
+
+
+</body>
+
+
+
+<script type="text/javascript">
+
+    // =======================
+    // Show the relevant block
+    // =======================
+    
+    switch (Status) {
+        case "Insert":
+            
+            switch (TestType) {
+                case "fresh":
+                    
+                    switch (SampleTested) {
+                        case "normal":
+                            showHide('InsertFreshNorm');
+                            break;
+
+                        case "micro":
+                            showHide("InsertFreshMicro");
+                            break;
+
+                        case "diluted":
+                            showHide("InsertFreshDiluted");
+                            break;
+                    }
+                    break;
+
+                case "washed":
+                    
+                    switch (SampleTested) {
+                        case "normal":
+                            showHide('InsertWashedNorm');
+                            break;
+
+                        case "micro":
+                            showHide("InsertWashedMicro");
+                            break;
+
+                        case "diluted":
+                            showHide("InsertWashedDiluted");
+                            break;
+                    }
+                    break;
+
+                case "postvas":
+                    showHide("InsertPostVas");
+                    break;
+
+                case "swim":
+                    showHide("InsertSwimUp");
+                    break;
+
+                case "grad":
+                    showHide("InsertGrad");
+                    break;
+
+                case "frozen":
+                    showHide("InsertFrozen");
+                    break;
+		case "prefreeze":
+                    showHide("InsertPreFreezeUp");
+                    break;
+		case "postthaw":
+                    showHide("InsertPostThawUp");
+                    break;
+                case "longevity":
+                    
+                    switch (LongStep) {
+                        case "longfirst":
+                            showHide("InsertLongFirst");
+                            break;
+
+                        case "longnext":
+                            showHide("InsertLongMicro");
+                            break;
+                    }
+                    break;
+            }
+            showHide("esc");
+            break;
+
+        case "AutoCal":
+            
+            switch (TestType) {
+                case "fresh":
+                    
+                    switch (SampleTested) {
+                        case "normal":
+                            showHide('CalFreshNorm');
+                            break;
+
+                        case "micro":
+                            showHide("CalFreshMicro");
+                            break;
+
+                        case "diluted":
+                            showHide("CalFreshDiluted");
+                            break;
+                    }
+                    break;
+
+                case "washed":
+                    
+                    switch (SampleTested) {
+                        case "normal":
+                            showHide('CalWashedNorm');
+                            break;
+
+                        case "micro":
+                            showHide("CalWashedMicro");
+                            break;
+
+                        case "diluted":
+                            showHide("CalWashedDiluted");
+                            break;
+                    }
+                    break;
+
+                case "postvas":
+                    showHide("CalPostVas");
+                    break;
+
+                case "swim":
+                    showHide("CalSwimUp");
+                    break;
+
+                case "grad":
+                    showHide("CalGrad");
+                    break;
+
+                case "frozen":
+                    showHide("CalFrozen");
+                    break;
+		case "prefreeze":
+                    showHide("CalPreFreezeUp");
+                    break;
+		case "postthaw":
+                    showHide("CalPostThawUp");
+                    break;
+                case "longevity":
+                    
+                    switch (LongStep) {
+                        case "longfirst":
+                            showHide("CalLongFirst");
+                            break;
+
+                        case "longnext":
+                            showHide("CalLongMicro");
+                            break;
+                    }
+                    break;
+            }
+            break;
+
+        case "Testing":
+            showHide("Testing");
+            break;
+
+        case "Import":
+            showHide("Import");
+            break; 
+    }
+
+</script>
+
+</html>

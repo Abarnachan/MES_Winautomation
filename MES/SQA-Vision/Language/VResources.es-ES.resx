@@ -1,0 +1,5143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="0_2_4" xml:space="preserve">
+    <value>Archivo</value>
+  </data>
+  <data name="0_1_H_Clinical" xml:space="preserve">
+    <value>Clínico</value>
+  </data>
+  <data name="0_1_H_Cryo" xml:space="preserve">
+    <value>Crio-Banco</value>
+  </data>
+  <data name="0_1_T_Exit" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="0_1_T_Time" xml:space="preserve">
+    <value>Para ajuste, doble clic en Fecha/Hora</value>
+  </data>
+  <data name="0_1_T_Help" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="0_1_T_Home" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="0_1_T_LongTimer" xml:space="preserve">
+    <value>Notificación de Temporizador de Longevidad </value>
+  </data>
+  <data name="0_1_T_Minimize" xml:space="preserve">
+    <value>Minimizar</value>
+  </data>
+  <data name="0_1_L_NP" xml:space="preserve">
+    <value>NO REALIZADO</value>
+  </data>
+  <data name="0_1_T_Preview" xml:space="preserve">
+    <value>Video previsualización</value>
+  </data>
+  <data name="0_2_2" xml:space="preserve">
+    <value>CC/Competencia</value>
+  </data>
+  <data name="0_2_5" xml:space="preserve">
+    <value>Servicio</value>
+  </data>
+  <data name="0_2_6" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="0_2_1" xml:space="preserve">
+    <value>Analizar pte</value>
+  </data>
+  <data name="0_2_3" xml:space="preserve">
+    <value>Visualización</value>
+  </data>
+  <data name="1_2_B_Dilution" xml:space="preserve">
+    <value>Dln 1+1</value>
+  </data>
+  <data name="1_2_B_20" xml:space="preserve">
+    <value>10 MICRO</value>
+  </data>
+  <data name="1_1_L_ABNormal" xml:space="preserve">
+    <value>Anormales</value>
+  </data>
+  <data name="1_1_L_Abstinence" xml:space="preserve">
+    <value>Abstinencia (días)</value>
+  </data>
+  <data name="1_2_B_AddIB" xml:space="preserve">
+    <value>añadir</value>
+  </data>
+  <data name="1_1_L_Pat_Age" xml:space="preserve">
+    <value>Edad</value>
+  </data>
+  <data name="1_1_L_Appearance" xml:space="preserve">
+    <value>Apariencia</value>
+  </data>
+  <data name="1_1_L_Pat_BD" xml:space="preserve">
+    <value>Fecha nacimiento</value>
+  </data>
+  <data name="1_1_L_Pat_BDY" xml:space="preserve">
+    <value>Año nacimiento</value>
+  </data>
+  <data name="1_2_B_Cent" xml:space="preserve">
+    <value>Centrifugada</value>
+  </data>
+  <data name="1_2_B_CloseSession" xml:space="preserve">
+    <value>Cerrar sesión</value>
+  </data>
+  <data name="1_1_L_DateColl" xml:space="preserve">
+    <value>Fecha recolecc.</value>
+  </data>
+  <data name="1_1_L_TimeColl" xml:space="preserve">
+    <value>Hora recolección</value>
+  </data>
+  <data name="1_1_L_Comments" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="1_2_B_Continue" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="1_1_L_Decreased" xml:space="preserve">
+    <value>Disminuida</value>
+  </data>
+  <data name="1_2_B_DNA" xml:space="preserve">
+    <value>Fragmentación ADN</value>
+  </data>
+  <data name="1_1_P_MainTestID" xml:space="preserve">
+    <value># de Donación</value>
+  </data>
+  <data name="1_1_P_DonorID" xml:space="preserve">
+    <value>ID donador</value>
+  </data>
+  <data name="1_1_L_FinalVol" xml:space="preserve">
+    <value>Vol. final (mL)</value>
+  </data>
+  <data name="1_1_L_PatientFName" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="1_2_B_Fresh" xml:space="preserve">
+    <value>Fresco</value>
+  </data>
+  <data name="1_2_B_Frozen" xml:space="preserve">
+    <value>Congelado</value>
+  </data>
+  <data name="1_2_B_Grad" xml:space="preserve">
+    <value>Gradiente</value>
+  </data>
+  <data name="1_1_P_IDT" xml:space="preserve">
+    <value>Importando pruebas diarias</value>
+  </data>
+  <data name="1_2_B_Step1" xml:space="preserve">
+    <value>Inicial</value>
+  </data>
+  <data name="1_1_L_INVol" xml:space="preserve">
+    <value>Vol. inicial (mL)</value>
+  </data>
+  <data name="1_1_L_PatientLName" xml:space="preserve">
+    <value>Apellidos</value>
+  </data>
+  <data name="1_1_L_Liquefaction" xml:space="preserve">
+    <value>Licuefacción</value>
+  </data>
+  <data name="1_2_B_Long" xml:space="preserve">
+    <value>Longevidad</value>
+  </data>
+  <data name="1_1_L_Longevity" xml:space="preserve">
+    <value>Longevidad</value>
+  </data>
+  <data name="1_2_B_ManualTT" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="1_2_B_Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="1_2_B_ManualTest" xml:space="preserve">
+    <value>Análisis manual</value>
+  </data>
+  <data name="1_2_B_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="1_1_L_Normal" xml:space="preserve">
+    <value>Normales</value>
+  </data>
+  <data name="1_2_B_Offline" xml:space="preserve">
+    <value>Sin conexión</value>
+  </data>
+  <data name="1_1_L_Optional" xml:space="preserve">
+    <value>Opcional</value>
+  </data>
+  <data name="1_1_L_PatientID" xml:space="preserve">
+    <value>ID Pte</value>
+  </data>
+  <data name="1_1_L_Pending" xml:space="preserve">
+    <value>Pendiente</value>
+  </data>
+  <data name="1_1_L_PH" xml:space="preserve">
+    <value>pH</value>
+  </data>
+  <data name="1_1_H_NoControls1" xml:space="preserve">
+    <value>Por favor seleccionar tipo ensayo</value>
+  </data>
+  <data name="1_2_B_PV" xml:space="preserve">
+    <value>Post vas</value>
+  </data>
+  <data name="1_2_B_STAGE3" xml:space="preserve">
+    <value>PostDescon.</value>
+  </data>
+  <data name="1_2_B_STAGE2" xml:space="preserve">
+    <value>PreCongelac.</value>
+  </data>
+  <data name="1_2_B_Raw" xml:space="preserve">
+    <value>Muestra cruda</value>
+  </data>
+  <data name="1_1_L_DateRec" xml:space="preserve">
+    <value>Fecha recibida</value>
+  </data>
+  <data name="1_1_L_TimeRec" xml:space="preserve">
+    <value>Hora recepción</value>
+  </data>
+  <data name="1_2_B_Retry" xml:space="preserve">
+    <value>Reintentar</value>
+  </data>
+  <data name="1_1_L_SampleID" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="1_2_B_SEMEN" xml:space="preserve">
+    <value>Análisis Semen</value>
+  </data>
+  <data name="1_2_B_SemiAuto" xml:space="preserve">
+    <value>Semi-Auto</value>
+  </data>
+  <data name="1_2_B_Step" xml:space="preserve">
+    <value>Paso</value>
+  </data>
+  <data name="1_2_B_Swim" xml:space="preserve">
+    <value>Swim Up</value>
+  </data>
+  <data name="1_1_P_TestID" xml:space="preserve">
+    <value>ID prueba</value>
+  </data>
+  <data name="1_2_B_TestNow" xml:space="preserve">
+    <value>Analizar ahora</value>
+  </data>
+  <data name="1_2_B_TestNow10Mic" xml:space="preserve">
+    <value>Analizar ahora
+(10 MICRO)</value>
+  </data>
+  <data name="1_1_L_Viscocity" xml:space="preserve">
+    <value>Viscosidad</value>
+  </data>
+  <data name="1_2_B_Vitality" xml:space="preserve">
+    <value>Vitalidad</value>
+  </data>
+  <data name="1_1_L_Volume" xml:space="preserve">
+    <value>Volumen (mL)</value>
+  </data>
+  <data name="1_2_B_Washed" xml:space="preserve">
+    <value>Lavado</value>
+  </data>
+  <data name="1_1_L_WBCConc" xml:space="preserve">
+    <value>Conc. leucocitos (M/mL)</value>
+  </data>
+  <data name="1_2_B_Yes" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="2_4_P_PV_ImmotileVol" xml:space="preserve">
+    <value># Espz inmóv./Vol</value>
+  </data>
+  <data name="2_4_L_MSPERM" xml:space="preserve">
+    <value># Espz. Móviles</value>
+  </data>
+  <data name="2_4_P_PV_MotileVol" xml:space="preserve">
+    <value># Espz móviles/Vol</value>
+  </data>
+  <data name="2_4_L_PSPERM" xml:space="preserve">
+    <value># Espz. Progresivos</value>
+  </data>
+  <data name="2_4_L_TSPERM" xml:space="preserve">
+    <value># Total Espz.</value>
+  </data>
+  <data name="2_4_P_PV_TotalVol" xml:space="preserve">
+    <value># Espz totales/Vol</value>
+  </data>
+  <data name="2_4_L_MolEjec" xml:space="preserve">
+    <value>μmol/eyaculad</value>
+  </data>
+  <data name="2_4_L_20" xml:space="preserve">
+    <value>10 microlitros</value>
+  </data>
+  <data name="2_4_L_ABNormal" xml:space="preserve">
+    <value>Anormales</value>
+  </data>
+  <data name="2_4_P_Abnormal" xml:space="preserve">
+    <value>Anormales</value>
+  </data>
+  <data name="2_4_P_Abstinence" xml:space="preserve">
+    <value>Abstinencia</value>
+  </data>
+  <data name="2_2_B_Add" xml:space="preserve">
+    <value>Adicional</value>
+  </data>
+  <data name="2_4_P_PatAgeTest" xml:space="preserve">
+    <value>Edad</value>
+  </data>
+  <data name="2_4_P_TestAge" xml:space="preserve">
+    <value>Edad</value>
+  </data>
+  <data name="2_4_P_Aggl" xml:space="preserve">
+    <value>Aglutinación (1-4, A-E)</value>
+  </data>
+  <data name="2_4_P_Appearance" xml:space="preserve">
+    <value>Apariencia</value>
+  </data>
+  <data name="2_4_L_Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="2_4_P_PatAge" xml:space="preserve">
+    <value>Nacimiento/edad</value>
+  </data>
+  <data name="2_4_P_PatAgeYear" xml:space="preserve">
+    <value>Año nacimiento</value>
+  </data>
+  <data name="2_2_B_Capture" xml:space="preserve">
+    <value>Capturar</value>
+  </data>
+  <data name="2_4_L_Cent" xml:space="preserve">
+    <value>Centrif.</value>
+  </data>
+  <data name="2_4_L_CC" xml:space="preserve">
+    <value>contador clic (clave)</value>
+  </data>
+  <data name="2_4_P_DateColl" xml:space="preserve">
+    <value>Fecha/hora recolección</value>
+  </data>
+  <data name="2_1_L_Comments" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="2_4_P_TSC" xml:space="preserve">
+    <value>Conc.</value>
+  </data>
+  <data name="2_4_P_MorphType" xml:space="preserve">
+    <value>Criterio</value>
+  </data>
+  <data name="2_4_P_CryoBank" xml:space="preserve">
+    <value>Crio-Banco</value>
+  </data>
+  <data name="2_4_L_Days" xml:space="preserve">
+    <value>días</value>
+  </data>
+  <data name="2_2_B_Debris" xml:space="preserve">
+    <value>Detritos</value>
+  </data>
+  <data name="2_4_P_Deb_Round" xml:space="preserve">
+    <value>Detritos/células redondas</value>
+  </data>
+  <data name="2_4_L_Decreased" xml:space="preserve">
+    <value>Disminuida</value>
+  </data>
+  <data name="2_4_L_DILUTE" xml:space="preserve">
+    <value>Dilución 1 + 1</value>
+  </data>
+  <data name="2_2_B_DNA" xml:space="preserve">
+    <value>Frag ADN</value>
+  </data>
+  <data name="2_4_P_VRTCountTypeD" xml:space="preserve">
+    <value>Tipo conteo ADN Frag.</value>
+  </data>
+  <data name="2_4_P_DFI" xml:space="preserve">
+    <value>índice Frag. ADN</value>
+  </data>
+  <data name="2_4_P_MainTestID" xml:space="preserve">
+    <value># de Donación</value>
+  </data>
+  <data name="2_4_P_DonorID" xml:space="preserve">
+    <value>ID del donador</value>
+  </data>
+  <data name="2_2_B_DOSING" xml:space="preserve">
+    <value>Dosaje</value>
+  </data>
+  <data name="2_2_B_Close" xml:space="preserve">
+    <value>Finalizar</value>
+  </data>
+  <data name="2_4_L_Fail" xml:space="preserve">
+    <value>Falla</value>
+  </data>
+  <data name="2_4_L_Fresh" xml:space="preserve">
+    <value>Fresco</value>
+  </data>
+  <data name="2_4_L_Frozen" xml:space="preserve">
+    <value>Congelado</value>
+  </data>
+  <data name="2_4_L_FD" xml:space="preserve">
+    <value>diferencial completo</value>
+  </data>
+  <data name="2_4_P_FuncSperm" xml:space="preserve">
+    <value>Espz Funcionales</value>
+  </data>
+  <data name="2_4_P_FSC" xml:space="preserve">
+    <value>Conc. Espz Funcionales</value>
+  </data>
+  <data name="2_4_L_Grad" xml:space="preserve">
+    <value>Gradiente</value>
+  </data>
+  <data name="2_2_B_Graph" xml:space="preserve">
+    <value>Gráficos</value>
+  </data>
+  <data name="2_4_L_Gross" xml:space="preserve">
+    <value>Abundante</value>
+  </data>
+  <data name="2_4_P_AttachedImage" xml:space="preserve">
+    <value>Imgs. capturada</value>
+  </data>
+  <data name="2_4_P_Immotility5" xml:space="preserve">
+    <value>Inmóviles</value>
+  </data>
+  <data name="2_4_P_PV_Immotile" xml:space="preserve">
+    <value>Espz Inmóviles</value>
+  </data>
+  <data name="2_4_P_Immotility" xml:space="preserve">
+    <value>Inmovilidad d</value>
+  </data>
+  <data name="2_4_L_Step1" xml:space="preserve">
+    <value>Inicial</value>
+  </data>
+  <data name="2_4_L_Initial" xml:space="preserve">
+    <value>Inicial</value>
+  </data>
+  <data name="2_4_P_Liquefaction" xml:space="preserve">
+    <value>Licuefacción</value>
+  </data>
+  <data name="2_1_L_Live" xml:space="preserve">
+    <value>Vivos</value>
+  </data>
+  <data name="2_4_L_Long" xml:space="preserve">
+    <value>Longevidad</value>
+  </data>
+  <data name="2_4_P_LongID" xml:space="preserve">
+    <value>Id de longevidad</value>
+  </data>
+  <data name="2_4_P_LongStep" xml:space="preserve">
+    <value>Paso de longevidad</value>
+  </data>
+  <data name="2_4_L_MEjac" xml:space="preserve">
+    <value>M/eya</value>
+  </data>
+  <data name="2_4_L_MVol" xml:space="preserve">
+    <value>M/volume</value>
+  </data>
+  <data name="2_4_L_Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="2_4_L_Many" xml:space="preserve">
+    <value>Muchos</value>
+  </data>
+  <data name="2_4_L_MAC" xml:space="preserve">
+    <value>Marca conteo circular</value>
+  </data>
+  <data name="2_4_L_MicSec" xml:space="preserve">
+    <value>mic/s</value>
+  </data>
+  <data name="2_4_L_Mod" xml:space="preserve">
+    <value>Moderados</value>
+  </data>
+  <data name="2_2_B_Morph" xml:space="preserve">
+    <value>Morf..</value>
+  </data>
+  <data name="2_4_P_VRTCountType" xml:space="preserve">
+    <value>Tipo conteo Morf.</value>
+  </data>
+  <data name="2_4_P_TotalMorph" xml:space="preserve">
+    <value>Espz. Morf. Normal</value>
+  </data>
+  <data name="2_4_P_VRTTestType" xml:space="preserve">
+    <value>Tipo test Morf.</value>
+  </data>
+  <data name="2_4_P_MotileSperm" xml:space="preserve">
+    <value>Espz. Móviles</value>
+  </data>
+  <data name="2_4_P_PV_Motile" xml:space="preserve">
+    <value>Espz. Móviles</value>
+  </data>
+  <data name="2_4_P_MSC" xml:space="preserve">
+    <value>Conc. Espz Móviles</value>
+  </data>
+  <data name="2_4_P_Motility" xml:space="preserve">
+    <value>Movilidad</value>
+  </data>
+  <data name="2_2_B_Motility" xml:space="preserve">
+    <value>Movilidad</value>
+  </data>
+  <data name="2_4_L_MUEjac" xml:space="preserve">
+    <value>mU/eyaculad</value>
+  </data>
+  <data name="2_4_L_NoneFew" xml:space="preserve">
+    <value>ning./poco</value>
+  </data>
+  <data name="2_4_P_Nonprog" xml:space="preserve">
+    <value>No-progresivos c</value>
+  </data>
+  <data name="2_4_P_Nonprog5" xml:space="preserve">
+    <value>No-Progresivos NP</value>
+  </data>
+  <data name="2_4_L_Normal" xml:space="preserve">
+    <value>Normales</value>
+  </data>
+  <data name="2_4_L_ANN" xml:space="preserve">
+    <value>Normales/Anormales</value>
+  </data>
+  <data name="2_4_P_Morph" xml:space="preserve">
+    <value>Formas Normales</value>
+  </data>
+  <data name="2_4_L_NormVol" xml:space="preserve">
+    <value>Vol. normal</value>
+  </data>
+  <data name="2_4_P_OI" xml:space="preserve">
+    <value>Opcional</value>
+  </data>
+  <data name="2_4_P_PV_Option" xml:space="preserve">
+    <value>Opción</value>
+  </data>
+  <data name="2_4_L_Parameter" xml:space="preserve">
+    <value>Parámetro</value>
+  </data>
+  <data name="2_4_L_Pass" xml:space="preserve">
+    <value>Pasó</value>
+  </data>
+  <data name="2_4_P_PatientID" xml:space="preserve">
+    <value>ID Pte</value>
+  </data>
+  <data name="2_4_P_PatFullName" xml:space="preserve">
+    <value>Nombre Pte.</value>
+  </data>
+  <data name="2_4_P_PH" xml:space="preserve">
+    <value>pH</value>
+  </data>
+  <data name="2_4_P_AB10" xml:space="preserve">
+    <value>Cabezas de alfiler</value>
+  </data>
+  <data name="2_4_L_PV" xml:space="preserve">
+    <value>Post Vasectomía</value>
+  </data>
+  <data name="2_4_P_PostThaw" xml:space="preserve">
+    <value>PostDescon.</value>
+  </data>
+  <data name="2_4_P_PreFreeze" xml:space="preserve">
+    <value>PreCongelac.</value>
+  </data>
+  <data name="2_4_P_ProgMotile" xml:space="preserve">
+    <value>Espz. móviles progresivos</value>
+  </data>
+  <data name="2_4_P_PMSC" xml:space="preserve">
+    <value>Conc. Espz móviles progresivos</value>
+  </data>
+  <data name="2_4_P_PMSCA" xml:space="preserve">
+    <value>Conc. Espz móviles progresivos a</value>
+  </data>
+  <data name="2_4_P_PMSCB" xml:space="preserve">
+    <value>Conc. Espz móviles progresivos b</value>
+  </data>
+  <data name="2_4_P_PMOT" xml:space="preserve">
+    <value>Progresivos PR</value>
+  </data>
+  <data name="2_4_P_PMOTA" xml:space="preserve">
+    <value>Progresivos rápidos a</value>
+  </data>
+  <data name="2_4_L_Raw" xml:space="preserve">
+    <value>Cruda</value>
+  </data>
+  <data name="2_4_P_DateRec" xml:space="preserve">
+    <value>Fecha/Hora recepción</value>
+  </data>
+  <data name="2_4_L_RefVal" xml:space="preserve">
+    <value>Valor ref.</value>
+  </data>
+  <data name="2_2_B_Report" xml:space="preserve">
+    <value>Reporte</value>
+  </data>
+  <data name="2_4_L_Result" xml:space="preserve">
+    <value>Resultado</value>
+  </data>
+  <data name="2_2_B_Retest" xml:space="preserve">
+    <value>Reprocesar</value>
+  </data>
+  <data name="2_4_P_TEST_PF" xml:space="preserve">
+    <value>Evaluación de la muestra</value>
+  </data>
+  <data name="2_4_P_SampleID" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="2_4_L_SamInf" xml:space="preserve">
+    <value>Info. de la muestra</value>
+  </data>
+  <data name="2_4_P_TestMode" xml:space="preserve">
+    <value>Muestra analizada</value>
+  </data>
+  <data name="2_2_B_Save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="2_4_L_SemiAuto" xml:space="preserve">
+    <value>Semi-Auto</value>
+  </data>
+  <data name="2_2_B_Send" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="2_4_P_PMOTB" xml:space="preserve">
+    <value>Progresivo lento b</value>
+  </data>
+  <data name="2_4_P_TotalSperm" xml:space="preserve">
+    <value># Espz</value>
+  </data>
+  <data name="2_4_P_SMI" xml:space="preserve">
+    <value>Índice Movilidad Espermática</value>
+  </data>
+  <data name="2_4_L_Status" xml:space="preserve">
+    <value>Estatus</value>
+  </data>
+  <data name="2_4_L_Step" xml:space="preserve">
+    <value>Paso</value>
+  </data>
+  <data name="2_4_P_TestTime" xml:space="preserve">
+    <value>Tiempo por paso</value>
+  </data>
+  <data name="2_4_L_Swim" xml:space="preserve">
+    <value>Swim Up</value>
+  </data>
+  <data name="2_2_B_TestCent" xml:space="preserve">
+    <value>Análisis centrif.</value>
+  </data>
+  <data name="2_4_P_TestDate" xml:space="preserve">
+    <value>Fecha / Hora Test</value>
+  </data>
+  <data name="2_4_P_TestID" xml:space="preserve">
+    <value>ID prueba</value>
+  </data>
+  <data name="2_4_P_UserName" xml:space="preserve">
+    <value>Análisis hecho por</value>
+  </data>
+  <data name="2_4_P_SampleType" xml:space="preserve">
+    <value>Tipo Test</value>
+  </data>
+  <data name="2_4_P_Motility5" xml:space="preserve">
+    <value>Totales móviles PR+NP</value>
+  </data>
+  <data name="2_4_P_PV_Total" xml:space="preserve">
+    <value>Espz Totales</value>
+  </data>
+  <data name="2_4_P_Velocity" xml:space="preserve">
+    <value>Velocidad</value>
+  </data>
+  <data name="2_4_P_AttachedVideo" xml:space="preserve">
+    <value>Vídeos capturados</value>
+  </data>
+  <data name="2_4_P_Viscocity" xml:space="preserve">
+    <value>Viscosidad</value>
+  </data>
+  <data name="2_1_L_VisualAss" xml:space="preserve">
+    <value>Análisis visual</value>
+  </data>
+  <data name="2_2_B_Vitality" xml:space="preserve">
+    <value>Vitalidad</value>
+  </data>
+  <data name="2_4_P_ViabLive" xml:space="preserve">
+    <value>Vitalidad</value>
+  </data>
+  <data name="2_4_P_VRTCountTypeV" xml:space="preserve">
+    <value>Tipo conteo vitalidad</value>
+  </data>
+  <data name="2_4_P_Volume" xml:space="preserve">
+    <value>Volumen</value>
+  </data>
+  <data name="2_4_L_Washed" xml:space="preserve">
+    <value>Lavado</value>
+  </data>
+  <data name="2_4_P_WBCConc" xml:space="preserve">
+    <value>Conc. leucocitos</value>
+  </data>
+  <data name="3_1_H_Slides" xml:space="preserve">
+    <value># láminas</value>
+  </data>
+  <data name="3_1_L_PatAge" xml:space="preserve">
+    <value>Nacimiento/edad</value>
+  </data>
+  <data name="3_2_P_AttachedImage" xml:space="preserve">
+    <value>Capt. imagen</value>
+  </data>
+  <data name="3_1_L_TestTypeCEN" xml:space="preserve">
+    <value>Muestra centrif.</value>
+  </data>
+  <data name="3_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>Revisar cables de conexión equipo</value>
+  </data>
+  <data name="3_2_B_ClearAll" xml:space="preserve">
+    <value>Limpiar todo</value>
+  </data>
+  <data name="3_2_B_ClearLast" xml:space="preserve">
+    <value>Limpiar últ.</value>
+  </data>
+  <data name="3_1_H_NoVideoCheck" xml:space="preserve">
+    <value>Hacer clic en el botón Actualizar</value>
+  </data>
+  <data name="3_1_L_MorphType" xml:space="preserve">
+    <value>Criterio</value>
+  </data>
+  <data name="3_1_L_Elapsed" xml:space="preserve">
+    <value>Transcurrido</value>
+  </data>
+  <data name="3_1_L_ManScreen" xml:space="preserve">
+    <value>Campos contados</value>
+  </data>
+  <data name="3_2_B_Freeze" xml:space="preserve">
+    <value>Congelar</value>
+  </data>
+  <data name="3_2_B_Fresh" xml:space="preserve">
+    <value>Modo Fresco</value>
+  </data>
+  <data name="3_2_B_FULL" xml:space="preserve">
+    <value>Pant. Compl.</value>
+  </data>
+  <data name="3_2_B_GridOff" xml:space="preserve">
+    <value>quitar cuadríc.</value>
+  </data>
+  <data name="3_2_B_Grid" xml:space="preserve">
+    <value>Aplicar cuadríc</value>
+  </data>
+  <data name="3_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>Si el problema persiste</value>
+  </data>
+  <data name="3_1_L_ImageCap" xml:space="preserve">
+    <value>Imgs. capturada</value>
+  </data>
+  <data name="3_1_H_Immotile" xml:space="preserve">
+    <value>Inmóviles</value>
+  </data>
+  <data name="3_1_L_HeaderLQ" xml:space="preserve">
+    <value>Contador baja calidad</value>
+  </data>
+  <data name="3_1_L_HeaderMN" xml:space="preserve">
+    <value>Contador manual</value>
+  </data>
+  <data name="3_1_H_Motile" xml:space="preserve">
+    <value>Móvil</value>
+  </data>
+  <data name="3_1_L_Detected" xml:space="preserve">
+    <value>Espz. móviles detectados automáticamente</value>
+  </data>
+  <data name="3_2_B_NextField" xml:space="preserve">
+    <value>Sig.</value>
+  </data>
+  <data name="3_1_L_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="3_1_L_NoSperm" xml:space="preserve">
+    <value>NSO espz</value>
+  </data>
+  <data name="3_1_L_Nprog" xml:space="preserve">
+    <value>No-progresivos</value>
+  </data>
+  <data name="3_1_L_None" xml:space="preserve">
+    <value>ninguno</value>
+  </data>
+  <data name="3_1_L_Option" xml:space="preserve">
+    <value>Opción</value>
+  </data>
+  <data name="3_1_L_PatientID" xml:space="preserve">
+    <value>ID Pte</value>
+  </data>
+  <data name="3_1_L_PatientName" xml:space="preserve">
+    <value>Nombre Pte.</value>
+  </data>
+  <data name="3_1_L_HeaderPV" xml:space="preserve">
+    <value>Contador post-vas</value>
+  </data>
+  <data name="3_1_H_PMOT" xml:space="preserve">
+    <value>Progresivo</value>
+  </data>
+  <data name="3_1_L_RAPID" xml:space="preserve">
+    <value>Rápido Progre.</value>
+  </data>
+  <data name="3_1_L_TestTypeRAW" xml:space="preserve">
+    <value>Muestra cruda (No centrif)</value>
+  </data>
+  <data name="3_2_B_RealTime" xml:space="preserve">
+    <value>Tiempo real</value>
+  </data>
+  <data name="3_2_P_AttachedVideo" xml:space="preserve">
+    <value>Grabar vídeo</value>
+  </data>
+  <data name="3_2_B_Refresh" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="3_2_B_Next" xml:space="preserve">
+    <value>Resultado</value>
+  </data>
+  <data name="3_1_L_DilutionList" xml:space="preserve">
+    <value>Muestra diluída</value>
+  </data>
+  <data name="3_1_L_DilutionList2" xml:space="preserve">
+    <value>Dln muestra</value>
+  </data>
+  <data name="3_1_L_SampleID" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="3_1_L_SS" xml:space="preserve">
+    <value>Muestra analizada</value>
+  </data>
+  <data name="3_2_B_Settings" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="3_1_L_SLOW" xml:space="preserve">
+    <value>Prog. Lento</value>
+  </data>
+  <data name="3_1_L_StopCapture" xml:space="preserve">
+    <value>Parar Captura</value>
+  </data>
+  <data name="3_1_L_TestDate" xml:space="preserve">
+    <value>Fecha / Hora Test</value>
+  </data>
+  <data name="3_1_L_SampleType" xml:space="preserve">
+    <value>Tipo Test</value>
+  </data>
+  <data name="3_1_L_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="3_1_L_TCELLS" xml:space="preserve">
+    <value>Espz totales contados</value>
+  </data>
+  <data name="3_1_H_VideoError" xml:space="preserve">
+    <value>Error vídeo</value>
+  </data>
+  <data name="3_1_L_VideoCap" xml:space="preserve">
+    <value>Vídeos grabados</value>
+  </data>
+  <data name="3_1_H_Zoom" xml:space="preserve">
+    <value>Disminuir zoom para visualizar</value>
+  </data>
+  <data name="4_2_P_Abnormal" xml:space="preserve">
+    <value>Anormales</value>
+  </data>
+  <data name="4_1_L_PatAge" xml:space="preserve">
+    <value>Nacimiento/edad</value>
+  </data>
+  <data name="4_2_P_MorphScreen" xml:space="preserve">
+    <value>Capt. campo</value>
+  </data>
+  <data name="4_1_L_Comments" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="4_1_L_MorphType" xml:space="preserve">
+    <value>Criterio</value>
+  </data>
+  <data name="4_1_T_Delete" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="4_1_L_TS" xml:space="preserve">
+    <value>Campos contados</value>
+  </data>
+  <data name="4_1_T_Item" xml:space="preserve">
+    <value>Ítem</value>
+  </data>
+  <data name="4_1_T_ManageAll" xml:space="preserve">
+    <value>Manejar todas las imágenes capturadas</value>
+  </data>
+  <data name="4_1_H_SelectImage" xml:space="preserve">
+    <value>Manejar imágenes</value>
+  </data>
+  <data name="4_1_H_MorphHeader" xml:space="preserve">
+    <value>Contador Morf.</value>
+  </data>
+  <data name="4_2_P_Normal" xml:space="preserve">
+    <value>Normales</value>
+  </data>
+  <data name="4_1_T_of" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="4_1_L_PatientID" xml:space="preserve">
+    <value>ID Pte</value>
+  </data>
+  <data name="4_1_L_PatientName" xml:space="preserve">
+    <value>Nombre Pte.</value>
+  </data>
+  <data name="4_2_B_RemoveAll" xml:space="preserve">
+    <value>Remover todo</value>
+  </data>
+  <data name="4_2_B_Remove" xml:space="preserve">
+    <value>Remover últ.</value>
+  </data>
+  <data name="4_1_L_ReportName" xml:space="preserve">
+    <value>Nombre reporte</value>
+  </data>
+  <data name="4_1_L_SampleID" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="4_1_L_SS" xml:space="preserve">
+    <value>Muestra analizada</value>
+  </data>
+  <data name="4_1_T_SaveAs" xml:space="preserve">
+    <value>Guardar Como</value>
+  </data>
+  <data name="4_2_B_SaveField" xml:space="preserve">
+    <value>guard campo</value>
+  </data>
+  <data name="4_1_L_TestDate" xml:space="preserve">
+    <value>Fecha / Hora Test</value>
+  </data>
+  <data name="4_1_L_SampleType" xml:space="preserve">
+    <value>Tipo Test</value>
+  </data>
+  <data name="4_1_L_CC" xml:space="preserve">
+    <value>Espz totales contados</value>
+  </data>
+  <data name="5_1_L_PatAge" xml:space="preserve">
+    <value>Nacimiento/edad</value>
+  </data>
+  <data name="5_2_P_ViabScreen" xml:space="preserve">
+    <value>Capt. campo</value>
+  </data>
+  <data name="5_1_L_Comments" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="5_1_L_MorphType" xml:space="preserve">
+    <value>Criterio</value>
+  </data>
+  <data name="5_2_P_ViabDead" xml:space="preserve">
+    <value>Muertos</value>
+  </data>
+  <data name="5_1_T_Delete" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="5_1_L_TS" xml:space="preserve">
+    <value>Campos contados</value>
+  </data>
+  <data name="5_1_T_Item" xml:space="preserve">
+    <value>Ítem</value>
+  </data>
+  <data name="5_2_P_ViabLive" xml:space="preserve">
+    <value>Vivos</value>
+  </data>
+  <data name="5_1_T_ManageAll" xml:space="preserve">
+    <value>Manejar todas las imágenes capturadas</value>
+  </data>
+  <data name="5_1_H_SelectImage" xml:space="preserve">
+    <value>Manejar imágenes</value>
+  </data>
+  <data name="5_1_T_of" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="5_1_L_PatientID" xml:space="preserve">
+    <value>ID Pte</value>
+  </data>
+  <data name="5_1_L_PatientName" xml:space="preserve">
+    <value>Nombre Pte.</value>
+  </data>
+  <data name="5_2_B_RemoveAll" xml:space="preserve">
+    <value>Remover todo</value>
+  </data>
+  <data name="5_2_B_Remove" xml:space="preserve">
+    <value>Remover últ.</value>
+  </data>
+  <data name="5_1_L_ReportName" xml:space="preserve">
+    <value>Nombre reporte</value>
+  </data>
+  <data name="5_1_L_SampleID" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="5_1_L_SS" xml:space="preserve">
+    <value>Muestra analizada</value>
+  </data>
+  <data name="5_1_T_SaveAs" xml:space="preserve">
+    <value>Guardar Como</value>
+  </data>
+  <data name="5_2_B_SaveField" xml:space="preserve">
+    <value>guard campo</value>
+  </data>
+  <data name="5_1_L_TestDate" xml:space="preserve">
+    <value>Fecha / Hora Test</value>
+  </data>
+  <data name="5_1_L_SampleType" xml:space="preserve">
+    <value>Tipo Test</value>
+  </data>
+  <data name="5_1_L_CC" xml:space="preserve">
+    <value>Espz totales contados</value>
+  </data>
+  <data name="5_1_H_VitHeader" xml:space="preserve">
+    <value>Contador Vitalidad</value>
+  </data>
+  <data name="6_1_L_PatAge" xml:space="preserve">
+    <value>Nacimiento/edad</value>
+  </data>
+  <data name="6_2_P_AttachedImage" xml:space="preserve">
+    <value>Capt. imagen</value>
+  </data>
+  <data name="6_1_L_Comments" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="6_1_L_MorphType" xml:space="preserve">
+    <value>Criterio</value>
+  </data>
+  <data name="6_1_T_Delete" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="6_1_L_Elapsed" xml:space="preserve">
+    <value>Transcurrido</value>
+  </data>
+  <data name="6_1_H_CaptureHeader" xml:space="preserve">
+    <value>Capt. imagen y vídeo</value>
+  </data>
+  <data name="6_1_T_Item" xml:space="preserve">
+    <value>Ítem</value>
+  </data>
+  <data name="6_1_T_ManageAll" xml:space="preserve">
+    <value>Manejar todas las imágenes capturadas</value>
+  </data>
+  <data name="6_1_T_ManageAllV" xml:space="preserve">
+    <value>Manejar todos los vídeos capturados</value>
+  </data>
+  <data name="6_1_H_ManageImage" xml:space="preserve">
+    <value>Manejar imágenes</value>
+  </data>
+  <data name="6_1_H_ManageVideo" xml:space="preserve">
+    <value>Manejar vídeos</value>
+  </data>
+  <data name="6_1_T_of" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="6_1_L_PatientID" xml:space="preserve">
+    <value>ID Pte</value>
+  </data>
+  <data name="6_1_L_PatientName" xml:space="preserve">
+    <value>Nombre Pte.</value>
+  </data>
+  <data name="6_2_P_AttachedVideo" xml:space="preserve">
+    <value>Grabar vídeo</value>
+  </data>
+  <data name="6_1_L_ReportName" xml:space="preserve">
+    <value>Nombre reporte</value>
+  </data>
+  <data name="6_1_L_SampleID" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="6_1_L_SS" xml:space="preserve">
+    <value>Muestra analizada</value>
+  </data>
+  <data name="6_1_T_SaveAs" xml:space="preserve">
+    <value>Guardar Como</value>
+  </data>
+  <data name="6_1_L_StopCapture" xml:space="preserve">
+    <value>Parar Captura</value>
+  </data>
+  <data name="6_1_L_TestDate" xml:space="preserve">
+    <value>Fecha / Hora Test</value>
+  </data>
+  <data name="6_1_L_SampleType" xml:space="preserve">
+    <value>Tipo Test</value>
+  </data>
+  <data name="7_2_B_AddIB" xml:space="preserve">
+    <value>añadir</value>
+  </data>
+  <data name="7_2_B_CloseCA" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="7_4_CA_Clean" xml:space="preserve">
+    <value>Limpiar sistema-Reprocesar</value>
+  </data>
+  <data name="7_1_P_CON_RE" xml:space="preserve">
+    <value>Conc. (M/ml)</value>
+  </data>
+  <data name="7_2_B_Continue" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="7_4_D_Storage" xml:space="preserve">
+    <value>Control almacenamiento inapropiado</value>
+  </data>
+  <data name="7_4_D_Expired" xml:space="preserve">
+    <value>Material control expirado</value>
+  </data>
+  <data name="7_4_CA_SETUP" xml:space="preserve">
+    <value>Corregir ajustes y reprocesar</value>
+  </data>
+  <data name="7_2_B_CorrectiveAction" xml:space="preserve">
+    <value>Correctivo</value>
+  </data>
+  <data name="7_4_P_CA" xml:space="preserve">
+    <value>Correctivo</value>
+  </data>
+  <data name="7_4_P_CON_CA" xml:space="preserve">
+    <value>Correctivo</value>
+  </data>
+  <data name="7_1_P_CON_Date" xml:space="preserve">
+    <value>Fecha/Hora</value>
+  </data>
+  <data name="7_1_H_NoControlsDEF" xml:space="preserve">
+    <value>Por defecto</value>
+  </data>
+  <data name="7_1_P_CON_EXPDA" xml:space="preserve">
+    <value>Fecha Exp.</value>
+  </data>
+  <data name="7_1_L_Fail" xml:space="preserve">
+    <value>Falla</value>
+  </data>
+  <data name="7_4_CA_MIX" xml:space="preserve">
+    <value>Mezcle homogéneamente y reprocese</value>
+  </data>
+  <data name="7_1_P_Con_Issue" xml:space="preserve">
+    <value>Emitido</value>
+  </data>
+  <data name="7_1_P_CON_LR" xml:space="preserve">
+    <value>Útima corrida</value>
+  </data>
+  <data name="7_1_P_LevelID" xml:space="preserve">
+    <value>Nivel</value>
+  </data>
+  <data name="7_1_P_CON_LOT" xml:space="preserve">
+    <value># de lote</value>
+  </data>
+  <data name="7_2_B_VISUAL" xml:space="preserve">
+    <value>Marca conteo</value>
+  </data>
+  <data name="7_1_P_CON_MSC" xml:space="preserve">
+    <value>CEM (M/ml)</value>
+  </data>
+  <data name="7_4_D_NonAss" xml:space="preserve">
+    <value>Muestra no ensayada corrida como control </value>
+  </data>
+  <data name="7_1_P_CON_NOTE" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="7_2_B_Offline" xml:space="preserve">
+    <value>Sin conexión</value>
+  </data>
+  <data name="7_1_L_Pass" xml:space="preserve">
+    <value>Pasó</value>
+  </data>
+  <data name="7_1_P_CON_PR" xml:space="preserve">
+    <value>Rango aceptado</value>
+  </data>
+  <data name="7_1_L_Pending" xml:space="preserve">
+    <value>Pendiente</value>
+  </data>
+  <data name="7_1_H_NoControlsPS" xml:space="preserve">
+    <value>Por favor configure</value>
+  </data>
+  <data name="7_4_P_ProDesc" xml:space="preserve">
+    <value>Descripción del Problema</value>
+  </data>
+  <data name="7_1_L_PR" xml:space="preserve">
+    <value>Competencia</value>
+  </data>
+  <data name="7_2_B_PR" xml:space="preserve">
+    <value>Competencia</value>
+  </data>
+  <data name="7_2_B_Archive" xml:space="preserve">
+    <value>Archivo CC</value>
+  </data>
+  <data name="7_1_P_CON_RAN" xml:space="preserve">
+    <value>Rango (+/-)</value>
+  </data>
+  <data name="7_1_P_CON_NC_RAN" xml:space="preserve">
+    <value>Rangos (+/-)</value>
+  </data>
+  <data name="7_2_B_Report" xml:space="preserve">
+    <value>Reporte</value>
+  </data>
+  <data name="7_4_CA_NonAss" xml:space="preserve">
+    <value>Reprocese como control no ensayado</value>
+  </data>
+  <data name="7_2_B_Retry" xml:space="preserve">
+    <value>Reintentar</value>
+  </data>
+  <data name="7_4_CA_WrongLevel" xml:space="preserve">
+    <value>Corra el nivel correcto</value>
+  </data>
+  <data name="7_4_CA_Storage" xml:space="preserve">
+    <value>Corra nuevo lote</value>
+  </data>
+  <data name="7_4_CA_Expired" xml:space="preserve">
+    <value>Corra nuevo lote de controles</value>
+  </data>
+  <data name="7_4_D_MIX" xml:space="preserve">
+    <value>Manejo/Mezclado de muestra</value>
+  </data>
+  <data name="7_1_P_CON_SAMPLE" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="7_1_P_SampleID" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="7_1_L_SI" xml:space="preserve">
+    <value>Info. de la muestra</value>
+  </data>
+  <data name="7_2_B_SaveCA" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="7_2_B_Setup" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="7_1_P_CON_STA" xml:space="preserve">
+    <value>Estatus</value>
+  </data>
+  <data name="7_4_D_Clean" xml:space="preserve">
+    <value>El sistema requiere limpieza</value>
+  </data>
+  <data name="7_1_P_CON_TAR" xml:space="preserve">
+    <value>Diana</value>
+  </data>
+  <data name="7_4_D_SETUP" xml:space="preserve">
+    <value>Configuración Diana/Rango</value>
+  </data>
+  <data name="7_1_P_CON_NC_TAR" xml:space="preserve">
+    <value>Diana</value>
+  </data>
+  <data name="7_2_B_TestNow" xml:space="preserve">
+    <value>Analizar ahora</value>
+  </data>
+  <data name="7_1_L_TR" xml:space="preserve">
+    <value>Resultados de test</value>
+  </data>
+  <data name="7_4_D_User" xml:space="preserve">
+    <value>Usuario definido</value>
+  </data>
+  <data name="7_4_D_WrongLevel" xml:space="preserve">
+    <value>Nivel incorrecto analizado</value>
+  </data>
+  <data name="8_1_T_Camera" xml:space="preserve">
+    <value>[Cámara] - Imágenes / Vídeos</value>
+  </data>
+  <data name="8_1_T_DNA" xml:space="preserve">
+    <value>[Hélice de ADN] - Frag. de ADN</value>
+  </data>
+  <data name="8_1_L_20" xml:space="preserve">
+    <value>10 microlitros</value>
+  </data>
+  <data name="8_4_P_MainAllComp" xml:space="preserve">
+    <value>¿Todos los pasos completos?</value>
+  </data>
+  <data name="8_1_L_Capture" xml:space="preserve">
+    <value>Capturar</value>
+  </data>
+  <data name="8_4_P_Con_RE" xml:space="preserve">
+    <value>Conc. (M/ml)</value>
+  </data>
+  <data name="8_4_P_Con_CA" xml:space="preserve">
+    <value>Correctivo</value>
+  </data>
+  <data name="8_2_B_CB" xml:space="preserve">
+    <value>Crio-Banco</value>
+  </data>
+  <data name="8_1_T_Debris" xml:space="preserve">
+    <value>D - Detritos</value>
+  </data>
+  <data name="8_4_P_MainDate" xml:space="preserve">
+    <value>Fecha / Hora</value>
+  </data>
+  <data name="8_4_P_Con_Date" xml:space="preserve">
+    <value>Fecha / Hora</value>
+  </data>
+  <data name="8_2_B_Delete" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="8_1_L_DILUTE" xml:space="preserve">
+    <value>Dilución 1 + 1</value>
+  </data>
+  <data name="8_1_L_DNA" xml:space="preserve">
+    <value>Fragmentación ADN</value>
+  </data>
+  <data name="8_4_P_MainTestID" xml:space="preserve">
+    <value># de Donación</value>
+  </data>
+  <data name="8_4_P_DonorID" xml:space="preserve">
+    <value>ID del donador</value>
+  </data>
+  <data name="8_4_P_EXPDA" xml:space="preserve">
+    <value>Fecha Exp.</value>
+  </data>
+  <data name="8_2_B_Export" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="8_1_L_Fail" xml:space="preserve">
+    <value>Falla</value>
+  </data>
+  <data name="8_2_B_GO" xml:space="preserve">
+    <value>Filtro</value>
+  </data>
+  <data name="8_1_H_DateRange" xml:space="preserve">
+    <value>Filtro por fecha</value>
+  </data>
+  <data name="8_1_H_Filter2CBI" xml:space="preserve">
+    <value>Filtro por # de donación</value>
+  </data>
+  <data name="8_1_H_Filter1CB" xml:space="preserve">
+    <value>Filtro por # ID del donador</value>
+  </data>
+  <data name="8_1_H_Filter1LE" xml:space="preserve">
+    <value>Filtro por nivel</value>
+  </data>
+  <data name="8_1_H_Filter1MT" xml:space="preserve">
+    <value>Filtro por tipo de medio</value>
+  </data>
+  <data name="8_1_H_Filter1PI" xml:space="preserve">
+    <value>Filtro por ID de paciente</value>
+  </data>
+  <data name="8_1_H_Filter2PN" xml:space="preserve">
+    <value>Filtro por nombre de paciente</value>
+  </data>
+  <data name="8_1_H_Filter1PB" xml:space="preserve">
+    <value>Filtro realizado por</value>
+  </data>
+  <data name="8_1_H_Filter1PR" xml:space="preserve">
+    <value>Filtro por # de competencia</value>
+  </data>
+  <data name="8_1_H_Filter2ST" xml:space="preserve">
+    <value>Filtro por estatus</value>
+  </data>
+  <data name="8_1_H_Filter1ST" xml:space="preserve">
+    <value>Filtro por estatus</value>
+  </data>
+  <data name="8_1_L_Fresh" xml:space="preserve">
+    <value>Fresco</value>
+  </data>
+  <data name="8_1_L_Frozen" xml:space="preserve">
+    <value>Congelado</value>
+  </data>
+  <data name="8_1_L_Grad" xml:space="preserve">
+    <value>Gradiente</value>
+  </data>
+  <data name="8_1_L_Int" xml:space="preserve">
+    <value>Interno</value>
+  </data>
+  <data name="8_4_P_Con_Issue" xml:space="preserve">
+    <value>Emitido</value>
+  </data>
+  <data name="8_1_L_Long" xml:space="preserve">
+    <value>Longevidad</value>
+  </data>
+  <data name="8_4_P_Con_Lot" xml:space="preserve">
+    <value># de lote</value>
+  </data>
+  <data name="8_1_T_Morphology" xml:space="preserve">
+    <value>M - Morfología</value>
+  </data>
+  <data name="8_2_B_Main" xml:space="preserve">
+    <value>Mantenimiento</value>
+  </data>
+  <data name="8_1_L_Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="8_1_L_Morph" xml:space="preserve">
+    <value>Morf.</value>
+  </data>
+  <data name="8_4_P_CON_MSC" xml:space="preserve">
+    <value>CEM (M/ml)</value>
+  </data>
+  <data name="8_1_L_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="8_4_P_Con_Note" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="8_2_B_OpenTest" xml:space="preserve">
+    <value>Abrir Test</value>
+  </data>
+  <data name="8_1_L_Pass" xml:space="preserve">
+    <value>Pasó</value>
+  </data>
+  <data name="8_4_P_CON_RAN" xml:space="preserve">
+    <value>Rango aceptado</value>
+  </data>
+  <data name="8_4_P_CON_NC_RAN" xml:space="preserve">
+    <value>Rangos aceptados</value>
+  </data>
+  <data name="8_2_B_PD" xml:space="preserve">
+    <value>Info Pte.</value>
+  </data>
+  <data name="8_4_P_PatientID" xml:space="preserve">
+    <value>ID Pte</value>
+  </data>
+  <data name="8_4_P_PatFullName" xml:space="preserve">
+    <value>Nombre Pte.</value>
+  </data>
+  <data name="8_4_P_MainUser" xml:space="preserve">
+    <value>Realizado por</value>
+  </data>
+  <data name="8_1_L_PV" xml:space="preserve">
+    <value>Post Vasectomía</value>
+  </data>
+  <data name="8_2_B_PR" xml:space="preserve">
+    <value>Competencia</value>
+  </data>
+  <data name="8_4_P_Con_PRONUM" xml:space="preserve">
+    <value># Competencia</value>
+  </data>
+  <data name="8_1_L_VQC" xml:space="preserve">
+    <value>Marca conteo CC</value>
+  </data>
+  <data name="8_2_B_Report" xml:space="preserve">
+    <value>Reporte</value>
+  </data>
+  <data name="8_2_B_OnlyReport" xml:space="preserve">
+    <value>Reporte</value>
+  </data>
+  <data name="8_4_P_VisName" xml:space="preserve">
+    <value>Nombre reporte</value>
+  </data>
+  <data name="8_4_P_SampleID" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="8_1_L_ST" xml:space="preserve">
+    <value>Auto test</value>
+  </data>
+  <data name="8_2_B_SD" xml:space="preserve">
+    <value>Datos servicio</value>
+  </data>
+  <data name="8_4_P_SDDate" xml:space="preserve">
+    <value>Datos servicio Fecha/Hora</value>
+  </data>
+  <data name="8_2_B_ShowAll" xml:space="preserve">
+    <value>Mostrar Todo</value>
+  </data>
+  <data name="8_2_P_SubSampleType" xml:space="preserve">
+    <value>Etapa</value>
+  </data>
+  <data name="8_4_P_SDStatus" xml:space="preserve">
+    <value>Estatus</value>
+  </data>
+  <data name="8_4_P_CON_STA" xml:space="preserve">
+    <value>Estatus</value>
+  </data>
+  <data name="8_1_L_Swim" xml:space="preserve">
+    <value>Swim Up</value>
+  </data>
+  <data name="8_4_P_CON_TAR" xml:space="preserve">
+    <value>Diana (M/ml)</value>
+  </data>
+  <data name="8_4_P_Con_NC_TAR" xml:space="preserve">
+    <value>Dianas (M/ml)</value>
+  </data>
+  <data name="8_4_P_TestDate" xml:space="preserve">
+    <value>Fecha / Hora Test</value>
+  </data>
+  <data name="8_4_P_SampleType" xml:space="preserve">
+    <value>Tipo Test</value>
+  </data>
+  <data name="8_1_H_To" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="8_1_L_To" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="8_4_P_CounterType" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="8_4_P_LAST_TEST" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="8_1_T_Vitality" xml:space="preserve">
+    <value>V - Vitalidad</value>
+  </data>
+  <data name="8_4_P_VisualAss" xml:space="preserve">
+    <value>Evaluación Visual</value>
+  </data>
+  <data name="8_2_B_VS" xml:space="preserve">
+    <value>Visualización</value>
+  </data>
+  <data name="8_1_L_Vitality" xml:space="preserve">
+    <value>Vitalidad</value>
+  </data>
+  <data name="8_1_L_Washed" xml:space="preserve">
+    <value>Lavado</value>
+  </data>
+  <data name="8_1_L_Yes" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="9_1_L_PatAge" xml:space="preserve">
+    <value>Nacimiento/edad</value>
+  </data>
+  <data name="9_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>Revisar cables de conexión equipo</value>
+  </data>
+  <data name="9_1_H_NoVideoCheck" xml:space="preserve">
+    <value>Hacer clic en el botón Actualizar</value>
+  </data>
+  <data name="9_2_B_Next" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="9_1_L_MorphType" xml:space="preserve">
+    <value>Criterio</value>
+  </data>
+  <data name="9_1_H_DebrisHeader" xml:space="preserve">
+    <value>Escáner detritos/céls redondas</value>
+  </data>
+  <data name="9_1_L_Diluted" xml:space="preserve">
+    <value>Dilución 1 + 1</value>
+  </data>
+  <data name="9_1_H_Ex4" xml:space="preserve">
+    <value>Ejemplos</value>
+  </data>
+  <data name="9_1_H_Ex2" xml:space="preserve">
+    <value>Ejemplos</value>
+  </data>
+  <data name="9_1_H_Ex3" xml:space="preserve">
+    <value>Ejemplos</value>
+  </data>
+  <data name="9_1_H_Ex1" xml:space="preserve">
+    <value>Ejemplos</value>
+  </data>
+  <data name="9_2_B_Freeze" xml:space="preserve">
+    <value>Congelar</value>
+  </data>
+  <data name="9_2_B_FULL" xml:space="preserve">
+    <value>Pant. Compl.</value>
+  </data>
+  <data name="9_2_B_GridOff" xml:space="preserve">
+    <value>quitar cuadríc.</value>
+  </data>
+  <data name="9_2_B_Grid" xml:space="preserve">
+    <value>Aplicar cuadríc</value>
+  </data>
+  <data name="9_2_B_Gross" xml:space="preserve">
+    <value>Abundante</value>
+  </data>
+  <data name="9_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>Si el problema persiste</value>
+  </data>
+  <data name="9_2_B_Many" xml:space="preserve">
+    <value>Muchos</value>
+  </data>
+  <data name="9_2_B_Mod" xml:space="preserve">
+    <value>Moderados</value>
+  </data>
+  <data name="9_1_L_NoSperm" xml:space="preserve">
+    <value>NSO espz</value>
+  </data>
+  <data name="9_2_B_None" xml:space="preserve">
+    <value>Ning./poco</value>
+  </data>
+  <data name="9_1_L_Vol" xml:space="preserve">
+    <value>Vol. normal</value>
+  </data>
+  <data name="9_1_L_PatientID" xml:space="preserve">
+    <value>ID Pte</value>
+  </data>
+  <data name="9_1_L_PatientName" xml:space="preserve">
+    <value>Nombre Pte.</value>
+  </data>
+  <data name="9_2_B_RealTime" xml:space="preserve">
+    <value>Tiempo real</value>
+  </data>
+  <data name="9_2_B_Refresh" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="9_1_L_SampleID" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="9_1_L_SS" xml:space="preserve">
+    <value>Muestra analizada</value>
+  </data>
+  <data name="9_2_B_Settings" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="9_1_L_TestDate" xml:space="preserve">
+    <value>Fecha / Hora Test</value>
+  </data>
+  <data name="9_1_L_SampleType" xml:space="preserve">
+    <value>Tipo Test</value>
+  </data>
+  <data name="9_1_H_VideoError" xml:space="preserve">
+    <value>Error vídeo</value>
+  </data>
+  <data name="9_1_H_Zoom" xml:space="preserve">
+    <value>Disminuir zoom para visualizar</value>
+  </data>
+  <data name="10_1_H_DataField" xml:space="preserve">
+    <value>Entrada datos adicionales</value>
+  </data>
+  <data name="10_1_L_Aggl" xml:space="preserve">
+    <value>Aglutinación (1-4, A-E)</value>
+  </data>
+  <data name="10_2_B_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="10_1_L_CollLoc" xml:space="preserve">
+    <value>Lugar recolección (1, lab; 2, casa)</value>
+  </data>
+  <data name="10_1_L_ComSample" xml:space="preserve">
+    <value>Muestra completa (1, completa; 2, incompleta)</value>
+  </data>
+  <data name="10_2_B_Save" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="10_1_L_CollDiff" xml:space="preserve">
+    <value>Dificultades recolección</value>
+  </data>
+  <data name="10_1_L_DirIBTestIgA" xml:space="preserve">
+    <value>Test IP-Directo IgA (% con perlas) [&lt;50] </value>
+  </data>
+  <data name="10_1_L_DirIBTestIgG" xml:space="preserve">
+    <value>Test IP-Directo IgG (% con perlas) [&lt;50]</value>
+  </data>
+  <data name="10_1_L_DirMarTestIgA" xml:space="preserve">
+    <value>Test  MAR Directo IgA (%) (3 o 10 minutos) [&lt;50]</value>
+  </data>
+  <data name="10_1_L_DirMarTestIgG" xml:space="preserve">
+    <value>Test MAR Directo IgG (%) (3 o 10 minutos) [&lt;50]</value>
+  </data>
+  <data name="10_1_H_EnterData" xml:space="preserve">
+    <value>Entrada datos</value>
+  </data>
+  <data name="10_1_L_Fructose" xml:space="preserve">
+    <value>Fructosa (µmol por eyaculado) [&gt;=13]</value>
+  </data>
+  <data name="10_1_L_Glucose" xml:space="preserve">
+    <value>Glucosidasa (Neutral) (mU por eyaculado) [&gt;=20]</value>
+  </data>
+  <data name="10_1_L_Mediac" xml:space="preserve">
+    <value>Medicación</value>
+  </data>
+  <data name="10_1_L_OM" xml:space="preserve">
+    <value>Info. opcional</value>
+  </data>
+  <data name="10_1_L_PeroxPos" xml:space="preserve">
+    <value>Leucocitos peroxidasa positivos (M/mL)</value>
+  </data>
+  <data name="10_1_L_Treat" xml:space="preserve">
+    <value>Tratamiento semen (e.g. Bromelina/Quimiotripsina)</value>
+  </data>
+  <data name="10_1_L_Zinc" xml:space="preserve">
+    <value>Zinc (µmol por eyaculado) [&gt;=2.4]</value>
+  </data>
+  <data name="11_1_H_Offline4" xml:space="preserve">
+    <value>(Modo sin conexión)</value>
+  </data>
+  <data name="11_1_L_AvgTestDay" xml:space="preserve">
+    <value>Promedio test/día</value>
+  </data>
+  <data name="11_1_L_ACStatus" xml:space="preserve">
+    <value>Calibración y estandarización</value>
+  </data>
+  <data name="11_1_H_OOR2" xml:space="preserve">
+    <value>Click en íconos para detalles</value>
+  </data>
+  <data name="11_1_H_Offline2" xml:space="preserve">
+    <value>Conectar con</value>
+  </data>
+  <data name="11_1_H_CNHeader" xml:space="preserve">
+    <value>Controlar</value>
+  </data>
+  <data name="11_1_H_CNHeaderData" xml:space="preserve">
+    <value>Info.</value>
+  </data>
+  <data name="11_1_L_UseSpace" xml:space="preserve">
+    <value>Espacio HDD usado</value>
+  </data>
+  <data name="11_1_L_LastBackup" xml:space="preserve">
+    <value>Último respaldo</value>
+  </data>
+  <data name="11_1_L_LR" xml:space="preserve">
+    <value>Útima corrida</value>
+  </data>
+  <data name="11_2_B_Main" xml:space="preserve">
+    <value>Mantenimiento</value>
+  </data>
+  <data name="11_1_L_NextBackup" xml:space="preserve">
+    <value>Sig. respaldo</value>
+  </data>
+  <data name="11_1_L_NR" xml:space="preserve">
+    <value>No corrida</value>
+  </data>
+  <data name="11_2_B_Offline" xml:space="preserve">
+    <value>Sin conexión</value>
+  </data>
+  <data name="11_1_L_Pending" xml:space="preserve">
+    <value>Pendiente</value>
+  </data>
+  <data name="11_2_B_Refresh" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="11_2_B_Report" xml:space="preserve">
+    <value>Reporte</value>
+  </data>
+  <data name="11_2_B_Continue" xml:space="preserve">
+    <value>Reintentar</value>
+  </data>
+  <data name="11_2_B_Retry" xml:space="preserve">
+    <value>Reintentar</value>
+  </data>
+  <data name="11_1_L_STStatus" xml:space="preserve">
+    <value>Estatus Auto test</value>
+  </data>
+  <data name="11_1_H_SDHeader" xml:space="preserve">
+    <value>Info Datos servicio-Parámetros clave</value>
+  </data>
+  <data name="11_1_H_BKHeader" xml:space="preserve">
+    <value>Estatus respaldo SQA VISION</value>
+  </data>
+  <data name="11_1_H_IBHeader" xml:space="preserve">
+    <value>Estad. test</value>
+  </data>
+  <data name="11_1_H_Offline3" xml:space="preserve">
+    <value>Unidad análisis</value>
+  </data>
+  <data name="11_1_L_RemainTests" xml:space="preserve">
+    <value>Tests disponibles</value>
+  </data>
+  <data name="11_1_L_TestCount" xml:space="preserve">
+    <value>Tests totales corridos</value>
+  </data>
+  <data name="11_1_H_Offline1" xml:space="preserve">
+    <value>Equipo es incapaz de</value>
+  </data>
+  <data name="12_2_B_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="12_2_B_Enter" xml:space="preserve">
+    <value>Entrar</value>
+  </data>
+  <data name="12_1_L_Pass" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="12_1_L_User" xml:space="preserve">
+    <value>Nombre usuario</value>
+  </data>
+  <data name="12_1_L_Version" xml:space="preserve">
+    <value>Versión</value>
+  </data>
+  <data name="12_1_L_WrongPass" xml:space="preserve">
+    <value>Error contraseña</value>
+  </data>
+  <data name="12_1_L_WrongUser" xml:space="preserve">
+    <value>Usuario incorrecto</value>
+  </data>
+  <data name="13_2_B_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="13_2_B_CaptureVid" xml:space="preserve">
+    <value>Capturar</value>
+  </data>
+  <data name="13_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>Revisar cables de conexión equipo</value>
+  </data>
+  <data name="13_1_H_NoVideoCheck" xml:space="preserve">
+    <value>Hacer clic en el botón Actualizar</value>
+  </data>
+  <data name="13_2_B_Close" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="13_2_B_Continue" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="13_2_B_DNA" xml:space="preserve">
+    <value>Frag ADN</value>
+  </data>
+  <data name="13_1_L_Exit" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="13_2_B_Freeze" xml:space="preserve">
+    <value>Congelar</value>
+  </data>
+  <data name="13_1_L_FreezeUnFreeze" xml:space="preserve">
+    <value>Cong/Descong</value>
+  </data>
+  <data name="13_2_B_FULL" xml:space="preserve">
+    <value>Pant. Compl.</value>
+  </data>
+  <data name="13_2_B_GridOff" xml:space="preserve">
+    <value>quitar cuadríc.</value>
+  </data>
+  <data name="13_2_B_Grid" xml:space="preserve">
+    <value>Aplicar cuadríc</value>
+  </data>
+  <data name="13_1_L_GridOnOff" xml:space="preserve">
+    <value>Cuadríc. sí/no</value>
+  </data>
+  <data name="13_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>Si el problema persiste</value>
+  </data>
+  <data name="13_2_B_Morph" xml:space="preserve">
+    <value>Morf.</value>
+  </data>
+  <data name="13_2_B_New" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="13_2_B_RealTime" xml:space="preserve">
+    <value>Tiempo real</value>
+  </data>
+  <data name="13_2_B_Refresh" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="13_2_B_Report" xml:space="preserve">
+    <value>Reporte</value>
+  </data>
+  <data name="13_2_B_Save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="13_1_L_SaveasV" xml:space="preserve">
+    <value>Guardar como Vídeo</value>
+  </data>
+  <data name="13_1_L_SaveasI" xml:space="preserve">
+    <value>Guardar como Imagen</value>
+  </data>
+  <data name="13_2_B_Settings" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="13_1_H_VideoError" xml:space="preserve">
+    <value>Error vídeo</value>
+  </data>
+  <data name="13_2_B_Vitality" xml:space="preserve">
+    <value>Vitalidad</value>
+  </data>
+  <data name="14_2_B_ClearAll" xml:space="preserve">
+    <value>Limpiar todo</value>
+  </data>
+  <data name="14_2_B_Controls" xml:space="preserve">
+    <value>Controlar</value>
+  </data>
+  <data name="14_2_B_Defaults" xml:space="preserve">
+    <value>Por defecto</value>
+  </data>
+  <data name="14_2_B_QwikLink" xml:space="preserve">
+    <value>Interfaz lab</value>
+  </data>
+  <data name="14_2_B_ControlsProp" xml:space="preserve">
+    <value>Competencia</value>
+  </data>
+  <data name="14_2_B_Report" xml:space="preserve">
+    <value>Reporte</value>
+  </data>
+  <data name="14_2_B_Save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="14_2_B_Service" xml:space="preserve">
+    <value>Servicio</value>
+  </data>
+  <data name="14_2_B_System" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="14_2_B_Patients" xml:space="preserve">
+    <value>Analizar pte</value>
+  </data>
+  <data name="14_2_B_Vis" xml:space="preserve">
+    <value>Visualización</value>
+  </data>
+  <data name="15_2_B_C3Clear1" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="15_2_B_C3Clear2" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="15_2_B_C3Clear3" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="15_2_B_C3Clear4" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="15_1_L_C3ED1" xml:space="preserve">
+    <value>Emitido</value>
+  </data>
+  <data name="15_1_L_C3ED4" xml:space="preserve">
+    <value>Emitido</value>
+  </data>
+  <data name="15_1_L_C3ED2" xml:space="preserve">
+    <value>Emitido</value>
+  </data>
+  <data name="15_1_L_C3ED3" xml:space="preserve">
+    <value>Emitido</value>
+  </data>
+  <data name="15_1_L_C3NOTE1" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="15_1_L_C3NOTE2" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="15_1_L_C3NOTE3" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="15_1_L_C3NOTE4" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="15_1_H_PR_L1" xml:space="preserve">
+    <value>Competencia #1</value>
+  </data>
+  <data name="15_1_H_PR_L2" xml:space="preserve">
+    <value>Competencia #2</value>
+  </data>
+  <data name="15_1_H_PR_L3" xml:space="preserve">
+    <value>Competencia #3</value>
+  </data>
+  <data name="15_1_H_PR_L4" xml:space="preserve">
+    <value>Competencia #4</value>
+  </data>
+  <data name="15_1_L_C3Lot2" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="15_1_L_C3Lot3" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="15_1_L_C3Lot1" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="15_1_L_C3Lot4" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="15_1_L_CSSType" xml:space="preserve">
+    <value>Estándar</value>
+  </data>
+  <data name="16_1_H_Offline4" xml:space="preserve">
+    <value>(Modo sin conexión)</value>
+  </data>
+  <data name="16_2_B_MESTech" xml:space="preserve">
+    <value>Análisis</value>
+  </data>
+  <data name="16_1_L_AvgTestDay" xml:space="preserve">
+    <value>Promedio test/día</value>
+  </data>
+  <data name="16_2_B_BackupNow" xml:space="preserve">
+    <value>Respaldo</value>
+  </data>
+  <data name="16_1_L_by" xml:space="preserve">
+    <value>por</value>
+  </data>
+  <data name="16_2_B_Calendar" xml:space="preserve">
+    <value>Calendario</value>
+  </data>
+  <data name="16_4_P_CleanChamber" xml:space="preserve">
+    <value>Limpiar compartimiento análisis (paleta punto azul)</value>
+  </data>
+  <data name="16_1_H_OOR2" xml:space="preserve">
+    <value>Click en íconos para detalles</value>
+  </data>
+  <data name="16_4_P_PassSelfTest" xml:space="preserve">
+    <value>Confirme sistema pasó auto test</value>
+  </data>
+  <data name="16_1_H_Offline2" xml:space="preserve">
+    <value>Conectar con</value>
+  </data>
+  <data name="16_2_B_Continue" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="16_1_H_CNHeader" xml:space="preserve">
+    <value>Controles -</value>
+  </data>
+  <data name="16_1_H_CNHeaderData" xml:space="preserve">
+    <value>Info.</value>
+  </data>
+  <data name="16_4_P_DryChamber" xml:space="preserve">
+    <value>Secar compart. análsis (paleta con foam)</value>
+  </data>
+  <data name="16_4_P_DustChamber" xml:space="preserve">
+    <value>Desempolvar compar. análisis (cepillo madera)</value>
+  </data>
+  <data name="16_1_L_UseSpace" xml:space="preserve">
+    <value>Espacio HDD usado</value>
+  </data>
+  <data name="16_1_L_LastBackup" xml:space="preserve">
+    <value>Último respaldo</value>
+  </data>
+  <data name="16_1_P_LastData" xml:space="preserve">
+    <value>Realizado últm vez</value>
+  </data>
+  <data name="16_1_L_LR" xml:space="preserve">
+    <value>Útima corrida</value>
+  </data>
+  <data name="16_1_H_DailyMain" xml:space="preserve">
+    <value>Lista de mantenimiento</value>
+  </data>
+  <data name="16_1_L_NextBackup" xml:space="preserve">
+    <value>Sig. respaldo</value>
+  </data>
+  <data name="16_1_P_NotRun" xml:space="preserve">
+    <value>No corrida</value>
+  </data>
+  <data name="16_2_B_Offline" xml:space="preserve">
+    <value>Sin conexión</value>
+  </data>
+  <data name="16_1_P_Pending" xml:space="preserve">
+    <value>Pendiente</value>
+  </data>
+  <data name="16_1_L_ComBy" xml:space="preserve">
+    <value>Realizado por</value>
+  </data>
+  <data name="16_2_B_Refresh" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="16_2_B_ReportMain" xml:space="preserve">
+    <value>Reporte</value>
+  </data>
+  <data name="16_2_B_Restore" xml:space="preserve">
+    <value>Restaurar</value>
+  </data>
+  <data name="16_2_B_Retry" xml:space="preserve">
+    <value>Reintentar</value>
+  </data>
+  <data name="16_4_P_RunDailyQC" xml:space="preserve">
+    <value>Correr CC diariamente según necesidad</value>
+  </data>
+  <data name="16_4_P_RunWBCPHStrip" xml:space="preserve">
+    <value>Pasar controles a tiras leucocitos y pH </value>
+  </data>
+  <data name="16_2_B_SaveMain" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="16_2_B_SelfTest" xml:space="preserve">
+    <value>Auto test</value>
+  </data>
+  <data name="16_1_L_STStatus" xml:space="preserve">
+    <value>Estatus Auto test</value>
+  </data>
+  <data name="16_2_B_Service" xml:space="preserve">
+    <value>Servicio</value>
+  </data>
+  <data name="16_1_H_SDPar" xml:space="preserve">
+    <value>Info servicio-Parámetros</value>
+  </data>
+  <data name="16_2_B_ReportSD" xml:space="preserve">
+    <value>Reporte de servicio</value>
+  </data>
+  <data name="16_2_B_BackupSetup" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="16_2_B_ReportSetup" xml:space="preserve">
+    <value>Reporte ajustes</value>
+  </data>
+  <data name="16_1_H_BackIB" xml:space="preserve">
+    <value>Estatus respaldo SQA VISION</value>
+  </data>
+  <data name="16_1_H_IBHeader" xml:space="preserve">
+    <value>Estad. test</value>
+  </data>
+  <data name="16_1_H_Offline3" xml:space="preserve">
+    <value>Unidad análisis</value>
+  </data>
+  <data name="16_1_L_RemainTests" xml:space="preserve">
+    <value>Tests disponibles</value>
+  </data>
+  <data name="16_1_L_TestCount" xml:space="preserve">
+    <value>Tests totales corridos</value>
+  </data>
+  <data name="16_4_P_VerifyDateTime" xml:space="preserve">
+    <value>Verificar fecha y hora</value>
+  </data>
+  <data name="16_4_P_SuppInv" xml:space="preserve">
+    <value>Verificar inventario suministro</value>
+  </data>
+  <data name="16_1_H_Offline1" xml:space="preserve">
+    <value>Equipo es incapaz de</value>
+  </data>
+  <data name="17_2_B_C2Clear1" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="17_2_B_C2Clear3" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="17_2_B_C2Clear2" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="17_2_B_C1Clear2" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="17_2_B_C1Clear1" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="17_2_B_C1Clear3" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="17_1_H_C1L3GC" xml:space="preserve">
+    <value>Color gráfico conc.</value>
+  </data>
+  <data name="17_1_L_C1ED1" xml:space="preserve">
+    <value>Fecha Exp.</value>
+  </data>
+  <data name="17_1_L_C1ED2" xml:space="preserve">
+    <value>Fecha Exp.</value>
+  </data>
+  <data name="17_1_L_C1ED3" xml:space="preserve">
+    <value>Fecha Exp.</value>
+  </data>
+  <data name="17_1_L_C2ED1" xml:space="preserve">
+    <value>Fecha Exp.</value>
+  </data>
+  <data name="17_1_L_C2ED2" xml:space="preserve">
+    <value>Fecha Exp.</value>
+  </data>
+  <data name="17_1_L_C2ED3" xml:space="preserve">
+    <value>Fecha Exp.</value>
+  </data>
+  <data name="17_1_H_C2L2GC" xml:space="preserve">
+    <value>Color gráfico</value>
+  </data>
+  <data name="17_1_H_C2L3GC" xml:space="preserve">
+    <value>Color gráfico</value>
+  </data>
+  <data name="17_1_H_C1L2GC" xml:space="preserve">
+    <value>Color gráfico</value>
+  </data>
+  <data name="17_1_H_C1L1GC" xml:space="preserve">
+    <value>Color gráfico</value>
+  </data>
+  <data name="17_1_H_C2L1GC" xml:space="preserve">
+    <value>Color gráfico</value>
+  </data>
+  <data name="17_1_L_C2Lot2" xml:space="preserve">
+    <value># de lote</value>
+  </data>
+  <data name="17_1_L_C1Lot1" xml:space="preserve">
+    <value># de lote</value>
+  </data>
+  <data name="17_1_L_C2Lot3" xml:space="preserve">
+    <value># de lote</value>
+  </data>
+  <data name="17_1_L_C2Lot1" xml:space="preserve">
+    <value># de lote</value>
+  </data>
+  <data name="17_1_L_C1Lot3" xml:space="preserve">
+    <value># de lote</value>
+  </data>
+  <data name="17_1_L_C1Lot2" xml:space="preserve">
+    <value># de lote</value>
+  </data>
+  <data name="17_1_H_C1L3GCM" xml:space="preserve">
+    <value>Color gráfico MSC</value>
+  </data>
+  <data name="17_1_H_QCData" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="17_1_L_C2RAN3" xml:space="preserve">
+    <value>Rango (+/-)</value>
+  </data>
+  <data name="17_1_L_C1RAN1" xml:space="preserve">
+    <value>Rango (+/-)</value>
+  </data>
+  <data name="17_1_L_C1RAN2" xml:space="preserve">
+    <value>Rango (+/-)</value>
+  </data>
+  <data name="17_1_L_C2RAN1" xml:space="preserve">
+    <value>Rango (+/-)</value>
+  </data>
+  <data name="17_1_L_C2RAN2" xml:space="preserve">
+    <value>Rango (+/-)</value>
+  </data>
+  <data name="17_1_L_C1RAN3" xml:space="preserve">
+    <value>Rangos (+/-)</value>
+  </data>
+  <data name="17_1_L_CSetup" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="17_1_L_C1TAR1" xml:space="preserve">
+    <value>Diana (M/ml)</value>
+  </data>
+  <data name="17_1_L_C1TAR2" xml:space="preserve">
+    <value>Diana (M/ml)</value>
+  </data>
+  <data name="17_1_L_C2TAR1" xml:space="preserve">
+    <value>Diana (M/ml)</value>
+  </data>
+  <data name="17_1_L_C2TAR2" xml:space="preserve">
+    <value>Diana (M/ml)</value>
+  </data>
+  <data name="17_1_L_C2TAR3" xml:space="preserve">
+    <value>Diana (M/ml)</value>
+  </data>
+  <data name="17_1_L_C1TAR3" xml:space="preserve">
+    <value>Dianas (M/ml)</value>
+  </data>
+  <data name="18_1_H_10MICRO2" xml:space="preserve">
+    <value>Estimación mov</value>
+  </data>
+  <data name="18_1_H_10MICRO1" xml:space="preserve">
+    <value>Contador 10 microlitros</value>
+  </data>
+  <data name="18_1_H_BDY" xml:space="preserve">
+    <value>Solamente año de nacimiento</value>
+  </data>
+  <data name="18_2_B_ClearAll" xml:space="preserve">
+    <value>Limpiar todo</value>
+  </data>
+  <data name="18_1_H_Cutoff1" xml:space="preserve">
+    <value>Conc. &lt;15 M/ml o Mov. &lt; 40%</value>
+  </data>
+  <data name="18_5_H_Chamber" xml:space="preserve">
+    <value>Estándares Conc.</value>
+  </data>
+  <data name="18_1_H_ConcSt" xml:space="preserve">
+    <value>Estándares Conc.</value>
+  </data>
+  <data name="18_1_H_Deb" xml:space="preserve">
+    <value>Lím. escáner Debris/céls redondas</value>
+  </data>
+  <data name="18_1_H_ST" xml:space="preserve">
+    <value>Tipo test por defecto</value>
+  </data>
+  <data name="18_1_H_DST1" xml:space="preserve">
+    <value>Fresco</value>
+  </data>
+  <data name="18_1_H_DST6" xml:space="preserve">
+    <value>Congelado</value>
+  </data>
+  <data name="18_1_H_DST5" xml:space="preserve">
+    <value>Gradiente</value>
+  </data>
+  <data name="18_1_L_OL1" xml:space="preserve">
+    <value>Inicial</value>
+  </data>
+  <data name="18_1_H_DST7" xml:space="preserve">
+    <value>Longevidad</value>
+  </data>
+  <data name="18_1_H_LongTestIn" xml:space="preserve">
+    <value>Nombre intervalo longevidad</value>
+  </data>
+  <data name="18_1_H_VIS1" xml:space="preserve">
+    <value>Contador baja calidad</value>
+  </data>
+  <data name="18_1_H_DST8" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="18_1_H_MDE_OF" xml:space="preserve">
+    <value>Entrada manual datos-campos opcionales</value>
+  </data>
+  <data name="18_1_H_MDE" xml:space="preserve">
+    <value>Entrada manual datos morf.</value>
+  </data>
+  <data name="18_1_H_VDE" xml:space="preserve">
+    <value>Entrada manual datos vitalidad</value>
+  </data>
+  <data name="18_1_H_Cutoff3" xml:space="preserve">
+    <value>No escanear por detritos</value>
+  </data>
+  <data name="18_1_H_DST9" xml:space="preserve">
+    <value>No por defecto</value>
+  </data>
+  <data name="18_4_L_None" xml:space="preserve">
+    <value>ninguno</value>
+  </data>
+  <data name="18_1_L_OI" xml:space="preserve">
+    <value>Info. opcional</value>
+  </data>
+  <data name="18_1_L_OM" xml:space="preserve">
+    <value>Info. opcional</value>
+  </data>
+  <data name="18_7_G_Par" xml:space="preserve">
+    <value>Parámetro</value>
+  </data>
+  <data name="18_1_H_AgeTest" xml:space="preserve">
+    <value>Edad pte (sin fecha nacimiento)</value>
+  </data>
+  <data name="18_1_H_PDE_OF" xml:space="preserve">
+    <value>Entrada info. pte-campos opcionales</value>
+  </data>
+  <data name="18_1_H_PVDE" xml:space="preserve">
+    <value>Campo Post-Vas. por campo contado</value>
+  </data>
+  <data name="18_1_H_DST2" xml:space="preserve">
+    <value>Post Vasectomía</value>
+  </data>
+  <data name="18_7_G_RangeType" xml:space="preserve">
+    <value>Tipo rango</value>
+  </data>
+  <data name="18_7_G_RefValue" xml:space="preserve">
+    <value>Valor ref.</value>
+  </data>
+  <data name="18_1_H_Cutoff2" xml:space="preserve">
+    <value>Escaneo detritos todas las muestras</value>
+  </data>
+  <data name="18_2_B_SelectAll" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="18_1_H_ShowRanges" xml:space="preserve">
+    <value>Mostrar rangos</value>
+  </data>
+  <data name="18_1_L_OL" xml:space="preserve">
+    <value>Paso</value>
+  </data>
+  <data name="18_1_H_DST4" xml:space="preserve">
+    <value>Swim Up</value>
+  </data>
+  <data name="18_1_H_TestCri" xml:space="preserve">
+    <value>Criterios análisis</value>
+  </data>
+  <data name="18_7_G_Unit" xml:space="preserve">
+    <value>unid.</value>
+  </data>
+  <data name="18_2_B_Upload" xml:space="preserve">
+    <value>Subir</value>
+  </data>
+  <data name="18_1_H_DST3" xml:space="preserve">
+    <value>Lavado</value>
+  </data>
+  <data name="18_1_H_MorphType1" xml:space="preserve">
+    <value>3ra Ed OMS</value>
+  </data>
+  <data name="18_1_H_MorphType2" xml:space="preserve">
+    <value>4ta Ed OMS</value>
+  </data>
+  <data name="18_1_H_MorphType3" xml:space="preserve">
+    <value>5ta Ed OMS</value>
+  </data>
+  <data name="18_1_H_WHOC" xml:space="preserve">
+    <value>Contador OMS</value>
+  </data>
+  <data name="19_1_L_VisSet" xml:space="preserve">
+    <value>Adicional</value>
+  </data>
+  <data name="19_2_B_VisSet" xml:space="preserve">
+    <value>Config. avanzadas</value>
+  </data>
+  <data name="19_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>Revisar cables de conexión equipo</value>
+  </data>
+  <data name="19_1_H_CirSize" xml:space="preserve">
+    <value>Tamaño círc.</value>
+  </data>
+  <data name="19_1_H_ClickM" xml:space="preserve">
+    <value>contador clic (clave)</value>
+  </data>
+  <data name="19_1_H_ClickD" xml:space="preserve">
+    <value>contador clic (clave)</value>
+  </data>
+  <data name="19_1_H_ClickV" xml:space="preserve">
+    <value>contador clic (clave)</value>
+  </data>
+  <data name="19_1_H_NoVideoCheck" xml:space="preserve">
+    <value>Hacer clic en el botón Actualizar</value>
+  </data>
+  <data name="19_1_L_GridColor" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="19_1_L_Comp" xml:space="preserve">
+    <value>Compresión</value>
+  </data>
+  <data name="19_1_H_CountTypeD" xml:space="preserve">
+    <value>Tipo conteo</value>
+  </data>
+  <data name="19_1_H_CountTypeV" xml:space="preserve">
+    <value>Tipo conteo</value>
+  </data>
+  <data name="19_1_H_CountType" xml:space="preserve">
+    <value>Tipo conteo</value>
+  </data>
+  <data name="19_1_L_MorphType" xml:space="preserve">
+    <value>Criterio</value>
+  </data>
+  <data name="19_1_P_ViabDead" xml:space="preserve">
+    <value>Muertos</value>
+  </data>
+  <data name="19_1_L_Device" xml:space="preserve">
+    <value>Equipo</value>
+  </data>
+  <data name="19_1_H_DNAData" xml:space="preserve">
+    <value>Conf. Frag. ADN</value>
+  </data>
+  <data name="19_1_L_GridEx" xml:space="preserve">
+    <value>Ejemplo</value>
+  </data>
+  <data name="19_1_L_CirEx" xml:space="preserve">
+    <value>Ejemplo</value>
+  </data>
+  <data name="19_2_B_Freeze" xml:space="preserve">
+    <value>Congelar</value>
+  </data>
+  <data name="19_1_H_FD" xml:space="preserve">
+    <value>diferencial completo</value>
+  </data>
+  <data name="19_2_B_FULL" xml:space="preserve">
+    <value>Pant. Compl.</value>
+  </data>
+  <data name="19_2_B_GridOff" xml:space="preserve">
+    <value>quitar cuadríc.</value>
+  </data>
+  <data name="19_2_B_Grid" xml:space="preserve">
+    <value>Aplicar cuadríc</value>
+  </data>
+  <data name="19_1_H_GridData" xml:space="preserve">
+    <value>Color/Tamaño</value>
+  </data>
+  <data name="19_1_P_DNANonFreg" xml:space="preserve">
+    <value>Halo</value>
+  </data>
+  <data name="19_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>Si el problema persiste</value>
+  </data>
+  <data name="19_1_P_AB10" xml:space="preserve">
+    <value>Incluir defec. cabeza alfiler</value>
+  </data>
+  <data name="19_1_P_ViabLive" xml:space="preserve">
+    <value>Vivos</value>
+  </data>
+  <data name="19_1_H_MarkM" xml:space="preserve">
+    <value>Marca conteo circular</value>
+  </data>
+  <data name="19_1_H_MarkD" xml:space="preserve">
+    <value>Marca conteo circular</value>
+  </data>
+  <data name="19_1_H_MarkV" xml:space="preserve">
+    <value>Marca conteo circular</value>
+  </data>
+  <data name="19_1_H_MorphData" xml:space="preserve">
+    <value>Parám. Morf.</value>
+  </data>
+  <data name="19_1_P_DNAFreg" xml:space="preserve">
+    <value>Sin halo</value>
+  </data>
+  <data name="19_1_H_ANN" xml:space="preserve">
+    <value>Normales/Anormales</value>
+  </data>
+  <data name="19_1_L_CirPixSize" xml:space="preserve">
+    <value>Tamañ. píxe</value>
+  </data>
+  <data name="19_1_L_GridPixSize" xml:space="preserve">
+    <value>Tamañ. píxe</value>
+  </data>
+  <data name="19_1_L_CirRad" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="19_2_B_RealTime" xml:space="preserve">
+    <value>Tiempo real</value>
+  </data>
+  <data name="19_2_B_Refresh" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="19_2_B_Settings" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="19_1_H_TestType" xml:space="preserve">
+    <value>Tipo Test</value>
+  </data>
+  <data name="19_1_H_VideoError" xml:space="preserve">
+    <value>Error vídeo</value>
+  </data>
+  <data name="19_1_L_VidIn" xml:space="preserve">
+    <value>Entrada vídeo</value>
+  </data>
+  <data name="19_1_H_VidSet" xml:space="preserve">
+    <value>Conf.</value>
+  </data>
+  <data name="19_1_L_VidAna" xml:space="preserve">
+    <value>Estándar víd.</value>
+  </data>
+  <data name="19_1_L_VidSub" xml:space="preserve">
+    <value>Subtipo vídeo</value>
+  </data>
+  <data name="19_1_H_VitData" xml:space="preserve">
+    <value>Configurac. vitalidad</value>
+  </data>
+  <data name="20_1_H_MediaRatio" xml:space="preserve">
+    <value>Factor de Dln con 2 medios</value>
+  </data>
+  <data name="20_1_H_TFAdd" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="20_1_H_UsPa" xml:space="preserve">
+    <value>Usuarios autorizados</value>
+  </data>
+  <data name="20_1_H_PMLF" xml:space="preserve">
+    <value>Promedio del último</value>
+  </data>
+  <data name="20_2_B_BrowseReport" xml:space="preserve">
+    <value>Examinar</value>
+  </data>
+  <data name="20_2_B_BrowseExport" xml:space="preserve">
+    <value>Examinar</value>
+  </data>
+  <data name="20_1_H_CON_PASS" xml:space="preserve">
+    <value>Confirmar contraseña</value>
+  </data>
+  <data name="20_1_H_SF" xml:space="preserve">
+    <value>No mostrar laboratorio en info. del reporte</value>
+  </data>
+  <data name="20_1_H_DosingSet" xml:space="preserve">
+    <value>Ajustes de dosificación</value>
+  </data>
+  <data name="20_1_H_TFMail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="20_1_H_AutoExport" xml:space="preserve">
+    <value>Habilitar auto-exp.</value>
+  </data>
+  <data name="20_1_H_CB" xml:space="preserve">
+    <value>Habilitar modo Crio-Banco</value>
+  </data>
+  <data name="20_1_L_Enter" xml:space="preserve">
+    <value>Ingresar último</value>
+  </data>
+  <data name="20_1_H_AEP" xml:space="preserve">
+    <value>Exportar ubicac.</value>
+  </data>
+  <data name="20_1_H_ExtSteps" xml:space="preserve">
+    <value>Ampliando pasos</value>
+  </data>
+  <data name="20_1_H_TFName" xml:space="preserve">
+    <value>Nombre lab</value>
+  </data>
+  <data name="20_1_H_TFFax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="20_4_L_UFN" xml:space="preserve">
+    <value>Nombre completo</value>
+  </data>
+  <data name="20_1_H_HidePNFirstPage" xml:space="preserve">
+    <value>Ocultar número de página en la primera</value>
+  </data>
+  <data name="20_1_H_AEImage" xml:space="preserve">
+    <value>Incluir imágenes</value>
+  </data>
+  <data name="20_1_H_Lang" xml:space="preserve">
+    <value>Subir archivos lenguaje</value>
+  </data>
+  <data name="20_1_H_TFLogo" xml:space="preserve">
+    <value>LOGO</value>
+  </data>
+  <data name="20_1_L_MediaRatio" xml:space="preserve">
+    <value>Factor de dilucion con 1 medio</value>
+  </data>
+  <data name="20_1_H_MODE" xml:space="preserve">
+    <value>	Configuración de modo</value>
+  </data>
+  <data name="20_1_L_Month" xml:space="preserve">
+    <value>Mes(es)</value>
+  </data>
+  <data name="20_1_H_ImageInPage" xml:space="preserve">
+    <value>Núm. imág. por pág</value>
+  </data>
+  <data name="20_1_H_OptImageSize" xml:space="preserve">
+    <value>tamaño de imagen</value>
+  </data>
+  <data name="20_4_L_PASS" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="20_1_H_TFPhone" xml:space="preserve">
+    <value>Tel.</value>
+  </data>
+  <data name="20_1_H_FresCorr" xml:space="preserve">
+    <value>Procesando pérdida (%)</value>
+  </data>
+  <data name="20_1_H_RerportProgram" xml:space="preserve">
+    <value>Reporte programa</value>
+  </data>
+  <data name="20_1_H_Report" xml:space="preserve">
+    <value>Ajustes reporte</value>
+  </data>
+  <data name="20_1_H_ReportType" xml:space="preserve">
+    <value>Tipo reporte</value>
+  </data>
+  <data name="20_1_H_SMS" xml:space="preserve">
+    <value>Mostrar modo Selector</value>
+  </data>
+  <data name="20_1_H_ShowSIHeader" xml:space="preserve">
+    <value>Mostrar info. muestra sólo en la primera pág</value>
+  </data>
+  <data name="20_1_H_Sound" xml:space="preserve">
+    <value>Tipo sonido</value>
+  </data>
+  <data name="20_1_L_SpTarDose" xml:space="preserve">
+    <value>Dosaje de esperm.</value>
+  </data>
+  <data name="20_1_H_IH" xml:space="preserve">
+    <value>Prueba iniciada desde Principal</value>
+  </data>
+  <data name="20_1_H_UM" xml:space="preserve">
+    <value>Margen superior</value>
+  </data>
+  <data name="20_4_L_User" xml:space="preserve">
+    <value>Nombre usuario</value>
+  </data>
+  <data name="20_1_L_VolDose" xml:space="preserve">
+    <value>Vol. de dosaje</value>
+  </data>
+  <data name="20_1_H_TFSite" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="20_1_L_Week" xml:space="preserve">
+    <value>Semana(s)</value>
+  </data>
+  <data name="20_1_L_Year" xml:space="preserve">
+    <value>Año(s)</value>
+  </data>
+  <data name="22_2_B_Accept" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="22_2_B_AddComments" xml:space="preserve">
+    <value>Añadir comentar</value>
+  </data>
+  <data name="22_2_B_Attach" xml:space="preserve">
+    <value>Adjuntar</value>
+  </data>
+  <data name="22_2_B_Continue" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="22_2_B_Delete" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="22_2_B_Ignore" xml:space="preserve">
+    <value>Ignorar</value>
+  </data>
+  <data name="22_2_B_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="22_2_B_Reassess" xml:space="preserve">
+    <value>Re-evaluar</value>
+  </data>
+  <data name="22_2_B_Reenter" xml:space="preserve">
+    <value>Re-introducir</value>
+  </data>
+  <data name="22_2_B_ReTest" xml:space="preserve">
+    <value>Reprocesar</value>
+  </data>
+  <data name="22_2_B_Yes" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="24_2_B_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="24_1_H_Msg1" xml:space="preserve">
+    <value>Generando reporte servicio</value>
+  </data>
+  <data name="24_1_H_Msg2" xml:space="preserve">
+    <value>Por favor espere</value>
+  </data>
+  <data name="24_1_H_MsgPW" xml:space="preserve">
+    <value>Por favor espere</value>
+  </data>
+  <data name="26_1_P_Completed" xml:space="preserve">
+    <value>Completado</value>
+  </data>
+  <data name="26_2_B_Edit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="26_1_P_Step" xml:space="preserve">
+    <value>Paso</value>
+  </data>
+  <data name="26_1_P_TestDate" xml:space="preserve">
+    <value>Fecha / Hora Test</value>
+  </data>
+  <data name="26_1_H_TimerHeader" xml:space="preserve">
+    <value>Lista temporizador</value>
+  </data>
+  <data name="27_1_L_AlarmDate" xml:space="preserve">
+    <value>Fecha/hora alarma</value>
+  </data>
+  <data name="27_1_H_EditTimerHeader" xml:space="preserve">
+    <value>Editar temporizador</value>
+  </data>
+  <data name="27_1_L_PatientID" xml:space="preserve">
+    <value>ID Pte</value>
+  </data>
+  <data name="27_1_L_SampleID" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="27_2_B_Save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="27_1_L_Step" xml:space="preserve">
+    <value>Paso</value>
+  </data>
+  <data name="28_2_B_ExportSys" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="28_1_H_ExportHeader" xml:space="preserve">
+    <value>Exportar datos sistema</value>
+  </data>
+  <data name="28_2_B_Open" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="28_1_L_Parameter" xml:space="preserve">
+    <value>Parámetro</value>
+  </data>
+  <data name="28_1_H_RTHeader" xml:space="preserve">
+    <value>Monitoreo Tiempo Real</value>
+  </data>
+  <data name="28_1_L_FROM" xml:space="preserve">
+    <value>Selección rango fechas</value>
+  </data>
+  <data name="28_1_L_GraphPar" xml:space="preserve">
+    <value>Seleccionar parámetro gráfico</value>
+  </data>
+  <data name="28_1_L_SelectParameter" xml:space="preserve">
+    <value>Seleciconar parámetros lectura</value>
+  </data>
+  <data name="28_2_B_Start" xml:space="preserve">
+    <value>Empezar</value>
+  </data>
+  <data name="28_2_B_Stop" xml:space="preserve">
+    <value>Detener</value>
+  </data>
+  <data name="28_1_C_Time" xml:space="preserve">
+    <value>Tiempo (s)</value>
+  </data>
+  <data name="28_1_H_To" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="28_1_L_Value" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="29_1_L_MOES" xml:space="preserve">
+    <value>Contador 10 microlitros (Estimación movilidad)</value>
+  </data>
+  <data name="29_1_L_2MediaRatio" xml:space="preserve">
+    <value>Factor de Dln con 2 medios</value>
+  </data>
+  <data name="29_1_L_FooterData2" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="29_1_L_AUE" xml:space="preserve">
+    <value>Habilitar Auto-export.</value>
+  </data>
+  <data name="29_1_L_AUEI" xml:space="preserve">
+    <value>Incluir imág. Auto-export.</value>
+  </data>
+  <data name="29_1_L_PmlfAvg" xml:space="preserve">
+    <value>FPM/FPMP promedio del último</value>
+  </data>
+  <data name="29_1_L_BF" xml:space="preserve">
+    <value>Frecuencia respaldo</value>
+  </data>
+  <data name="29_1_L_YBD" xml:space="preserve">
+    <value>Solamente año de nacimiento</value>
+  </data>
+  <data name="29_1_L_CS" xml:space="preserve">
+    <value>Tamaño píxel</value>
+  </data>
+  <data name="29_1_L_CR" xml:space="preserve">
+    <value>Radio círculo</value>
+  </data>
+  <data name="29_1_L_CC" xml:space="preserve">
+    <value>contador clic (clave)</value>
+  </data>
+  <data name="29_1_P_Clinical" xml:space="preserve">
+    <value>Clínico</value>
+  </data>
+  <data name="29_1_L_COP" xml:space="preserve">
+    <value>Puerto COM</value>
+  </data>
+  <data name="29_1_P_DebCutoff1" xml:space="preserve">
+    <value>Conc. &lt;15 M/ml o Mov. &lt; 40%</value>
+  </data>
+  <data name="29_1_L_ST" xml:space="preserve">
+    <value>Estándares Conc.</value>
+  </data>
+  <data name="29_1_P_StandardType1" xml:space="preserve">
+    <value>Estánd. Conc. 1</value>
+  </data>
+  <data name="29_1_P_StandardType2" xml:space="preserve">
+    <value>Estánd. Conc. 2</value>
+  </data>
+  <data name="29_1_L_ContInf" xml:space="preserve">
+    <value>Info de contacto</value>
+  </data>
+  <data name="29_1_P_CB" xml:space="preserve">
+    <value>Crio-Banco</value>
+  </data>
+  <data name="29_1_L_Days" xml:space="preserve">
+    <value>Día (s)</value>
+  </data>
+  <data name="29_1_P_ViabDead" xml:space="preserve">
+    <value>Muertos</value>
+  </data>
+  <data name="29_1_L_VS" xml:space="preserve">
+    <value>Punto corte escáner debris</value>
+  </data>
+  <data name="29_1_L_DST" xml:space="preserve">
+    <value>Tipo test por defecto</value>
+  </data>
+  <data name="29_1_L_DV" xml:space="preserve">
+    <value>Versión equipo</value>
+  </data>
+  <data name="29_1_L_QLD" xml:space="preserve">
+    <value>No habilit.</value>
+  </data>
+  <data name="29_1_L_DC" xml:space="preserve">
+    <value>Conteo ADN Frag.</value>
+  </data>
+  <data name="29_1_L_DCT" xml:space="preserve">
+    <value>Tipo conteo ADN Frag.</value>
+  </data>
+  <data name="29_1_L_SF" xml:space="preserve">
+    <value>No mostrar laboratorio en info. del reporte</value>
+  </data>
+  <data name="29_1_L_email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="29_1_L_CBM" xml:space="preserve">
+    <value>Habilitar modo Crio-Banco</value>
+  </data>
+  <data name="29_1_L_QLE" xml:space="preserve">
+    <value>Habilitado</value>
+  </data>
+  <data name="29_1_L_ExDate" xml:space="preserve">
+    <value>Fecha Exp.</value>
+  </data>
+  <data name="29_1_L_ESteps" xml:space="preserve">
+    <value>Ampliando pasos</value>
+  </data>
+  <data name="29_1_L_FacAdd" xml:space="preserve">
+    <value>Info. del lab</value>
+  </data>
+  <data name="29_1_L_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="29_1_L_RFL" xml:space="preserve">
+    <value>Flexible</value>
+  </data>
+  <data name="29_1_P_SampleDef1" xml:space="preserve">
+    <value>Fresco</value>
+  </data>
+  <data name="29_1_P_SampleDef3" xml:space="preserve">
+    <value>Congelado</value>
+  </data>
+  <data name="29_1_L_FD" xml:space="preserve">
+    <value>diferencial completo</value>
+  </data>
+  <data name="29_1_P_SampleDef8" xml:space="preserve">
+    <value>Gradiente</value>
+  </data>
+  <data name="29_1_L_GL" xml:space="preserve">
+    <value>Color línea</value>
+  </data>
+  <data name="29_1_L_GLS" xml:space="preserve">
+    <value>Tamaño línea</value>
+  </data>
+  <data name="29_1_P_DNANonFreg" xml:space="preserve">
+    <value>Halo</value>
+  </data>
+  <data name="29_1_L_HPN" xml:space="preserve">
+    <value>Ocultar número de página en la primera</value>
+  </data>
+  <data name="29_1_L_MC11" xml:space="preserve">
+    <value>Incluir cabezas</value>
+  </data>
+  <data name="29_1_L_PR_DATE" xml:space="preserve">
+    <value>Emitido</value>
+  </data>
+  <data name="29_1_L_LIN" xml:space="preserve">
+    <value>Interfaz lab</value>
+  </data>
+  <data name="29_1_L_LISE" xml:space="preserve">
+    <value>Conf. interfaz lab</value>
+  </data>
+  <data name="29_1_L_LAS" xml:space="preserve">
+    <value>Arch. lenguaje</value>
+  </data>
+  <data name="29_1_P_ViabLive" xml:space="preserve">
+    <value>Vivos</value>
+  </data>
+  <data name="29_1_P_SampleDef5" xml:space="preserve">
+    <value>Longevidad</value>
+  </data>
+  <data name="29_1_L_LN" xml:space="preserve">
+    <value>Nombre Longev.</value>
+  </data>
+  <data name="29_1_L_LI" xml:space="preserve">
+    <value>Nombre Longev. Inicial</value>
+  </data>
+  <data name="29_1_L_LS" xml:space="preserve">
+    <value>Tiempo Longev.</value>
+  </data>
+  <data name="29_1_L_Lot" xml:space="preserve">
+    <value># de lote</value>
+  </data>
+  <data name="29_1_L_LQC" xml:space="preserve">
+    <value>Contador baja calidad</value>
+  </data>
+  <data name="29_1_P_SampleDef7" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="29_1_L_MMDE" xml:space="preserve">
+    <value>Entrada manual datos morf.</value>
+  </data>
+  <data name="29_1_L_AOF" xml:space="preserve">
+    <value>Entrada manual opcional</value>
+  </data>
+  <data name="29_1_L_MVDE" xml:space="preserve">
+    <value>Entrada manual datos vitalidad</value>
+  </data>
+  <data name="29_1_L_MAC" xml:space="preserve">
+    <value>Marca conteo circular</value>
+  </data>
+  <data name="29_1_L_MediaRatio" xml:space="preserve">
+    <value>Factor de dilucion con 1 medio</value>
+  </data>
+  <data name="29_1_L_MINUTE" xml:space="preserve">
+    <value>Minutos</value>
+  </data>
+  <data name="29_1_L_Months" xml:space="preserve">
+    <value>Mes(es)</value>
+  </data>
+  <data name="29_1_L_MC" xml:space="preserve">
+    <value>Conteo Morf.</value>
+  </data>
+  <data name="29_1_L_MCT" xml:space="preserve">
+    <value>Tipo conteo Morf.</value>
+  </data>
+  <data name="29_1_L_MTT" xml:space="preserve">
+    <value>Tipo test Morf.</value>
+  </data>
+  <data name="29_1_P_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="29_1_P_DebCutoff3" xml:space="preserve">
+    <value>No escanear por detritos</value>
+  </data>
+  <data name="29_1_P_SampleDef9" xml:space="preserve">
+    <value>No por defecto</value>
+  </data>
+  <data name="29_1_P_DNAFreg" xml:space="preserve">
+    <value>Sin halo</value>
+  </data>
+  <data name="29_1_L_ANN" xml:space="preserve">
+    <value>Normales/Anormales</value>
+  </data>
+  <data name="29_1_L_PR_NOTE" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="29_1_L_RIMC" xml:space="preserve">
+    <value>Núm de imág por pág de reporte</value>
+  </data>
+  <data name="29_1_L_FooterData3" xml:space="preserve">
+    <value>El</value>
+  </data>
+  <data name="29_1_P_OI" xml:space="preserve">
+    <value>Opcional</value>
+  </data>
+  <data name="29_1_P_OL" xml:space="preserve">
+    <value>Opción Longev</value>
+  </data>
+  <data name="29_1_P_OM" xml:space="preserve">
+    <value>Opción Manual</value>
+  </data>
+  <data name="29_1_L_PRANGE" xml:space="preserve">
+    <value>Rango aceptado</value>
+  </data>
+  <data name="29_1_L_PRANGE2" xml:space="preserve">
+    <value>Rangos aceptados</value>
+  </data>
+  <data name="29_1_L_AGBD" xml:space="preserve">
+    <value>Edad pte (sin fecha nacimiento)</value>
+  </data>
+  <data name="29_1_L_POF" xml:space="preserve">
+    <value>Entrada info pte.</value>
+  </data>
+  <data name="29_1_L_Phone" xml:space="preserve">
+    <value>Tel.</value>
+  </data>
+  <data name="29_1_L_MPVDE" xml:space="preserve">
+    <value>Clic-CDV Post-Vas</value>
+  </data>
+  <data name="29_1_P_SampleDef4" xml:space="preserve">
+    <value>Post Vasectomía</value>
+  </data>
+  <data name="29_1_L_FooterData1" xml:space="preserve">
+    <value>Impreso desde SQA-VISION # de serie</value>
+  </data>
+  <data name="29_1_L_PLost" xml:space="preserve">
+    <value>Compensación pérdida %</value>
+  </data>
+  <data name="29_1_L_PRO" xml:space="preserve">
+    <value>Competencia</value>
+  </data>
+  <data name="29_1_L_PR_LEVEL" xml:space="preserve">
+    <value># Competencia</value>
+  </data>
+  <data name="29_1_L_QC" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="29_1_L_QF" xml:space="preserve">
+    <value>Frecuencia CC</value>
+  </data>
+  <data name="29_1_L_Continued" xml:space="preserve">
+    <value>Continuación reporte</value>
+  </data>
+  <data name="29_1_L_RDT" xml:space="preserve">
+    <value>Fecha/Hora reporte</value>
+  </data>
+  <data name="29_1_L_ReportType" xml:space="preserve">
+    <value>Tipo reporte</value>
+  </data>
+  <data name="29_1_L_PR_SampleID" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="29_1_P_DebCutoff2" xml:space="preserve">
+    <value>Escaneo detritos todas las muestras</value>
+  </data>
+  <data name="29_1_L_Selected" xml:space="preserve">
+    <value>Selección</value>
+  </data>
+  <data name="29_1_L_LIFL" xml:space="preserve">
+    <value>Parám. interfaz lab selecc.</value>
+  </data>
+  <data name="29_1_H_SE" xml:space="preserve">
+    <value>Enviar EOT/ENQ</value>
+  </data>
+  <data name="29_1_L_SN" xml:space="preserve">
+    <value>Número de serie</value>
+  </data>
+  <data name="29_1_L_SystemSet" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="29_1_L_SMS" xml:space="preserve">
+    <value>Mostrar modo Selector</value>
+  </data>
+  <data name="29_1_L_SHR" xml:space="preserve">
+    <value>Mostrar rangos parám.</value>
+  </data>
+  <data name="29_1_L_SSIH" xml:space="preserve">
+    <value>Mostrar info. muestra sólo en la primera pág</value>
+  </data>
+  <data name="29_1_L_Version" xml:space="preserve">
+    <value>Versión software</value>
+  </data>
+  <data name="29_1_L_Sound" xml:space="preserve">
+    <value>Tipo sonido</value>
+  </data>
+  <data name="29_1_L_SpTarDose" xml:space="preserve">
+    <value>Dosaje de esperm.</value>
+  </data>
+  <data name="29_1_L_Header" xml:space="preserve">
+    <value>Reporte ajustes SQA-VISION</value>
+  </data>
+  <data name="29_1_L_RST" xml:space="preserve">
+    <value>Estándar</value>
+  </data>
+  <data name="29_1_L_PR_ST" xml:space="preserve">
+    <value>Estándar</value>
+  </data>
+  <data name="29_1_L_LIStep" xml:space="preserve">
+    <value>Paso</value>
+  </data>
+  <data name="29_1_P_SampleDef6" xml:space="preserve">
+    <value>Swim Up</value>
+  </data>
+  <data name="29_1_L_InsOver" xml:space="preserve">
+    <value>Info sistema</value>
+  </data>
+  <data name="29_1_L_Target" xml:space="preserve">
+    <value>Diana (M/ml)</value>
+  </data>
+  <data name="29_1_L_Target2" xml:space="preserve">
+    <value>Dianas (M/ml)</value>
+  </data>
+  <data name="29_1_L_TIFH" xml:space="preserve">
+    <value>Prueba iniciada desde Principal</value>
+  </data>
+  <data name="29_1_L_TC" xml:space="preserve">
+    <value>Criterios análisis</value>
+  </data>
+  <data name="29_1_L_UM" xml:space="preserve">
+    <value>Margen superior</value>
+  </data>
+  <data name="29_1_L_VIC" xml:space="preserve">
+    <value>Compresión vídeo</value>
+  </data>
+  <data name="29_1_L_VD" xml:space="preserve">
+    <value>Equipo vídeo</value>
+  </data>
+  <data name="29_1_L_VI" xml:space="preserve">
+    <value>Entrada vídeo</value>
+  </data>
+  <data name="29_1_L_VSD" xml:space="preserve">
+    <value>Estándar víd.</value>
+  </data>
+  <data name="29_1_L_VST" xml:space="preserve">
+    <value>Subtipo vídeo</value>
+  </data>
+  <data name="29_1_L_VC" xml:space="preserve">
+    <value>Conteo vitalidad</value>
+  </data>
+  <data name="29_1_L_VCT" xml:space="preserve">
+    <value>Tipo conteo vitalidad</value>
+  </data>
+  <data name="29_1_L_VolDose" xml:space="preserve">
+    <value>Vol. de dosaje</value>
+  </data>
+  <data name="29_1_P_SampleDef2" xml:space="preserve">
+    <value>Lavado</value>
+  </data>
+  <data name="29_1_L_Site" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="29_1_L_Weeks" xml:space="preserve">
+    <value>Semana(s)</value>
+  </data>
+  <data name="29_1_P_MorphType1" xml:space="preserve">
+    <value>3ra OMS</value>
+  </data>
+  <data name="29_1_P_MorphType2" xml:space="preserve">
+    <value>4ta OMS</value>
+  </data>
+  <data name="29_1_P_MorphType3" xml:space="preserve">
+    <value>5ta OMS</value>
+  </data>
+  <data name="29_1_L_LWHOC" xml:space="preserve">
+    <value>Contador OMS</value>
+  </data>
+  <data name="29_1_L_Years" xml:space="preserve">
+    <value>Año(s)</value>
+  </data>
+  <data name="29_1_P_Yes" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="30_1_L_FooterData2" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="30_1_L_CalibData" xml:space="preserve">
+    <value>Info. Cal.</value>
+  </data>
+  <data name="30_1_L_ContInf" xml:space="preserve">
+    <value>Info de contacto</value>
+  </data>
+  <data name="30_1_L_DV" xml:space="preserve">
+    <value>Versión equipo</value>
+  </data>
+  <data name="30_1_L_email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="30_1_L_FacAdd" xml:space="preserve">
+    <value>Info. del lab</value>
+  </data>
+  <data name="30_1_L_FAIL" xml:space="preserve">
+    <value>Falla</value>
+  </data>
+  <data name="30_1_L_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="30_1_P_STIData" xml:space="preserve">
+    <value>Info. interna</value>
+  </data>
+  <data name="30_1_L_FooterData3" xml:space="preserve">
+    <value>El</value>
+  </data>
+  <data name="30_1_L_Pass" xml:space="preserve">
+    <value>Pasó</value>
+  </data>
+  <data name="30_1_L_Criteria" xml:space="preserve">
+    <value>Criterios Aprob.</value>
+  </data>
+  <data name="30_1_L_Phone" xml:space="preserve">
+    <value>Tel.</value>
+  </data>
+  <data name="30_1_L_FooterData1" xml:space="preserve">
+    <value>Impreso desde SQA-VISION # de serie</value>
+  </data>
+  <data name="30_1_P_SDDate" xml:space="preserve">
+    <value>Fecha/Hora reporte</value>
+  </data>
+  <data name="30_1_L_RDT" xml:space="preserve">
+    <value>Fecha/Hora reporte</value>
+  </data>
+  <data name="30_1_L_Result" xml:space="preserve">
+    <value>Resultado</value>
+  </data>
+  <data name="30_1_P_STData" xml:space="preserve">
+    <value>Info. auto test</value>
+  </data>
+  <data name="30_1_L_SN" xml:space="preserve">
+    <value>Número de serie</value>
+  </data>
+  <data name="30_1_P_SN" xml:space="preserve">
+    <value>Número de serie</value>
+  </data>
+  <data name="30_1_L_Version" xml:space="preserve">
+    <value>Versión software</value>
+  </data>
+  <data name="30_1_L_Header" xml:space="preserve">
+    <value>Reporte servicio SQA VISION</value>
+  </data>
+  <data name="30_1_L_Status" xml:space="preserve">
+    <value>Estatus</value>
+  </data>
+  <data name="30_1_P_SDStatus" xml:space="preserve">
+    <value>Estatus</value>
+  </data>
+  <data name="30_1_L_InsOver" xml:space="preserve">
+    <value>Info sistema</value>
+  </data>
+  <data name="30_1_L_AlgData" xml:space="preserve">
+    <value>Valores sistema</value>
+  </data>
+  <data name="30_1_L_Unit" xml:space="preserve">
+    <value>unid.</value>
+  </data>
+  <data name="30_1_L_Site" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="31_1_L_Additional" xml:space="preserve">
+    <value>Datos adicionales</value>
+  </data>
+  <data name="31_1_L_FooterData2" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="31_1_L_Pat_BD_AGE" xml:space="preserve">
+    <value>Nacimiento/edad</value>
+  </data>
+  <data name="31_1_H_CapData" xml:space="preserve">
+    <value>Imágenes capturadas</value>
+  </data>
+  <data name="31_1_L_Cent" xml:space="preserve">
+    <value>Centrif.</value>
+  </data>
+  <data name="31_1_L_Comments" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="31_1_L_ContInf" xml:space="preserve">
+    <value>Info de contacto</value>
+  </data>
+  <data name="31_1_H_DNAData" xml:space="preserve">
+    <value>Reporte test Fragm. ADN</value>
+  </data>
+  <data name="31_1_L_email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="31_1_L_FacAdd" xml:space="preserve">
+    <value>Info. del lab</value>
+  </data>
+  <data name="31_1_L_Fail" xml:space="preserve">
+    <value>Falla</value>
+  </data>
+  <data name="31_1_L_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="31_1_L_Pat_FName" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="31_1_L_Step1" xml:space="preserve">
+    <value>Inicial</value>
+  </data>
+  <data name="31_1_L_Pat_LName" xml:space="preserve">
+    <value>Apellidos</value>
+  </data>
+  <data name="31_1_L_Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="31_1_H_MorphData" xml:space="preserve">
+    <value>Reporte test Morf.</value>
+  </data>
+  <data name="31_1_L_Of" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="31_1_L_FooterData3" xml:space="preserve">
+    <value>El</value>
+  </data>
+  <data name="31_1_L_Page" xml:space="preserve">
+    <value>Pág.</value>
+  </data>
+  <data name="31_1_L_Parameter" xml:space="preserve">
+    <value>Parámetro</value>
+  </data>
+  <data name="31_1_L_Pass" xml:space="preserve">
+    <value>Pasó</value>
+  </data>
+  <data name="31_1_L_PatientID" xml:space="preserve">
+    <value>ID Pte</value>
+  </data>
+  <data name="31_1_L_PatInfo" xml:space="preserve">
+    <value>INFO. PACIENTE</value>
+  </data>
+  <data name="31_1_L_Phone" xml:space="preserve">
+    <value>Tel.</value>
+  </data>
+  <data name="31_1_L_FooterData1" xml:space="preserve">
+    <value>Impreso desde SQA-VISION # de serie</value>
+  </data>
+  <data name="31_1_L_Raw" xml:space="preserve">
+    <value>Cruda</value>
+  </data>
+  <data name="31_1_L_Referance" xml:space="preserve">
+    <value>Valor ref.</value>
+  </data>
+  <data name="31_1_L_Continued" xml:space="preserve">
+    <value>Continuación reporte</value>
+  </data>
+  <data name="31_1_L_Value" xml:space="preserve">
+    <value>Resultado</value>
+  </data>
+  <data name="31_1_L_SampleInf" xml:space="preserve">
+    <value>Info. de la muestra</value>
+  </data>
+  <data name="31_1_L_Header" xml:space="preserve">
+    <value>Reporte análisis semen</value>
+  </data>
+  <data name="31_1_L_Status" xml:space="preserve">
+    <value>Estatus</value>
+  </data>
+  <data name="31_1_L_Step" xml:space="preserve">
+    <value>Paso</value>
+  </data>
+  <data name="31_1_L_STVer" xml:space="preserve">
+    <value>Tipo Test</value>
+  </data>
+  <data name="31_1_O_STVer" xml:space="preserve">
+    <value>Tipo Test</value>
+  </data>
+  <data name="31_1_L_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="31_1_H_VitData" xml:space="preserve">
+    <value>Reporte Análisis Vitalidad</value>
+  </data>
+  <data name="31_1_L_Site" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="32_1_L_FooterData2" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="32_1_L_CapFrameCAP" xml:space="preserve">
+    <value>Imágenes capturadas</value>
+  </data>
+  <data name="32_1_L_CC" xml:space="preserve">
+    <value>contador clic (clave)</value>
+  </data>
+  <data name="32_1_L_Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="32_1_L_Comments" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="32_1_L_ContInf" xml:space="preserve">
+    <value>Info de contacto</value>
+  </data>
+  <data name="32_1_L_Criteria" xml:space="preserve">
+    <value>Criterio</value>
+  </data>
+  <data name="32_1_L_email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="32_1_L_FacAdd" xml:space="preserve">
+    <value>Info. del lab</value>
+  </data>
+  <data name="32_1_L_Fail" xml:space="preserve">
+    <value>Falla</value>
+  </data>
+  <data name="32_1_L_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="32_1_L_FD" xml:space="preserve">
+    <value>diferencial completo</value>
+  </data>
+  <data name="32_1_L_Image" xml:space="preserve">
+    <value>Imagen</value>
+  </data>
+  <data name="32_1_L_CapFrame" xml:space="preserve">
+    <value>Imagen</value>
+  </data>
+  <data name="32_1_L_MAC" xml:space="preserve">
+    <value>Marca conteo circular</value>
+  </data>
+  <data name="32_1_L_MCT" xml:space="preserve">
+    <value>Tipo conteo Morf.</value>
+  </data>
+  <data name="32_1_L_MTT" xml:space="preserve">
+    <value>Tipo test Morf.</value>
+  </data>
+  <data name="32_1_L_CapFrameM" xml:space="preserve">
+    <value>Morf.</value>
+  </data>
+  <data name="32_1_L_MorphHeader" xml:space="preserve">
+    <value>Reporte Morf.</value>
+  </data>
+  <data name="32_1_L_ANN" xml:space="preserve">
+    <value>Normales/Anormales</value>
+  </data>
+  <data name="32_1_L_FooterData3" xml:space="preserve">
+    <value>El</value>
+  </data>
+  <data name="32_1_L_Parameter" xml:space="preserve">
+    <value>Parámetro</value>
+  </data>
+  <data name="32_1_L_Pass" xml:space="preserve">
+    <value>Pasó</value>
+  </data>
+  <data name="32_1_L_Phone" xml:space="preserve">
+    <value>Tel.</value>
+  </data>
+  <data name="32_1_L_FooterData1" xml:space="preserve">
+    <value>Impreso desde SQA-VISION # de serie</value>
+  </data>
+  <data name="32_1_L_RefRange" xml:space="preserve">
+    <value>Valor ref.</value>
+  </data>
+  <data name="32_1_L_Cutoff" xml:space="preserve">
+    <value>Valor ref.</value>
+  </data>
+  <data name="32_1_L_Continued" xml:space="preserve">
+    <value>Continuación reporte</value>
+  </data>
+  <data name="32_1_L_Date" xml:space="preserve">
+    <value>Fecha/Hora reporte</value>
+  </data>
+  <data name="32_1_L_ReportInf" xml:space="preserve">
+    <value>Info. reporte</value>
+  </data>
+  <data name="32_1_L_ReportName" xml:space="preserve">
+    <value>Nombre reporte</value>
+  </data>
+  <data name="32_1_L_Result" xml:space="preserve">
+    <value>Resultado</value>
+  </data>
+  <data name="32_1_L_Status" xml:space="preserve">
+    <value>Estatus</value>
+  </data>
+  <data name="32_1_L_CapFrameV" xml:space="preserve">
+    <value>Vitalidad</value>
+  </data>
+  <data name="32_1_L_VCT" xml:space="preserve">
+    <value>Tipo conteo vitalidad</value>
+  </data>
+  <data name="32_1_L_VitHeader" xml:space="preserve">
+    <value>Reporte vitalidad</value>
+  </data>
+  <data name="32_1_L_Site" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="33_1_L_FooterData2" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="33_1_L_CONC" xml:space="preserve">
+    <value>Conc.</value>
+  </data>
+  <data name="33_1_P_CON_RE" xml:space="preserve">
+    <value>Conc. (M/ml)</value>
+  </data>
+  <data name="33_1_C_ConcRes" xml:space="preserve">
+    <value>Resultado Conc</value>
+  </data>
+  <data name="33_1_L_TSCMSC" xml:space="preserve">
+    <value>Conc./CEM</value>
+  </data>
+  <data name="33_1_L_ContInf" xml:space="preserve">
+    <value>Info de contacto</value>
+  </data>
+  <data name="33_1_P_CON_CA" xml:space="preserve">
+    <value>Correctivo</value>
+  </data>
+  <data name="33_1_P_CON_Date" xml:space="preserve">
+    <value>Fecha / Hora</value>
+  </data>
+  <data name="33_1_L_Date" xml:space="preserve">
+    <value>Fecha / Hora</value>
+  </data>
+  <data name="33_1_C_DatePer" xml:space="preserve">
+    <value>Fecha ejecutado</value>
+  </data>
+  <data name="33_1_L_Dates" xml:space="preserve">
+    <value>fechas</value>
+  </data>
+  <data name="33_1_L_email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="33_1_P_CON_EXPDA" xml:space="preserve">
+    <value>Fecha Exp.</value>
+  </data>
+  <data name="33_1_L_FacAdd" xml:space="preserve">
+    <value>Info. del lab</value>
+  </data>
+  <data name="33_1_L_Fail" xml:space="preserve">
+    <value>Falla</value>
+  </data>
+  <data name="33_1_L_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="33_1_P_CON_LOT" xml:space="preserve">
+    <value># de lote</value>
+  </data>
+  <data name="33_1_L_LowerLimit" xml:space="preserve">
+    <value>Límite inferior</value>
+  </data>
+  <data name="33_1_L_MSC" xml:space="preserve">
+    <value>CEM</value>
+  </data>
+  <data name="33_1_C_MSC" xml:space="preserve">
+    <value>CEM (M/ml)</value>
+  </data>
+  <data name="33_1_L_FooterData3" xml:space="preserve">
+    <value>El</value>
+  </data>
+  <data name="33_1_L_Pass" xml:space="preserve">
+    <value>Pasó</value>
+  </data>
+  <data name="33_1_P_CON_PR" xml:space="preserve">
+    <value>Rango aceptado</value>
+  </data>
+  <data name="33_1_P_CON_PRS" xml:space="preserve">
+    <value>Rangos aceptados</value>
+  </data>
+  <data name="33_1_L_Phone" xml:space="preserve">
+    <value>Tel.</value>
+  </data>
+  <data name="33_1_L_FooterData1" xml:space="preserve">
+    <value>Impreso desde SQA-VISION # de serie</value>
+  </data>
+  <data name="33_1_L_ControlType" xml:space="preserve">
+    <value>Tipo CC</value>
+  </data>
+  <data name="33_1_L_QuaInfo" xml:space="preserve">
+    <value>Info CC</value>
+  </data>
+  <data name="33_1_L_Header" xml:space="preserve">
+    <value>Reporte CC</value>
+  </data>
+  <data name="33_1_L_RDT" xml:space="preserve">
+    <value>Fecha/Hora reporte</value>
+  </data>
+  <data name="33_1_P_CON_RES" xml:space="preserve">
+    <value>Resultado M/ml</value>
+  </data>
+  <data name="33_1_P_CON_STA" xml:space="preserve">
+    <value>Estatus</value>
+  </data>
+  <data name="33_1_L_QcInfo" xml:space="preserve">
+    <value>Info sistema</value>
+  </data>
+  <data name="33_1_P_CON_TAR" xml:space="preserve">
+    <value>Diana (M/ml)</value>
+  </data>
+  <data name="33_1_P_CON_TARS" xml:space="preserve">
+    <value>Dianas (M/ml)</value>
+  </data>
+  <data name="33_1_L_UpperLimit" xml:space="preserve">
+    <value>límite superior</value>
+  </data>
+  <data name="33_1_L_Site" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="34_1_L_FooterData2" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="34_1_P_CON_RE" xml:space="preserve">
+    <value>Conc. (M/ml)</value>
+  </data>
+  <data name="34_1_L_ContInf" xml:space="preserve">
+    <value>Info de contacto</value>
+  </data>
+  <data name="34_1_L_Date" xml:space="preserve">
+    <value>Fecha / Hora</value>
+  </data>
+  <data name="34_1_L_Dates" xml:space="preserve">
+    <value>fechas</value>
+  </data>
+  <data name="34_1_L_email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="34_1_L_FacAdd" xml:space="preserve">
+    <value>Info. del lab</value>
+  </data>
+  <data name="34_1_L_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="34_1_L_PR_DATE" xml:space="preserve">
+    <value>Emitido</value>
+  </data>
+  <data name="34_1_P_CON_NOTE" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="34_1_L_FooterData3" xml:space="preserve">
+    <value>El</value>
+  </data>
+  <data name="34_1_L_Phone" xml:space="preserve">
+    <value>Tel.</value>
+  </data>
+  <data name="34_1_L_FooterData1" xml:space="preserve">
+    <value>Impreso desde SQA-VISION # de serie</value>
+  </data>
+  <data name="34_1_L_PRID" xml:space="preserve">
+    <value># Competencia</value>
+  </data>
+  <data name="34_1_L_PR" xml:space="preserve">
+    <value># Competencia</value>
+  </data>
+  <data name="34_1_L_Header" xml:space="preserve">
+    <value>Reporte competencia</value>
+  </data>
+  <data name="34_1_L_QuaInfo" xml:space="preserve">
+    <value>Info CC</value>
+  </data>
+  <data name="34_1_L_RDT" xml:space="preserve">
+    <value>Fecha/Hora reporte</value>
+  </data>
+  <data name="34_1_P_CON_LOT" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="34_1_L_PRControlType" xml:space="preserve">
+    <value>Estándar</value>
+  </data>
+  <data name="34_1_L_PropInfo" xml:space="preserve">
+    <value>Info sistema</value>
+  </data>
+  <data name="34_1_L_Site" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="35_1_L_FooterData2" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="35_1_L_CaptureImages" xml:space="preserve">
+    <value>Imágenes capturadas</value>
+  </data>
+  <data name="35_1_L_CaptureHeader" xml:space="preserve">
+    <value>Reporte imágenes capturadas</value>
+  </data>
+  <data name="35_1_L_Comments" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="35_1_L_ContInf" xml:space="preserve">
+    <value>Info de contacto</value>
+  </data>
+  <data name="35_1_L_email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="35_1_L_FacAdd" xml:space="preserve">
+    <value>Info. del lab</value>
+  </data>
+  <data name="35_1_L_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="35_1_L_Image" xml:space="preserve">
+    <value>Imagen</value>
+  </data>
+  <data name="35_1_L_FooterData3" xml:space="preserve">
+    <value>El</value>
+  </data>
+  <data name="35_1_L_Phone" xml:space="preserve">
+    <value>Tel.</value>
+  </data>
+  <data name="35_1_L_FooterData1" xml:space="preserve">
+    <value>Impreso desde SQA-VISION # de serie</value>
+  </data>
+  <data name="35_1_L_Continued" xml:space="preserve">
+    <value>Continuación reporte</value>
+  </data>
+  <data name="35_1_L_Date" xml:space="preserve">
+    <value>Fecha/Hora reporte</value>
+  </data>
+  <data name="35_1_L_ReportInf" xml:space="preserve">
+    <value>Info. reporte</value>
+  </data>
+  <data name="35_1_L_ReportName" xml:space="preserve">
+    <value>Nombre reporte</value>
+  </data>
+  <data name="35_1_L_Site" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="36_1_L_FooterData2" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="36_1_L_Completed" xml:space="preserve">
+    <value>Completado</value>
+  </data>
+  <data name="36_1_L_ContInf" xml:space="preserve">
+    <value>Info de contacto</value>
+  </data>
+  <data name="36_1_L_DV" xml:space="preserve">
+    <value>Versión equipo</value>
+  </data>
+  <data name="36_1_L_email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="36_1_L_FacAdd" xml:space="preserve">
+    <value>Info. del lab</value>
+  </data>
+  <data name="36_1_L_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="36_1_P_MainDate" xml:space="preserve">
+    <value>Fecha mantenimiento</value>
+  </data>
+  <data name="36_1_L_MainDate" xml:space="preserve">
+    <value>Fecha mantenimiento</value>
+  </data>
+  <data name="36_1_L_NP" xml:space="preserve">
+    <value>NO REALIZADO</value>
+  </data>
+  <data name="36_1_L_FooterData3" xml:space="preserve">
+    <value>El</value>
+  </data>
+  <data name="36_1_P_MainUser" xml:space="preserve">
+    <value>Realizado por</value>
+  </data>
+  <data name="36_1_L_MainPref" xml:space="preserve">
+    <value>Realizado por</value>
+  </data>
+  <data name="36_1_L_Phone" xml:space="preserve">
+    <value>Tel.</value>
+  </data>
+  <data name="36_1_L_FooterData1" xml:space="preserve">
+    <value>Impreso desde SQA-VISION # de serie</value>
+  </data>
+  <data name="36_1_L_RDT" xml:space="preserve">
+    <value>Fecha/Hora reporte</value>
+  </data>
+  <data name="36_1_L_SN" xml:space="preserve">
+    <value>Número de serie</value>
+  </data>
+  <data name="36_1_L_Version" xml:space="preserve">
+    <value>Versión software</value>
+  </data>
+  <data name="36_1_H_MainHeader" xml:space="preserve">
+    <value>Reporte mantenimiento SQA-VISION</value>
+  </data>
+  <data name="36_1_L_InsOver" xml:space="preserve">
+    <value>Info sistema</value>
+  </data>
+  <data name="36_1_L_Site" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="37_2_B_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="37_1_H_Header1" xml:space="preserve">
+    <value>Exportando archivo</value>
+  </data>
+  <data name="37_1_L_of" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="37_1_H_Header2" xml:space="preserve">
+    <value>Por favor espere</value>
+  </data>
+  <data name="37_1_H_NoExport" xml:space="preserve">
+    <value>No se pudo exportar archivo</value>
+  </data>
+  <data name="38_2_B_VisSet" xml:space="preserve">
+    <value>Config. avanzadas</value>
+  </data>
+  <data name="38_1_H_Bright" xml:space="preserve">
+    <value>Brillo</value>
+  </data>
+  <data name="38_1_H_Contrast" xml:space="preserve">
+    <value>Contraste</value>
+  </data>
+  <data name="38_2_B_FacSet" xml:space="preserve">
+    <value>Ajustes fábrica</value>
+  </data>
+  <data name="38_1_H_Hue" xml:space="preserve">
+    <value>Gamma</value>
+  </data>
+  <data name="38_1_H_Phaze" xml:space="preserve">
+    <value>Saturación</value>
+  </data>
+  <data name="38_1_H_Sharpness" xml:space="preserve">
+    <value>Nitidez</value>
+  </data>
+  <data name="38_1_H_VidSettings" xml:space="preserve">
+    <value>Conf.</value>
+  </data>
+  <data name="39_2_B_Save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="39_1_L_SelectKeyHeader" xml:space="preserve">
+    <value>Seleccionar clave</value>
+  </data>
+  <data name="40_2_B_Close" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="40_2_B_Print" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="40_1_L_Parameter" xml:space="preserve">
+    <value>seleccionar parámetro</value>
+  </data>
+  <data name="40_1_C_DateTime" xml:space="preserve">
+    <value>Fecha / Hora Test</value>
+  </data>
+  <data name="41_4_P_PV_ImmotileVol" xml:space="preserve">
+    <value># Espz. Inmóviles/Vol. (PV)</value>
+  </data>
+  <data name="41_4_P_PV_MotileVol" xml:space="preserve">
+    <value># Espz. móviles/Vol. (PV)</value>
+  </data>
+  <data name="41_4_P_ND" xml:space="preserve">
+    <value># de dosis</value>
+  </data>
+  <data name="41_4_P_NQCV" xml:space="preserve">
+    <value># de controles</value>
+  </data>
+  <data name="41_4_P_DNATotal" xml:space="preserve">
+    <value># Espz. Contados</value>
+  </data>
+  <data name="41_4_P_PV_TotalVol" xml:space="preserve">
+    <value># Total Espz./Vol. (PV)</value>
+  </data>
+  <data name="41_4_P_MediaRatio" xml:space="preserve">
+    <value>Factor de Dln con 2 medios</value>
+  </data>
+  <data name="41_4_P_Abnormal" xml:space="preserve">
+    <value>Anormales</value>
+  </data>
+  <data name="41_4_P_Abstinence" xml:space="preserve">
+    <value>Abstinencia</value>
+  </data>
+  <data name="41_4_P_FM" xml:space="preserve">
+    <value>Agregar medio de cong. (ml)</value>
+  </data>
+  <data name="41_4_P_WM" xml:space="preserve">
+    <value>Agregar medio de lavado (ml)</value>
+  </data>
+  <data name="41_4_P_TF_Address" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="41_4_P_TestAge" xml:space="preserve">
+    <value>Edad</value>
+  </data>
+  <data name="41_4_P_Aggl" xml:space="preserve">
+    <value>Aglutinación (1-4, A-E)</value>
+  </data>
+  <data name="41_4_P_Appearance" xml:space="preserve">
+    <value>Apariencia</value>
+  </data>
+  <data name="41_4_P_AVGPMLF" xml:space="preserve">
+    <value>FPM/FPMP promedio</value>
+  </data>
+  <data name="41_4_P_Pat_BD" xml:space="preserve">
+    <value>Fecha nacimiento</value>
+  </data>
+  <data name="41_4_P_TF_City" xml:space="preserve">
+    <value>Ciudad</value>
+  </data>
+  <data name="41_4_P_DateColl" xml:space="preserve">
+    <value>Fecha/Hora recolección</value>
+  </data>
+  <data name="41_4_P_TimeColl" xml:space="preserve">
+    <value>Hora recolección</value>
+  </data>
+  <data name="41_4_P_CollLoc" xml:space="preserve">
+    <value>Lugar recolección (1, lab; 2, casa)</value>
+  </data>
+  <data name="41_4_P_Comments" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="41_1_H_COMSetup" xml:space="preserve">
+    <value>Ajustes comunicación</value>
+  </data>
+  <data name="41_4_P_ComSample" xml:space="preserve">
+    <value>Muestra completa (1, completa; 2, incompleta)</value>
+  </data>
+  <data name="41_4_P_CON_RE" xml:space="preserve">
+    <value>Conc.</value>
+  </data>
+  <data name="41_4_P_QCConc" xml:space="preserve">
+    <value>Conc. (M/ml)</value>
+  </data>
+  <data name="41_4_P_ConcScreen" xml:space="preserve">
+    <value>Campos capturados de conc.</value>
+  </data>
+  <data name="41_4_P_Chamber" xml:space="preserve">
+    <value>Estándares Conc.</value>
+  </data>
+  <data name="41_4_P_ConcTotal" xml:space="preserve">
+    <value>Conc. Total</value>
+  </data>
+  <data name="41_4_P_TSC" xml:space="preserve">
+    <value>Conc.</value>
+  </data>
+  <data name="41_4_P_ControlType" xml:space="preserve">
+    <value>Tipo control</value>
+  </data>
+  <data name="41_4_P_CON_CA" xml:space="preserve">
+    <value>Correctivo</value>
+  </data>
+  <data name="41_4_P_CounterType" xml:space="preserve">
+    <value>Tipo contador</value>
+  </data>
+  <data name="41_4_P_MorphType" xml:space="preserve">
+    <value>Criterio</value>
+  </data>
+  <data name="41_4_P_CON_Date" xml:space="preserve">
+    <value>Fecha / Hora</value>
+  </data>
+  <data name="41_4_P_Deb_Round" xml:space="preserve">
+    <value>Detritos/células redondas</value>
+  </data>
+  <data name="41_4_P_CollDiff" xml:space="preserve">
+    <value>Dificultades recolección</value>
+  </data>
+  <data name="41_4_P_DirIBTestIgA" xml:space="preserve">
+    <value>Test IP-Directo IgA (% con perlas) [&lt;50] </value>
+  </data>
+  <data name="41_4_P_DirIBTestIgG" xml:space="preserve">
+    <value>Test IP-Directo IgG (% con perlas) [&lt;50]</value>
+  </data>
+  <data name="41_4_P_DirMarTestIgA" xml:space="preserve">
+    <value>Test  MAR Directo IgA (%) (3 o 10 minutos) [&lt;50]</value>
+  </data>
+  <data name="41_4_P_DirMarTestIgG" xml:space="preserve">
+    <value>Test MAR Directo IgG (%) (3 o 10 minutos) [&lt;50]</value>
+  </data>
+  <data name="41_4_P_DFI" xml:space="preserve">
+    <value>índice Frag. ADN</value>
+  </data>
+  <data name="41_1_H_HE" xml:space="preserve">
+    <value>No enviar encabezado</value>
+  </data>
+  <data name="41_4_P_MainTestID" xml:space="preserve">
+    <value># de Donación</value>
+  </data>
+  <data name="41_4_P_DonorID" xml:space="preserve">
+    <value>ID del donador</value>
+  </data>
+  <data name="41_4_P_DV" xml:space="preserve">
+    <value>Volumen de dosis (ml)</value>
+  </data>
+  <data name="41_4_P_DoseMethod" xml:space="preserve">
+    <value>Método de dosificación</value>
+  </data>
+  <data name="41_4_P_TF_Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="41_1_H_EN" xml:space="preserve">
+    <value>Habilitar archivo registro avanzado</value>
+  </data>
+  <data name="41_1_H_QLIsInUse" xml:space="preserve">
+    <value>Habilitar interfaz lab</value>
+  </data>
+  <data name="41_4_P_CON_EXPDA" xml:space="preserve">
+    <value>Fecha Exp.</value>
+  </data>
+  <data name="41_4_P_TF_Name" xml:space="preserve">
+    <value>Nombre lab</value>
+  </data>
+  <data name="41_4_P_TF_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="41_1_L_FieldName" xml:space="preserve">
+    <value>Nombre campo</value>
+  </data>
+  <data name="41_4_P_FinalVol" xml:space="preserve">
+    <value>Vol. Final</value>
+  </data>
+  <data name="41_4_P_PatientFName" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="41_1_L_Format" xml:space="preserve">
+    <value>Formato</value>
+  </data>
+  <data name="41_4_P_Fructose" xml:space="preserve">
+    <value>Fructosa (µmol por eyaculado) [&gt;=13]</value>
+  </data>
+  <data name="41_4_P_FuncSperm" xml:space="preserve">
+    <value>Espz Funcionales</value>
+  </data>
+  <data name="41_4_P_FSC" xml:space="preserve">
+    <value>Conc. Espz Funcionales</value>
+  </data>
+  <data name="41_1_H_GS" xml:space="preserve">
+    <value>GET SITE</value>
+  </data>
+  <data name="41_4_P_Glucose" xml:space="preserve">
+    <value>Glucosidasa (Neutral) (mU por eyaculado) [&gt;=20]</value>
+  </data>
+  <data name="41_4_P_DNANonFreg" xml:space="preserve">
+    <value>Halo</value>
+  </data>
+  <data name="41_4_P_AttachedImage" xml:space="preserve">
+    <value>Imgs. capturada</value>
+  </data>
+  <data name="41_4_P_Immotility5" xml:space="preserve">
+    <value>Inmóviles</value>
+  </data>
+  <data name="41_4_P_PV_Immotile" xml:space="preserve">
+    <value>Espz. inmóviles (PV)</value>
+  </data>
+  <data name="41_4_P_Immotility" xml:space="preserve">
+    <value>Inmovilidad d</value>
+  </data>
+  <data name="41_4_P_INVol" xml:space="preserve">
+    <value>Vol. inicial</value>
+  </data>
+  <data name="41_4_P_PatientLName" xml:space="preserve">
+    <value>Apellidos</value>
+  </data>
+  <data name="41_4_P_LevelID" xml:space="preserve">
+    <value>Nivel</value>
+  </data>
+  <data name="41_4_P_Liquefaction" xml:space="preserve">
+    <value>Licuefacción</value>
+  </data>
+  <data name="41_4_P_LongID" xml:space="preserve">
+    <value>Id de longevidad</value>
+  </data>
+  <data name="41_4_P_LongStep" xml:space="preserve">
+    <value>Paso de longevidad</value>
+  </data>
+  <data name="41_4_P_CON_LOT" xml:space="preserve">
+    <value># de lote</value>
+  </data>
+  <data name="41_4_P_DV_MediaRatio" xml:space="preserve">
+    <value>Factor de dilucion con 1 medio</value>
+  </data>
+  <data name="41_4_P_Mediac" xml:space="preserve">
+    <value>Medicación</value>
+  </data>
+  <data name="41_4_P_MLF" xml:space="preserve">
+    <value>FPM (%)</value>
+  </data>
+  <data name="41_4_P_MorphTotal" xml:space="preserve">
+    <value>Morfología total</value>
+  </data>
+  <data name="41_4_P_TotalMorph" xml:space="preserve">
+    <value>Espz. Morf. Normal</value>
+  </data>
+  <data name="41_4_P_MorphScreen" xml:space="preserve">
+    <value>Campos de Morf. capturadas</value>
+  </data>
+  <data name="41_4_P_MotileSperm" xml:space="preserve">
+    <value>Espz. Móviles</value>
+  </data>
+  <data name="41_4_P_PV_Motile" xml:space="preserve">
+    <value>Espz. Móviles (PV)</value>
+  </data>
+  <data name="41_4_P_MSC" xml:space="preserve">
+    <value>Conc. Espz Móviles</value>
+  </data>
+  <data name="41_4_P_Motility" xml:space="preserve">
+    <value>Movilidad</value>
+  </data>
+  <data name="41_4_P_CON_MSC" xml:space="preserve">
+    <value>CEM</value>
+  </data>
+  <data name="41_4_P_DNAFreg" xml:space="preserve">
+    <value>Sin halo</value>
+  </data>
+  <data name="41_4_P_Nonprog" xml:space="preserve">
+    <value>No-progresivos c</value>
+  </data>
+  <data name="41_4_P_Nonprog5" xml:space="preserve">
+    <value>No-Progresivos NP</value>
+  </data>
+  <data name="41_4_P_Morph" xml:space="preserve">
+    <value>Formas Normales</value>
+  </data>
+  <data name="41_4_P_OI" xml:space="preserve">
+    <value>Opcional</value>
+  </data>
+  <data name="41_4_P_OM" xml:space="preserve">
+    <value>Info. opcional</value>
+  </data>
+  <data name="41_4_P_PatientID" xml:space="preserve">
+    <value>ID Pte</value>
+  </data>
+  <data name="41_4_P_PeroxPos" xml:space="preserve">
+    <value>Leucocitos peroxidasa positivos (M/mL)</value>
+  </data>
+  <data name="41_4_P_PH" xml:space="preserve">
+    <value>pH</value>
+  </data>
+  <data name="41_4_P_TF_Phone" xml:space="preserve">
+    <value>Tel.</value>
+  </data>
+  <data name="41_4_P_AB10" xml:space="preserve">
+    <value>Cabezas de alfiler</value>
+  </data>
+  <data name="41_4_P_PMLF" xml:space="preserve">
+    <value>FPMP (%)</value>
+  </data>
+  <data name="41_1_H_PS" xml:space="preserve">
+    <value>POST SITE</value>
+  </data>
+  <data name="41_4_P_FreCorr" xml:space="preserve">
+    <value>Procesando pérdida (%)</value>
+  </data>
+  <data name="41_4_P_ProgMotile" xml:space="preserve">
+    <value>Espz. móviles progresivos</value>
+  </data>
+  <data name="41_4_P_PMSC" xml:space="preserve">
+    <value>Conc. Espz móviles progresivos</value>
+  </data>
+  <data name="41_4_P_PMSCA" xml:space="preserve">
+    <value>Conc. Espz móviles progresivos a</value>
+  </data>
+  <data name="41_4_P_PMSCB" xml:space="preserve">
+    <value>Conc. Espz móviles progresivos b</value>
+  </data>
+  <data name="41_4_P_PMOT" xml:space="preserve">
+    <value>Progresivos PR</value>
+  </data>
+  <data name="41_1_L_Protocol" xml:space="preserve">
+    <value>Protocolo</value>
+  </data>
+  <data name="41_1_H_Protocol" xml:space="preserve">
+    <value>Tipo de protocolo</value>
+  </data>
+  <data name="41_4_P_QCSV" xml:space="preserve">
+    <value>Vol. de muestra control (ml)</value>
+  </data>
+  <data name="41_4_P_CON_RAN" xml:space="preserve">
+    <value>Rango (+/-)</value>
+  </data>
+  <data name="41_4_P_PMOTA" xml:space="preserve">
+    <value>Progresivos rápidos a</value>
+  </data>
+  <data name="41_4_P_DateRec" xml:space="preserve">
+    <value>Fecha/Hora recepción</value>
+  </data>
+  <data name="41_4_P_TimeRec" xml:space="preserve">
+    <value>Hora recepción</value>
+  </data>
+  <data name="41_1_H_LF" xml:space="preserve">
+    <value>Recordar último núm. de cuadro</value>
+  </data>
+  <data name="41_4_P_VisName" xml:space="preserve">
+    <value>Nombre reporte</value>
+  </data>
+  <data name="41_4_P_TEST_PF" xml:space="preserve">
+    <value>Evaluación de la muestra</value>
+  </data>
+  <data name="41_4_P_TEST_PF" xml:space="preserve">
+    <value>Evaluación de la muestra</value>
+  </data>
+  <data name="41_4_P_SampleID" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="41_4_P_TestMode" xml:space="preserve">
+    <value>Muestra analizada</value>
+  </data>
+  <data name="41_1_H_COMPort" xml:space="preserve">
+    <value>Seleccionar puerto COM</value>
+  </data>
+  <data name="41_1_H_DateRange" xml:space="preserve">
+    <value>Selección rango fechas</value>
+  </data>
+  <data name="41_1_H_PatientID" xml:space="preserve">
+    <value>Seleccionar ID paciente</value>
+  </data>
+  <data name="41_4_P_Treat" xml:space="preserve">
+    <value>Tratamiento semen (e.g. Bromelina/Quimiotripsina)</value>
+  </data>
+  <data name="41_2_B_Send" xml:space="preserve">
+    <value>Enviar datos</value>
+  </data>
+  <data name="41_1_H_SE" xml:space="preserve">
+    <value>Enviar EOT/ENQ</value>
+  </data>
+  <data name="41_1_H_TT" xml:space="preserve">
+    <value>Enviar parámetro tipo de test</value>
+  </data>
+  <data name="41_4_P_TF_Site" xml:space="preserve">
+    <value>Sitio</value>
+  </data>
+  <data name="41_4_P_PMOTB" xml:space="preserve">
+    <value>Progresivo lento b</value>
+  </data>
+  <data name="41_4_P_TotalSperm" xml:space="preserve">
+    <value># Espz</value>
+  </data>
+  <data name="41_4_P_SMI" xml:space="preserve">
+    <value>Índice Movilidad Espermática</value>
+  </data>
+  <data name="41_4_P_SubSampleType" xml:space="preserve">
+    <value>Etapa</value>
+  </data>
+  <data name="41_4_P_CON_StandardType" xml:space="preserve">
+    <value>Estándar</value>
+  </data>
+  <data name="41_4_P_CON_STA" xml:space="preserve">
+    <value>Estatus</value>
+  </data>
+  <data name="41_4_P_CON_TAR" xml:space="preserve">
+    <value>Diana</value>
+  </data>
+  <data name="41_4_P_TN" xml:space="preserve">
+    <value>Media de #esperm./dosis (M)</value>
+  </data>
+  <data name="41_4_P_TestDate" xml:space="preserve">
+    <value>Fecha / Hora Test</value>
+  </data>
+  <data name="41_4_P_TestID" xml:space="preserve">
+    <value>ID prueba</value>
+  </data>
+  <data name="41_4_P_PV_Mode" xml:space="preserve">
+    <value>Modo de análisis (PV)</value>
+  </data>
+  <data name="41_4_P_UserName" xml:space="preserve">
+    <value>Análisis hecho por</value>
+  </data>
+  <data name="41_4_P_TestTime" xml:space="preserve">
+    <value>Hora de análisis</value>
+  </data>
+  <data name="41_4_P_SampleType" xml:space="preserve">
+    <value>Tipo Test</value>
+  </data>
+  <data name="41_4_P_PV_TestType" xml:space="preserve">
+    <value>Tipo Test (PV)</value>
+  </data>
+  <data name="41_4_P_CON_DateTime" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="41_1_H_To" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="41_1_L_To" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="41_4_P_Motility5" xml:space="preserve">
+    <value>Totales móviles PR+NP</value>
+  </data>
+  <data name="41_4_P_PV_Total" xml:space="preserve">
+    <value>Espz totales (PV)</value>
+  </data>
+  <data name="41_4_P_TV" xml:space="preserve">
+    <value>Volumen total (ml)</value>
+  </data>
+  <data name="41_4_P_Velocity" xml:space="preserve">
+    <value>Velocidad</value>
+  </data>
+  <data name="41_4_P_AttachedVideo" xml:space="preserve">
+    <value>Vídeos capturados</value>
+  </data>
+  <data name="41_4_P_Viscocity" xml:space="preserve">
+    <value>Viscosidad</value>
+  </data>
+  <data name="41_4_P_ViabDead" xml:space="preserve">
+    <value>Vitalidad (Muertos)</value>
+  </data>
+  <data name="41_4_P_ViabLive" xml:space="preserve">
+    <value>Vitalidad (Vivos)</value>
+  </data>
+  <data name="41_4_P_ViabScreen" xml:space="preserve">
+    <value>Campos capturados de Vitalidad</value>
+  </data>
+  <data name="41_4_P_ViabTotal" xml:space="preserve">
+    <value>Vitalidad Total</value>
+  </data>
+  <data name="41_4_P_Volume" xml:space="preserve">
+    <value>Volumen</value>
+  </data>
+  <data name="41_4_P_WBCConc" xml:space="preserve">
+    <value>Conc. leucocitos</value>
+  </data>
+  <data name="41_4_P_Zinc" xml:space="preserve">
+    <value>Zinc (µmol por eyaculado) [&gt;=2.4]</value>
+  </data>
+  <data name="42_2_B_Save" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="42_2_B_ClearAll" xml:space="preserve">
+    <value>Limpiar todo</value>
+  </data>
+  <data name="42_2_B_Delete" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="42_2_B_SelectAll" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="42_1_H_HeaderAT" xml:space="preserve">
+    <value>Seleccionar imágenes para adjuntar a reporte</value>
+  </data>
+  <data name="42_1_H_HeaderDEIM" xml:space="preserve">
+    <value>Seleccionar imágenes para borrar</value>
+  </data>
+  <data name="42_1_H_HeaderDEVI" xml:space="preserve">
+    <value>Seleccionar vídeos para borrar</value>
+  </data>
+  <data name="43_2_B_Troub" xml:space="preserve">
+    <value>Solucionar</value>
+  </data>
+  <data name="44_1_H_Msg1" xml:space="preserve">
+    <value>Por favor espere</value>
+  </data>
+  <data name="45_1_H_NOTSHOW" xml:space="preserve">
+    <value>No mostrar este mensaje de nuevo</value>
+  </data>
+  <data name="46_1_H_Msg" xml:space="preserve">
+    <value>Escanee código barras</value>
+  </data>
+  <data name="47_1_L_ClickD" xml:space="preserve">
+    <value>Contador clic</value>
+  </data>
+  <data name="47_1_L_ClickV" xml:space="preserve">
+    <value>Contador clic</value>
+  </data>
+  <data name="47_1_L_ClickM" xml:space="preserve">
+    <value>Contador clic</value>
+  </data>
+  <data name="47_1_H_Cutoff1" xml:space="preserve">
+    <value>Conc. &lt;15 M/ml o Mov. &lt; 40%</value>
+  </data>
+  <data name="47_1_L_Chamber" xml:space="preserve">
+    <value>Estándares Conc.</value>
+  </data>
+  <data name="47_1_L_MorphType" xml:space="preserve">
+    <value>Criterio</value>
+  </data>
+  <data name="47_1_L_DebrisCutoff" xml:space="preserve">
+    <value>Punto corte escáner debris</value>
+  </data>
+  <data name="47_1_L_VRTCountTypeD" xml:space="preserve">
+    <value>Tipo conteo ADN Frag.</value>
+  </data>
+  <data name="47_1_H_H3" xml:space="preserve">
+    <value>Sig. configuraciones</value>
+  </data>
+  <data name="47_1_L_FD" xml:space="preserve">
+    <value>diferencial completo</value>
+  </data>
+  <data name="47_1_L_MarkM" xml:space="preserve">
+    <value>Marca conteo</value>
+  </data>
+  <data name="47_1_L_MarkD" xml:space="preserve">
+    <value>Marca conteo</value>
+  </data>
+  <data name="47_1_L_MarkV" xml:space="preserve">
+    <value>Marca conteo</value>
+  </data>
+  <data name="47_1_L_VRTCountType" xml:space="preserve">
+    <value>Tipo conteo Morf</value>
+  </data>
+  <data name="47_1_L_VRTTestType" xml:space="preserve">
+    <value>Tipo test Morf.</value>
+  </data>
+  <data name="47_1_H_Cutoff3" xml:space="preserve">
+    <value>No escanear por detritos</value>
+  </data>
+  <data name="47_1_L_ANN" xml:space="preserve">
+    <value>Normales/Anormales</value>
+  </data>
+  <data name="47_1_L_H1" xml:space="preserve">
+    <value>Por favor notar</value>
+  </data>
+  <data name="47_1_H_Cutoff2" xml:space="preserve">
+    <value>Escaneo detritos todas las muestras</value>
+  </data>
+  <data name="47_1_H_H2" xml:space="preserve">
+    <value>Este análisis fue corrido con base en</value>
+  </data>
+  <data name="47_1_L_VRTCountTypeV" xml:space="preserve">
+    <value>Tipo conteo vitalidad</value>
+  </data>
+  <data name="50_1_L_AndAB" xml:space="preserve">
+    <value>Y % de anormalidades</value>
+  </data>
+  <data name="50_1_L_PatAge" xml:space="preserve">
+    <value>Nacimiento/edad</value>
+  </data>
+  <data name="50_2_B_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="50_2_B_Clear" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="50_2_B_ClearAll" xml:space="preserve">
+    <value>Limpiar todo</value>
+  </data>
+  <data name="50_2_B_Continue" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="50_1_L_MorphType" xml:space="preserve">
+    <value>Criterio</value>
+  </data>
+  <data name="50_1_H_PerData" xml:space="preserve">
+    <value>Ingrese % formas normales</value>
+  </data>
+  <data name="50_1_H_Header" xml:space="preserve">
+    <value>Entrada manual datos morf.</value>
+  </data>
+  <data name="50_1_L_PatientID" xml:space="preserve">
+    <value>ID Pte</value>
+  </data>
+  <data name="50_1_L_PatientName" xml:space="preserve">
+    <value>Nombre Pte.</value>
+  </data>
+  <data name="50_1_L_SampleID" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="50_1_L_SS" xml:space="preserve">
+    <value>Muestra analizada</value>
+  </data>
+  <data name="50_1_L_TestDate" xml:space="preserve">
+    <value>Fecha / Hora Test</value>
+  </data>
+  <data name="50_1_L_SampleType" xml:space="preserve">
+    <value>Tipo Test</value>
+  </data>
+  <data name="51_1_L_PatAge" xml:space="preserve">
+    <value>Nacimiento/edad</value>
+  </data>
+  <data name="51_2_B_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="51_2_B_Clear" xml:space="preserve">
+    <value>Limpiar todo</value>
+  </data>
+  <data name="51_2_B_Continue" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="51_1_L_MorphType" xml:space="preserve">
+    <value>Criterio</value>
+  </data>
+  <data name="51_1_H_PerData" xml:space="preserve">
+    <value>Ingresar % espz. vivos</value>
+  </data>
+  <data name="51_1_H_Header" xml:space="preserve">
+    <value>Entrada manual datos vitalidad</value>
+  </data>
+  <data name="51_1_L_PatientID" xml:space="preserve">
+    <value>ID Pte</value>
+  </data>
+  <data name="51_1_L_PatientName" xml:space="preserve">
+    <value>Nombre Pte.</value>
+  </data>
+  <data name="51_1_L_SampleID" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="51_1_L_SS" xml:space="preserve">
+    <value>Muestra analizada</value>
+  </data>
+  <data name="51_1_L_TestDate" xml:space="preserve">
+    <value>Fecha / Hora Test</value>
+  </data>
+  <data name="51_1_L_SampleType" xml:space="preserve">
+    <value>Tipo Test</value>
+  </data>
+  <data name="52_1_H_Int" xml:space="preserve">
+    <value>(intensidad de 1 a 100)</value>
+  </data>
+  <data name="52_1_H_TestResults" xml:space="preserve">
+    <value>Resultados test automatizados</value>
+  </data>
+  <data name="52_1_L_PatAge" xml:space="preserve">
+    <value>Nacimiento/edad</value>
+  </data>
+  <data name="52_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>Revisar cables de conexión equipo</value>
+  </data>
+  <data name="52_2_B_Clear" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="52_1_H_NoVideoCheck" xml:space="preserve">
+    <value>Hacer clic en el botón Actualizar</value>
+  </data>
+  <data name="52_1_L_MorphType" xml:space="preserve">
+    <value>Criterio</value>
+  </data>
+  <data name="52_1_H_MotilityIns" xml:space="preserve">
+    <value>Introducir % mov para reporte completo</value>
+  </data>
+  <data name="52_2_B_Fail" xml:space="preserve">
+    <value>Falla</value>
+  </data>
+  <data name="52_2_B_Freeze" xml:space="preserve">
+    <value>Congelar</value>
+  </data>
+  <data name="52_2_B_FULL" xml:space="preserve">
+    <value>Pant. Compl.</value>
+  </data>
+  <data name="52_2_B_GridOff" xml:space="preserve">
+    <value>quitar cuadríc.</value>
+  </data>
+  <data name="52_2_B_Grid" xml:space="preserve">
+    <value>Aplicar cuadríc</value>
+  </data>
+  <data name="52_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>Si el problema persiste</value>
+  </data>
+  <data name="52_1_H_Header" xml:space="preserve">
+    <value>Estimación de movilidad</value>
+  </data>
+  <data name="52_1_L_NoSperm" xml:space="preserve">
+    <value>NSO espz</value>
+  </data>
+  <data name="52_2_B_Pass" xml:space="preserve">
+    <value>Pasó</value>
+  </data>
+  <data name="52_1_L_PatientID" xml:space="preserve">
+    <value>ID Pte</value>
+  </data>
+  <data name="52_1_L_PatientName" xml:space="preserve">
+    <value>Nombre Pte.</value>
+  </data>
+  <data name="52_2_B_RealTime" xml:space="preserve">
+    <value>Tiempo real</value>
+  </data>
+  <data name="52_2_B_Refresh" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="52_2_B_Next" xml:space="preserve">
+    <value>Resultado</value>
+  </data>
+  <data name="52_1_H_SampleEv" xml:space="preserve">
+    <value>Evaluación de la muestra</value>
+  </data>
+  <data name="52_1_L_SampleID" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="52_1_L_SS" xml:space="preserve">
+    <value>Muestra analizada</value>
+  </data>
+  <data name="52_2_B_Settings" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="52_1_L_TestDate" xml:space="preserve">
+    <value>Fecha / Hora Test</value>
+  </data>
+  <data name="52_1_L_SampleType" xml:space="preserve">
+    <value>Tipo Test</value>
+  </data>
+  <data name="52_1_H_Motility" xml:space="preserve">
+    <value>Movilidad Total</value>
+  </data>
+  <data name="52_1_H_VideoError" xml:space="preserve">
+    <value>Error vídeo</value>
+  </data>
+  <data name="53_1_L_Pat_BD" xml:space="preserve">
+    <value>Fecha nacimiento</value>
+  </data>
+  <data name="53_1_H_UpdateIDHeader" xml:space="preserve">
+    <value>Entrada datos pte</value>
+  </data>
+  <data name="53_1_L_PatientFName" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="53_1_L_PatientLName" xml:space="preserve">
+    <value>Apellidos</value>
+  </data>
+  <data name="53_1_L_PatientID" xml:space="preserve">
+    <value>ID Pte</value>
+  </data>
+  <data name="54_1_H_MainInsta" xml:space="preserve">
+    <value>(Dar clic y editar los contenidos)</value>
+  </data>
+  <data name="54_1_H_BE" xml:space="preserve">
+    <value>Respaldar cada</value>
+  </data>
+  <data name="54_1_H_BACK" xml:space="preserve">
+    <value>Frecuencia respaldo</value>
+  </data>
+  <data name="54_1_H_BP" xml:space="preserve">
+    <value>Ubic. archivo</value>
+  </data>
+  <data name="54_2_B_Browse" xml:space="preserve">
+    <value>Examinar</value>
+  </data>
+  <data name="54_1_H_TED" xml:space="preserve">
+    <value>Día (s)</value>
+  </data>
+  <data name="54_1_H_BED" xml:space="preserve">
+    <value>Día (s)</value>
+  </data>
+  <data name="54_1_H_SaveDB" xml:space="preserve">
+    <value>Carga datos servicio al iniciar</value>
+  </data>
+  <data name="54_1_H_MainActive" xml:space="preserve">
+    <value>Actividades mantenimiento</value>
+  </data>
+  <data name="54_1_H_OBMain" xml:space="preserve">
+    <value>	Mantenimiento obligatorio</value>
+  </data>
+  <data name="54_1_H_QC" xml:space="preserve">
+    <value>Frecuencia CC</value>
+  </data>
+  <data name="54_1_H_SD" xml:space="preserve">
+    <value>Datos servicio</value>
+  </data>
+  <data name="54_1_H_TE" xml:space="preserve">
+    <value>Analizar cada</value>
+  </data>
+  <data name="55_1_L_PatAge" xml:space="preserve">
+    <value>Nacimiento/edad</value>
+  </data>
+  <data name="55_2_P_DNAScreen" xml:space="preserve">
+    <value>Capt. campo</value>
+  </data>
+  <data name="55_1_L_Comments" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="55_1_L_MorphType" xml:space="preserve">
+    <value>Criterio</value>
+  </data>
+  <data name="55_1_T_Delete" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="55_1_H_DNAHeader" xml:space="preserve">
+    <value>Contador Frag. ADN</value>
+  </data>
+  <data name="55_1_L_TS" xml:space="preserve">
+    <value>Campos contados</value>
+  </data>
+  <data name="55_2_P_DNANonFreg" xml:space="preserve">
+    <value>Halo</value>
+  </data>
+  <data name="55_1_T_Item" xml:space="preserve">
+    <value>Ítem</value>
+  </data>
+  <data name="55_1_T_ManageAll" xml:space="preserve">
+    <value>Manejar todas las imágenes capturadas</value>
+  </data>
+  <data name="55_1_H_SelectImage" xml:space="preserve">
+    <value>Manejar imágenes</value>
+  </data>
+  <data name="55_2_P_DNAFreg" xml:space="preserve">
+    <value>Sin halo</value>
+  </data>
+  <data name="55_1_T_of" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="55_1_L_PatientID" xml:space="preserve">
+    <value>ID Pte</value>
+  </data>
+  <data name="55_1_L_PatientName" xml:space="preserve">
+    <value>Nombre Pte.</value>
+  </data>
+  <data name="55_2_B_RemoveAll" xml:space="preserve">
+    <value>Remover todo</value>
+  </data>
+  <data name="55_2_B_Remove" xml:space="preserve">
+    <value>Remover últ.</value>
+  </data>
+  <data name="55_1_L_ReportName" xml:space="preserve">
+    <value>Nombre reporte</value>
+  </data>
+  <data name="55_1_L_SampleID" xml:space="preserve">
+    <value>ID Muestra</value>
+  </data>
+  <data name="55_1_L_SS" xml:space="preserve">
+    <value>Muestra analizada</value>
+  </data>
+  <data name="55_1_T_SaveAs" xml:space="preserve">
+    <value>Guardar Como</value>
+  </data>
+  <data name="55_2_B_SaveField" xml:space="preserve">
+    <value>guard campo</value>
+  </data>
+  <data name="55_1_L_TestDate" xml:space="preserve">
+    <value>Fecha / Hora Test</value>
+  </data>
+  <data name="55_1_L_SampleType" xml:space="preserve">
+    <value>Tipo Test</value>
+  </data>
+  <data name="55_1_L_CC" xml:space="preserve">
+    <value>Espz totales contados</value>
+  </data>
+  <data name="56_1_P_DNATotal" xml:space="preserve">
+    <value># Espz. Contados</value>
+  </data>
+  <data name="56_1_L_CC" xml:space="preserve">
+    <value>contador clic (clave)</value>
+  </data>
+  <data name="56_1_L_Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="56_1_L_Comments" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="56_1_L_Criteria" xml:space="preserve">
+    <value>Criterio</value>
+  </data>
+  <data name="56_1_L_DCT" xml:space="preserve">
+    <value>Tipo conteo ADN Frag.</value>
+  </data>
+  <data name="56_1_L_CapFrameDNA" xml:space="preserve">
+    <value>Fragmentación ADN</value>
+  </data>
+  <data name="56_1_P_DFI" xml:space="preserve">
+    <value>índice Frag. ADN</value>
+  </data>
+  <data name="56_1_L_DNAHeader" xml:space="preserve">
+    <value>Reporte Frag. ADN</value>
+  </data>
+  <data name="56_1_L_email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="56_1_L_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="56_1_P_DNAFreg" xml:space="preserve">
+    <value>ADN Frag. (No halo)</value>
+  </data>
+  <data name="56_1_L_Image" xml:space="preserve">
+    <value>Imagen</value>
+  </data>
+  <data name="56_1_L_CapFrame" xml:space="preserve">
+    <value>Imagen</value>
+  </data>
+  <data name="56_1_L_MAC" xml:space="preserve">
+    <value>Marca conteo circular</value>
+  </data>
+  <data name="56_1_P_DNANonFreg" xml:space="preserve">
+    <value>ADN No-Fragmentado (Halo)</value>
+  </data>
+  <data name="56_1_L_FooterData3" xml:space="preserve">
+    <value>El</value>
+  </data>
+  <data name="56_1_L_Parameter" xml:space="preserve">
+    <value>Parámetro</value>
+  </data>
+  <data name="56_1_L_Phone" xml:space="preserve">
+    <value>Tel.</value>
+  </data>
+  <data name="56_1_L_FooterData1" xml:space="preserve">
+    <value>Impreso desde SQA-VISION # de serie</value>
+  </data>
+  <data name="56_1_L_Cutoff" xml:space="preserve">
+    <value>Valor ref.</value>
+  </data>
+  <data name="56_1_L_RefRange" xml:space="preserve">
+    <value>Valor ref.</value>
+  </data>
+  <data name="56_1_L_Continued" xml:space="preserve">
+    <value>Continuación reporte</value>
+  </data>
+  <data name="56_1_L_Date" xml:space="preserve">
+    <value>Fecha/hora reporte</value>
+  </data>
+  <data name="56_1_L_ReportInf" xml:space="preserve">
+    <value>Info. reporte</value>
+  </data>
+  <data name="56_1_L_ReportName" xml:space="preserve">
+    <value>Nombre reporte</value>
+  </data>
+  <data name="56_1_L_Result" xml:space="preserve">
+    <value>Resultado</value>
+  </data>
+  <data name="56_1_L_Status" xml:space="preserve">
+    <value>Estatus</value>
+  </data>
+  <data name="56_1_L_Site" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="57_1_L_MSPERM" xml:space="preserve">
+    <value># Espz. Móviles</value>
+  </data>
+  <data name="57_1_L_ND" xml:space="preserve">
+    <value># de dosis</value>
+  </data>
+  <data name="57_1_L_NQCV" xml:space="preserve">
+    <value># de controles</value>
+  </data>
+  <data name="57_1_L_PSPERM" xml:space="preserve">
+    <value># Espz. Progresivos</value>
+  </data>
+  <data name="57_1_L_TSPERM" xml:space="preserve">
+    <value># Total Espz.</value>
+  </data>
+  <data name="57_1_L_MediaRatio" xml:space="preserve">
+    <value>Factor de Dln con 2 medios</value>
+  </data>
+  <data name="57_1_L_HFM" xml:space="preserve">
+    <value>Agregar medio de cong. (ml)</value>
+  </data>
+  <data name="57_1_L_HWM" xml:space="preserve">
+    <value>Agregar medio de lavado (ml)</value>
+  </data>
+  <data name="57_2_B_Calculate" xml:space="preserve">
+    <value>Calcular</value>
+  </data>
+  <data name="57_1_L_DV" xml:space="preserve">
+    <value>Volumen de dosis (ml)</value>
+  </data>
+  <data name="57_1_L_DoseMethod" xml:space="preserve">
+    <value>Método de dosificación</value>
+  </data>
+  <data name="57_1_L_DV_MediaRatio" xml:space="preserve">
+    <value>Factor de dilucion con 1 medio</value>
+  </data>
+  <data name="57_1_L_MLF" xml:space="preserve">
+    <value>FPM (%)</value>
+  </data>
+  <data name="57_1_L_PMLF" xml:space="preserve">
+    <value>FPMP (%)</value>
+  </data>
+  <data name="57_1_L_QCSV" xml:space="preserve">
+    <value>Vol. de muestra control (ml)</value>
+  </data>
+  <data name="57_2_B_DoseReport" xml:space="preserve">
+    <value>Reporte</value>
+  </data>
+  <data name="57_1_L_TEST_PF" xml:space="preserve">
+    <value>Evaluación de la muestra</value>
+  </data>
+  <data name="57_2_B_DoseSave" xml:space="preserve">
+    <value>Guardar y cerrar</value>
+  </data>
+  <data name="57_1_L_DST_Header" xml:space="preserve">
+    <value>Ajustes de blanco del dosaje </value>
+  </data>
+  <data name="57_1_L_TN" xml:space="preserve">
+    <value>Media de #esperm./dosis (M)</value>
+  </data>
+  <data name="57_1_L_TV" xml:space="preserve">
+    <value>Volumen total (ml)</value>
+  </data>
+  <data name="57_1_L_DSV_Header" xml:space="preserve">
+    <value>Ajusted de volumen de dosaje</value>
+  </data>
+  <data name="58_2_P_ConcScreen" xml:space="preserve">
+    <value>Capturar campo</value>
+  </data>
+  <data name="58_1_L_Comments" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="58_2_P_QCConc" xml:space="preserve">
+    <value>Conc.</value>
+  </data>
+  <data name="58_1_T_Delete" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="58_1_L_TS" xml:space="preserve">
+    <value>Campos contados</value>
+  </data>
+  <data name="58_1_T_Item" xml:space="preserve">
+    <value>Ítem</value>
+  </data>
+  <data name="58_1_T_ManageAll" xml:space="preserve">
+    <value>Gestión de imágenes capturadas</value>
+  </data>
+  <data name="58_1_H_SelectImage" xml:space="preserve">
+    <value>Gestión de Imág.</value>
+  </data>
+  <data name="58_1_T_of" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="58_1_H_QCHeader" xml:space="preserve">
+    <value>Marca conteo CC</value>
+  </data>
+  <data name="58_2_B_RemoveAll" xml:space="preserve">
+    <value>Remover todo</value>
+  </data>
+  <data name="58_2_B_Remove" xml:space="preserve">
+    <value>Remover último</value>
+  </data>
+  <data name="58_1_L_ReportName" xml:space="preserve">
+    <value>Nombre Reporte</value>
+  </data>
+  <data name="58_1_T_SaveAs" xml:space="preserve">
+    <value>Guardar como</value>
+  </data>
+  <data name="58_2_B_SaveField" xml:space="preserve">
+    <value>Salvar camp.</value>
+  </data>
+  <data name="58_1_L_CC" xml:space="preserve">
+    <value>Espz. totales contados</value>
+  </data>
+  <data name="59_1_H_PMLF" xml:space="preserve">
+    <value>Promedio del último</value>
+  </data>
+  <data name="59_2_B_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="59_1_L_Enter" xml:space="preserve">
+    <value>Ingresar último</value>
+  </data>
+  <data name="59_1_H_MLFSet" xml:space="preserve">
+    <value>Ajustes Factor Pérdida de Movilidad</value>
+  </data>
+  <data name="59_1_H_PMLFSet" xml:space="preserve">
+    <value>Ajusted de Factor Pérdida de Mov. Progr.</value>
+  </data>
+  <data name="59_1_H_FresCorr" xml:space="preserve">
+    <value>Procesando pérdida (%)</value>
+  </data>
+  <data name="59_2_B_Save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="60_4_P_DateColl" xml:space="preserve">
+    <value>Fecha/Hora de recolección</value>
+  </data>
+  <data name="60_2_B_Continue" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="60_1_H_DTHeader" xml:space="preserve">
+    <value>Pruebas diarias</value>
+  </data>
+  <data name="60_4_P_MainTestID" xml:space="preserve">
+    <value># de Donación</value>
+  </data>
+  <data name="60_4_P_DonorID" xml:space="preserve">
+    <value>ID del donador</value>
+  </data>
+  <data name="60_1_H_INT" xml:space="preserve">
+    <value>Iniciar nueva prueba para el paso</value>
+  </data>
+  <data name="60_2_B_Refresh" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="60_4_P_SampleType" xml:space="preserve">
+    <value>Tipo de muestra</value>
+  </data>
+  <data name="60_4_P_TestID" xml:space="preserve">
+    <value>ID prueba</value>
+  </data>
+  <data name="60_1_H_TIP" xml:space="preserve">
+    <value>Prueba en proceso</value>
+  </data>
+  <data name="61_1_L_FooterData2" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="61_1_L_CapFrameCAP" xml:space="preserve">
+    <value>Imágenes capturadas</value>
+  </data>
+  <data name="61_1_L_CC" xml:space="preserve">
+    <value>contador clic (clave)</value>
+  </data>
+  <data name="61_1_L_Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="61_1_L_Comments" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="61_1_P_QCConc" xml:space="preserve">
+    <value>Conc.</value>
+  </data>
+  <data name="61_1_L_ContInf" xml:space="preserve">
+    <value>Info de contacto</value>
+  </data>
+  <data name="61_1_L_Criteria" xml:space="preserve">
+    <value>Criterio</value>
+  </data>
+  <data name="61_1_L_email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="61_1_L_FacAdd" xml:space="preserve">
+    <value>Info. del lab</value>
+  </data>
+  <data name="61_1_L_Fail" xml:space="preserve">
+    <value>Falla</value>
+  </data>
+  <data name="61_1_L_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="61_1_L_Image" xml:space="preserve">
+    <value>Imagen</value>
+  </data>
+  <data name="61_1_L_CapFrame" xml:space="preserve">
+    <value>Imagen</value>
+  </data>
+  <data name="61_1_L_MAC" xml:space="preserve">
+    <value>Marca conteo circular</value>
+  </data>
+  <data name="61_1_L_FooterData3" xml:space="preserve">
+    <value>El</value>
+  </data>
+  <data name="61_1_L_Parameter" xml:space="preserve">
+    <value>Parámetro</value>
+  </data>
+  <data name="61_1_L_Pass" xml:space="preserve">
+    <value>Pasó</value>
+  </data>
+  <data name="61_1_L_Phone" xml:space="preserve">
+    <value>Tel.</value>
+  </data>
+  <data name="61_1_L_FooterData1" xml:space="preserve">
+    <value>Impreso desde SQA-VISION # de serie</value>
+  </data>
+  <data name="61_1_L_QCCT" xml:space="preserve">
+    <value>Tipo Marca conteo CC</value>
+  </data>
+  <data name="61_1_L_QCHeader" xml:space="preserve">
+    <value>	Reporte de conteo de Control de Calidad</value>
+  </data>
+  <data name="61_1_L_Cutoff" xml:space="preserve">
+    <value>Valor ref.</value>
+  </data>
+  <data name="61_1_L_RefRange" xml:space="preserve">
+    <value>Valor ref.</value>
+  </data>
+  <data name="61_1_L_Continued" xml:space="preserve">
+    <value>Continuación reporte</value>
+  </data>
+  <data name="61_1_L_Date" xml:space="preserve">
+    <value>Fecha/Hora reporte</value>
+  </data>
+  <data name="61_1_L_ReportInf" xml:space="preserve">
+    <value>Info. reporte</value>
+  </data>
+  <data name="61_1_L_ReportName" xml:space="preserve">
+    <value>Nombre reporte</value>
+  </data>
+  <data name="61_1_L_Result" xml:space="preserve">
+    <value>Resultado</value>
+  </data>
+  <data name="61_1_L_Status" xml:space="preserve">
+    <value>Estatus</value>
+  </data>
+  <data name="61_1_L_Site" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="62_1_P_ND" xml:space="preserve">
+    <value># de dosis</value>
+  </data>
+  <data name="62_1_P_NQCV" xml:space="preserve">
+    <value># de controles</value>
+  </data>
+  <data name="62_1_P_UseTwoMedia" xml:space="preserve">
+    <value>Factor de Dln con 2 medios</value>
+  </data>
+  <data name="62_1_P_FM" xml:space="preserve">
+    <value>Agregar medio de cong. (ml)</value>
+  </data>
+  <data name="62_1_P_WM" xml:space="preserve">
+    <value>Agregar medio de lavado (ml)</value>
+  </data>
+  <data name="62_1_P_DV" xml:space="preserve">
+    <value>Volumen de dosis (ml)</value>
+  </data>
+  <data name="62_1_L_DoseInst" xml:space="preserve">
+    <value>Instrucciones de Dosis</value>
+  </data>
+  <data name="62_1_P_DoseMethod" xml:space="preserve">
+    <value>Método de dosificación</value>
+  </data>
+  <data name="62_1_L_Header" xml:space="preserve">
+    <value>Reporte de Dosis</value>
+  </data>
+  <data name="62_1_P_MediaRatio" xml:space="preserve">
+    <value>Factor de dilucion con 1 medio</value>
+  </data>
+  <data name="62_1_L_MLF" xml:space="preserve">
+    <value>FPM (%)</value>
+  </data>
+  <data name="62_1_L_PMLF" xml:space="preserve">
+    <value>FPMP (%)</value>
+  </data>
+  <data name="62_1_P_FreCorr" xml:space="preserve">
+    <value>Procesando pérdida (%)</value>
+  </data>
+  <data name="62_1_P_QCSV" xml:space="preserve">
+    <value>Vol. de muestra control (ml)</value>
+  </data>
+  <data name="62_1_L_Referance" xml:space="preserve">
+    <value>Valor ref.</value>
+  </data>
+  <data name="62_1_L_Result" xml:space="preserve">
+    <value>Resultado</value>
+  </data>
+  <data name="62_1_L_Status" xml:space="preserve">
+    <value>Estatus</value>
+  </data>
+  <data name="62_1_P_TN" xml:space="preserve">
+    <value>Media de #esperm./dosis (M)</value>
+  </data>
+  <data name="62_1_P_TV" xml:space="preserve">
+    <value>Volumen total (ml)</value>
+  </data>
+  <data name="63_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>Revisar cables de conexión equipo</value>
+  </data>
+  <data name="63_1_H_NoVideoCheck" xml:space="preserve">
+    <value>Hacer clic en el botón Actualizar</value>
+  </data>
+  <data name="63_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>Si el problema persiste</value>
+  </data>
+  <data name="63_1_H_VideoError" xml:space="preserve">
+    <value>Error vídeo</value>
+  </data>
+  <data name="64_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>Revisar cables de conexión equipo</value>
+  </data>
+  <data name="64_1_H_NoVideoCheck" xml:space="preserve">
+    <value>Hacer clic en el botón Actualizar</value>
+  </data>
+  <data name="64_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>Si el problema persiste</value>
+  </data>
+  <data name="64_1_H_VideoError" xml:space="preserve">
+    <value>Error vídeo</value>
+  </data>
+  <data name="100_0_LanguageFileVersion" xml:space="preserve">
+    <value>178.11.0.5</value>
+  </data>
+</root>

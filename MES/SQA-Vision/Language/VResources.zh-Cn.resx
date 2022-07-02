@@ -1,0 +1,5142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="0_2_4" xml:space="preserve">
+    <value>档案</value>
+  </data>
+  <data name="0_1_H_Clinical" xml:space="preserve">
+    <value>临床</value>
+  </data>
+  <data name="0_1_H_Cryo" xml:space="preserve">
+    <value>精子库</value>
+  </data>
+  <data name="0_1_T_Exit" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="0_1_T_Time" xml:space="preserve">
+    <value>如果需要调整，请点击日期/时间</value>
+  </data>
+  <data name="0_1_T_Help" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="0_1_T_Home" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="0_1_T_LongTimer" xml:space="preserve">
+    <value>精子寿命测试定时通知</value>
+  </data>
+  <data name="0_1_T_Minimize" xml:space="preserve">
+    <value>最小化</value>
+  </data>
+  <data name="0_1_L_NP" xml:space="preserve">
+    <value>未执行</value>
+  </data>
+  <data name="0_1_T_Preview" xml:space="preserve">
+    <value>预览视频</value>
+  </data>
+  <data name="0_2_2" xml:space="preserve">
+    <value>质控/室间质控</value>
+  </data>
+  <data name="0_2_5" xml:space="preserve">
+    <value>服务</value>
+  </data>
+  <data name="0_2_6" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="0_2_1" xml:space="preserve">
+    <value>检测患者</value>
+  </data>
+  <data name="0_2_3" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="1_2_B_Dilution" xml:space="preserve">
+    <value>1+1 稀释</value>
+  </data>
+  <data name="1_2_B_20" xml:space="preserve">
+    <value>10微升</value>
+  </data>
+  <data name="1_1_L_ABNormal" xml:space="preserve">
+    <value>不正常</value>
+  </data>
+  <data name="1_1_L_Abstinence" xml:space="preserve">
+    <value>禁欲</value>
+  </data>
+  <data name="1_2_B_AddIB" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="1_1_L_Pat_Age" xml:space="preserve">
+    <value>年龄</value>
+  </data>
+  <data name="1_1_L_Appearance" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="1_1_L_Pat_BD" xml:space="preserve">
+    <value>出生日期</value>
+  </data>
+  <data name="1_1_L_Pat_BDY" xml:space="preserve">
+    <value>出生年</value>
+  </data>
+  <data name="1_2_B_Cent" xml:space="preserve">
+    <value>离心</value>
+  </data>
+  <data name="1_2_B_CloseSession" xml:space="preserve">
+    <value>关闭进程</value>
+  </data>
+  <data name="1_1_L_DateColl" xml:space="preserve">
+    <value>采集日期</value>
+  </data>
+  <data name="1_1_L_TimeColl" xml:space="preserve">
+    <value>采集时间</value>
+  </data>
+  <data name="1_1_L_Comments" xml:space="preserve">
+    <value>评价</value>
+  </data>
+  <data name="1_2_B_Continue" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="1_1_L_Decreased" xml:space="preserve">
+    <value>减少</value>
+  </data>
+  <data name="1_2_B_DNA" xml:space="preserve">
+    <value>DNA碎片</value>
+  </data>
+  <data name="1_1_P_MainTestID" xml:space="preserve">
+    <value>供精标本编号</value>
+  </data>
+  <data name="1_1_P_DonorID" xml:space="preserve">
+    <value>供精者ID</value>
+  </data>
+  <data name="1_1_L_FinalVol" xml:space="preserve">
+    <value>最终体积 (ml)</value>
+  </data>
+  <data name="1_1_L_PatientFName" xml:space="preserve">
+    <value>姓</value>
+  </data>
+  <data name="1_2_B_Fresh" xml:space="preserve">
+    <value>新鲜</value>
+  </data>
+  <data name="1_2_B_Frozen" xml:space="preserve">
+    <value>冷冻</value>
+  </data>
+  <data name="1_2_B_Grad" xml:space="preserve">
+    <value>密度梯度</value>
+  </data>
+  <data name="1_1_P_IDT" xml:space="preserve">
+    <value>正在导入日常测试</value>
+  </data>
+  <data name="1_2_B_Step1" xml:space="preserve">
+    <value>初始</value>
+  </data>
+  <data name="1_1_L_INVol" xml:space="preserve">
+    <value>初始体积 (ml)</value>
+  </data>
+  <data name="1_1_L_PatientLName" xml:space="preserve">
+    <value>名</value>
+  </data>
+  <data name="1_1_L_Liquefaction" xml:space="preserve">
+    <value>液化</value>
+  </data>
+  <data name="1_2_B_Long" xml:space="preserve">
+    <value>精子寿命</value>
+  </data>
+  <data name="1_1_L_Longevity" xml:space="preserve">
+    <value>精子寿命</value>
+  </data>
+  <data name="1_2_B_ManualTT" xml:space="preserve">
+    <value>手工</value>
+  </data>
+  <data name="1_2_B_Manual" xml:space="preserve">
+    <value>手工</value>
+  </data>
+  <data name="1_2_B_ManualTest" xml:space="preserve">
+    <value>手工设置</value>
+  </data>
+  <data name="1_2_B_No" xml:space="preserve">
+    <value>不</value>
+  </data>
+  <data name="1_1_L_Normal" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="1_2_B_Offline" xml:space="preserve">
+    <value>离线</value>
+  </data>
+  <data name="1_1_L_Optional" xml:space="preserve">
+    <value>可选</value>
+  </data>
+  <data name="1_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="1_1_L_Pending" xml:space="preserve">
+    <value>待处理</value>
+  </data>
+  <data name="1_1_L_PH" xml:space="preserve">
+    <value>PH值</value>
+  </data>
+  <data name="1_1_H_NoControls1" xml:space="preserve">
+    <value>请输入检测类型</value>
+  </data>
+  <data name="1_2_B_PV" xml:space="preserve">
+    <value>绝育术后</value>
+  </data>
+  <data name="1_2_B_STAGE3" xml:space="preserve">
+    <value>冻融后</value>
+  </data>
+  <data name="1_2_B_STAGE2" xml:space="preserve">
+    <value>冷冻前</value>
+  </data>
+  <data name="1_2_B_Raw" xml:space="preserve">
+    <value>原始样本</value>
+  </data>
+  <data name="1_1_L_DateRec" xml:space="preserve">
+    <value>接收样本日期</value>
+  </data>
+  <data name="1_1_L_TimeRec" xml:space="preserve">
+    <value>接收样本时间</value>
+  </data>
+  <data name="1_2_B_Retry" xml:space="preserve">
+    <value>重试</value>
+  </data>
+  <data name="1_1_L_SampleID" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="1_2_B_SEMEN" xml:space="preserve">
+    <value>精液分析</value>
+  </data>
+  <data name="1_2_B_SemiAuto" xml:space="preserve">
+    <value>半自动</value>
+  </data>
+  <data name="1_2_B_Step" xml:space="preserve">
+    <value>步骤</value>
+  </data>
+  <data name="1_2_B_Swim" xml:space="preserve">
+    <value>上游精子</value>
+  </data>
+  <data name="1_1_P_TestID" xml:space="preserve">
+    <value>测试ID</value>
+  </data>
+  <data name="1_2_B_TestNow" xml:space="preserve">
+    <value>现在开始检测</value>
+  </data>
+  <data name="1_2_B_TestNow10Mic" xml:space="preserve">
+    <value>现在开始检测</value>
+  </data>
+  <data name="1_1_L_Viscocity" xml:space="preserve">
+    <value>粘稠度</value>
+  </data>
+  <data name="1_2_B_Vitality" xml:space="preserve">
+    <value>存活率</value>
+  </data>
+  <data name="1_1_L_Volume" xml:space="preserve">
+    <value>体积 (ml)</value>
+  </data>
+  <data name="1_2_B_Washed" xml:space="preserve">
+    <value>洗涤精液</value>
+  </data>
+  <data name="1_1_L_WBCConc" xml:space="preserve">
+    <value>白细胞浓度 (M/ml)</value>
+  </data>
+  <data name="1_2_B_Yes" xml:space="preserve">
+    <value>是的</value>
+  </data>
+  <data name="2_4_P_PV_ImmotileVol" xml:space="preserve">
+    <value>不活动精子数/精液体积</value>
+  </data>
+  <data name="2_4_L_MSPERM" xml:space="preserve">
+    <value>#活动精子数</value>
+  </data>
+  <data name="2_4_P_PV_MotileVol" xml:space="preserve">
+    <value>不活动精子数/精液体积</value>
+  </data>
+  <data name="2_4_L_PSPERM" xml:space="preserve">
+    <value>#前向运动精子数</value>
+  </data>
+  <data name="2_4_L_TSPERM" xml:space="preserve">
+    <value>#精子总数</value>
+  </data>
+  <data name="2_4_P_PV_TotalVol" xml:space="preserve">
+    <value>精子总数/精液体积</value>
+  </data>
+  <data name="2_4_L_MolEjec" xml:space="preserve">
+    <value>μmol/射精量</value>
+  </data>
+  <data name="2_4_L_20" xml:space="preserve">
+    <value>10微升</value>
+  </data>
+  <data name="2_4_L_ABNormal" xml:space="preserve">
+    <value>不正常</value>
+  </data>
+  <data name="2_4_P_Abnormal" xml:space="preserve">
+    <value>不正常</value>
+  </data>
+  <data name="2_4_P_Abstinence" xml:space="preserve">
+    <value>禁欲</value>
+  </data>
+  <data name="2_2_B_Add" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="2_4_P_PatAgeTest" xml:space="preserve">
+    <value>年龄</value>
+  </data>
+  <data name="2_4_P_TestAge" xml:space="preserve">
+    <value>年龄</value>
+  </data>
+  <data name="2_4_P_Aggl" xml:space="preserve">
+    <value>精子凝集度 (1-4，A-E)</value>
+  </data>
+  <data name="2_4_P_Appearance" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="2_4_L_Auto" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="2_4_P_PatAge" xml:space="preserve">
+    <value>出生日期/年龄</value>
+  </data>
+  <data name="2_4_P_PatAgeYear" xml:space="preserve">
+    <value>年龄</value>
+  </data>
+  <data name="2_2_B_Capture" xml:space="preserve">
+    <value>采集</value>
+  </data>
+  <data name="2_4_L_Cent" xml:space="preserve">
+    <value>离心</value>
+  </data>
+  <data name="2_4_L_CC" xml:space="preserve">
+    <value>点击计数 (按键)</value>
+  </data>
+  <data name="2_4_P_DateColl" xml:space="preserve">
+    <value>采集日期/时间</value>
+  </data>
+  <data name="2_1_L_Comments" xml:space="preserve">
+    <value>评价</value>
+  </data>
+  <data name="2_4_P_TSC" xml:space="preserve">
+    <value>浓度</value>
+  </data>
+  <data name="2_4_P_MorphType" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="2_4_P_CryoBank" xml:space="preserve">
+    <value>精子库</value>
+  </data>
+  <data name="2_4_L_Days" xml:space="preserve">
+    <value>天数</value>
+  </data>
+  <data name="2_2_B_Debris" xml:space="preserve">
+    <value>碎片</value>
+  </data>
+  <data name="2_4_P_Deb_Round" xml:space="preserve">
+    <value>碎片/圆细胞</value>
+  </data>
+  <data name="2_4_L_Decreased" xml:space="preserve">
+    <value>减少</value>
+  </data>
+  <data name="2_4_L_DILUTE" xml:space="preserve">
+    <value>稀释 1+1</value>
+  </data>
+  <data name="2_2_B_DNA" xml:space="preserve">
+    <value>DNA碎片</value>
+  </data>
+  <data name="2_4_P_VRTCountTypeD" xml:space="preserve">
+    <value>DNA碎片计数类型</value>
+  </data>
+  <data name="2_4_P_DFI" xml:space="preserve">
+    <value>DNA碎片指标 DFI</value>
+  </data>
+  <data name="2_4_P_MainTestID" xml:space="preserve">
+    <value>供精标本编号</value>
+  </data>
+  <data name="2_4_P_DonorID" xml:space="preserve">
+    <value>供精者ID</value>
+  </data>
+  <data name="2_2_B_DOSING" xml:space="preserve">
+    <value>精液分装</value>
+  </data>
+  <data name="2_2_B_Close" xml:space="preserve">
+    <value>结束测试</value>
+  </data>
+  <data name="2_4_L_Fail" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="2_4_L_Fresh" xml:space="preserve">
+    <value>新鲜</value>
+  </data>
+  <data name="2_4_L_Frozen" xml:space="preserve">
+    <value>冷冻</value>
+  </data>
+  <data name="2_4_L_FD" xml:space="preserve">
+    <value>完全分级</value>
+  </data>
+  <data name="2_4_P_FuncSperm" xml:space="preserve">
+    <value>有效精子</value>
+  </data>
+  <data name="2_4_P_FSC" xml:space="preserve">
+    <value>有效精子浓度</value>
+  </data>
+  <data name="2_4_L_Grad" xml:space="preserve">
+    <value>密度梯度</value>
+  </data>
+  <data name="2_2_B_Graph" xml:space="preserve">
+    <value>图形</value>
+  </data>
+  <data name="2_4_L_Gross" xml:space="preserve">
+    <value>大量的</value>
+  </data>
+  <data name="2_4_P_AttachedImage" xml:space="preserve">
+    <value>已采集图片</value>
+  </data>
+  <data name="2_4_P_Immotility5" xml:space="preserve">
+    <value>不活动精子 IM</value>
+  </data>
+  <data name="2_4_P_PV_Immotile" xml:space="preserve">
+    <value>不活动精子</value>
+  </data>
+  <data name="2_4_P_Immotility" xml:space="preserve">
+    <value>不活动精子率 d</value>
+  </data>
+  <data name="2_4_L_Step1" xml:space="preserve">
+    <value>初始</value>
+  </data>
+  <data name="2_4_L_Initial" xml:space="preserve">
+    <value>初始</value>
+  </data>
+  <data name="2_4_P_Liquefaction" xml:space="preserve">
+    <value>液化</value>
+  </data>
+  <data name="2_1_L_Live" xml:space="preserve">
+    <value>活的</value>
+  </data>
+  <data name="2_4_L_Long" xml:space="preserve">
+    <value>精子寿命</value>
+  </data>
+  <data name="2_4_P_LongID" xml:space="preserve">
+    <value>寿命ID</value>
+  </data>
+  <data name="2_4_P_LongStep" xml:space="preserve">
+    <value>寿命</value>
+  </data>
+  <data name="2_4_L_MEjac" xml:space="preserve">
+    <value>M/ejac</value>
+  </data>
+  <data name="2_4_L_MVol" xml:space="preserve">
+    <value>M/体积</value>
+  </data>
+  <data name="2_4_L_Manual" xml:space="preserve">
+    <value>手工</value>
+  </data>
+  <data name="2_4_L_Many" xml:space="preserve">
+    <value>有一些</value>
+  </data>
+  <data name="2_4_L_MAC" xml:space="preserve">
+    <value>标记计数 (圈选)</value>
+  </data>
+  <data name="2_4_L_MicSec" xml:space="preserve">
+    <value>微米/秒</value>
+  </data>
+  <data name="2_4_L_Mod" xml:space="preserve">
+    <value>中等程度</value>
+  </data>
+  <data name="2_2_B_Morph" xml:space="preserve">
+    <value>形态</value>
+  </data>
+  <data name="2_4_P_VRTCountType" xml:space="preserve">
+    <value>形态计数类型</value>
+  </data>
+  <data name="2_4_P_TotalMorph" xml:space="preserve">
+    <value>形态.正常精子</value>
+  </data>
+  <data name="2_4_P_VRTTestType" xml:space="preserve">
+    <value>形态检测类型</value>
+  </data>
+  <data name="2_4_P_MotileSperm" xml:space="preserve">
+    <value>活动精子</value>
+  </data>
+  <data name="2_4_P_PV_Motile" xml:space="preserve">
+    <value>活动精子</value>
+  </data>
+  <data name="2_4_P_MSC" xml:space="preserve">
+    <value>活动精子浓度</value>
+  </data>
+  <data name="2_4_P_Motility" xml:space="preserve">
+    <value>活力</value>
+  </data>
+  <data name="2_2_B_Motility" xml:space="preserve">
+    <value>活力</value>
+  </data>
+  <data name="2_4_L_MUEjac" xml:space="preserve">
+    <value>mU/射精量</value>
+  </data>
+  <data name="2_4_L_NoneFew" xml:space="preserve">
+    <value>没有/很少</value>
+  </data>
+  <data name="2_4_P_Nonprog" xml:space="preserve">
+    <value>非前向 c</value>
+  </data>
+  <data name="2_4_P_Nonprog5" xml:space="preserve">
+    <value>非前向 NP</value>
+  </data>
+  <data name="2_4_L_Normal" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="2_4_L_ANN" xml:space="preserve">
+    <value>正常/异常</value>
+  </data>
+  <data name="2_4_P_Morph" xml:space="preserve">
+    <value>形态正常精子</value>
+  </data>
+  <data name="2_4_L_NormVol" xml:space="preserve">
+    <value>正常体积</value>
+  </data>
+  <data name="2_4_P_OI" xml:space="preserve">
+    <value>可选</value>
+  </data>
+  <data name="2_4_P_PV_Option" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="2_4_L_Parameter" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="2_4_L_Pass" xml:space="preserve">
+    <value>通过</value>
+  </data>
+  <data name="2_4_P_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="2_4_P_PatFullName" xml:space="preserve">
+    <value>患者姓名</value>
+  </data>
+  <data name="2_4_P_PH" xml:space="preserve">
+    <value>PH值</value>
+  </data>
+  <data name="2_4_P_AB10" xml:space="preserve">
+    <value>大头针状</value>
+  </data>
+  <data name="2_4_L_PV" xml:space="preserve">
+    <value>绝育术后</value>
+  </data>
+  <data name="2_4_P_PostThaw" xml:space="preserve">
+    <value>冻融后</value>
+  </data>
+  <data name="2_4_P_PreFreeze" xml:space="preserve">
+    <value>冷冻前</value>
+  </data>
+  <data name="2_4_P_ProgMotile" xml:space="preserve">
+    <value>前向活动精子</value>
+  </data>
+  <data name="2_4_P_PMSC" xml:space="preserve">
+    <value>前向活动精子浓度</value>
+  </data>
+  <data name="2_4_P_PMSCA" xml:space="preserve">
+    <value>前向活动精子浓度.a</value>
+  </data>
+  <data name="2_4_P_PMSCB" xml:space="preserve">
+    <value>前向活动精子浓度.b</value>
+  </data>
+  <data name="2_4_P_PMOT" xml:space="preserve">
+    <value>前向活动 PR</value>
+  </data>
+  <data name="2_4_P_PMOTA" xml:space="preserve">
+    <value>快速前向 a</value>
+  </data>
+  <data name="2_4_L_Raw" xml:space="preserve">
+    <value>原始</value>
+  </data>
+  <data name="2_4_P_DateRec" xml:space="preserve">
+    <value>接收日期/时间</value>
+  </data>
+  <data name="2_4_L_RefVal" xml:space="preserve">
+    <value>参考值</value>
+  </data>
+  <data name="2_2_B_Report" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="2_4_L_Result" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="2_2_B_Retest" xml:space="preserve">
+    <value>重测</value>
+  </data>
+  <data name="2_4_P_TEST_PF" xml:space="preserve">
+    <value>样本评估</value>
+  </data>
+  <data name="2_4_P_SampleID" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="2_4_L_SamInf" xml:space="preserve">
+    <value>样本信息</value>
+  </data>
+  <data name="2_4_P_TestMode" xml:space="preserve">
+    <value>已检测样本</value>
+  </data>
+  <data name="2_2_B_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="2_4_L_SemiAuto" xml:space="preserve">
+    <value>半自动</value>
+  </data>
+  <data name="2_2_B_Send" xml:space="preserve">
+    <value>发送</value>
+  </data>
+  <data name="2_4_P_PMOTB" xml:space="preserve">
+    <value>慢速前向 b</value>
+  </data>
+  <data name="2_4_P_TotalSperm" xml:space="preserve">
+    <value>精子数</value>
+  </data>
+  <data name="2_4_P_SMI" xml:space="preserve">
+    <value>精子活力指数</value>
+  </data>
+  <data name="2_4_L_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="2_4_L_Step" xml:space="preserve">
+    <value>步骤</value>
+  </data>
+  <data name="2_4_P_TestTime" xml:space="preserve">
+    <value>步骤用时</value>
+  </data>
+  <data name="2_4_L_Swim" xml:space="preserve">
+    <value>上游精子</value>
+  </data>
+  <data name="2_2_B_TestCent" xml:space="preserve">
+    <value>检测离心样本</value>
+  </data>
+  <data name="2_4_P_TestDate" xml:space="preserve">
+    <value>检测日期/时间</value>
+  </data>
+  <data name="2_4_P_TestID" xml:space="preserve">
+    <value>测试ID</value>
+  </data>
+  <data name="2_4_P_UserName" xml:space="preserve">
+    <value>操作人员</value>
+  </data>
+  <data name="2_4_P_SampleType" xml:space="preserve">
+    <value>检测类型</value>
+  </data>
+  <data name="2_4_P_Motility5" xml:space="preserve">
+    <value>总活力 PR+NP</value>
+  </data>
+  <data name="2_4_P_PV_Total" xml:space="preserve">
+    <value>精子总数</value>
+  </data>
+  <data name="2_4_P_Velocity" xml:space="preserve">
+    <value>精子活动速率</value>
+  </data>
+  <data name="2_4_P_AttachedVideo" xml:space="preserve">
+    <value>已采集视频</value>
+  </data>
+  <data name="2_4_P_Viscocity" xml:space="preserve">
+    <value>粘稠度</value>
+  </data>
+  <data name="2_1_L_VisualAss" xml:space="preserve">
+    <value>视频评估</value>
+  </data>
+  <data name="2_2_B_Vitality" xml:space="preserve">
+    <value>存活率</value>
+  </data>
+  <data name="2_4_P_ViabLive" xml:space="preserve">
+    <value>存活率</value>
+  </data>
+  <data name="2_4_P_VRTCountTypeV" xml:space="preserve">
+    <value>存活率计数类型</value>
+  </data>
+  <data name="2_4_P_Volume" xml:space="preserve">
+    <value>体积</value>
+  </data>
+  <data name="2_4_L_Washed" xml:space="preserve">
+    <value>洗涤精液</value>
+  </data>
+  <data name="2_4_P_WBCConc" xml:space="preserve">
+    <value>白细胞浓度</value>
+  </data>
+  <data name="3_1_H_Slides" xml:space="preserve">
+    <value>载玻片编号</value>
+  </data>
+  <data name="3_1_L_PatAge" xml:space="preserve">
+    <value>出生日期/年龄</value>
+  </data>
+  <data name="3_2_P_AttachedImage" xml:space="preserve">
+    <value>采集图片</value>
+  </data>
+  <data name="3_1_L_TestTypeCEN" xml:space="preserve">
+    <value>离心后样本</value>
+  </data>
+  <data name="3_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>检查VISION接线</value>
+  </data>
+  <data name="3_2_B_ClearAll" xml:space="preserve">
+    <value>清除全部</value>
+  </data>
+  <data name="3_2_B_ClearLast" xml:space="preserve">
+    <value>清除上一个</value>
+  </data>
+  <data name="3_1_H_NoVideoCheck" xml:space="preserve">
+    <value>点击刷新按钮</value>
+  </data>
+  <data name="3_1_L_MorphType" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="3_1_L_Elapsed" xml:space="preserve">
+    <value>过去的</value>
+  </data>
+  <data name="3_1_L_ManScreen" xml:space="preserve">
+    <value>计数视野数</value>
+  </data>
+  <data name="3_2_B_Freeze" xml:space="preserve">
+    <value>冻结</value>
+  </data>
+  <data name="3_2_B_Fresh" xml:space="preserve">
+    <value>新鲜模式</value>
+  </data>
+  <data name="3_2_B_FULL" xml:space="preserve">
+    <value>全屏</value>
+  </data>
+  <data name="3_2_B_GridOff" xml:space="preserve">
+    <value>去掉网格</value>
+  </data>
+  <data name="3_2_B_Grid" xml:space="preserve">
+    <value>添加网格</value>
+  </data>
+  <data name="3_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>如果问题仍然存在</value>
+  </data>
+  <data name="3_1_L_ImageCap" xml:space="preserve">
+    <value>已采集图片</value>
+  </data>
+  <data name="3_1_H_Immotile" xml:space="preserve">
+    <value>不活动精子</value>
+  </data>
+  <data name="3_1_L_HeaderLQ" xml:space="preserve">
+    <value>低质量计数</value>
+  </data>
+  <data name="3_1_L_HeaderMN" xml:space="preserve">
+    <value>手工计数</value>
+  </data>
+  <data name="3_1_H_Motile" xml:space="preserve">
+    <value>活动精子</value>
+  </data>
+  <data name="3_1_L_Detected" xml:space="preserve">
+    <value>自动检测到的活动精子</value>
+  </data>
+  <data name="3_2_B_NextField" xml:space="preserve">
+    <value>下一个视野</value>
+  </data>
+  <data name="3_1_L_No" xml:space="preserve">
+    <value>不</value>
+  </data>
+  <data name="3_1_L_NoSperm" xml:space="preserve">
+    <value>未看到精子</value>
+  </data>
+  <data name="3_1_L_Nprog" xml:space="preserve">
+    <value>非前向的</value>
+  </data>
+  <data name="3_1_L_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="3_1_L_Option" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="3_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="3_1_L_PatientName" xml:space="preserve">
+    <value>患者姓名</value>
+  </data>
+  <data name="3_1_L_HeaderPV" xml:space="preserve">
+    <value>绝育术后计数</value>
+  </data>
+  <data name="3_1_H_PMOT" xml:space="preserve">
+    <value>前向的</value>
+  </data>
+  <data name="3_1_L_RAPID" xml:space="preserve">
+    <value>快速前向的</value>
+  </data>
+  <data name="3_1_L_TestTypeRAW" xml:space="preserve">
+    <value>原始样本 (未经离心)</value>
+  </data>
+  <data name="3_2_B_RealTime" xml:space="preserve">
+    <value>实时</value>
+  </data>
+  <data name="3_2_P_AttachedVideo" xml:space="preserve">
+    <value>录制视频</value>
+  </data>
+  <data name="3_2_B_Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="3_2_B_Next" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="3_1_L_DilutionList" xml:space="preserve">
+    <value>样本经过稀释吗？</value>
+  </data>
+  <data name="3_1_L_DilutionList2" xml:space="preserve">
+    <value>样本稀释</value>
+  </data>
+  <data name="3_1_L_SampleID" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="3_1_L_SS" xml:space="preserve">
+    <value>已检测样本</value>
+  </data>
+  <data name="3_2_B_Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="3_1_L_SLOW" xml:space="preserve">
+    <value>慢速前向的</value>
+  </data>
+  <data name="3_1_L_StopCapture" xml:space="preserve">
+    <value>停止采集</value>
+  </data>
+  <data name="3_1_L_TestDate" xml:space="preserve">
+    <value>检测日期/时间</value>
+  </data>
+  <data name="3_1_L_SampleType" xml:space="preserve">
+    <value>检测类型</value>
+  </data>
+  <data name="3_1_L_Total" xml:space="preserve">
+    <value>总数</value>
+  </data>
+  <data name="3_1_L_TCELLS" xml:space="preserve">
+    <value>计数精子总数</value>
+  </data>
+  <data name="3_1_H_VideoError" xml:space="preserve">
+    <value>视频出错</value>
+  </data>
+  <data name="3_1_L_VideoCap" xml:space="preserve">
+    <value>已录制视频数</value>
+  </data>
+  <data name="3_1_H_Zoom" xml:space="preserve">
+    <value>缩小</value>
+  </data>
+  <data name="4_2_P_Abnormal" xml:space="preserve">
+    <value>不正常</value>
+  </data>
+  <data name="4_1_L_PatAge" xml:space="preserve">
+    <value>出生日期/年龄</value>
+  </data>
+  <data name="4_2_P_MorphScreen" xml:space="preserve">
+    <value>采集视野</value>
+  </data>
+  <data name="4_1_L_Comments" xml:space="preserve">
+    <value>评价</value>
+  </data>
+  <data name="4_1_L_MorphType" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="4_1_T_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="4_1_L_TS" xml:space="preserve">
+    <value>计数视野数</value>
+  </data>
+  <data name="4_1_T_Item" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="4_1_T_ManageAll" xml:space="preserve">
+    <value>管理全部已采集图片</value>
+  </data>
+  <data name="4_1_H_SelectImage" xml:space="preserve">
+    <value>管理图片</value>
+  </data>
+  <data name="4_1_H_MorphHeader" xml:space="preserve">
+    <value>形态计数</value>
+  </data>
+  <data name="4_2_P_Normal" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="4_1_T_of" xml:space="preserve">
+    <value>的</value>
+  </data>
+  <data name="4_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="4_1_L_PatientName" xml:space="preserve">
+    <value>患者姓名</value>
+  </data>
+  <data name="4_2_B_RemoveAll" xml:space="preserve">
+    <value>删除全部</value>
+  </data>
+  <data name="4_2_B_Remove" xml:space="preserve">
+    <value>删除上一个</value>
+  </data>
+  <data name="4_1_L_ReportName" xml:space="preserve">
+    <value>报告姓名</value>
+  </data>
+  <data name="4_1_L_SampleID" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="4_1_L_SS" xml:space="preserve">
+    <value>已检测样本</value>
+  </data>
+  <data name="4_1_T_SaveAs" xml:space="preserve">
+    <value>保存为</value>
+  </data>
+  <data name="4_2_B_SaveField" xml:space="preserve">
+    <value>保存视野</value>
+  </data>
+  <data name="4_1_L_TestDate" xml:space="preserve">
+    <value>检测日期/时间</value>
+  </data>
+  <data name="4_1_L_SampleType" xml:space="preserve">
+    <value>检测类型</value>
+  </data>
+  <data name="4_1_L_CC" xml:space="preserve">
+    <value>计数精子总数</value>
+  </data>
+  <data name="5_1_L_PatAge" xml:space="preserve">
+    <value>出生日期/年龄</value>
+  </data>
+  <data name="5_2_P_ViabScreen" xml:space="preserve">
+    <value>采集视野</value>
+  </data>
+  <data name="5_1_L_Comments" xml:space="preserve">
+    <value>评价</value>
+  </data>
+  <data name="5_1_L_MorphType" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="5_2_P_ViabDead" xml:space="preserve">
+    <value>死的</value>
+  </data>
+  <data name="5_1_T_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="5_1_L_TS" xml:space="preserve">
+    <value>计数视野数</value>
+  </data>
+  <data name="5_1_T_Item" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="5_2_P_ViabLive" xml:space="preserve">
+    <value>活的</value>
+  </data>
+  <data name="5_1_T_ManageAll" xml:space="preserve">
+    <value>管理全部已采集图片</value>
+  </data>
+  <data name="5_1_H_SelectImage" xml:space="preserve">
+    <value>管理图片</value>
+  </data>
+  <data name="5_1_T_of" xml:space="preserve">
+    <value>的</value>
+  </data>
+  <data name="5_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="5_1_L_PatientName" xml:space="preserve">
+    <value>患者姓名</value>
+  </data>
+  <data name="5_2_B_RemoveAll" xml:space="preserve">
+    <value>删除全部</value>
+  </data>
+  <data name="5_2_B_Remove" xml:space="preserve">
+    <value>删除上一个</value>
+  </data>
+  <data name="5_1_L_ReportName" xml:space="preserve">
+    <value>报告姓名</value>
+  </data>
+  <data name="5_1_L_SampleID" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="5_1_L_SS" xml:space="preserve">
+    <value>已检测样本</value>
+  </data>
+  <data name="5_1_T_SaveAs" xml:space="preserve">
+    <value>保存为</value>
+  </data>
+  <data name="5_2_B_SaveField" xml:space="preserve">
+    <value>保存视野</value>
+  </data>
+  <data name="5_1_L_TestDate" xml:space="preserve">
+    <value>检测日期/时间</value>
+  </data>
+  <data name="5_1_L_SampleType" xml:space="preserve">
+    <value>检测类型</value>
+  </data>
+  <data name="5_1_L_CC" xml:space="preserve">
+    <value>计数精子总数</value>
+  </data>
+  <data name="5_1_H_VitHeader" xml:space="preserve">
+    <value>存活率计数</value>
+  </data>
+  <data name="6_1_L_PatAge" xml:space="preserve">
+    <value>出生日期/年龄</value>
+  </data>
+  <data name="6_2_P_AttachedImage" xml:space="preserve">
+    <value>采集图片</value>
+  </data>
+  <data name="6_1_L_Comments" xml:space="preserve">
+    <value>评价</value>
+  </data>
+  <data name="6_1_L_MorphType" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="6_1_T_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="6_1_L_Elapsed" xml:space="preserve">
+    <value>过去的</value>
+  </data>
+  <data name="6_1_H_CaptureHeader" xml:space="preserve">
+    <value>采集图片及视频</value>
+  </data>
+  <data name="6_1_T_Item" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="6_1_T_ManageAll" xml:space="preserve">
+    <value>管理全部已采集图片</value>
+  </data>
+  <data name="6_1_T_ManageAllV" xml:space="preserve">
+    <value>管理全部已采集视频</value>
+  </data>
+  <data name="6_1_H_ManageImage" xml:space="preserve">
+    <value>管理图片</value>
+  </data>
+  <data name="6_1_H_ManageVideo" xml:space="preserve">
+    <value>管理视频</value>
+  </data>
+  <data name="6_1_T_of" xml:space="preserve">
+    <value>的</value>
+  </data>
+  <data name="6_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="6_1_L_PatientName" xml:space="preserve">
+    <value>患者姓名</value>
+  </data>
+  <data name="6_2_P_AttachedVideo" xml:space="preserve">
+    <value>录制视频</value>
+  </data>
+  <data name="6_1_L_ReportName" xml:space="preserve">
+    <value>报告姓名</value>
+  </data>
+  <data name="6_1_L_SampleID" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="6_1_L_SS" xml:space="preserve">
+    <value>已检测样本</value>
+  </data>
+  <data name="6_1_T_SaveAs" xml:space="preserve">
+    <value>保存为</value>
+  </data>
+  <data name="6_1_L_StopCapture" xml:space="preserve">
+    <value>停止采集</value>
+  </data>
+  <data name="6_1_L_TestDate" xml:space="preserve">
+    <value>检测日期/时间</value>
+  </data>
+  <data name="6_1_L_SampleType" xml:space="preserve">
+    <value>检测类型</value>
+  </data>
+  <data name="7_2_B_AddIB" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="7_2_B_CloseCA" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="7_4_CA_Clean" xml:space="preserve">
+    <value>对检测仪进行清洁，然后进行重测</value>
+  </data>
+  <data name="7_1_P_CON_RE" xml:space="preserve">
+    <value>浓度  (百万/毫升)</value>
+  </data>
+  <data name="7_2_B_Continue" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="7_4_D_Storage" xml:space="preserve">
+    <value>存储不当的质控品</value>
+  </data>
+  <data name="7_4_D_Expired" xml:space="preserve">
+    <value>过期质控品</value>
+  </data>
+  <data name="7_4_CA_SETUP" xml:space="preserve">
+    <value>设置正确并进行重测</value>
+  </data>
+  <data name="7_2_B_CorrectiveAction" xml:space="preserve">
+    <value>纠正措施</value>
+  </data>
+  <data name="7_4_P_CA" xml:space="preserve">
+    <value>纠正措施</value>
+  </data>
+  <data name="7_4_P_CON_CA" xml:space="preserve">
+    <value>纠正措施</value>
+  </data>
+  <data name="7_1_P_CON_Date" xml:space="preserve">
+    <value>日期/时间</value>
+  </data>
+  <data name="7_1_H_NoControlsDEF" xml:space="preserve">
+    <value>默认设置</value>
+  </data>
+  <data name="7_1_P_CON_EXPDA" xml:space="preserve">
+    <value>到期日</value>
+  </data>
+  <data name="7_1_L_Fail" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="7_4_CA_MIX" xml:space="preserve">
+    <value>充分混匀后重测</value>
+  </data>
+  <data name="7_1_P_Con_Issue" xml:space="preserve">
+    <value>发布日期</value>
+  </data>
+  <data name="7_1_P_CON_LR" xml:space="preserve">
+    <value>上一次运行</value>
+  </data>
+  <data name="7_1_P_LevelID" xml:space="preserve">
+    <value>级别</value>
+  </data>
+  <data name="7_1_P_CON_LOT" xml:space="preserve">
+    <value>批次</value>
+  </data>
+  <data name="7_2_B_VISUAL" xml:space="preserve">
+    <value>标记计数</value>
+  </data>
+  <data name="7_1_P_CON_MSC" xml:space="preserve">
+    <value>活动精子浓度</value>
+  </data>
+  <data name="7_4_D_NonAss" xml:space="preserve">
+    <value>按定值质控检测非定制质控品</value>
+  </data>
+  <data name="7_1_P_CON_NOTE" xml:space="preserve">
+    <value>说明</value>
+  </data>
+  <data name="7_2_B_Offline" xml:space="preserve">
+    <value>离线</value>
+  </data>
+  <data name="7_1_L_Pass" xml:space="preserve">
+    <value>通过</value>
+  </data>
+  <data name="7_1_P_CON_PR" xml:space="preserve">
+    <value>通过范围</value>
+  </data>
+  <data name="7_1_L_Pending" xml:space="preserve">
+    <value>待处理</value>
+  </data>
+  <data name="7_1_H_NoControlsPS" xml:space="preserve">
+    <value>请设置</value>
+  </data>
+  <data name="7_4_P_ProDesc" xml:space="preserve">
+    <value>问题描述</value>
+  </data>
+  <data name="7_1_L_PR" xml:space="preserve">
+    <value>室间质控</value>
+  </data>
+  <data name="7_2_B_PR" xml:space="preserve">
+    <value>室间质控</value>
+  </data>
+  <data name="7_2_B_Archive" xml:space="preserve">
+    <value>质控档案</value>
+  </data>
+  <data name="7_1_P_CON_RAN" xml:space="preserve">
+    <value>范围 (+/-)</value>
+  </data>
+  <data name="7_1_P_CON_NC_RAN" xml:space="preserve">
+    <value>范围 (+/-)</value>
+  </data>
+  <data name="7_2_B_Report" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="7_4_CA_NonAss" xml:space="preserve">
+    <value>按非定值质控进行重测</value>
+  </data>
+  <data name="7_2_B_Retry" xml:space="preserve">
+    <value>重试</value>
+  </data>
+  <data name="7_4_CA_WrongLevel" xml:space="preserve">
+    <value>运行正确的质控等级</value>
+  </data>
+  <data name="7_4_CA_Storage" xml:space="preserve">
+    <value>运行新批次</value>
+  </data>
+  <data name="7_4_CA_Expired" xml:space="preserve">
+    <value>运行新批次的质控品</value>
+  </data>
+  <data name="7_4_D_MIX" xml:space="preserve">
+    <value>样本处理/混合</value>
+  </data>
+  <data name="7_1_P_CON_SAMPLE" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="7_1_P_SampleID" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="7_1_L_SI" xml:space="preserve">
+    <value>样本信息</value>
+  </data>
+  <data name="7_2_B_SaveCA" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="7_2_B_Setup" xml:space="preserve">
+    <value>创建</value>
+  </data>
+  <data name="7_1_P_CON_STA" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="7_4_D_Clean" xml:space="preserve">
+    <value>系统需要清洁</value>
+  </data>
+  <data name="7_1_P_CON_TAR" xml:space="preserve">
+    <value>靶值</value>
+  </data>
+  <data name="7_4_D_SETUP" xml:space="preserve">
+    <value>靶值/范围设置</value>
+  </data>
+  <data name="7_1_P_CON_NC_TAR" xml:space="preserve">
+    <value>靶值</value>
+  </data>
+  <data name="7_2_B_TestNow" xml:space="preserve">
+    <value>现在开始检测</value>
+  </data>
+  <data name="7_1_L_TR" xml:space="preserve">
+    <value>检测结果</value>
+  </data>
+  <data name="7_4_D_User" xml:space="preserve">
+    <value>用户自定义</value>
+  </data>
+  <data name="7_4_D_WrongLevel" xml:space="preserve">
+    <value>使用错误等级的质控品进行检测</value>
+  </data>
+  <data name="8_1_T_Camera" xml:space="preserve">
+    <value>[摄像头] - 图片 / 视频</value>
+  </data>
+  <data name="8_1_T_DNA" xml:space="preserve">
+    <value>DNA碎片</value>
+  </data>
+  <data name="8_1_L_20" xml:space="preserve">
+    <value>10微升</value>
+  </data>
+  <data name="8_4_P_MainAllComp" xml:space="preserve">
+    <value>所有步骤都已执行？</value>
+  </data>
+  <data name="8_1_L_Capture" xml:space="preserve">
+    <value>采集</value>
+  </data>
+  <data name="8_4_P_Con_RE" xml:space="preserve">
+    <value>浓度 (百万/毫升)</value>
+  </data>
+  <data name="8_4_P_Con_CA" xml:space="preserve">
+    <value>纠正措施</value>
+  </data>
+  <data name="8_2_B_CB" xml:space="preserve">
+    <value>精子库</value>
+  </data>
+  <data name="8_1_T_Debris" xml:space="preserve">
+    <value>D - 碎片</value>
+  </data>
+  <data name="8_4_P_MainDate" xml:space="preserve">
+    <value>日期/时间</value>
+  </data>
+  <data name="8_4_P_Con_Date" xml:space="preserve">
+    <value>日期/时间</value>
+  </data>
+  <data name="8_2_B_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="8_1_L_DILUTE" xml:space="preserve">
+    <value>稀释 1+1</value>
+  </data>
+  <data name="8_1_L_DNA" xml:space="preserve">
+    <value>DNA碎片</value>
+  </data>
+  <data name="8_4_P_MainTestID" xml:space="preserve">
+    <value>供精标本编号</value>
+  </data>
+  <data name="8_4_P_DonorID" xml:space="preserve">
+    <value>供精者ID</value>
+  </data>
+  <data name="8_4_P_EXPDA" xml:space="preserve">
+    <value>到期日</value>
+  </data>
+  <data name="8_2_B_Export" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="8_1_L_Fail" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="8_2_B_GO" xml:space="preserve">
+    <value>筛选</value>
+  </data>
+  <data name="8_1_H_DateRange" xml:space="preserve">
+    <value>按日期筛选</value>
+  </data>
+  <data name="8_1_H_Filter2CBI" xml:space="preserve">
+    <value>按供精标本编号筛选</value>
+  </data>
+  <data name="8_1_H_Filter1CB" xml:space="preserve">
+    <value>按供精者ID筛选</value>
+  </data>
+  <data name="8_1_H_Filter1LE" xml:space="preserve">
+    <value>按级别编号</value>
+  </data>
+  <data name="8_1_H_Filter1MT" xml:space="preserve">
+    <value>按介质类型筛选</value>
+  </data>
+  <data name="8_1_H_Filter1PI" xml:space="preserve">
+    <value>按患者ID筛选</value>
+  </data>
+  <data name="8_1_H_Filter2PN" xml:space="preserve">
+    <value>按患者姓名筛选</value>
+  </data>
+  <data name="8_1_H_Filter1PB" xml:space="preserve">
+    <value>按操作人员筛选</value>
+  </data>
+  <data name="8_1_H_Filter1PR" xml:space="preserve">
+    <value>按室间质控编号筛选</value>
+  </data>
+  <data name="8_1_H_Filter2ST" xml:space="preserve">
+    <value>按状态筛选</value>
+  </data>
+  <data name="8_1_H_Filter1ST" xml:space="preserve">
+    <value>按状态筛选</value>
+  </data>
+  <data name="8_1_L_Fresh" xml:space="preserve">
+    <value>新鲜</value>
+  </data>
+  <data name="8_1_L_Frozen" xml:space="preserve">
+    <value>冷冻</value>
+  </data>
+  <data name="8_1_L_Grad" xml:space="preserve">
+    <value>密度梯度</value>
+  </data>
+  <data name="8_1_L_Int" xml:space="preserve">
+    <value>间隔</value>
+  </data>
+  <data name="8_4_P_Con_Issue" xml:space="preserve">
+    <value>发布日期</value>
+  </data>
+  <data name="8_1_L_Long" xml:space="preserve">
+    <value>精子寿命</value>
+  </data>
+  <data name="8_4_P_Con_Lot" xml:space="preserve">
+    <value>批次</value>
+  </data>
+  <data name="8_1_T_Morphology" xml:space="preserve">
+    <value>M - 形态</value>
+  </data>
+  <data name="8_2_B_Main" xml:space="preserve">
+    <value>维护</value>
+  </data>
+  <data name="8_1_L_Manual" xml:space="preserve">
+    <value>手工</value>
+  </data>
+  <data name="8_1_L_Morph" xml:space="preserve">
+    <value>形态</value>
+  </data>
+  <data name="8_4_P_CON_MSC" xml:space="preserve">
+    <value>活动精子浓度</value>
+  </data>
+  <data name="8_1_L_No" xml:space="preserve">
+    <value>不</value>
+  </data>
+  <data name="8_4_P_Con_Note" xml:space="preserve">
+    <value>说明</value>
+  </data>
+  <data name="8_2_B_OpenTest" xml:space="preserve">
+    <value>打开测试</value>
+  </data>
+  <data name="8_1_L_Pass" xml:space="preserve">
+    <value>通过</value>
+  </data>
+  <data name="8_4_P_CON_RAN" xml:space="preserve">
+    <value>通过范围</value>
+  </data>
+  <data name="8_4_P_CON_NC_RAN" xml:space="preserve">
+    <value>通过范围</value>
+  </data>
+  <data name="8_2_B_PD" xml:space="preserve">
+    <value>患者信息</value>
+  </data>
+  <data name="8_4_P_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="8_4_P_PatFullName" xml:space="preserve">
+    <value>患者姓名</value>
+  </data>
+  <data name="8_4_P_MainUser" xml:space="preserve">
+    <value>操作人员</value>
+  </data>
+  <data name="8_1_L_PV" xml:space="preserve">
+    <value>绝育术后</value>
+  </data>
+  <data name="8_2_B_PR" xml:space="preserve">
+    <value>室间质控</value>
+  </data>
+  <data name="8_4_P_Con_PRONUM" xml:space="preserve">
+    <value>室间质控编号</value>
+  </data>
+  <data name="8_1_L_VQC" xml:space="preserve">
+    <value>QC标记计数</value>
+  </data>
+  <data name="8_2_B_Report" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="8_2_B_OnlyReport" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="8_4_P_VisName" xml:space="preserve">
+    <value>报告姓名</value>
+  </data>
+  <data name="8_4_P_SampleID" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="8_1_L_ST" xml:space="preserve">
+    <value>自检</value>
+  </data>
+  <data name="8_2_B_SD" xml:space="preserve">
+    <value>服务数据</value>
+  </data>
+  <data name="8_4_P_SDDate" xml:space="preserve">
+    <value>服务数据  日期/时间</value>
+  </data>
+  <data name="8_2_B_ShowAll" xml:space="preserve">
+    <value>显示全部</value>
+  </data>
+  <data name="8_2_P_SubSampleType" xml:space="preserve">
+    <value>阶段</value>
+  </data>
+  <data name="8_4_P_SDStatus" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="8_4_P_CON_STA" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="8_1_L_Swim" xml:space="preserve">
+    <value>上游精子</value>
+  </data>
+  <data name="8_4_P_CON_TAR" xml:space="preserve">
+    <value>靶值 (M/ml)</value>
+  </data>
+  <data name="8_4_P_Con_NC_TAR" xml:space="preserve">
+    <value>靶值 (M/ml)</value>
+  </data>
+  <data name="8_4_P_TestDate" xml:space="preserve">
+    <value>检测日期/时间</value>
+  </data>
+  <data name="8_4_P_SampleType" xml:space="preserve">
+    <value>检测类型</value>
+  </data>
+  <data name="8_1_H_To" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="8_1_L_To" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="8_4_P_CounterType" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="8_4_P_LAST_TEST" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="8_1_T_Vitality" xml:space="preserve">
+    <value>V-存活率</value>
+  </data>
+  <data name="8_4_P_VisualAss" xml:space="preserve">
+    <value>图像分析</value>
+  </data>
+  <data name="8_2_B_VS" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="8_1_L_Vitality" xml:space="preserve">
+    <value>存活率</value>
+  </data>
+  <data name="8_1_L_Washed" xml:space="preserve">
+    <value>洗涤精液</value>
+  </data>
+  <data name="8_1_L_Yes" xml:space="preserve">
+    <value>是的</value>
+  </data>
+  <data name="9_1_L_PatAge" xml:space="preserve">
+    <value>出生日期/年龄</value>
+  </data>
+  <data name="9_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>检查VISION接线</value>
+  </data>
+  <data name="9_1_H_NoVideoCheck" xml:space="preserve">
+    <value>点击刷新按钮</value>
+  </data>
+  <data name="9_2_B_Next" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="9_1_L_MorphType" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="9_1_H_DebrisHeader" xml:space="preserve">
+    <value>碎片/圆细胞扫描</value>
+  </data>
+  <data name="9_1_L_Diluted" xml:space="preserve">
+    <value>稀释 1+1</value>
+  </data>
+  <data name="9_1_H_Ex4" xml:space="preserve">
+    <value>举例</value>
+  </data>
+  <data name="9_1_H_Ex2" xml:space="preserve">
+    <value>举例</value>
+  </data>
+  <data name="9_1_H_Ex3" xml:space="preserve">
+    <value>举例</value>
+  </data>
+  <data name="9_1_H_Ex1" xml:space="preserve">
+    <value>举例</value>
+  </data>
+  <data name="9_2_B_Freeze" xml:space="preserve">
+    <value>冻结</value>
+  </data>
+  <data name="9_2_B_FULL" xml:space="preserve">
+    <value>全屏</value>
+  </data>
+  <data name="9_2_B_GridOff" xml:space="preserve">
+    <value>去掉网格</value>
+  </data>
+  <data name="9_2_B_Grid" xml:space="preserve">
+    <value>添加网格</value>
+  </data>
+  <data name="9_2_B_Gross" xml:space="preserve">
+    <value>大量的</value>
+  </data>
+  <data name="9_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>如果问题仍然存在</value>
+  </data>
+  <data name="9_2_B_Many" xml:space="preserve">
+    <value>有一些</value>
+  </data>
+  <data name="9_2_B_Mod" xml:space="preserve">
+    <value>中等程度</value>
+  </data>
+  <data name="9_1_L_NoSperm" xml:space="preserve">
+    <value>未看到精子</value>
+  </data>
+  <data name="9_2_B_None" xml:space="preserve">
+    <value>没有/很少</value>
+  </data>
+  <data name="9_1_L_Vol" xml:space="preserve">
+    <value>正常体积</value>
+  </data>
+  <data name="9_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="9_1_L_PatientName" xml:space="preserve">
+    <value>患者姓名</value>
+  </data>
+  <data name="9_2_B_RealTime" xml:space="preserve">
+    <value>实时</value>
+  </data>
+  <data name="9_2_B_Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="9_1_L_SampleID" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="9_1_L_SS" xml:space="preserve">
+    <value>已检测样本</value>
+  </data>
+  <data name="9_2_B_Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="9_1_L_TestDate" xml:space="preserve">
+    <value>检测日期/时间</value>
+  </data>
+  <data name="9_1_L_SampleType" xml:space="preserve">
+    <value>检测类型</value>
+  </data>
+  <data name="9_1_H_VideoError" xml:space="preserve">
+    <value>视频出错</value>
+  </data>
+  <data name="9_1_H_Zoom" xml:space="preserve">
+    <value>缩小</value>
+  </data>
+  <data name="10_1_H_DataField" xml:space="preserve">
+    <value>其他数据输入</value>
+  </data>
+  <data name="10_1_L_Aggl" xml:space="preserve">
+    <value>精子凝集度 (1-4，A-E)</value>
+  </data>
+  <data name="10_2_B_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="10_1_L_CollLoc" xml:space="preserve">
+    <value>采集地点 (1，在实验室，2，在家)</value>
+  </data>
+  <data name="10_1_L_ComSample" xml:space="preserve">
+    <value>完整样本 (1，完整，2，不完整)</value>
+  </data>
+  <data name="10_2_B_Save" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="10_1_L_CollDiff" xml:space="preserve">
+    <value>样本采集遇到的困难</value>
+  </data>
+  <data name="10_1_L_DirIBTestIgA" xml:space="preserve">
+    <value>导入直接免疫株试验 IgA  (带微珠比例) [&lt;50]</value>
+  </data>
+  <data name="10_1_L_DirIBTestIgG" xml:space="preserve">
+    <value>导入混合抗球蛋白反应试验 IgG  (带微珠比例) [&lt;50]</value>
+  </data>
+  <data name="10_1_L_DirMarTestIgA" xml:space="preserve">
+    <value>导入混合抗球蛋白反应试验 IgA  (%) (3或10分钟) [&lt;50]</value>
+  </data>
+  <data name="10_1_L_DirMarTestIgG" xml:space="preserve">
+    <value>导入混合抗球蛋白反应试验 IgG  (%) (3或10分钟) [&lt;50]</value>
+  </data>
+  <data name="10_1_H_EnterData" xml:space="preserve">
+    <value>输入数据</value>
+  </data>
+  <data name="10_1_L_Fructose" xml:space="preserve">
+    <value>果糖 (毫摩/每次射精) [&gt;=13]</value>
+  </data>
+  <data name="10_1_L_Glucose" xml:space="preserve">
+    <value>糖苷酶（中性）（豪摩/每次射精）[&gt;=20]</value>
+  </data>
+  <data name="10_1_L_Mediac" xml:space="preserve">
+    <value>药物治疗</value>
+  </data>
+  <data name="10_1_L_OM" xml:space="preserve">
+    <value>可选输入项</value>
+  </data>
+  <data name="10_1_L_PeroxPos" xml:space="preserve">
+    <value>过氧化物酶-白细胞阳性 (M/ml)</value>
+  </data>
+  <data name="10_1_L_Treat" xml:space="preserve">
+    <value>样本处理 (比如使用菠萝蛋白酶/糜蛋白酶)</value>
+  </data>
+  <data name="10_1_L_Zinc" xml:space="preserve">
+    <value>精浆锌（毫摩/每次射精）[&gt;=2.4]</value>
+  </data>
+  <data name="11_1_H_Offline4" xml:space="preserve">
+    <value>(离线模式)</value>
+  </data>
+  <data name="11_1_L_AvgTestDay" xml:space="preserve">
+    <value>每天平均测试数</value>
+  </data>
+  <data name="11_1_L_ACStatus" xml:space="preserve">
+    <value>校准及稳定</value>
+  </data>
+  <data name="11_1_H_OOR2" xml:space="preserve">
+    <value>请点击图标浏览详情</value>
+  </data>
+  <data name="11_1_H_Offline2" xml:space="preserve">
+    <value>连接至</value>
+  </data>
+  <data name="11_1_H_CNHeader" xml:space="preserve">
+    <value>质控品</value>
+  </data>
+  <data name="11_1_H_CNHeaderData" xml:space="preserve">
+    <value>数据</value>
+  </data>
+  <data name="11_1_L_UseSpace" xml:space="preserve">
+    <value>已使用硬盘空间</value>
+  </data>
+  <data name="11_1_L_LastBackup" xml:space="preserve">
+    <value>上一次备份</value>
+  </data>
+  <data name="11_1_L_LR" xml:space="preserve">
+    <value>上一次运行</value>
+  </data>
+  <data name="11_2_B_Main" xml:space="preserve">
+    <value>维护</value>
+  </data>
+  <data name="11_1_L_NextBackup" xml:space="preserve">
+    <value>下一次备份</value>
+  </data>
+  <data name="11_1_L_NR" xml:space="preserve">
+    <value>不运行</value>
+  </data>
+  <data name="11_2_B_Offline" xml:space="preserve">
+    <value>离线</value>
+  </data>
+  <data name="11_1_L_Pending" xml:space="preserve">
+    <value>待处理</value>
+  </data>
+  <data name="11_2_B_Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="11_2_B_Report" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="11_2_B_Continue" xml:space="preserve">
+    <value>重试</value>
+  </data>
+  <data name="11_2_B_Retry" xml:space="preserve">
+    <value>重试</value>
+  </data>
+  <data name="11_1_L_STStatus" xml:space="preserve">
+    <value>自检状态</value>
+  </data>
+  <data name="11_1_H_SDHeader" xml:space="preserve">
+    <value>自检报告 - 主要指标</value>
+  </data>
+  <data name="11_1_H_BKHeader" xml:space="preserve">
+    <value>SQA-VISION备份状态</value>
+  </data>
+  <data name="11_1_H_IBHeader" xml:space="preserve">
+    <value>检测统计</value>
+  </data>
+  <data name="11_1_H_Offline3" xml:space="preserve">
+    <value>检测单位</value>
+  </data>
+  <data name="11_1_L_RemainTests" xml:space="preserve">
+    <value>剩余测试数</value>
+  </data>
+  <data name="11_1_L_TestCount" xml:space="preserve">
+    <value>已运行测试数</value>
+  </data>
+  <data name="11_1_H_Offline1" xml:space="preserve">
+    <value>仪器无法</value>
+  </data>
+  <data name="12_2_B_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="12_2_B_Enter" xml:space="preserve">
+    <value>进入</value>
+  </data>
+  <data name="12_1_L_Pass" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="12_1_L_User" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="12_1_L_Version" xml:space="preserve">
+    <value>版本号</value>
+  </data>
+  <data name="12_1_L_WrongPass" xml:space="preserve">
+    <value>密码错误</value>
+  </data>
+  <data name="12_1_L_WrongUser" xml:space="preserve">
+    <value>用户名错误</value>
+  </data>
+  <data name="13_2_B_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="13_2_B_CaptureVid" xml:space="preserve">
+    <value>采集</value>
+  </data>
+  <data name="13_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>检查VISION接线</value>
+  </data>
+  <data name="13_1_H_NoVideoCheck" xml:space="preserve">
+    <value>点击刷新按钮</value>
+  </data>
+  <data name="13_2_B_Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="13_2_B_Continue" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="13_2_B_DNA" xml:space="preserve">
+    <value>DNA碎片</value>
+  </data>
+  <data name="13_1_L_Exit" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="13_2_B_Freeze" xml:space="preserve">
+    <value>冻结</value>
+  </data>
+  <data name="13_1_L_FreezeUnFreeze" xml:space="preserve">
+    <value>冻结/解冻</value>
+  </data>
+  <data name="13_2_B_FULL" xml:space="preserve">
+    <value>全屏</value>
+  </data>
+  <data name="13_2_B_GridOff" xml:space="preserve">
+    <value>去掉网格</value>
+  </data>
+  <data name="13_2_B_Grid" xml:space="preserve">
+    <value>添加网格</value>
+  </data>
+  <data name="13_1_L_GridOnOff" xml:space="preserve">
+    <value>网格   开启/关闭</value>
+  </data>
+  <data name="13_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>如果问题仍然存在</value>
+  </data>
+  <data name="13_2_B_Morph" xml:space="preserve">
+    <value>形态</value>
+  </data>
+  <data name="13_2_B_New" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="13_2_B_RealTime" xml:space="preserve">
+    <value>实时</value>
+  </data>
+  <data name="13_2_B_Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="13_2_B_Report" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="13_2_B_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="13_1_L_SaveasV" xml:space="preserve">
+    <value>保存为视频</value>
+  </data>
+  <data name="13_1_L_SaveasI" xml:space="preserve">
+    <value>保存为图片</value>
+  </data>
+  <data name="13_2_B_Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="13_1_H_VideoError" xml:space="preserve">
+    <value>视频出错</value>
+  </data>
+  <data name="13_2_B_Vitality" xml:space="preserve">
+    <value>存活率</value>
+  </data>
+  <data name="14_2_B_ClearAll" xml:space="preserve">
+    <value>清除全部</value>
+  </data>
+  <data name="14_2_B_Controls" xml:space="preserve">
+    <value>质控品</value>
+  </data>
+  <data name="14_2_B_Defaults" xml:space="preserve">
+    <value>默认设置</value>
+  </data>
+  <data name="14_2_B_QwikLink" xml:space="preserve">
+    <value>实验室接口</value>
+  </data>
+  <data name="14_2_B_ControlsProp" xml:space="preserve">
+    <value>室间质控</value>
+  </data>
+  <data name="14_2_B_Report" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="14_2_B_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="14_2_B_Service" xml:space="preserve">
+    <value>服务</value>
+  </data>
+  <data name="14_2_B_System" xml:space="preserve">
+    <value>系统</value>
+  </data>
+  <data name="14_2_B_Patients" xml:space="preserve">
+    <value>检测患者</value>
+  </data>
+  <data name="14_2_B_Vis" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="15_2_B_C3Clear1" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="15_2_B_C3Clear2" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="15_2_B_C3Clear3" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="15_2_B_C3Clear4" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="15_1_L_C3ED1" xml:space="preserve">
+    <value>发布日期</value>
+  </data>
+  <data name="15_1_L_C3ED4" xml:space="preserve">
+    <value>发布日期</value>
+  </data>
+  <data name="15_1_L_C3ED2" xml:space="preserve">
+    <value>发布日期</value>
+  </data>
+  <data name="15_1_L_C3ED3" xml:space="preserve">
+    <value>发布日期</value>
+  </data>
+  <data name="15_1_L_C3NOTE1" xml:space="preserve">
+    <value>说明</value>
+  </data>
+  <data name="15_1_L_C3NOTE2" xml:space="preserve">
+    <value>说明</value>
+  </data>
+  <data name="15_1_L_C3NOTE3" xml:space="preserve">
+    <value>说明</value>
+  </data>
+  <data name="15_1_L_C3NOTE4" xml:space="preserve">
+    <value>说明</value>
+  </data>
+  <data name="15_1_H_PR_L1" xml:space="preserve">
+    <value>室间质控品1</value>
+  </data>
+  <data name="15_1_H_PR_L2" xml:space="preserve">
+    <value>室间质控品2</value>
+  </data>
+  <data name="15_1_H_PR_L3" xml:space="preserve">
+    <value>室间质控品3</value>
+  </data>
+  <data name="15_1_H_PR_L4" xml:space="preserve">
+    <value>室间质控品4</value>
+  </data>
+  <data name="15_1_L_C3Lot2" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="15_1_L_C3Lot3" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="15_1_L_C3Lot1" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="15_1_L_C3Lot4" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="15_1_L_CSSType" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="16_1_H_Offline4" xml:space="preserve">
+    <value>(离线模式)</value>
+  </data>
+  <data name="16_2_B_MESTech" xml:space="preserve">
+    <value>分析</value>
+  </data>
+  <data name="16_1_L_AvgTestDay" xml:space="preserve">
+    <value>每天平均测试数</value>
+  </data>
+  <data name="16_2_B_BackupNow" xml:space="preserve">
+    <value>备份</value>
+  </data>
+  <data name="16_1_L_by" xml:space="preserve">
+    <value>由</value>
+  </data>
+  <data name="16_2_B_Calendar" xml:space="preserve">
+    <value>日历</value>
+  </data>
+  <data name="16_4_P_CleanChamber" xml:space="preserve">
+    <value>请清洁测量仓 (使用蓝点标记的清洁片)</value>
+  </data>
+  <data name="16_1_H_OOR2" xml:space="preserve">
+    <value>请点击图标浏览详情</value>
+  </data>
+  <data name="16_4_P_PassSelfTest" xml:space="preserve">
+    <value>请确认系统通过自检</value>
+  </data>
+  <data name="16_1_H_Offline2" xml:space="preserve">
+    <value>连接至</value>
+  </data>
+  <data name="16_2_B_Continue" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="16_1_H_CNHeader" xml:space="preserve">
+    <value>质控</value>
+  </data>
+  <data name="16_1_H_CNHeaderData" xml:space="preserve">
+    <value>数据</value>
+  </data>
+  <data name="16_4_P_DryChamber" xml:space="preserve">
+    <value>请保持测量仓干燥 (使用海绵头干燥片)</value>
+  </data>
+  <data name="16_4_P_DustChamber" xml:space="preserve">
+    <value> 请给测量仓除尘（使用木柄清洁刷）</value>
+  </data>
+  <data name="16_1_L_UseSpace" xml:space="preserve">
+    <value>已使用硬盘空间</value>
+  </data>
+  <data name="16_1_L_LastBackup" xml:space="preserve">
+    <value>上一次备份</value>
+  </data>
+  <data name="16_1_P_LastData" xml:space="preserve">
+    <value>上一次检测</value>
+  </data>
+  <data name="16_1_L_LR" xml:space="preserve">
+    <value>上一次运行</value>
+  </data>
+  <data name="16_1_H_DailyMain" xml:space="preserve">
+    <value>维护清单</value>
+  </data>
+  <data name="16_1_L_NextBackup" xml:space="preserve">
+    <value>下一次备份</value>
+  </data>
+  <data name="16_1_P_NotRun" xml:space="preserve">
+    <value>不运行</value>
+  </data>
+  <data name="16_2_B_Offline" xml:space="preserve">
+    <value>离线</value>
+  </data>
+  <data name="16_1_P_Pending" xml:space="preserve">
+    <value>待处理</value>
+  </data>
+  <data name="16_1_L_ComBy" xml:space="preserve">
+    <value>操作人员</value>
+  </data>
+  <data name="16_2_B_Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="16_2_B_ReportMain" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="16_2_B_Restore" xml:space="preserve">
+    <value>恢复</value>
+  </data>
+  <data name="16_2_B_Retry" xml:space="preserve">
+    <value>重试</value>
+  </data>
+  <data name="16_4_P_RunDailyQC" xml:space="preserve">
+    <value>请运行日常质控 (必要操作)</value>
+  </data>
+  <data name="16_4_P_RunWBCPHStrip" xml:space="preserve">
+    <value>请使用WBC/PH试纸进行质控 (必要操作)</value>
+  </data>
+  <data name="16_2_B_SaveMain" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="16_2_B_SelfTest" xml:space="preserve">
+    <value>自检</value>
+  </data>
+  <data name="16_1_L_STStatus" xml:space="preserve">
+    <value>自检状态</value>
+  </data>
+  <data name="16_2_B_Service" xml:space="preserve">
+    <value>服务</value>
+  </data>
+  <data name="16_1_H_SDPar" xml:space="preserve">
+    <value>自检报告 - 主要指标</value>
+  </data>
+  <data name="16_2_B_ReportSD" xml:space="preserve">
+    <value>维护报告</value>
+  </data>
+  <data name="16_2_B_BackupSetup" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="16_2_B_ReportSetup" xml:space="preserve">
+    <value>设置报告</value>
+  </data>
+  <data name="16_1_H_BackIB" xml:space="preserve">
+    <value>SQA-VISION备份状态</value>
+  </data>
+  <data name="16_1_H_IBHeader" xml:space="preserve">
+    <value>检测统计</value>
+  </data>
+  <data name="16_1_H_Offline3" xml:space="preserve">
+    <value>检测单位</value>
+  </data>
+  <data name="16_1_L_RemainTests" xml:space="preserve">
+    <value>剩余测试数</value>
+  </data>
+  <data name="16_1_L_TestCount" xml:space="preserve">
+    <value>已运行测试数</value>
+  </data>
+  <data name="16_4_P_VerifyDateTime" xml:space="preserve">
+    <value>验证日期和时间</value>
+  </data>
+  <data name="16_4_P_SuppInv" xml:space="preserve">
+    <value>验证耗材库存</value>
+  </data>
+  <data name="16_1_H_Offline1" xml:space="preserve">
+    <value>仪器无法</value>
+  </data>
+  <data name="17_2_B_C2Clear1" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="17_2_B_C2Clear3" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="17_2_B_C2Clear2" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="17_2_B_C1Clear2" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="17_2_B_C1Clear1" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="17_2_B_C1Clear3" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="17_1_H_C1L3GC" xml:space="preserve">
+    <value>浓度图形颜色</value>
+  </data>
+  <data name="17_1_L_C1ED1" xml:space="preserve">
+    <value>到期日</value>
+  </data>
+  <data name="17_1_L_C1ED2" xml:space="preserve">
+    <value>到期日</value>
+  </data>
+  <data name="17_1_L_C1ED3" xml:space="preserve">
+    <value>到期日</value>
+  </data>
+  <data name="17_1_L_C2ED1" xml:space="preserve">
+    <value>到期日</value>
+  </data>
+  <data name="17_1_L_C2ED2" xml:space="preserve">
+    <value>到期日</value>
+  </data>
+  <data name="17_1_L_C2ED3" xml:space="preserve">
+    <value>到期日</value>
+  </data>
+  <data name="17_1_H_C2L2GC" xml:space="preserve">
+    <value>图形颜色</value>
+  </data>
+  <data name="17_1_H_C2L3GC" xml:space="preserve">
+    <value>图形颜色</value>
+  </data>
+  <data name="17_1_H_C1L2GC" xml:space="preserve">
+    <value>图形颜色</value>
+  </data>
+  <data name="17_1_H_C1L1GC" xml:space="preserve">
+    <value>图形颜色</value>
+  </data>
+  <data name="17_1_H_C2L1GC" xml:space="preserve">
+    <value>图形颜色</value>
+  </data>
+  <data name="17_1_L_C2Lot2" xml:space="preserve">
+    <value>批次</value>
+  </data>
+  <data name="17_1_L_C1Lot1" xml:space="preserve">
+    <value>批次</value>
+  </data>
+  <data name="17_1_L_C2Lot3" xml:space="preserve">
+    <value>批次</value>
+  </data>
+  <data name="17_1_L_C2Lot1" xml:space="preserve">
+    <value>批次</value>
+  </data>
+  <data name="17_1_L_C1Lot3" xml:space="preserve">
+    <value>批次</value>
+  </data>
+  <data name="17_1_L_C1Lot2" xml:space="preserve">
+    <value>批次</value>
+  </data>
+  <data name="17_1_H_C1L3GCM" xml:space="preserve">
+    <value>活动精子浓度图形颜色</value>
+  </data>
+  <data name="17_1_H_QCData" xml:space="preserve">
+    <value>QC</value>
+  </data>
+  <data name="17_1_L_C2RAN3" xml:space="preserve">
+    <value>范围 (+/-)</value>
+  </data>
+  <data name="17_1_L_C1RAN1" xml:space="preserve">
+    <value>范围 (+/-)</value>
+  </data>
+  <data name="17_1_L_C1RAN2" xml:space="preserve">
+    <value>范围 (+/-)</value>
+  </data>
+  <data name="17_1_L_C2RAN1" xml:space="preserve">
+    <value>范围 (+/-)</value>
+  </data>
+  <data name="17_1_L_C2RAN2" xml:space="preserve">
+    <value>范围 (+/-)</value>
+  </data>
+  <data name="17_1_L_C1RAN3" xml:space="preserve">
+    <value>范围 (+/-)</value>
+  </data>
+  <data name="17_1_L_CSetup" xml:space="preserve">
+    <value>创建</value>
+  </data>
+  <data name="17_1_L_C1TAR1" xml:space="preserve">
+    <value>靶值 (M/ml)</value>
+  </data>
+  <data name="17_1_L_C1TAR2" xml:space="preserve">
+    <value>靶值 (M/ml)</value>
+  </data>
+  <data name="17_1_L_C2TAR1" xml:space="preserve">
+    <value>靶值 (M/ml)</value>
+  </data>
+  <data name="17_1_L_C2TAR2" xml:space="preserve">
+    <value>靶值 (M/ml)</value>
+  </data>
+  <data name="17_1_L_C2TAR3" xml:space="preserve">
+    <value>靶值 (M/ml)</value>
+  </data>
+  <data name="17_1_L_C1TAR3" xml:space="preserve">
+    <value>靶值 (M/ml)</value>
+  </data>
+  <data name="18_1_H_10MICRO2" xml:space="preserve">
+    <value>(活力评估)</value>
+  </data>
+  <data name="18_1_H_10MICRO1" xml:space="preserve">
+    <value>10微升计数</value>
+  </data>
+  <data name="18_1_H_BDY" xml:space="preserve">
+    <value>出生日期仅以年计算</value>
+  </data>
+  <data name="18_2_B_ClearAll" xml:space="preserve">
+    <value>清除全部</value>
+  </data>
+  <data name="18_1_H_Cutoff1" xml:space="preserve">
+    <value>浓度&lt;15M/ml或者活力&lt;40%</value>
+  </data>
+  <data name="18_5_H_Chamber" xml:space="preserve">
+    <value>浓度标准</value>
+  </data>
+  <data name="18_1_H_ConcSt" xml:space="preserve">
+    <value>浓度标准</value>
+  </data>
+  <data name="18_1_H_Deb" xml:space="preserve">
+    <value>碎片/原细胞扫描临界值</value>
+  </data>
+  <data name="18_1_H_ST" xml:space="preserve">
+    <value>默认测试类型</value>
+  </data>
+  <data name="18_1_H_DST1" xml:space="preserve">
+    <value>新鲜</value>
+  </data>
+  <data name="18_1_H_DST6" xml:space="preserve">
+    <value>冷冻</value>
+  </data>
+  <data name="18_1_H_DST5" xml:space="preserve">
+    <value>密度梯度</value>
+  </data>
+  <data name="18_1_L_OL1" xml:space="preserve">
+    <value>初始</value>
+  </data>
+  <data name="18_1_H_DST7" xml:space="preserve">
+    <value>精子寿命</value>
+  </data>
+  <data name="18_1_H_LongTestIn" xml:space="preserve">
+    <value>精子寿命测试间隔名称/间隔时间 (分钟)</value>
+  </data>
+  <data name="18_1_H_VIS1" xml:space="preserve">
+    <value>低质量计数</value>
+  </data>
+  <data name="18_1_H_DST8" xml:space="preserve">
+    <value>手工</value>
+  </data>
+  <data name="18_1_H_MDE_OF" xml:space="preserve">
+    <value>手工数据录入 - 可选字段</value>
+  </data>
+  <data name="18_1_H_MDE" xml:space="preserve">
+    <value>手工形态数据录入</value>
+  </data>
+  <data name="18_1_H_VDE" xml:space="preserve">
+    <value>输入手工检测存活率数据</value>
+  </data>
+  <data name="18_1_H_Cutoff3" xml:space="preserve">
+    <value>未发现碎片</value>
+  </data>
+  <data name="18_1_H_DST9" xml:space="preserve">
+    <value>无默认设置</value>
+  </data>
+  <data name="18_4_L_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="18_1_L_OI" xml:space="preserve">
+    <value>可选输入项</value>
+  </data>
+  <data name="18_1_L_OM" xml:space="preserve">
+    <value>可选输入项</value>
+  </data>
+  <data name="18_7_G_Par" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="18_1_H_AgeTest" xml:space="preserve">
+    <value>仅为患者年龄 (无出生日期)</value>
+  </data>
+  <data name="18_1_H_PDE_OF" xml:space="preserve">
+    <value>患者数据录入- 可选字段</value>
+  </data>
+  <data name="18_1_H_PVDE" xml:space="preserve">
+    <value>绝育术后按视野计数</value>
+  </data>
+  <data name="18_1_H_DST2" xml:space="preserve">
+    <value>绝育术后</value>
+  </data>
+  <data name="18_7_G_RangeType" xml:space="preserve">
+    <value>范围类型</value>
+  </data>
+  <data name="18_7_G_RefValue" xml:space="preserve">
+    <value>参考值</value>
+  </data>
+  <data name="18_1_H_Cutoff2" xml:space="preserve">
+    <value>对所有样本进行碎片扫描</value>
+  </data>
+  <data name="18_2_B_SelectAll" xml:space="preserve">
+    <value>选择全部</value>
+  </data>
+  <data name="18_1_H_ShowRanges" xml:space="preserve">
+    <value> 显示范围</value>
+  </data>
+  <data name="18_1_L_OL" xml:space="preserve">
+    <value>步骤</value>
+  </data>
+  <data name="18_1_H_DST4" xml:space="preserve">
+    <value>上游精子</value>
+  </data>
+  <data name="18_1_H_TestCri" xml:space="preserve">
+    <value>检测标准</value>
+  </data>
+  <data name="18_7_G_Unit" xml:space="preserve">
+    <value>单位</value>
+  </data>
+  <data name="18_2_B_Upload" xml:space="preserve">
+    <value>上传</value>
+  </data>
+  <data name="18_1_H_DST3" xml:space="preserve">
+    <value>洗涤精液</value>
+  </data>
+  <data name="18_1_H_MorphType1" xml:space="preserve">
+    <value>WHO第3版</value>
+  </data>
+  <data name="18_1_H_MorphType2" xml:space="preserve">
+    <value>WHO第4版</value>
+  </data>
+  <data name="18_1_H_MorphType3" xml:space="preserve">
+    <value>WHO第5版</value>
+  </data>
+  <data name="18_1_H_WHOC" xml:space="preserve">
+    <value>WHO计数</value>
+  </data>
+  <data name="19_1_L_VisSet" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="19_2_B_VisSet" xml:space="preserve">
+    <value>高级设置</value>
+  </data>
+  <data name="19_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>检查VISION接线</value>
+  </data>
+  <data name="19_1_H_CirSize" xml:space="preserve">
+    <value>圆圈大小</value>
+  </data>
+  <data name="19_1_H_ClickM" xml:space="preserve">
+    <value>点击计数 (按键)</value>
+  </data>
+  <data name="19_1_H_ClickD" xml:space="preserve">
+    <value>点击计数 (按键)</value>
+  </data>
+  <data name="19_1_H_ClickV" xml:space="preserve">
+    <value>点击计数 (按键)</value>
+  </data>
+  <data name="19_1_H_NoVideoCheck" xml:space="preserve">
+    <value>点击刷新按钮</value>
+  </data>
+  <data name="19_1_L_GridColor" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="19_1_L_Comp" xml:space="preserve">
+    <value>压缩</value>
+  </data>
+  <data name="19_1_H_CountTypeD" xml:space="preserve">
+    <value>计数类型</value>
+  </data>
+  <data name="19_1_H_CountTypeV" xml:space="preserve">
+    <value>计数类型</value>
+  </data>
+  <data name="19_1_H_CountType" xml:space="preserve">
+    <value>计数类型</value>
+  </data>
+  <data name="19_1_L_MorphType" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="19_1_P_ViabDead" xml:space="preserve">
+    <value>死的</value>
+  </data>
+  <data name="19_1_L_Device" xml:space="preserve">
+    <value>仪器</value>
+  </data>
+  <data name="19_1_H_DNAData" xml:space="preserve">
+    <value>DNA碎片检测设置</value>
+  </data>
+  <data name="19_1_L_GridEx" xml:space="preserve">
+    <value>举例</value>
+  </data>
+  <data name="19_1_L_CirEx" xml:space="preserve">
+    <value>举例</value>
+  </data>
+  <data name="19_2_B_Freeze" xml:space="preserve">
+    <value>冻结</value>
+  </data>
+  <data name="19_1_H_FD" xml:space="preserve">
+    <value>完全分级</value>
+  </data>
+  <data name="19_2_B_FULL" xml:space="preserve">
+    <value>全屏</value>
+  </data>
+  <data name="19_2_B_GridOff" xml:space="preserve">
+    <value>去掉网格</value>
+  </data>
+  <data name="19_2_B_Grid" xml:space="preserve">
+    <value>添加网格</value>
+  </data>
+  <data name="19_1_H_GridData" xml:space="preserve">
+    <value>网格大小/颜色</value>
+  </data>
+  <data name="19_1_P_DNANonFreg" xml:space="preserve">
+    <value>晕轮</value>
+  </data>
+  <data name="19_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>如果问题仍然存在</value>
+  </data>
+  <data name="19_1_P_AB10" xml:space="preserve">
+    <value>包含大头针状缺陷</value>
+  </data>
+  <data name="19_1_P_ViabLive" xml:space="preserve">
+    <value>活的</value>
+  </data>
+  <data name="19_1_H_MarkM" xml:space="preserve">
+    <value>标记计数 (圈选)</value>
+  </data>
+  <data name="19_1_H_MarkD" xml:space="preserve">
+    <value>标记计数 (圈选)</value>
+  </data>
+  <data name="19_1_H_MarkV" xml:space="preserve">
+    <value>标记计数 (圈选)</value>
+  </data>
+  <data name="19_1_H_MorphData" xml:space="preserve">
+    <value>形态设置</value>
+  </data>
+  <data name="19_1_P_DNAFreg" xml:space="preserve">
+    <value>无晕轮</value>
+  </data>
+  <data name="19_1_H_ANN" xml:space="preserve">
+    <value>正常/异常</value>
+  </data>
+  <data name="19_1_L_CirPixSize" xml:space="preserve">
+    <value>像素大小</value>
+  </data>
+  <data name="19_1_L_GridPixSize" xml:space="preserve">
+    <value>像素大小</value>
+  </data>
+  <data name="19_1_L_CirRad" xml:space="preserve">
+    <value>半径</value>
+  </data>
+  <data name="19_2_B_RealTime" xml:space="preserve">
+    <value>实时</value>
+  </data>
+  <data name="19_2_B_Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="19_2_B_Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="19_1_H_TestType" xml:space="preserve">
+    <value>检测类型</value>
+  </data>
+  <data name="19_1_H_VideoError" xml:space="preserve">
+    <value>视频出错</value>
+  </data>
+  <data name="19_1_L_VidIn" xml:space="preserve">
+    <value>视频输入</value>
+  </data>
+  <data name="19_1_H_VidSet" xml:space="preserve">
+    <value>视频设置</value>
+  </data>
+  <data name="19_1_L_VidAna" xml:space="preserve">
+    <value>视频标准</value>
+  </data>
+  <data name="19_1_L_VidSub" xml:space="preserve">
+    <value>视频类型</value>
+  </data>
+  <data name="19_1_H_VitData" xml:space="preserve">
+    <value>存活率设置</value>
+  </data>
+  <data name="20_1_H_MediaRatio" xml:space="preserve">
+    <value>2 稀释比例</value>
+  </data>
+  <data name="20_1_H_TFAdd" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="20_1_H_UsPa" xml:space="preserve">
+    <value>授权用户</value>
+  </data>
+  <data name="20_1_H_PMLF" xml:space="preserve">
+    <value>按时间进行平均</value>
+  </data>
+  <data name="20_2_B_BrowseReport" xml:space="preserve">
+    <value>浏览</value>
+  </data>
+  <data name="20_2_B_BrowseExport" xml:space="preserve">
+    <value>浏览</value>
+  </data>
+  <data name="20_1_H_CON_PASS" xml:space="preserve">
+    <value>确认密码</value>
+  </data>
+  <data name="20_1_H_SF" xml:space="preserve">
+    <value>不要再报告单上显示检测单位信息</value>
+  </data>
+  <data name="20_1_H_DosingSet" xml:space="preserve">
+    <value>精液分装设置</value>
+  </data>
+  <data name="20_1_H_TFMail" xml:space="preserve">
+    <value>电子邮箱</value>
+  </data>
+  <data name="20_1_H_AutoExport" xml:space="preserve">
+    <value>启用自动导出</value>
+  </data>
+  <data name="20_1_H_CB" xml:space="preserve">
+    <value>启用冷库模式</value>
+  </data>
+  <data name="20_1_L_Enter" xml:space="preserve">
+    <value>输入上一个</value>
+  </data>
+  <data name="20_1_H_AEP" xml:space="preserve">
+    <value>输出路径</value>
+  </data>
+  <data name="20_1_H_ExtSteps" xml:space="preserve">
+    <value>后续步骤</value>
+  </data>
+  <data name="20_1_H_TFName" xml:space="preserve">
+    <value>单位名称</value>
+  </data>
+  <data name="20_1_H_TFFax" xml:space="preserve">
+    <value>传真</value>
+  </data>
+  <data name="20_4_L_UFN" xml:space="preserve">
+    <value>全名</value>
+  </data>
+  <data name="20_1_H_HidePNFirstPage" xml:space="preserve">
+    <value>第一页上不显示页码</value>
+  </data>
+  <data name="20_1_H_AEImage" xml:space="preserve">
+    <value>包含图片</value>
+  </data>
+  <data name="20_1_H_Lang" xml:space="preserve">
+    <value>语言文件上传</value>
+  </data>
+  <data name="20_1_H_TFLogo" xml:space="preserve">
+    <value>LOGO</value>
+  </data>
+  <data name="20_1_L_MediaRatio" xml:space="preserve">
+    <value>介质比例</value>
+  </data>
+  <data name="20_1_H_MODE" xml:space="preserve">
+    <value>模式设置</value>
+  </data>
+  <data name="20_1_L_Month" xml:space="preserve">
+    <value>月数</value>
+  </data>
+  <data name="20_1_H_ImageInPage" xml:space="preserve">
+    <value>每页显示图片数量</value>
+  </data>
+  <data name="20_1_H_OptImageSize" xml:space="preserve">
+    <value>最佳图片尺寸</value>
+  </data>
+  <data name="20_4_L_PASS" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="20_1_H_TFPhone" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="20_1_H_FresCorr" xml:space="preserve">
+    <value>样本处理丢失因子</value>
+  </data>
+  <data name="20_1_H_RerportProgram" xml:space="preserve">
+    <value>报告程序</value>
+  </data>
+  <data name="20_1_H_Report" xml:space="preserve">
+    <value>报告设置</value>
+  </data>
+  <data name="20_1_H_ReportType" xml:space="preserve">
+    <value>报告类型</value>
+  </data>
+  <data name="20_1_H_SMS" xml:space="preserve">
+    <value>显示模式选择器</value>
+  </data>
+  <data name="20_1_H_ShowSIHeader" xml:space="preserve">
+    <value>仅再首页显示样本信息</value>
+  </data>
+  <data name="20_1_H_Sound" xml:space="preserve">
+    <value>声音类型</value>
+  </data>
+  <data name="20_1_L_SpTarDose" xml:space="preserve">
+    <value>精子分装目标</value>
+  </data>
+  <data name="20_1_H_IH" xml:space="preserve">
+    <value>从主页启动检测</value>
+  </data>
+  <data name="20_1_H_UM" xml:space="preserve">
+    <value>上方空白</value>
+  </data>
+  <data name="20_4_L_User" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="20_1_L_VolDose" xml:space="preserve">
+    <value>分装体积</value>
+  </data>
+  <data name="20_1_H_TFSite" xml:space="preserve">
+    <value>网站</value>
+  </data>
+  <data name="20_1_L_Week" xml:space="preserve">
+    <value>周（数）</value>
+  </data>
+  <data name="20_1_L_Year" xml:space="preserve">
+    <value>年（数）</value>
+  </data>
+  <data name="22_2_B_Accept" xml:space="preserve">
+    <value>接受</value>
+  </data>
+  <data name="22_2_B_AddComments" xml:space="preserve">
+    <value>添加评价</value>
+  </data>
+  <data name="22_2_B_Attach" xml:space="preserve">
+    <value>粘贴</value>
+  </data>
+  <data name="22_2_B_Continue" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="22_2_B_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="22_2_B_Ignore" xml:space="preserve">
+    <value>忽略</value>
+  </data>
+  <data name="22_2_B_No" xml:space="preserve">
+    <value>不</value>
+  </data>
+  <data name="22_2_B_Reassess" xml:space="preserve">
+    <value>重新进入</value>
+  </data>
+  <data name="22_2_B_Reenter" xml:space="preserve">
+    <value>重新进入计数</value>
+  </data>
+  <data name="22_2_B_ReTest" xml:space="preserve">
+    <value>重测</value>
+  </data>
+  <data name="22_2_B_Yes" xml:space="preserve">
+    <value>是的</value>
+  </data>
+  <data name="24_2_B_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="24_1_H_Msg1" xml:space="preserve">
+    <value>生成服务报告</value>
+  </data>
+  <data name="24_1_H_Msg2" xml:space="preserve">
+    <value>请等待</value>
+  </data>
+  <data name="24_1_H_MsgPW" xml:space="preserve">
+    <value>请等待</value>
+  </data>
+  <data name="26_1_P_Completed" xml:space="preserve">
+    <value>已完成</value>
+  </data>
+  <data name="26_2_B_Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="26_1_P_Step" xml:space="preserve">
+    <value>步骤</value>
+  </data>
+  <data name="26_1_P_TestDate" xml:space="preserve">
+    <value>检测日期/时间</value>
+  </data>
+  <data name="26_1_H_TimerHeader" xml:space="preserve">
+    <value>定时器清单</value>
+  </data>
+  <data name="27_1_L_AlarmDate" xml:space="preserve">
+    <value>提醒日期/时间</value>
+  </data>
+  <data name="27_1_H_EditTimerHeader" xml:space="preserve">
+    <value>编辑定时器</value>
+  </data>
+  <data name="27_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="27_1_L_SampleID" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="27_2_B_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="27_1_L_Step" xml:space="preserve">
+    <value>步骤</value>
+  </data>
+  <data name="28_2_B_ExportSys" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="28_1_H_ExportHeader" xml:space="preserve">
+    <value>导出系统数据</value>
+  </data>
+  <data name="28_2_B_Open" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="28_1_L_Parameter" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="28_1_H_RTHeader" xml:space="preserve">
+    <value>实时监控</value>
+  </data>
+  <data name="28_1_L_FROM" xml:space="preserve">
+    <value>选择日期范围</value>
+  </data>
+  <data name="28_1_L_GraphPar" xml:space="preserve">
+    <value>选择图形参数</value>
+  </data>
+  <data name="28_1_L_SelectParameter" xml:space="preserve">
+    <value>选择要读取的参数</value>
+  </data>
+  <data name="28_2_B_Start" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="28_2_B_Stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="28_1_C_Time" xml:space="preserve">
+    <value>时间（秒）</value>
+  </data>
+  <data name="28_1_H_To" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="28_1_L_Value" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="29_1_L_MOES" xml:space="preserve">
+    <value>10微升计数（活力评估）</value>
+  </data>
+  <data name="29_1_L_2MediaRatio" xml:space="preserve">
+    <value>2 稀释比例</value>
+  </data>
+  <data name="29_1_L_FooterData2" xml:space="preserve">
+    <value>在</value>
+  </data>
+  <data name="29_1_L_AUE" xml:space="preserve">
+    <value>启用自动输出</value>
+  </data>
+  <data name="29_1_L_AUEI" xml:space="preserve">
+    <value>自动输出包含图片</value>
+  </data>
+  <data name="29_1_L_PmlfAvg" xml:space="preserve">
+    <value>上一个平均MLF/PMLF</value>
+  </data>
+  <data name="29_1_L_BF" xml:space="preserve">
+    <value>备份频率</value>
+  </data>
+  <data name="29_1_L_YBD" xml:space="preserve">
+    <value>出生日期仅以年计算</value>
+  </data>
+  <data name="29_1_L_CS" xml:space="preserve">
+    <value>圆圈像素大小</value>
+  </data>
+  <data name="29_1_L_CR" xml:space="preserve">
+    <value>圆圈半径</value>
+  </data>
+  <data name="29_1_L_CC" xml:space="preserve">
+    <value>点击计数 (按键)</value>
+  </data>
+  <data name="29_1_P_Clinical" xml:space="preserve">
+    <value>临床</value>
+  </data>
+  <data name="29_1_L_COP" xml:space="preserve">
+    <value>通讯端口</value>
+  </data>
+  <data name="29_1_P_DebCutoff1" xml:space="preserve">
+    <value>浓度&lt;15M/ml或者活力&lt;40%</value>
+  </data>
+  <data name="29_1_L_ST" xml:space="preserve">
+    <value>浓度标准</value>
+  </data>
+  <data name="29_1_P_StandardType1" xml:space="preserve">
+    <value>浓度标准 1 </value>
+  </data>
+  <data name="29_1_P_StandardType2" xml:space="preserve">
+    <value>浓度标准 2</value>
+  </data>
+  <data name="29_1_L_ContInf" xml:space="preserve">
+    <value>联络信息</value>
+  </data>
+  <data name="29_1_P_CB" xml:space="preserve">
+    <value>精子库</value>
+  </data>
+  <data name="29_1_L_Days" xml:space="preserve">
+    <value>天数</value>
+  </data>
+  <data name="29_1_P_ViabDead" xml:space="preserve">
+    <value>死的</value>
+  </data>
+  <data name="29_1_L_VS" xml:space="preserve">
+    <value>碎片扫描临界值</value>
+  </data>
+  <data name="29_1_L_DST" xml:space="preserve">
+    <value>默认测试类型</value>
+  </data>
+  <data name="29_1_L_DV" xml:space="preserve">
+    <value>仪器版本</value>
+  </data>
+  <data name="29_1_L_QLD" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="29_1_L_DC" xml:space="preserve">
+    <value>DNA碎片计数</value>
+  </data>
+  <data name="29_1_L_DCT" xml:space="preserve">
+    <value>DNA碎片计数类型</value>
+  </data>
+  <data name="29_1_L_SF" xml:space="preserve">
+    <value>不要再报告单上显示检测单位信息</value>
+  </data>
+  <data name="29_1_L_email" xml:space="preserve">
+    <value>电子邮箱</value>
+  </data>
+  <data name="29_1_L_CBM" xml:space="preserve">
+    <value>启用冷库模式</value>
+  </data>
+  <data name="29_1_L_QLE" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="29_1_L_ExDate" xml:space="preserve">
+    <value>到期日</value>
+  </data>
+  <data name="29_1_L_ESteps" xml:space="preserve">
+    <value>后续步骤</value>
+  </data>
+  <data name="29_1_L_FacAdd" xml:space="preserve">
+    <value>单位名称</value>
+  </data>
+  <data name="29_1_L_Fax" xml:space="preserve">
+    <value>传真</value>
+  </data>
+  <data name="29_1_L_RFL" xml:space="preserve">
+    <value>弹性</value>
+  </data>
+  <data name="29_1_P_SampleDef1" xml:space="preserve">
+    <value>新鲜</value>
+  </data>
+  <data name="29_1_P_SampleDef3" xml:space="preserve">
+    <value>冷冻</value>
+  </data>
+  <data name="29_1_L_FD" xml:space="preserve">
+    <value>完全分级</value>
+  </data>
+  <data name="29_1_P_SampleDef8" xml:space="preserve">
+    <value>密度梯度</value>
+  </data>
+  <data name="29_1_L_GL" xml:space="preserve">
+    <value>网格线颜色</value>
+  </data>
+  <data name="29_1_L_GLS" xml:space="preserve">
+    <value>网格线粗细</value>
+  </data>
+  <data name="29_1_P_DNANonFreg" xml:space="preserve">
+    <value>晕轮</value>
+  </data>
+  <data name="29_1_L_HPN" xml:space="preserve">
+    <value>第一页上不显示页码</value>
+  </data>
+  <data name="29_1_L_MC11" xml:space="preserve">
+    <value>包含大头针状</value>
+  </data>
+  <data name="29_1_L_PR_DATE" xml:space="preserve">
+    <value>发布日期</value>
+  </data>
+  <data name="29_1_L_LIN" xml:space="preserve">
+    <value>实验室接口</value>
+  </data>
+  <data name="29_1_L_LISE" xml:space="preserve">
+    <value>实验室接口设置</value>
+  </data>
+  <data name="29_1_L_LAS" xml:space="preserve">
+    <value>语言文件</value>
+  </data>
+  <data name="29_1_P_ViabLive" xml:space="preserve">
+    <value>活的</value>
+  </data>
+  <data name="29_1_P_SampleDef5" xml:space="preserve">
+    <value>精子寿命</value>
+  </data>
+  <data name="29_1_L_LN" xml:space="preserve">
+    <value>精子寿命命名</value>
+  </data>
+  <data name="29_1_L_LI" xml:space="preserve">
+    <value>精子寿命命名</value>
+  </data>
+  <data name="29_1_L_LS" xml:space="preserve">
+    <value>精子寿命测试间隔</value>
+  </data>
+  <data name="29_1_L_Lot" xml:space="preserve">
+    <value>批次</value>
+  </data>
+  <data name="29_1_L_LQC" xml:space="preserve">
+    <value>低质量计数</value>
+  </data>
+  <data name="29_1_P_SampleDef7" xml:space="preserve">
+    <value>手工</value>
+  </data>
+  <data name="29_1_L_MMDE" xml:space="preserve">
+    <value>手工形态数据录入</value>
+  </data>
+  <data name="29_1_L_AOF" xml:space="preserve">
+    <value>手工  可选输入</value>
+  </data>
+  <data name="29_1_L_MVDE" xml:space="preserve">
+    <value>输入手工检测存活率数据</value>
+  </data>
+  <data name="29_1_L_MAC" xml:space="preserve">
+    <value>标记计数 (圈选)</value>
+  </data>
+  <data name="29_1_L_MediaRatio" xml:space="preserve">
+    <value>介质比例</value>
+  </data>
+  <data name="29_1_L_MINUTE" xml:space="preserve">
+    <value>分钟数</value>
+  </data>
+  <data name="29_1_L_Months" xml:space="preserve">
+    <value>月数</value>
+  </data>
+  <data name="29_1_L_MC" xml:space="preserve">
+    <value>形态计数</value>
+  </data>
+  <data name="29_1_L_MCT" xml:space="preserve">
+    <value>形态计数类型</value>
+  </data>
+  <data name="29_1_L_MTT" xml:space="preserve">
+    <value>形态检测类型</value>
+  </data>
+  <data name="29_1_P_No" xml:space="preserve">
+    <value>不</value>
+  </data>
+  <data name="29_1_P_DebCutoff3" xml:space="preserve">
+    <value>未发现碎片</value>
+  </data>
+  <data name="29_1_P_SampleDef9" xml:space="preserve">
+    <value>无默认设置</value>
+  </data>
+  <data name="29_1_P_DNAFreg" xml:space="preserve">
+    <value>无晕轮</value>
+  </data>
+  <data name="29_1_L_ANN" xml:space="preserve">
+    <value>正常/异常</value>
+  </data>
+  <data name="29_1_L_PR_NOTE" xml:space="preserve">
+    <value>说明</value>
+  </data>
+  <data name="29_1_L_RIMC" xml:space="preserve">
+    <value>每页报告包含的图片数量</value>
+  </data>
+  <data name="29_1_L_FooterData3" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="29_1_P_OI" xml:space="preserve">
+    <value>可选</value>
+  </data>
+  <data name="29_1_P_OL" xml:space="preserve">
+    <value>可选精子寿命</value>
+  </data>
+  <data name="29_1_P_OM" xml:space="preserve">
+    <value>可选手工</value>
+  </data>
+  <data name="29_1_L_PRANGE" xml:space="preserve">
+    <value>通过范围</value>
+  </data>
+  <data name="29_1_L_PRANGE2" xml:space="preserve">
+    <value>通过范围</value>
+  </data>
+  <data name="29_1_L_AGBD" xml:space="preserve">
+    <value>仅为患者年龄 (无出生日期)</value>
+  </data>
+  <data name="29_1_L_POF" xml:space="preserve">
+    <value>患者数据 可选输入</value>
+  </data>
+  <data name="29_1_L_Phone" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="29_1_L_MPVDE" xml:space="preserve">
+    <value>绝育术后 FOV-点击</value>
+  </data>
+  <data name="29_1_P_SampleDef4" xml:space="preserve">
+    <value>绝育术后</value>
+  </data>
+  <data name="29_1_L_FooterData1" xml:space="preserve">
+    <value>从SQA-VISION序列号打印</value>
+  </data>
+  <data name="29_1_L_PLost" xml:space="preserve">
+    <value>样本处理丢失因子 (%)</value>
+  </data>
+  <data name="29_1_L_PRO" xml:space="preserve">
+    <value>室间质控</value>
+  </data>
+  <data name="29_1_L_PR_LEVEL" xml:space="preserve">
+    <value>室间质控编号</value>
+  </data>
+  <data name="29_1_L_QC" xml:space="preserve">
+    <value>QC</value>
+  </data>
+  <data name="29_1_L_QF" xml:space="preserve">
+    <value>QC频率</value>
+  </data>
+  <data name="29_1_L_Continued" xml:space="preserve">
+    <value>报告继续</value>
+  </data>
+  <data name="29_1_L_RDT" xml:space="preserve">
+    <value>报告日期/时间</value>
+  </data>
+  <data name="29_1_L_ReportType" xml:space="preserve">
+    <value>报告类型</value>
+  </data>
+  <data name="29_1_L_PR_SampleID" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="29_1_P_DebCutoff2" xml:space="preserve">
+    <value>对所有样本进行碎片扫描</value>
+  </data>
+  <data name="29_1_L_Selected" xml:space="preserve">
+    <value>已选</value>
+  </data>
+  <data name="29_1_L_LIFL" xml:space="preserve">
+    <value>已选择的实验室接口参数</value>
+  </data>
+  <data name="29_1_H_SE" xml:space="preserve">
+    <value>发送EOT/ENQ</value>
+  </data>
+  <data name="29_1_L_SN" xml:space="preserve">
+    <value>序列号</value>
+  </data>
+  <data name="29_1_L_SystemSet" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="29_1_L_SMS" xml:space="preserve">
+    <value>显示模式选择器</value>
+  </data>
+  <data name="29_1_L_SHR" xml:space="preserve">
+    <value>显示参数范围</value>
+  </data>
+  <data name="29_1_L_SSIH" xml:space="preserve">
+    <value>仅再首页显示样本信息</value>
+  </data>
+  <data name="29_1_L_Version" xml:space="preserve">
+    <value>软件版本</value>
+  </data>
+  <data name="29_1_L_Sound" xml:space="preserve">
+    <value>声音类型</value>
+  </data>
+  <data name="29_1_L_SpTarDose" xml:space="preserve">
+    <value>精子分装目标</value>
+  </data>
+  <data name="29_1_L_Header" xml:space="preserve">
+    <value>SQA-VISION设置报告</value>
+  </data>
+  <data name="29_1_L_RST" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="29_1_L_PR_ST" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="29_1_L_LIStep" xml:space="preserve">
+    <value>步骤</value>
+  </data>
+  <data name="29_1_P_SampleDef6" xml:space="preserve">
+    <value>上游精子</value>
+  </data>
+  <data name="29_1_L_InsOver" xml:space="preserve">
+    <value>系统信息</value>
+  </data>
+  <data name="29_1_L_Target" xml:space="preserve">
+    <value>靶值 (M/ml)</value>
+  </data>
+  <data name="29_1_L_Target2" xml:space="preserve">
+    <value>靶值 (M/ml)</value>
+  </data>
+  <data name="29_1_L_TIFH" xml:space="preserve">
+    <value>从主页启动检测</value>
+  </data>
+  <data name="29_1_L_TC" xml:space="preserve">
+    <value>检测标准</value>
+  </data>
+  <data name="29_1_L_UM" xml:space="preserve">
+    <value>上方空白</value>
+  </data>
+  <data name="29_1_L_VIC" xml:space="preserve">
+    <value>视频压缩</value>
+  </data>
+  <data name="29_1_L_VD" xml:space="preserve">
+    <value>视频采集卡</value>
+  </data>
+  <data name="29_1_L_VI" xml:space="preserve">
+    <value>视频输入</value>
+  </data>
+  <data name="29_1_L_VSD" xml:space="preserve">
+    <value>视频标准</value>
+  </data>
+  <data name="29_1_L_VST" xml:space="preserve">
+    <value>视频类型</value>
+  </data>
+  <data name="29_1_L_VC" xml:space="preserve">
+    <value>存活率计数</value>
+  </data>
+  <data name="29_1_L_VCT" xml:space="preserve">
+    <value>存活率计数类型</value>
+  </data>
+  <data name="29_1_L_VolDose" xml:space="preserve">
+    <value>分装体积</value>
+  </data>
+  <data name="29_1_P_SampleDef2" xml:space="preserve">
+    <value>洗涤精液</value>
+  </data>
+  <data name="29_1_L_Site" xml:space="preserve">
+    <value>网站</value>
+  </data>
+  <data name="29_1_L_Weeks" xml:space="preserve">
+    <value>周（数）</value>
+  </data>
+  <data name="29_1_P_MorphType1" xml:space="preserve">
+    <value>WHO 3版</value>
+  </data>
+  <data name="29_1_P_MorphType2" xml:space="preserve">
+    <value>WHO 4版</value>
+  </data>
+  <data name="29_1_P_MorphType3" xml:space="preserve">
+    <value>WHO 5版</value>
+  </data>
+  <data name="29_1_L_LWHOC" xml:space="preserve">
+    <value>WHO计数</value>
+  </data>
+  <data name="29_1_L_Years" xml:space="preserve">
+    <value>年（数）</value>
+  </data>
+  <data name="29_1_P_Yes" xml:space="preserve">
+    <value>是的</value>
+  </data>
+  <data name="30_1_L_FooterData2" xml:space="preserve">
+    <value>在</value>
+  </data>
+  <data name="30_1_L_CalibData" xml:space="preserve">
+    <value>校准数据</value>
+  </data>
+  <data name="30_1_L_ContInf" xml:space="preserve">
+    <value>联络信息</value>
+  </data>
+  <data name="30_1_L_DV" xml:space="preserve">
+    <value>仪器版本</value>
+  </data>
+  <data name="30_1_L_email" xml:space="preserve">
+    <value>电子邮箱</value>
+  </data>
+  <data name="30_1_L_FacAdd" xml:space="preserve">
+    <value>单位名称</value>
+  </data>
+  <data name="30_1_L_FAIL" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="30_1_L_Fax" xml:space="preserve">
+    <value>传真</value>
+  </data>
+  <data name="30_1_P_STIData" xml:space="preserve">
+    <value>内部数据</value>
+  </data>
+  <data name="30_1_L_FooterData3" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="30_1_L_Pass" xml:space="preserve">
+    <value>通过</value>
+  </data>
+  <data name="30_1_L_Criteria" xml:space="preserve">
+    <value>通过标准</value>
+  </data>
+  <data name="30_1_L_Phone" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="30_1_L_FooterData1" xml:space="preserve">
+    <value>从SQA-VISION序列号打印</value>
+  </data>
+  <data name="30_1_P_SDDate" xml:space="preserve">
+    <value>报告日期/时间</value>
+  </data>
+  <data name="30_1_L_RDT" xml:space="preserve">
+    <value>报告日期/时间</value>
+  </data>
+  <data name="30_1_L_Result" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="30_1_P_STData" xml:space="preserve">
+    <value>自检报告</value>
+  </data>
+  <data name="30_1_L_SN" xml:space="preserve">
+    <value>序列号</value>
+  </data>
+  <data name="30_1_P_SN" xml:space="preserve">
+    <value>序列号</value>
+  </data>
+  <data name="30_1_L_Version" xml:space="preserve">
+    <value>软件版本</value>
+  </data>
+  <data name="30_1_L_Header" xml:space="preserve">
+    <value>SQA-VISION维护报告</value>
+  </data>
+  <data name="30_1_L_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="30_1_P_SDStatus" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="30_1_L_InsOver" xml:space="preserve">
+    <value>系统信息</value>
+  </data>
+  <data name="30_1_L_AlgData" xml:space="preserve">
+    <value>系统指标</value>
+  </data>
+  <data name="30_1_L_Unit" xml:space="preserve">
+    <value>单位</value>
+  </data>
+  <data name="30_1_L_Site" xml:space="preserve">
+    <value>网站</value>
+  </data>
+  <data name="31_1_L_Additional" xml:space="preserve">
+    <value>其他数据</value>
+  </data>
+  <data name="31_1_L_FooterData2" xml:space="preserve">
+    <value>在</value>
+  </data>
+  <data name="31_1_L_Pat_BD_AGE" xml:space="preserve">
+    <value>出生日期/年龄</value>
+  </data>
+  <data name="31_1_H_CapData" xml:space="preserve">
+    <value>已采集图片</value>
+  </data>
+  <data name="31_1_L_Cent" xml:space="preserve">
+    <value>离心</value>
+  </data>
+  <data name="31_1_L_Comments" xml:space="preserve">
+    <value>评价</value>
+  </data>
+  <data name="31_1_L_ContInf" xml:space="preserve">
+    <value>联络信息</value>
+  </data>
+  <data name="31_1_H_DNAData" xml:space="preserve">
+    <value>DNA碎片检测报告</value>
+  </data>
+  <data name="31_1_L_email" xml:space="preserve">
+    <value>电子邮箱</value>
+  </data>
+  <data name="31_1_L_FacAdd" xml:space="preserve">
+    <value>单位名称</value>
+  </data>
+  <data name="31_1_L_Fail" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="31_1_L_Fax" xml:space="preserve">
+    <value>传真</value>
+  </data>
+  <data name="31_1_L_Pat_FName" xml:space="preserve">
+    <value>姓</value>
+  </data>
+  <data name="31_1_L_Step1" xml:space="preserve">
+    <value>初始</value>
+  </data>
+  <data name="31_1_L_Pat_LName" xml:space="preserve">
+    <value>名</value>
+  </data>
+  <data name="31_1_L_Manual" xml:space="preserve">
+    <value>手工</value>
+  </data>
+  <data name="31_1_H_MorphData" xml:space="preserve">
+    <value>形态检测报告</value>
+  </data>
+  <data name="31_1_L_Of" xml:space="preserve">
+    <value>的</value>
+  </data>
+  <data name="31_1_L_FooterData3" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="31_1_L_Page" xml:space="preserve">
+    <value>页</value>
+  </data>
+  <data name="31_1_L_Parameter" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="31_1_L_Pass" xml:space="preserve">
+    <value>通过</value>
+  </data>
+  <data name="31_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="31_1_L_PatInfo" xml:space="preserve">
+    <value>患者信息</value>
+  </data>
+  <data name="31_1_L_Phone" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="31_1_L_FooterData1" xml:space="preserve">
+    <value>从SQA-VISION序列号打印</value>
+  </data>
+  <data name="31_1_L_Raw" xml:space="preserve">
+    <value>原始</value>
+  </data>
+  <data name="31_1_L_Referance" xml:space="preserve">
+    <value>参考值</value>
+  </data>
+  <data name="31_1_L_Continued" xml:space="preserve">
+    <value>报告继续</value>
+  </data>
+  <data name="31_1_L_Value" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="31_1_L_SampleInf" xml:space="preserve">
+    <value>样本信息</value>
+  </data>
+  <data name="31_1_L_Header" xml:space="preserve">
+    <value>精液分析报告</value>
+  </data>
+  <data name="31_1_L_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="31_1_L_Step" xml:space="preserve">
+    <value>步骤</value>
+  </data>
+  <data name="31_1_L_STVer" xml:space="preserve">
+    <value>检测类型</value>
+  </data>
+  <data name="31_1_O_STVer" xml:space="preserve">
+    <value>检测类型</value>
+  </data>
+  <data name="31_1_L_Total" xml:space="preserve">
+    <value>总数</value>
+  </data>
+  <data name="31_1_H_VitData" xml:space="preserve">
+    <value>存活率检测报告</value>
+  </data>
+  <data name="31_1_L_Site" xml:space="preserve">
+    <value>网站</value>
+  </data>
+  <data name="32_1_L_FooterData2" xml:space="preserve">
+    <value>在</value>
+  </data>
+  <data name="32_1_L_CapFrameCAP" xml:space="preserve">
+    <value>已采集图片</value>
+  </data>
+  <data name="32_1_L_CC" xml:space="preserve">
+    <value>点击计数 (按键)</value>
+  </data>
+  <data name="32_1_L_Color" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="32_1_L_Comments" xml:space="preserve">
+    <value>评价</value>
+  </data>
+  <data name="32_1_L_ContInf" xml:space="preserve">
+    <value>联络信息</value>
+  </data>
+  <data name="32_1_L_Criteria" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="32_1_L_email" xml:space="preserve">
+    <value>电子邮箱</value>
+  </data>
+  <data name="32_1_L_FacAdd" xml:space="preserve">
+    <value>单位名称</value>
+  </data>
+  <data name="32_1_L_Fail" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="32_1_L_Fax" xml:space="preserve">
+    <value>传真</value>
+  </data>
+  <data name="32_1_L_FD" xml:space="preserve">
+    <value>完全分级</value>
+  </data>
+  <data name="32_1_L_Image" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="32_1_L_CapFrame" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="32_1_L_MAC" xml:space="preserve">
+    <value>标记计数 (圈选)</value>
+  </data>
+  <data name="32_1_L_MCT" xml:space="preserve">
+    <value>形态计数类型</value>
+  </data>
+  <data name="32_1_L_MTT" xml:space="preserve">
+    <value>形态检测类型</value>
+  </data>
+  <data name="32_1_L_CapFrameM" xml:space="preserve">
+    <value>形态</value>
+  </data>
+  <data name="32_1_L_MorphHeader" xml:space="preserve">
+    <value>形态报告</value>
+  </data>
+  <data name="32_1_L_ANN" xml:space="preserve">
+    <value>正常/异常</value>
+  </data>
+  <data name="32_1_L_FooterData3" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="32_1_L_Parameter" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="32_1_L_Pass" xml:space="preserve">
+    <value>通过</value>
+  </data>
+  <data name="32_1_L_Phone" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="32_1_L_FooterData1" xml:space="preserve">
+    <value>从SQA-VISION序列号打印</value>
+  </data>
+  <data name="32_1_L_RefRange" xml:space="preserve">
+    <value>参考值</value>
+  </data>
+  <data name="32_1_L_Cutoff" xml:space="preserve">
+    <value>参考值</value>
+  </data>
+  <data name="32_1_L_Continued" xml:space="preserve">
+    <value>报告继续</value>
+  </data>
+  <data name="32_1_L_Date" xml:space="preserve">
+    <value>报告日期/时间</value>
+  </data>
+  <data name="32_1_L_ReportInf" xml:space="preserve">
+    <value>报告信息</value>
+  </data>
+  <data name="32_1_L_ReportName" xml:space="preserve">
+    <value>报告姓名</value>
+  </data>
+  <data name="32_1_L_Result" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="32_1_L_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="32_1_L_CapFrameV" xml:space="preserve">
+    <value>存活率</value>
+  </data>
+  <data name="32_1_L_VCT" xml:space="preserve">
+    <value>存活率计数类型</value>
+  </data>
+  <data name="32_1_L_VitHeader" xml:space="preserve">
+    <value>存活率报告</value>
+  </data>
+  <data name="32_1_L_Site" xml:space="preserve">
+    <value>网站</value>
+  </data>
+  <data name="33_1_L_FooterData2" xml:space="preserve">
+    <value>在</value>
+  </data>
+  <data name="33_1_L_CONC" xml:space="preserve">
+    <value>浓度</value>
+  </data>
+  <data name="33_1_P_CON_RE" xml:space="preserve">
+    <value>浓度  (百万/毫升)</value>
+  </data>
+  <data name="33_1_C_ConcRes" xml:space="preserve">
+    <value>浓度结果</value>
+  </data>
+  <data name="33_1_L_TSCMSC" xml:space="preserve">
+    <value>浓度/活动精</value>
+  </data>
+  <data name="33_1_L_ContInf" xml:space="preserve">
+    <value>联络信息</value>
+  </data>
+  <data name="33_1_P_CON_CA" xml:space="preserve">
+    <value>纠正措施</value>
+  </data>
+  <data name="33_1_P_CON_Date" xml:space="preserve">
+    <value>日期/时间</value>
+  </data>
+  <data name="33_1_L_Date" xml:space="preserve">
+    <value>日期/时间</value>
+  </data>
+  <data name="33_1_C_DatePer" xml:space="preserve">
+    <value>检测日期</value>
+  </data>
+  <data name="33_1_L_Dates" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="33_1_L_email" xml:space="preserve">
+    <value>电子邮箱</value>
+  </data>
+  <data name="33_1_P_CON_EXPDA" xml:space="preserve">
+    <value>到期日</value>
+  </data>
+  <data name="33_1_L_FacAdd" xml:space="preserve">
+    <value>单位名称</value>
+  </data>
+  <data name="33_1_L_Fail" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="33_1_L_Fax" xml:space="preserve">
+    <value>传真</value>
+  </data>
+  <data name="33_1_P_CON_LOT" xml:space="preserve">
+    <value>批次</value>
+  </data>
+  <data name="33_1_L_LowerLimit" xml:space="preserve">
+    <value>下限</value>
+  </data>
+  <data name="33_1_L_MSC" xml:space="preserve">
+    <value>活动精子浓度</value>
+  </data>
+  <data name="33_1_C_MSC" xml:space="preserve">
+    <value>活动精子浓度</value>
+  </data>
+  <data name="33_1_L_FooterData3" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="33_1_L_Pass" xml:space="preserve">
+    <value>通过</value>
+  </data>
+  <data name="33_1_P_CON_PR" xml:space="preserve">
+    <value>通过范围</value>
+  </data>
+  <data name="33_1_P_CON_PRS" xml:space="preserve">
+    <value>通过范围</value>
+  </data>
+  <data name="33_1_L_Phone" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="33_1_L_FooterData1" xml:space="preserve">
+    <value>从SQA-VISION序列号打印</value>
+  </data>
+  <data name="33_1_L_ControlType" xml:space="preserve">
+    <value>质控类型</value>
+  </data>
+  <data name="33_1_L_QuaInfo" xml:space="preserve">
+    <value>质控信息</value>
+  </data>
+  <data name="33_1_L_Header" xml:space="preserve">
+    <value>质控报告</value>
+  </data>
+  <data name="33_1_L_RDT" xml:space="preserve">
+    <value>报告日期/时间</value>
+  </data>
+  <data name="33_1_P_CON_RES" xml:space="preserve">
+    <value>结果（M/m）</value>
+  </data>
+  <data name="33_1_P_CON_STA" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="33_1_L_QcInfo" xml:space="preserve">
+    <value>系统信息</value>
+  </data>
+  <data name="33_1_P_CON_TAR" xml:space="preserve">
+    <value>靶值 (M/ml)</value>
+  </data>
+  <data name="33_1_P_CON_TARS" xml:space="preserve">
+    <value>靶值 (M/ml)</value>
+  </data>
+  <data name="33_1_L_UpperLimit" xml:space="preserve">
+    <value>上限</value>
+  </data>
+  <data name="33_1_L_Site" xml:space="preserve">
+    <value>网站</value>
+  </data>
+  <data name="34_1_L_FooterData2" xml:space="preserve">
+    <value>在</value>
+  </data>
+  <data name="34_1_P_CON_RE" xml:space="preserve">
+    <value>浓度  (百万/毫升)</value>
+  </data>
+  <data name="34_1_L_ContInf" xml:space="preserve">
+    <value>联络信息</value>
+  </data>
+  <data name="34_1_L_Date" xml:space="preserve">
+    <value>日期/时间</value>
+  </data>
+  <data name="34_1_L_Dates" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="34_1_L_email" xml:space="preserve">
+    <value>电子邮箱</value>
+  </data>
+  <data name="34_1_L_FacAdd" xml:space="preserve">
+    <value>单位名称</value>
+  </data>
+  <data name="34_1_L_Fax" xml:space="preserve">
+    <value>传真</value>
+  </data>
+  <data name="34_1_L_PR_DATE" xml:space="preserve">
+    <value>发布日期</value>
+  </data>
+  <data name="34_1_P_CON_NOTE" xml:space="preserve">
+    <value>说明</value>
+  </data>
+  <data name="34_1_L_FooterData3" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="34_1_L_Phone" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="34_1_L_FooterData1" xml:space="preserve">
+    <value>从SQA-VISION序列号打印</value>
+  </data>
+  <data name="34_1_L_PRID" xml:space="preserve">
+    <value>室间质控编号</value>
+  </data>
+  <data name="34_1_L_PR" xml:space="preserve">
+    <value>室间质控编号</value>
+  </data>
+  <data name="34_1_L_Header" xml:space="preserve">
+    <value>室间质控报告</value>
+  </data>
+  <data name="34_1_L_QuaInfo" xml:space="preserve">
+    <value>质控信息</value>
+  </data>
+  <data name="34_1_L_RDT" xml:space="preserve">
+    <value>报告日期/时间</value>
+  </data>
+  <data name="34_1_P_CON_LOT" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="34_1_L_PRControlType" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="34_1_L_PropInfo" xml:space="preserve">
+    <value>系统信息</value>
+  </data>
+  <data name="34_1_L_Site" xml:space="preserve">
+    <value>网站</value>
+  </data>
+  <data name="35_1_L_FooterData2" xml:space="preserve">
+    <value>在</value>
+  </data>
+  <data name="35_1_L_CaptureImages" xml:space="preserve">
+    <value>已采集图片</value>
+  </data>
+  <data name="35_1_L_CaptureHeader" xml:space="preserve">
+    <value>已采集图片报告单</value>
+  </data>
+  <data name="35_1_L_Comments" xml:space="preserve">
+    <value>评价</value>
+  </data>
+  <data name="35_1_L_ContInf" xml:space="preserve">
+    <value>联络信息</value>
+  </data>
+  <data name="35_1_L_email" xml:space="preserve">
+    <value>电子邮箱</value>
+  </data>
+  <data name="35_1_L_FacAdd" xml:space="preserve">
+    <value>单位名称</value>
+  </data>
+  <data name="35_1_L_Fax" xml:space="preserve">
+    <value>传真</value>
+  </data>
+  <data name="35_1_L_Image" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="35_1_L_FooterData3" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="35_1_L_Phone" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="35_1_L_FooterData1" xml:space="preserve">
+    <value>从SQA-VISION序列号打印</value>
+  </data>
+  <data name="35_1_L_Continued" xml:space="preserve">
+    <value>报告继续</value>
+  </data>
+  <data name="35_1_L_Date" xml:space="preserve">
+    <value>报告日期/时间</value>
+  </data>
+  <data name="35_1_L_ReportInf" xml:space="preserve">
+    <value>报告信息</value>
+  </data>
+  <data name="35_1_L_ReportName" xml:space="preserve">
+    <value>报告姓名</value>
+  </data>
+  <data name="35_1_L_Site" xml:space="preserve">
+    <value>网站</value>
+  </data>
+  <data name="36_1_L_FooterData2" xml:space="preserve">
+    <value>在</value>
+  </data>
+  <data name="36_1_L_Completed" xml:space="preserve">
+    <value>已完成</value>
+  </data>
+  <data name="36_1_L_ContInf" xml:space="preserve">
+    <value>联络信息</value>
+  </data>
+  <data name="36_1_L_DV" xml:space="preserve">
+    <value>仪器版本</value>
+  </data>
+  <data name="36_1_L_email" xml:space="preserve">
+    <value>电子邮箱</value>
+  </data>
+  <data name="36_1_L_FacAdd" xml:space="preserve">
+    <value>单位名称</value>
+  </data>
+  <data name="36_1_L_Fax" xml:space="preserve">
+    <value>传真</value>
+  </data>
+  <data name="36_1_P_MainDate" xml:space="preserve">
+    <value>维护日期</value>
+  </data>
+  <data name="36_1_L_MainDate" xml:space="preserve">
+    <value>维护日期</value>
+  </data>
+  <data name="36_1_L_NP" xml:space="preserve">
+    <value>未执行</value>
+  </data>
+  <data name="36_1_L_FooterData3" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="36_1_P_MainUser" xml:space="preserve">
+    <value>操作人员</value>
+  </data>
+  <data name="36_1_L_MainPref" xml:space="preserve">
+    <value>操作人员</value>
+  </data>
+  <data name="36_1_L_Phone" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="36_1_L_FooterData1" xml:space="preserve">
+    <value>从SQA-VISION序列号打印</value>
+  </data>
+  <data name="36_1_L_RDT" xml:space="preserve">
+    <value>报告日期/时间</value>
+  </data>
+  <data name="36_1_L_SN" xml:space="preserve">
+    <value>序列号</value>
+  </data>
+  <data name="36_1_L_Version" xml:space="preserve">
+    <value>软件版本</value>
+  </data>
+  <data name="36_1_H_MainHeader" xml:space="preserve">
+    <value>SQA-VISION维护报告</value>
+  </data>
+  <data name="36_1_L_InsOver" xml:space="preserve">
+    <value>系统信息</value>
+  </data>
+  <data name="36_1_L_Site" xml:space="preserve">
+    <value>网站</value>
+  </data>
+  <data name="37_2_B_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="37_1_H_Header1" xml:space="preserve">
+    <value>导出报告</value>
+  </data>
+  <data name="37_1_L_of" xml:space="preserve">
+    <value>的</value>
+  </data>
+  <data name="37_1_H_Header2" xml:space="preserve">
+    <value>请等待</value>
+  </data>
+  <data name="37_1_H_NoExport" xml:space="preserve">
+    <value>无法导出文件</value>
+  </data>
+  <data name="38_2_B_VisSet" xml:space="preserve">
+    <value>高级设置</value>
+  </data>
+  <data name="38_1_H_Bright" xml:space="preserve">
+    <value>亮度</value>
+  </data>
+  <data name="38_1_H_Contrast" xml:space="preserve">
+    <value>对比度</value>
+  </data>
+  <data name="38_2_B_FacSet" xml:space="preserve">
+    <value>出厂设置</value>
+  </data>
+  <data name="38_1_H_Hue" xml:space="preserve">
+    <value>γ射线</value>
+  </data>
+  <data name="38_1_H_Phaze" xml:space="preserve">
+    <value>饱和度</value>
+  </data>
+  <data name="38_1_H_Sharpness" xml:space="preserve">
+    <value>清晰度</value>
+  </data>
+  <data name="38_1_H_VidSettings" xml:space="preserve">
+    <value>视频设置</value>
+  </data>
+  <data name="39_2_B_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="39_1_L_SelectKeyHeader" xml:space="preserve">
+    <value>选择按键用于</value>
+  </data>
+  <data name="40_2_B_Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="40_2_B_Print" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="40_1_L_Parameter" xml:space="preserve">
+    <value>选择参数</value>
+  </data>
+  <data name="40_1_C_DateTime" xml:space="preserve">
+    <value>检测日期/时间</value>
+  </data>
+  <data name="41_4_P_PV_ImmotileVol" xml:space="preserve">
+    <value>不活动精子数/体积 (PV)</value>
+  </data>
+  <data name="41_4_P_PV_MotileVol" xml:space="preserve">
+    <value>活动精子数/体积</value>
+  </data>
+  <data name="41_4_P_ND" xml:space="preserve">
+    <value>分装样本编号</value>
+  </data>
+  <data name="41_4_P_NQCV" xml:space="preserve">
+    <value>质控品编号</value>
+  </data>
+  <data name="41_4_P_DNATotal" xml:space="preserve">
+    <value>已计数精子数</value>
+  </data>
+  <data name="41_4_P_PV_TotalVol" xml:space="preserve">
+    <value>每毫升总精子数 (PV)</value>
+  </data>
+  <data name="41_4_P_MediaRatio" xml:space="preserve">
+    <value>2 稀释比例</value>
+  </data>
+  <data name="41_4_P_Abnormal" xml:space="preserve">
+    <value>不正常</value>
+  </data>
+  <data name="41_4_P_Abstinence" xml:space="preserve">
+    <value>禁欲</value>
+  </data>
+  <data name="41_4_P_FM" xml:space="preserve">
+    <value>添加冷冻液 (ml)</value>
+  </data>
+  <data name="41_4_P_WM" xml:space="preserve">
+    <value>添加冷冻液 (ml)</value>
+  </data>
+  <data name="41_4_P_TF_Address" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="41_4_P_TestAge" xml:space="preserve">
+    <value>年龄</value>
+  </data>
+  <data name="41_4_P_Aggl" xml:space="preserve">
+    <value>精子凝集度 (1-4，A-E)</value>
+  </data>
+  <data name="41_4_P_Appearance" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="41_4_P_AVGPMLF" xml:space="preserve">
+    <value>活力损耗因子/前向运动损耗因子平均值</value>
+  </data>
+  <data name="41_4_P_Pat_BD" xml:space="preserve">
+    <value>出生日期</value>
+  </data>
+  <data name="41_4_P_TF_City" xml:space="preserve">
+    <value>城市</value>
+  </data>
+  <data name="41_4_P_DateColl" xml:space="preserve">
+    <value>采集日期/时间</value>
+  </data>
+  <data name="41_4_P_TimeColl" xml:space="preserve">
+    <value>采集时间</value>
+  </data>
+  <data name="41_4_P_CollLoc" xml:space="preserve">
+    <value>采集地点 (1，实验室，2，家)</value>
+  </data>
+  <data name="41_4_P_Comments" xml:space="preserve">
+    <value>评价</value>
+  </data>
+  <data name="41_1_H_COMSetup" xml:space="preserve">
+    <value>通讯设置</value>
+  </data>
+  <data name="41_4_P_ComSample" xml:space="preserve">
+    <value>完整样本 (1，完整，2，不完整)</value>
+  </data>
+  <data name="41_4_P_CON_RE" xml:space="preserve">
+    <value>浓度</value>
+  </data>
+  <data name="41_4_P_QCConc" xml:space="preserve">
+    <value>浓度  (百万/毫升)</value>
+  </data>
+  <data name="41_4_P_ConcScreen" xml:space="preserve">
+    <value>所采集视野的精子浓度</value>
+  </data>
+  <data name="41_4_P_Chamber" xml:space="preserve">
+    <value>浓度标准</value>
+  </data>
+  <data name="41_4_P_ConcTotal" xml:space="preserve">
+    <value>总浓度</value>
+  </data>
+  <data name="41_4_P_TSC" xml:space="preserve">
+    <value>浓度</value>
+  </data>
+  <data name="41_4_P_ControlType" xml:space="preserve">
+    <value>质控类型</value>
+  </data>
+  <data name="41_4_P_CON_CA" xml:space="preserve">
+    <value>纠正措施</value>
+  </data>
+  <data name="41_4_P_CounterType" xml:space="preserve">
+    <value>计数器类型</value>
+  </data>
+  <data name="41_4_P_MorphType" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="41_4_P_CON_Date" xml:space="preserve">
+    <value>日期/时间</value>
+  </data>
+  <data name="41_4_P_Deb_Round" xml:space="preserve">
+    <value>碎片/圆细胞</value>
+  </data>
+  <data name="41_4_P_CollDiff" xml:space="preserve">
+    <value>样本采集遇到的困难</value>
+  </data>
+  <data name="41_4_P_DirIBTestIgA" xml:space="preserve">
+    <value>导入直接免疫株试验 IgA  (带微珠比例) [&lt;50]</value>
+  </data>
+  <data name="41_4_P_DirIBTestIgG" xml:space="preserve">
+    <value>导入混合抗球蛋白反应试验 IgG  (带微珠比例) [&lt;50]</value>
+  </data>
+  <data name="41_4_P_DirMarTestIgA" xml:space="preserve">
+    <value>导入混合抗球蛋白反应试验 IgA (%) (3或10分钟) [&lt;50]</value>
+  </data>
+  <data name="41_4_P_DirMarTestIgG" xml:space="preserve">
+    <value>导入混合抗球蛋白反应试验 IgG  (%) (3或10分钟)  [&lt;50]</value>
+  </data>
+  <data name="41_4_P_DFI" xml:space="preserve">
+    <value>DNA碎片指标 DFI</value>
+  </data>
+  <data name="41_1_H_HE" xml:space="preserve">
+    <value>不要发送标题</value>
+  </data>
+  <data name="41_4_P_MainTestID" xml:space="preserve">
+    <value>供精标本编号</value>
+  </data>
+  <data name="41_4_P_DonorID" xml:space="preserve">
+    <value>供精者ID</value>
+  </data>
+  <data name="41_4_P_DV" xml:space="preserve">
+    <value>分装体积 (ml)</value>
+  </data>
+  <data name="41_4_P_DoseMethod" xml:space="preserve">
+    <value>分装方法</value>
+  </data>
+  <data name="41_4_P_TF_Email" xml:space="preserve">
+    <value>电子邮箱</value>
+  </data>
+  <data name="41_1_H_EN" xml:space="preserve">
+    <value>启用高级日志文件</value>
+  </data>
+  <data name="41_1_H_QLIsInUse" xml:space="preserve">
+    <value>启用实验室界面</value>
+  </data>
+  <data name="41_4_P_CON_EXPDA" xml:space="preserve">
+    <value>到期日</value>
+  </data>
+  <data name="41_4_P_TF_Name" xml:space="preserve">
+    <value>单位名称</value>
+  </data>
+  <data name="41_4_P_TF_Fax" xml:space="preserve">
+    <value>传真</value>
+  </data>
+  <data name="41_1_L_FieldName" xml:space="preserve">
+    <value>字段名</value>
+  </data>
+  <data name="41_4_P_FinalVol" xml:space="preserve">
+    <value>最终体积</value>
+  </data>
+  <data name="41_4_P_PatientFName" xml:space="preserve">
+    <value>姓</value>
+  </data>
+  <data name="41_1_L_Format" xml:space="preserve">
+    <value>格式</value>
+  </data>
+  <data name="41_4_P_Fructose" xml:space="preserve">
+    <value>果糖 (毫摩/每次射精) [&gt;=13]</value>
+  </data>
+  <data name="41_4_P_FuncSperm" xml:space="preserve">
+    <value>有效精子</value>
+  </data>
+  <data name="41_4_P_FSC" xml:space="preserve">
+    <value>有效精子浓度</value>
+  </data>
+  <data name="41_1_H_GS" xml:space="preserve">
+    <value>数据下载链接</value>
+  </data>
+  <data name="41_4_P_Glucose" xml:space="preserve">
+    <value>糖苷酶（中性）（豪摩/每次射精）[&gt;=20]</value>
+  </data>
+  <data name="41_4_P_DNANonFreg" xml:space="preserve">
+    <value>晕轮</value>
+  </data>
+  <data name="41_4_P_AttachedImage" xml:space="preserve">
+    <value>已采集图片</value>
+  </data>
+  <data name="41_4_P_Immotility5" xml:space="preserve">
+    <value>不活动精子 IM</value>
+  </data>
+  <data name="41_4_P_PV_Immotile" xml:space="preserve">
+    <value>不活动精子 (PV)</value>
+  </data>
+  <data name="41_4_P_Immotility" xml:space="preserve">
+    <value>不活动精子率 d</value>
+  </data>
+  <data name="41_4_P_INVol" xml:space="preserve">
+    <value>初始体积</value>
+  </data>
+  <data name="41_4_P_PatientLName" xml:space="preserve">
+    <value>名</value>
+  </data>
+  <data name="41_4_P_LevelID" xml:space="preserve">
+    <value>级别</value>
+  </data>
+  <data name="41_4_P_Liquefaction" xml:space="preserve">
+    <value>液化</value>
+  </data>
+  <data name="41_4_P_LongID" xml:space="preserve">
+    <value>寿命ID</value>
+  </data>
+  <data name="41_4_P_LongStep" xml:space="preserve">
+    <value>寿命</value>
+  </data>
+  <data name="41_4_P_CON_LOT" xml:space="preserve">
+    <value>批次</value>
+  </data>
+  <data name="41_4_P_DV_MediaRatio" xml:space="preserve">
+    <value>介质比例</value>
+  </data>
+  <data name="41_4_P_Mediac" xml:space="preserve">
+    <value>药物治疗</value>
+  </data>
+  <data name="41_4_P_MLF" xml:space="preserve">
+    <value>活力损耗因子 (%)</value>
+  </data>
+  <data name="41_4_P_MorphTotal" xml:space="preserve">
+    <value>形态</value>
+  </data>
+  <data name="41_4_P_TotalMorph" xml:space="preserve">
+    <value>形态.正常精子</value>
+  </data>
+  <data name="41_4_P_MorphScreen" xml:space="preserve">
+    <value>形态采集视野数</value>
+  </data>
+  <data name="41_4_P_MotileSperm" xml:space="preserve">
+    <value>活动精子</value>
+  </data>
+  <data name="41_4_P_PV_Motile" xml:space="preserve">
+    <value>活动精子 (PV)</value>
+  </data>
+  <data name="41_4_P_MSC" xml:space="preserve">
+    <value>活动精子浓度</value>
+  </data>
+  <data name="41_4_P_Motility" xml:space="preserve">
+    <value>活力</value>
+  </data>
+  <data name="41_4_P_CON_MSC" xml:space="preserve">
+    <value>活动精子浓度</value>
+  </data>
+  <data name="41_4_P_DNAFreg" xml:space="preserve">
+    <value>无晕轮</value>
+  </data>
+  <data name="41_4_P_Nonprog" xml:space="preserve">
+    <value>非前向 c</value>
+  </data>
+  <data name="41_4_P_Nonprog5" xml:space="preserve">
+    <value>非前向 NP</value>
+  </data>
+  <data name="41_4_P_Morph" xml:space="preserve">
+    <value>形态正常精子</value>
+  </data>
+  <data name="41_4_P_OI" xml:space="preserve">
+    <value>可选</value>
+  </data>
+  <data name="41_4_P_OM" xml:space="preserve">
+    <value>可选输入项</value>
+  </data>
+  <data name="41_4_P_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="41_4_P_PeroxPos" xml:space="preserve">
+    <value>过氧化物酶-白细胞阳性 (M/ml)</value>
+  </data>
+  <data name="41_4_P_PH" xml:space="preserve">
+    <value>PH值</value>
+  </data>
+  <data name="41_4_P_TF_Phone" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="41_4_P_AB10" xml:space="preserve">
+    <value>大头针状</value>
+  </data>
+  <data name="41_4_P_PMLF" xml:space="preserve">
+    <value>前向活力丢失因子  (%)</value>
+  </data>
+  <data name="41_1_H_PS" xml:space="preserve">
+    <value>数据上传链接</value>
+  </data>
+  <data name="41_4_P_FreCorr" xml:space="preserve">
+    <value>样本处理丢失因子</value>
+  </data>
+  <data name="41_4_P_ProgMotile" xml:space="preserve">
+    <value>前向活动精子</value>
+  </data>
+  <data name="41_4_P_PMSC" xml:space="preserve">
+    <value>前向活动精子浓度</value>
+  </data>
+  <data name="41_4_P_PMSCA" xml:space="preserve">
+    <value>前向活动精子浓度.a</value>
+  </data>
+  <data name="41_4_P_PMSCB" xml:space="preserve">
+    <value>前向活动精子浓度.b</value>
+  </data>
+  <data name="41_4_P_PMOT" xml:space="preserve">
+    <value>前向活动 PR</value>
+  </data>
+  <data name="41_1_L_Protocol" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="41_1_H_Protocol" xml:space="preserve">
+    <value>标准类别</value>
+  </data>
+  <data name="41_4_P_QCSV" xml:space="preserve">
+    <value>质控标本体积 (ml)</value>
+  </data>
+  <data name="41_4_P_CON_RAN" xml:space="preserve">
+    <value>范围 (+/-)</value>
+  </data>
+  <data name="41_4_P_PMOTA" xml:space="preserve">
+    <value>快速前向 a</value>
+  </data>
+  <data name="41_4_P_DateRec" xml:space="preserve">
+    <value>接收样本日期/时间</value>
+  </data>
+  <data name="41_4_P_TimeRec" xml:space="preserve">
+    <value>接收样本时间</value>
+  </data>
+  <data name="41_1_H_LF" xml:space="preserve">
+    <value>记录上一帧数</value>
+  </data>
+  <data name="41_4_P_VisName" xml:space="preserve">
+    <value>报告姓名</value>
+  </data>
+  <data name="41_4_P_TEST_PF" xml:space="preserve">
+    <value>样本评估</value>
+  </data>
+  <data name="41_4_P_TEST_PF" xml:space="preserve">
+    <value>样本评估</value>
+  </data>
+  <data name="41_4_P_SampleID" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="41_4_P_TestMode" xml:space="preserve">
+    <value>已检测样本</value>
+  </data>
+  <data name="41_1_H_COMPort" xml:space="preserve">
+    <value>选择通讯端口</value>
+  </data>
+  <data name="41_1_H_DateRange" xml:space="preserve">
+    <value>选择日期范围</value>
+  </data>
+  <data name="41_1_H_PatientID" xml:space="preserve">
+    <value>选择患者ID</value>
+  </data>
+  <data name="41_4_P_Treat" xml:space="preserve">
+    <value>样本处理 (比如使用菠萝蛋白酶/糜蛋白酶)</value>
+  </data>
+  <data name="41_2_B_Send" xml:space="preserve">
+    <value>发送数据</value>
+  </data>
+  <data name="41_1_H_SE" xml:space="preserve">
+    <value>发送EOT/ENQ</value>
+  </data>
+  <data name="41_1_H_TT" xml:space="preserve">
+    <value>发送测试类型参数</value>
+  </data>
+  <data name="41_4_P_TF_Site" xml:space="preserve">
+    <value>地点</value>
+  </data>
+  <data name="41_4_P_PMOTB" xml:space="preserve">
+    <value>慢速前向 b</value>
+  </data>
+  <data name="41_4_P_TotalSperm" xml:space="preserve">
+    <value>精子数</value>
+  </data>
+  <data name="41_4_P_SMI" xml:space="preserve">
+    <value>精子活力指数</value>
+  </data>
+  <data name="41_4_P_SubSampleType" xml:space="preserve">
+    <value>阶段</value>
+  </data>
+  <data name="41_4_P_CON_StandardType" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="41_4_P_CON_STA" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="41_4_P_CON_TAR" xml:space="preserve">
+    <value>靶值</value>
+  </data>
+  <data name="41_4_P_TN" xml:space="preserve">
+    <value>每个分装目标精子数量 (M)</value>
+  </data>
+  <data name="41_4_P_TestDate" xml:space="preserve">
+    <value>检测日期/时间</value>
+  </data>
+  <data name="41_4_P_TestID" xml:space="preserve">
+    <value>测试ID</value>
+  </data>
+  <data name="41_4_P_PV_Mode" xml:space="preserve">
+    <value>测试模式 (PV)</value>
+  </data>
+  <data name="41_4_P_UserName" xml:space="preserve">
+    <value>操作人员</value>
+  </data>
+  <data name="41_4_P_TestTime" xml:space="preserve">
+    <value>检测时间</value>
+  </data>
+  <data name="41_4_P_SampleType" xml:space="preserve">
+    <value>检测类型</value>
+  </data>
+  <data name="41_4_P_PV_TestType" xml:space="preserve">
+    <value>检测类型 (PV)</value>
+  </data>
+  <data name="41_4_P_CON_DateTime" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="41_1_H_To" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="41_1_L_To" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="41_4_P_Motility5" xml:space="preserve">
+    <value>总活力 PR+NP</value>
+  </data>
+  <data name="41_4_P_PV_Total" xml:space="preserve">
+    <value>精子总数 (PV)</value>
+  </data>
+  <data name="41_4_P_TV" xml:space="preserve">
+    <value>总体积 (毫升)</value>
+  </data>
+  <data name="41_4_P_Velocity" xml:space="preserve">
+    <value>精子活动速率</value>
+  </data>
+  <data name="41_4_P_AttachedVideo" xml:space="preserve">
+    <value>已采集视频</value>
+  </data>
+  <data name="41_4_P_Viscocity" xml:space="preserve">
+    <value>粘稠度</value>
+  </data>
+  <data name="41_4_P_ViabDead" xml:space="preserve">
+    <value>存活率 (死亡)</value>
+  </data>
+  <data name="41_4_P_ViabLive" xml:space="preserve">
+    <value>存活率 (存活)</value>
+  </data>
+  <data name="41_4_P_ViabScreen" xml:space="preserve">
+    <value>存活率采集视野数</value>
+  </data>
+  <data name="41_4_P_ViabTotal" xml:space="preserve">
+    <value>总存活率</value>
+  </data>
+  <data name="41_4_P_Volume" xml:space="preserve">
+    <value>体积</value>
+  </data>
+  <data name="41_4_P_WBCConc" xml:space="preserve">
+    <value>白细胞浓度</value>
+  </data>
+  <data name="41_4_P_Zinc" xml:space="preserve">
+    <value>精浆锌（毫摩/每次射精）[&gt;=2.4]</value>
+  </data>
+  <data name="42_2_B_Save" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="42_2_B_ClearAll" xml:space="preserve">
+    <value>清除全部</value>
+  </data>
+  <data name="42_2_B_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="42_2_B_SelectAll" xml:space="preserve">
+    <value>选择全部</value>
+  </data>
+  <data name="42_1_H_HeaderAT" xml:space="preserve">
+    <value>选择要添加至报告单的图片</value>
+  </data>
+  <data name="42_1_H_HeaderDEIM" xml:space="preserve">
+    <value>选择要删除的图片</value>
+  </data>
+  <data name="42_1_H_HeaderDEVI" xml:space="preserve">
+    <value>选择要删除的视频</value>
+  </data>
+  <data name="43_2_B_Troub" xml:space="preserve">
+    <value>排除故障</value>
+  </data>
+  <data name="44_1_H_Msg1" xml:space="preserve">
+    <value>请等待</value>
+  </data>
+  <data name="45_1_H_NOTSHOW" xml:space="preserve">
+    <value>不要再显示该信息</value>
+  </data>
+  <data name="46_1_H_Msg" xml:space="preserve">
+    <value>现在开始扫描条码</value>
+  </data>
+  <data name="47_1_L_ClickD" xml:space="preserve">
+    <value>点击计数</value>
+  </data>
+  <data name="47_1_L_ClickV" xml:space="preserve">
+    <value>点击计数</value>
+  </data>
+  <data name="47_1_L_ClickM" xml:space="preserve">
+    <value>点击计数</value>
+  </data>
+  <data name="47_1_H_Cutoff1" xml:space="preserve">
+    <value>浓度&lt;15M/ml或者活力&lt;40%</value>
+  </data>
+  <data name="47_1_L_Chamber" xml:space="preserve">
+    <value>浓度标准</value>
+  </data>
+  <data name="47_1_L_MorphType" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="47_1_L_DebrisCutoff" xml:space="preserve">
+    <value>碎片扫描临界值</value>
+  </data>
+  <data name="47_1_L_VRTCountTypeD" xml:space="preserve">
+    <value>DNA碎片计数类型</value>
+  </data>
+  <data name="47_1_H_H3" xml:space="preserve">
+    <value>以下设置</value>
+  </data>
+  <data name="47_1_L_FD" xml:space="preserve">
+    <value>完全分级</value>
+  </data>
+  <data name="47_1_L_MarkM" xml:space="preserve">
+    <value>标记计数</value>
+  </data>
+  <data name="47_1_L_MarkD" xml:space="preserve">
+    <value>标记计数</value>
+  </data>
+  <data name="47_1_L_MarkV" xml:space="preserve">
+    <value>标记计数</value>
+  </data>
+  <data name="47_1_L_VRTCountType" xml:space="preserve">
+    <value>形态计数类型</value>
+  </data>
+  <data name="47_1_L_VRTTestType" xml:space="preserve">
+    <value>形态检测类型</value>
+  </data>
+  <data name="47_1_H_Cutoff3" xml:space="preserve">
+    <value>未发现碎片</value>
+  </data>
+  <data name="47_1_L_ANN" xml:space="preserve">
+    <value>正常/异常</value>
+  </data>
+  <data name="47_1_L_H1" xml:space="preserve">
+    <value>请注意</value>
+  </data>
+  <data name="47_1_H_Cutoff2" xml:space="preserve">
+    <value>对所有样本进行碎片扫描</value>
+  </data>
+  <data name="47_1_H_H2" xml:space="preserve">
+    <value>该测试的运行基于</value>
+  </data>
+  <data name="47_1_L_VRTCountTypeV" xml:space="preserve">
+    <value>存活率计数类型</value>
+  </data>
+  <data name="50_1_L_AndAB" xml:space="preserve">
+    <value>以及不正常形态精子率</value>
+  </data>
+  <data name="50_1_L_PatAge" xml:space="preserve">
+    <value>出生日期/年龄</value>
+  </data>
+  <data name="50_2_B_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="50_2_B_Clear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="50_2_B_ClearAll" xml:space="preserve">
+    <value>清除全部</value>
+  </data>
+  <data name="50_2_B_Continue" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="50_1_L_MorphType" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="50_1_H_PerData" xml:space="preserve">
+    <value>输入正常形态精子率</value>
+  </data>
+  <data name="50_1_H_Header" xml:space="preserve">
+    <value>手工形态数据录入</value>
+  </data>
+  <data name="50_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="50_1_L_PatientName" xml:space="preserve">
+    <value>患者姓名</value>
+  </data>
+  <data name="50_1_L_SampleID" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="50_1_L_SS" xml:space="preserve">
+    <value>已检测样本</value>
+  </data>
+  <data name="50_1_L_TestDate" xml:space="preserve">
+    <value>检测日期/时间</value>
+  </data>
+  <data name="50_1_L_SampleType" xml:space="preserve">
+    <value>检测类型</value>
+  </data>
+  <data name="51_1_L_PatAge" xml:space="preserve">
+    <value>出生日期/年龄</value>
+  </data>
+  <data name="51_2_B_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="51_2_B_Clear" xml:space="preserve">
+    <value>清除全部</value>
+  </data>
+  <data name="51_2_B_Continue" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="51_1_L_MorphType" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="51_1_H_PerData" xml:space="preserve">
+    <value>输入存活精子率</value>
+  </data>
+  <data name="51_1_H_Header" xml:space="preserve">
+    <value>输入手工检测存活率数据</value>
+  </data>
+  <data name="51_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="51_1_L_PatientName" xml:space="preserve">
+    <value>患者姓名</value>
+  </data>
+  <data name="51_1_L_SampleID" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="51_1_L_SS" xml:space="preserve">
+    <value>已检测样本</value>
+  </data>
+  <data name="51_1_L_TestDate" xml:space="preserve">
+    <value>检测日期/时间</value>
+  </data>
+  <data name="51_1_L_SampleType" xml:space="preserve">
+    <value>检测类型</value>
+  </data>
+  <data name="52_1_H_Int" xml:space="preserve">
+    <value>(从1到100的整数)</value>
+  </data>
+  <data name="52_1_H_TestResults" xml:space="preserve">
+    <value>全自动检测结果</value>
+  </data>
+  <data name="52_1_L_PatAge" xml:space="preserve">
+    <value>出生日期/年龄</value>
+  </data>
+  <data name="52_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>检查VISION接线</value>
+  </data>
+  <data name="52_2_B_Clear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="52_1_H_NoVideoCheck" xml:space="preserve">
+    <value>点击刷新按钮</value>
+  </data>
+  <data name="52_1_L_MorphType" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="52_1_H_MotilityIns" xml:space="preserve">
+    <value>输入活力以取得完整报告</value>
+  </data>
+  <data name="52_2_B_Fail" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="52_2_B_Freeze" xml:space="preserve">
+    <value>冻结</value>
+  </data>
+  <data name="52_2_B_FULL" xml:space="preserve">
+    <value>全屏</value>
+  </data>
+  <data name="52_2_B_GridOff" xml:space="preserve">
+    <value>去掉网格</value>
+  </data>
+  <data name="52_2_B_Grid" xml:space="preserve">
+    <value>添加网格</value>
+  </data>
+  <data name="52_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>如果问题仍然存在</value>
+  </data>
+  <data name="52_1_H_Header" xml:space="preserve">
+    <value>活力评估</value>
+  </data>
+  <data name="52_1_L_NoSperm" xml:space="preserve">
+    <value>未看到精子</value>
+  </data>
+  <data name="52_2_B_Pass" xml:space="preserve">
+    <value>通过</value>
+  </data>
+  <data name="52_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="52_1_L_PatientName" xml:space="preserve">
+    <value>患者姓名</value>
+  </data>
+  <data name="52_2_B_RealTime" xml:space="preserve">
+    <value>实时</value>
+  </data>
+  <data name="52_2_B_Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="52_2_B_Next" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="52_1_H_SampleEv" xml:space="preserve">
+    <value>样本评估</value>
+  </data>
+  <data name="52_1_L_SampleID" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="52_1_L_SS" xml:space="preserve">
+    <value>已检测样本</value>
+  </data>
+  <data name="52_2_B_Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="52_1_L_TestDate" xml:space="preserve">
+    <value>检测日期/时间</value>
+  </data>
+  <data name="52_1_L_SampleType" xml:space="preserve">
+    <value>检测类型</value>
+  </data>
+  <data name="52_1_H_Motility" xml:space="preserve">
+    <value>总活力</value>
+  </data>
+  <data name="52_1_H_VideoError" xml:space="preserve">
+    <value>视频出错</value>
+  </data>
+  <data name="53_1_L_Pat_BD" xml:space="preserve">
+    <value>出生日期</value>
+  </data>
+  <data name="53_1_H_UpdateIDHeader" xml:space="preserve">
+    <value>输入患者数据</value>
+  </data>
+  <data name="53_1_L_PatientFName" xml:space="preserve">
+    <value>姓</value>
+  </data>
+  <data name="53_1_L_PatientLName" xml:space="preserve">
+    <value>名</value>
+  </data>
+  <data name="53_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="54_1_H_MainInsta" xml:space="preserve">
+    <value>(点击并编辑内容)</value>
+  </data>
+  <data name="54_1_H_BE" xml:space="preserve">
+    <value>每一个都备份</value>
+  </data>
+  <data name="54_1_H_BACK" xml:space="preserve">
+    <value>备份频率</value>
+  </data>
+  <data name="54_1_H_BP" xml:space="preserve">
+    <value>备份路径</value>
+  </data>
+  <data name="54_2_B_Browse" xml:space="preserve">
+    <value>浏览</value>
+  </data>
+  <data name="54_1_H_TED" xml:space="preserve">
+    <value>天数</value>
+  </data>
+  <data name="54_1_H_BED" xml:space="preserve">
+    <value>天数</value>
+  </data>
+  <data name="54_1_H_SaveDB" xml:space="preserve">
+    <value>在启动时导入服务数据</value>
+  </data>
+  <data name="54_1_H_MainActive" xml:space="preserve">
+    <value>维护活动</value>
+  </data>
+  <data name="54_1_H_OBMain" xml:space="preserve">
+    <value>必须进行的维护</value>
+  </data>
+  <data name="54_1_H_QC" xml:space="preserve">
+    <value>QC频率</value>
+  </data>
+  <data name="54_1_H_SD" xml:space="preserve">
+    <value>服务数据</value>
+  </data>
+  <data name="54_1_H_TE" xml:space="preserve">
+    <value>检测每一个</value>
+  </data>
+  <data name="55_1_L_PatAge" xml:space="preserve">
+    <value>出生日期/年龄</value>
+  </data>
+  <data name="55_2_P_DNAScreen" xml:space="preserve">
+    <value>采集视野</value>
+  </data>
+  <data name="55_1_L_Comments" xml:space="preserve">
+    <value>评价</value>
+  </data>
+  <data name="55_1_L_MorphType" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="55_1_T_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="55_1_H_DNAHeader" xml:space="preserve">
+    <value>DNA碎片计数</value>
+  </data>
+  <data name="55_1_L_TS" xml:space="preserve">
+    <value>计数视野数</value>
+  </data>
+  <data name="55_2_P_DNANonFreg" xml:space="preserve">
+    <value>晕轮</value>
+  </data>
+  <data name="55_1_T_Item" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="55_1_T_ManageAll" xml:space="preserve">
+    <value>管理全部已采集图片</value>
+  </data>
+  <data name="55_1_H_SelectImage" xml:space="preserve">
+    <value>管理图片</value>
+  </data>
+  <data name="55_2_P_DNAFreg" xml:space="preserve">
+    <value>无晕轮</value>
+  </data>
+  <data name="55_1_T_of" xml:space="preserve">
+    <value>的</value>
+  </data>
+  <data name="55_1_L_PatientID" xml:space="preserve">
+    <value>患者ID</value>
+  </data>
+  <data name="55_1_L_PatientName" xml:space="preserve">
+    <value>患者姓名</value>
+  </data>
+  <data name="55_2_B_RemoveAll" xml:space="preserve">
+    <value>删除全部</value>
+  </data>
+  <data name="55_2_B_Remove" xml:space="preserve">
+    <value>删除上一个</value>
+  </data>
+  <data name="55_1_L_ReportName" xml:space="preserve">
+    <value>报告姓名</value>
+  </data>
+  <data name="55_1_L_SampleID" xml:space="preserve">
+    <value>样本编号</value>
+  </data>
+  <data name="55_1_L_SS" xml:space="preserve">
+    <value>已检测样本</value>
+  </data>
+  <data name="55_1_T_SaveAs" xml:space="preserve">
+    <value>保存为</value>
+  </data>
+  <data name="55_2_B_SaveField" xml:space="preserve">
+    <value>保存视野</value>
+  </data>
+  <data name="55_1_L_TestDate" xml:space="preserve">
+    <value>检测日期/时间</value>
+  </data>
+  <data name="55_1_L_SampleType" xml:space="preserve">
+    <value>检测类型</value>
+  </data>
+  <data name="55_1_L_CC" xml:space="preserve">
+    <value>计数精子总数</value>
+  </data>
+  <data name="56_1_P_DNATotal" xml:space="preserve">
+    <value>已计数精子数</value>
+  </data>
+  <data name="56_1_L_CC" xml:space="preserve">
+    <value>点击计数 (按键)</value>
+  </data>
+  <data name="56_1_L_Color" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="56_1_L_Comments" xml:space="preserve">
+    <value>评价</value>
+  </data>
+  <data name="56_1_L_Criteria" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="56_1_L_DCT" xml:space="preserve">
+    <value>DNA碎片计数类型</value>
+  </data>
+  <data name="56_1_L_CapFrameDNA" xml:space="preserve">
+    <value>DNA碎片</value>
+  </data>
+  <data name="56_1_P_DFI" xml:space="preserve">
+    <value>DNA碎片指标 DFI</value>
+  </data>
+  <data name="56_1_L_DNAHeader" xml:space="preserve">
+    <value>DNA碎片报告</value>
+  </data>
+  <data name="56_1_L_email" xml:space="preserve">
+    <value>电子邮箱</value>
+  </data>
+  <data name="56_1_L_Fax" xml:space="preserve">
+    <value>传真</value>
+  </data>
+  <data name="56_1_P_DNAFreg" xml:space="preserve">
+    <value>DNA碎片 (无晕轮)</value>
+  </data>
+  <data name="56_1_L_Image" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="56_1_L_CapFrame" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="56_1_L_MAC" xml:space="preserve">
+    <value>标记计数 (圈选)</value>
+  </data>
+  <data name="56_1_P_DNANonFreg" xml:space="preserve">
+    <value>无DNA碎片 (有晕轮)</value>
+  </data>
+  <data name="56_1_L_FooterData3" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="56_1_L_Parameter" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="56_1_L_Phone" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="56_1_L_FooterData1" xml:space="preserve">
+    <value>从SQA-VISION序列号打印</value>
+  </data>
+  <data name="56_1_L_Cutoff" xml:space="preserve">
+    <value>参考值</value>
+  </data>
+  <data name="56_1_L_RefRange" xml:space="preserve">
+    <value>参考值</value>
+  </data>
+  <data name="56_1_L_Continued" xml:space="preserve">
+    <value>报告继续</value>
+  </data>
+  <data name="56_1_L_Date" xml:space="preserve">
+    <value>报告日期/时间</value>
+  </data>
+  <data name="56_1_L_ReportInf" xml:space="preserve">
+    <value>报告信息</value>
+  </data>
+  <data name="56_1_L_ReportName" xml:space="preserve">
+    <value>报告姓名</value>
+  </data>
+  <data name="56_1_L_Result" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="56_1_L_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="56_1_L_Site" xml:space="preserve">
+    <value>网站</value>
+  </data>
+  <data name="57_1_L_MSPERM" xml:space="preserve">
+    <value>#活动精子数</value>
+  </data>
+  <data name="57_1_L_ND" xml:space="preserve">
+    <value>分装样本编号</value>
+  </data>
+  <data name="57_1_L_NQCV" xml:space="preserve">
+    <value>质控品编号</value>
+  </data>
+  <data name="57_1_L_PSPERM" xml:space="preserve">
+    <value>#前向运动精子数</value>
+  </data>
+  <data name="57_1_L_TSPERM" xml:space="preserve">
+    <value>#精子总数</value>
+  </data>
+  <data name="57_1_L_MediaRatio" xml:space="preserve">
+    <value>2 稀释比例</value>
+  </data>
+  <data name="57_1_L_HFM" xml:space="preserve">
+    <value>添加冷冻液 (ml)</value>
+  </data>
+  <data name="57_1_L_HWM" xml:space="preserve">
+    <value>添加冷冻液 (ml)</value>
+  </data>
+  <data name="57_2_B_Calculate" xml:space="preserve">
+    <value>计算</value>
+  </data>
+  <data name="57_1_L_DV" xml:space="preserve">
+    <value>分装体积 (ml)</value>
+  </data>
+  <data name="57_1_L_DoseMethod" xml:space="preserve">
+    <value>分装方法</value>
+  </data>
+  <data name="57_1_L_DV_MediaRatio" xml:space="preserve">
+    <value>介质比例</value>
+  </data>
+  <data name="57_1_L_MLF" xml:space="preserve">
+    <value>活力损耗因子 (%)</value>
+  </data>
+  <data name="57_1_L_PMLF" xml:space="preserve">
+    <value>前向活力丢失因子 (%)</value>
+  </data>
+  <data name="57_1_L_QCSV" xml:space="preserve">
+    <value>质控标本体积 (ml)</value>
+  </data>
+  <data name="57_2_B_DoseReport" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="57_1_L_TEST_PF" xml:space="preserve">
+    <value>样本评估</value>
+  </data>
+  <data name="57_2_B_DoseSave" xml:space="preserve">
+    <value>保存/关闭</value>
+  </data>
+  <data name="57_1_L_DST_Header" xml:space="preserve">
+    <value>精子数目剂量设置</value>
+  </data>
+  <data name="57_1_L_TN" xml:space="preserve">
+    <value>每个分装目标精子数量 (M)</value>
+  </data>
+  <data name="57_1_L_TV" xml:space="preserve">
+    <value>总体积 (毫升)</value>
+  </data>
+  <data name="57_1_L_DSV_Header" xml:space="preserve">
+    <value>分装体积设置</value>
+  </data>
+  <data name="58_2_P_ConcScreen" xml:space="preserve">
+    <value>采集视野</value>
+  </data>
+  <data name="58_1_L_Comments" xml:space="preserve">
+    <value>评价</value>
+  </data>
+  <data name="58_2_P_QCConc" xml:space="preserve">
+    <value>浓度</value>
+  </data>
+  <data name="58_1_T_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="58_1_L_TS" xml:space="preserve">
+    <value>计数视野数</value>
+  </data>
+  <data name="58_1_T_Item" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="58_1_T_ManageAll" xml:space="preserve">
+    <value>管理全部已采集图片</value>
+  </data>
+  <data name="58_1_H_SelectImage" xml:space="preserve">
+    <value>管理图片</value>
+  </data>
+  <data name="58_1_T_of" xml:space="preserve">
+    <value>的</value>
+  </data>
+  <data name="58_1_H_QCHeader" xml:space="preserve">
+    <value>QC标记计数</value>
+  </data>
+  <data name="58_2_B_RemoveAll" xml:space="preserve">
+    <value>删除全部</value>
+  </data>
+  <data name="58_2_B_Remove" xml:space="preserve">
+    <value>删除上一个</value>
+  </data>
+  <data name="58_1_L_ReportName" xml:space="preserve">
+    <value>报告姓名</value>
+  </data>
+  <data name="58_1_T_SaveAs" xml:space="preserve">
+    <value>保存为</value>
+  </data>
+  <data name="58_2_B_SaveField" xml:space="preserve">
+    <value>保存视野</value>
+  </data>
+  <data name="58_1_L_CC" xml:space="preserve">
+    <value>计数精子总数</value>
+  </data>
+  <data name="59_1_H_PMLF" xml:space="preserve">
+    <value>按时间进行平均</value>
+  </data>
+  <data name="59_2_B_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="59_1_L_Enter" xml:space="preserve">
+    <value>输入上一个</value>
+  </data>
+  <data name="59_1_H_MLFSet" xml:space="preserve">
+    <value>MLF设置</value>
+  </data>
+  <data name="59_1_H_PMLFSet" xml:space="preserve">
+    <value>PMLF设置</value>
+  </data>
+  <data name="59_1_H_FresCorr" xml:space="preserve">
+    <value>样本处理丢失因子</value>
+  </data>
+  <data name="59_2_B_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="60_4_P_DateColl" xml:space="preserve">
+    <value>采集日期/时间</value>
+  </data>
+  <data name="60_2_B_Continue" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="60_1_H_DTHeader" xml:space="preserve">
+    <value>日常检测</value>
+  </data>
+  <data name="60_4_P_MainTestID" xml:space="preserve">
+    <value>供精标本编号</value>
+  </data>
+  <data name="60_4_P_DonorID" xml:space="preserve">
+    <value>供精者ID</value>
+  </data>
+  <data name="60_1_H_INT" xml:space="preserve">
+    <value>开始新测试</value>
+  </data>
+  <data name="60_2_B_Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="60_4_P_SampleType" xml:space="preserve">
+    <value>样本类型</value>
+  </data>
+  <data name="60_4_P_TestID" xml:space="preserve">
+    <value>测试ID</value>
+  </data>
+  <data name="60_1_H_TIP" xml:space="preserve">
+    <value>检测正在进行</value>
+  </data>
+  <data name="61_1_L_FooterData2" xml:space="preserve">
+    <value>在</value>
+  </data>
+  <data name="61_1_L_CapFrameCAP" xml:space="preserve">
+    <value>已采集图片</value>
+  </data>
+  <data name="61_1_L_CC" xml:space="preserve">
+    <value>点击计数 (按键)</value>
+  </data>
+  <data name="61_1_L_Color" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="61_1_L_Comments" xml:space="preserve">
+    <value>评价</value>
+  </data>
+  <data name="61_1_P_QCConc" xml:space="preserve">
+    <value>浓度</value>
+  </data>
+  <data name="61_1_L_ContInf" xml:space="preserve">
+    <value>联络信息</value>
+  </data>
+  <data name="61_1_L_Criteria" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="61_1_L_email" xml:space="preserve">
+    <value>电子邮箱</value>
+  </data>
+  <data name="61_1_L_FacAdd" xml:space="preserve">
+    <value>单位名称</value>
+  </data>
+  <data name="61_1_L_Fail" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="61_1_L_Fax" xml:space="preserve">
+    <value>传真</value>
+  </data>
+  <data name="61_1_L_Image" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="61_1_L_CapFrame" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="61_1_L_MAC" xml:space="preserve">
+    <value>标记计数 (圈选)</value>
+  </data>
+  <data name="61_1_L_FooterData3" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="61_1_L_Parameter" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="61_1_L_Pass" xml:space="preserve">
+    <value>通过</value>
+  </data>
+  <data name="61_1_L_Phone" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="61_1_L_FooterData1" xml:space="preserve">
+    <value>打印自SQA-Vision序列号#</value>
+  </data>
+  <data name="61_1_L_QCCT" xml:space="preserve">
+    <value>质控标记计数类型</value>
+  </data>
+  <data name="61_1_L_QCHeader" xml:space="preserve">
+    <value>质控标记计数报告</value>
+  </data>
+  <data name="61_1_L_Cutoff" xml:space="preserve">
+    <value>参考值</value>
+  </data>
+  <data name="61_1_L_RefRange" xml:space="preserve">
+    <value>参考值</value>
+  </data>
+  <data name="61_1_L_Continued" xml:space="preserve">
+    <value>报告接上页</value>
+  </data>
+  <data name="61_1_L_Date" xml:space="preserve">
+    <value>报告日期/时间</value>
+  </data>
+  <data name="61_1_L_ReportInf" xml:space="preserve">
+    <value>报告信息</value>
+  </data>
+  <data name="61_1_L_ReportName" xml:space="preserve">
+    <value>报告姓名</value>
+  </data>
+  <data name="61_1_L_Result" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="61_1_L_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="61_1_L_Site" xml:space="preserve">
+    <value>网站</value>
+  </data>
+  <data name="62_1_P_ND" xml:space="preserve">
+    <value>分装样本编号</value>
+  </data>
+  <data name="62_1_P_NQCV" xml:space="preserve">
+    <value>质控品编号</value>
+  </data>
+  <data name="62_1_P_UseTwoMedia" xml:space="preserve">
+    <value>2 稀释比例</value>
+  </data>
+  <data name="62_1_P_FM" xml:space="preserve">
+    <value>添加冷冻液 (ml)</value>
+  </data>
+  <data name="62_1_P_WM" xml:space="preserve">
+    <value>添加冷冻液 (ml)</value>
+  </data>
+  <data name="62_1_P_DV" xml:space="preserve">
+    <value>分装体积 (ml)</value>
+  </data>
+  <data name="62_1_L_DoseInst" xml:space="preserve">
+    <value>分装说明</value>
+  </data>
+  <data name="62_1_P_DoseMethod" xml:space="preserve">
+    <value>分装方法</value>
+  </data>
+  <data name="62_1_L_Header" xml:space="preserve">
+    <value>分装报告</value>
+  </data>
+  <data name="62_1_P_MediaRatio" xml:space="preserve">
+    <value>介质比例</value>
+  </data>
+  <data name="62_1_L_MLF" xml:space="preserve">
+    <value>活力损耗因子 (%)</value>
+  </data>
+  <data name="62_1_L_PMLF" xml:space="preserve">
+    <value>前向活力丢失因子  (%)</value>
+  </data>
+  <data name="62_1_P_FreCorr" xml:space="preserve">
+    <value>样本处理丢失因子</value>
+  </data>
+  <data name="62_1_P_QCSV" xml:space="preserve">
+    <value>质控标本体积 (ml)</value>
+  </data>
+  <data name="62_1_L_Referance" xml:space="preserve">
+    <value>参考值</value>
+  </data>
+  <data name="62_1_L_Result" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="62_1_L_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="62_1_P_TN" xml:space="preserve">
+    <value>每个分装目标精子数量 (M)</value>
+  </data>
+  <data name="62_1_P_TV" xml:space="preserve">
+    <value>总体积 (毫升)</value>
+  </data>
+  <data name="63_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>检查VISION接线</value>
+  </data>
+  <data name="63_1_H_NoVideoCheck" xml:space="preserve">
+    <value>点击刷新按钮</value>
+  </data>
+  <data name="63_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>如果问题仍然存在</value>
+  </data>
+  <data name="63_1_H_VideoError" xml:space="preserve">
+    <value>视频出错</value>
+  </data>
+  <data name="64_1_H_NoVideoCheck2" xml:space="preserve">
+    <value>检查VISION接线</value>
+  </data>
+  <data name="64_1_H_NoVideoCheck" xml:space="preserve">
+    <value>点击刷新按钮</value>
+  </data>
+  <data name="64_1_H_NoVideoCheck3" xml:space="preserve">
+    <value>如果问题仍然存在</value>
+  </data>
+  <data name="64_1_H_VideoError" xml:space="preserve">
+    <value>视频出错</value>
+  </data>
+  <data name="100_0_LanguageFileVersion" xml:space="preserve">
+    <value>189.11.0.1</value>
+  </data>
+</root>
