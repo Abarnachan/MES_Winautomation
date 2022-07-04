@@ -24,6 +24,7 @@ public static void test() throws InterruptedException, IOException {  //main(Str
 	option.setApplicationPath(path);
 
 	// Start the WinAppDriver Programmatically
+	   
 	
 	String command = new File("WiniumDriver\\Winium.Desktop.Driver.exe").getAbsolutePath(); 
     ProcessBuilder builder = new ProcessBuilder(command).inheritIO();
@@ -34,8 +35,7 @@ vision = new WiniumDriver(new URL("http://localhost:9999"), option);
 System.out.print("*******Local host is run and software is opened*******");
 Thread.sleep(4000); 
 
-
-//Vision Elements
+//Find vision elements
 var userName = vision.findElement(By.id("txtUser"));
 userName.sendKeys("administrator");
 
