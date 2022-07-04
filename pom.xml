@@ -3,7 +3,23 @@
   <groupId>WiniumDemo</groupId>
   <artifactId>WiniumDemo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+    <properties>
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <suiteXmlFile>testng.xml</suiteXmlFile>
+      <slf4j-api.version>1.7.30</slf4j-api.version>
+  </properties>
+  <build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
+        </plugin>
+    </plugins>
+  </build>
 
   <dependencies>
    <dependency>
@@ -11,7 +27,7 @@
     <artifactId>winium-webdriver</artifactId>
     <version>0.1.0-1</version>
 </dependency>
-
+ <!-- https://mvnrepository.com/artifact/com.github.2gis.winium/winium-webdriver -->
   <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>

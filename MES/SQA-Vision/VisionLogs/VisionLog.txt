@@ -25167,3 +25167,574 @@ INFO  04/07/2022 09:14:28 DeviceConnection CloseConnection - CloseConnection
 INFO  04/07/2022 09:14:28 DeviceConnection CloseConnection - CloseConnection
 INFO  04/07/2022 09:14:28 DatabaseSQAManagment CloseSQLDatabase - CloseSQLDatabase
 INFO  04/07/2022 09:14:28 mainMDI    mainMDI_FormClosed - Close Vision ================================================================================================================
+INFO  04/07/2022 09:42:58 DatabaseSQAManagment .ctor      - nitialize
+INFO  04/07/2022 09:42:58 ppLogOn    .ctor      - Open Vision ================================================================================================================
+INFO  04/07/2022 09:42:58 ppLogOn    .ctor      - Start Initialize
+INFO  04/07/2022 09:42:58 ppLogOn    LoadLocalText - LoadLocalText
+INFO  04/07/2022 09:42:58 ppLogOn    .ctor      - End Initialize
+INFO  04/07/2022 09:42:58 ppLogOn    ppLogOn_Load - ppLogOn_Load
+INFO  04/07/2022 09:42:58 DatabaseSQAManagment OpenSQLDatabase - OpenSQLDatabase
+INFO  04/07/2022 09:42:58 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:42:58 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:05 ppLogOn    bOK_Click  - bOK_Click
+INFO  04/07/2022 09:43:05 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:05 ppLogOn    ppLogOn_FormClosing - ppLogOn_FormClosing
+INFO  04/07/2022 09:43:05 DatabaseSQAManagment .ctor      - nitialize
+INFO  04/07/2022 09:43:05 mainMDI    .ctor      - Start Initialize
+INFO  04/07/2022 09:43:05 DeviceConnection .ctor      - Start Initialize
+INFO  04/07/2022 09:43:05 DeviceConnection .ctor      - End Initialize
+INFO  04/07/2022 09:43:05 mainMDI    LoadScreenData - LoadScreenData
+INFO  04/07/2022 09:43:05 NavManagement .ctor      - Initialize
+INFO  04/07/2022 09:43:05 LanguageManagement .ctor      - Initialize
+INFO  04/07/2022 09:43:05 NavManagement BuildNavigationCollection - BuildNavigationCollection
+INFO  04/07/2022 09:43:05 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:05 ParameterManagement .ctor      - ParameterManagement
+INFO  04/07/2022 09:43:05 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:05 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:05 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:05 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:05 mainMDI    LoadTimer  - LoadTimer
+INFO  04/07/2022 09:43:05 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:05 NavManagement LoadFirstMenu - LoadFirstMenu
+INFO  04/07/2022 09:43:05 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:05 NavManagement SetEnableLeftButtonAll - SetEnableLeftButtonAll
+INFO  04/07/2022 09:43:05 LanguageManagement SetControl - SetControl 6 L_Time
+INFO  04/07/2022 09:43:05 LanguageManagement SetControl - SetControl 4 picLogo
+INFO  04/07/2022 09:43:05 LanguageManagement SetControl - SetControl 4 picSwitch
+INFO  04/07/2022 09:43:05 LanguageManagement SetControl - SetControl 4 picHeadName
+INFO  04/07/2022 09:43:05 LanguageManagement SetControl - SetControl 4 picExit
+INFO  04/07/2022 09:43:05 LanguageManagement SetControl - SetControl 4 picQM
+INFO  04/07/2022 09:43:05 LanguageManagement SetControl - SetControl 4 picHome
+INFO  04/07/2022 09:43:05 LanguageManagement SetControl - SetControl 4 picMin
+INFO  04/07/2022 09:43:05 LanguageManagement SetControl - SetControl 4 picPrev
+INFO  04/07/2022 09:43:05 LanguageManagement SetControl - SetControl 4 picTimer
+INFO  04/07/2022 09:43:05 mainMDI    .ctor      - End Initialize
+INFO  04/07/2022 09:43:05 mainMDI    mainMDI_SizeChanged - mainMDI_SizeChanged
+INFO  04/07/2022 09:43:05 mainMDI    mainMDI_SizeChanged - mainMDI_SizeChanged
+INFO  04/07/2022 09:43:05 mainMDI    mainMDI_SizeChanged - mainMDI_SizeChanged
+INFO  04/07/2022 09:43:05 mainMDI    mainMDI_Load - mainMDI_Load
+INFO  04/07/2022 09:43:06 mainMDI    mainMDI_Shown - mainMDI_Shown
+INFO  04/07/2022 09:43:06 mainMDI    ReloadDevice - ReloadDevice
+INFO  04/07/2022 09:43:06 BusyForm   .ctor      - BusyForm 4
+INFO  04/07/2022 09:43:06 BusyForm   BusyForm_Shown - BusyForm_Shown 8
+INFO  04/07/2022 09:43:06 mainMDI    Connect    - Connect
+INFO  04/07/2022 09:43:06 CommandProcessor ScanforValidPorts - Port=COM6
+INFO  04/07/2022 09:43:06 CommandProcessor ScanforValidPorts - Add Com port to ports : COM6
+INFO  04/07/2022 09:43:06 CommandProcessor ScanforValidPorts - Port=COM5
+INFO  04/07/2022 09:43:06 CommandProcessor ScanforValidPorts - Add Com port to ports : COM5
+INFO  04/07/2022 09:43:06 CommandProcessor ScanforValidPorts - Port=COM2
+INFO  04/07/2022 09:43:06 CommandProcessor ScanforValidPorts - Add Com port to ports : COM2
+INFO  04/07/2022 09:43:06 CommandProcessor ScanforValidPorts - Port=COM3
+INFO  04/07/2022 09:43:06 CommandProcessor ScanforValidPorts - Add Com port to ports : COM3
+INFO  04/07/2022 09:43:06 CommandProcessor OnTimer    - Port=6
+INFO  04/07/2022 09:43:06 CommandProcessor OnTimer    - Port (6) is scanned, PortStatus = 1
+INFO  04/07/2022 09:43:06 CommandProcessor OnTimer    - Port (6) is Valid ?
+INFO  04/07/2022 09:43:06 DeviceConnection SendChar   - S<FF>
+INFO  04/07/2022 09:43:06 CommandProcessor Delaymils  - WaitTime=1.0004
+INFO  04/07/2022 09:43:06 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:06 CommandProcessor Delaymils  - WaitTime=1.0053
+INFO  04/07/2022 09:43:06 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:06 CommandProcessor Delaymils  - WaitTime=1.0033
+INFO  04/07/2022 09:43:06 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:06 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  04/07/2022 09:43:06 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:06 CommandProcessor Delaymils  - WaitTime=1.0033
+INFO  04/07/2022 09:43:06 CommandProcessor SendCommad - 255 000[0]
+INFO  04/07/2022 09:43:06 CommandProcessor WaitForReply - Wait for Reply
+INFO  04/07/2022 09:43:06 CommandProcessor WaitUntilTimeOut - WaitTime=200.0024
+INFO  04/07/2022 09:43:06 CommandProcessor ClearBuffer -  ===== Clear The Buffer =====
+INFO  04/07/2022 09:43:06 CommandProcessor WaitForReply - Resend=0 Command=255
+ERROR 04/07/2022 09:43:06 DeviceConnection CommandPError - RESEND_COMMAND
+INFO  04/07/2022 09:43:06 CommandProcessor ErrorNotification - CommandPError : RESEND_COMMAND
+INFO  04/07/2022 09:43:06 CommandProcessor ReSendLastCommand - Resend Command
+INFO  04/07/2022 09:43:06 DeviceConnection SendChar   - S<FF>
+INFO  04/07/2022 09:43:06 CommandProcessor Delaymils  - WaitTime=1.0027
+INFO  04/07/2022 09:43:06 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:06 CommandProcessor Delaymils  - WaitTime=1.0029
+INFO  04/07/2022 09:43:06 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:06 CommandProcessor Delaymils  - WaitTime=1.0043
+INFO  04/07/2022 09:43:06 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:06 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  04/07/2022 09:43:06 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:06 CommandProcessor Delaymils  - WaitTime=1.003
+INFO  04/07/2022 09:43:06 CommandProcessor ReSendLastCommand - MESCommandProcessor.clsCommand 000[0]
+INFO  04/07/2022 09:43:06 CommandProcessor WaitForReply - Wait for Reply
+INFO  04/07/2022 09:43:06 CommandProcessor WaitUntilTimeOut - WaitTime=200.0037
+INFO  04/07/2022 09:43:06 CommandProcessor ClearBuffer -  ===== Clear The Buffer =====
+INFO  04/07/2022 09:43:06 CommandProcessor WaitForReply - Resend=1 Command=255
+ERROR 04/07/2022 09:43:06 DeviceConnection CommandPError - RESEND_COMMAND
+INFO  04/07/2022 09:43:06 CommandProcessor ErrorNotification - CommandPError : RESEND_COMMAND
+INFO  04/07/2022 09:43:06 CommandProcessor ReSendLastCommand - Resend Command
+INFO  04/07/2022 09:43:06 DeviceConnection SendChar   - S<FF>
+INFO  04/07/2022 09:43:06 CommandProcessor Delaymils  - WaitTime=1.0039
+INFO  04/07/2022 09:43:06 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:06 CommandProcessor Delaymils  - WaitTime=1.0014
+INFO  04/07/2022 09:43:06 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:06 CommandProcessor Delaymils  - WaitTime=1.0029
+INFO  04/07/2022 09:43:06 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:06 CommandProcessor Delaymils  - WaitTime=1.0006
+INFO  04/07/2022 09:43:06 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:06 CommandProcessor Delaymils  - WaitTime=1.0025
+INFO  04/07/2022 09:43:06 CommandProcessor ReSendLastCommand - MESCommandProcessor.clsCommand 000[0]
+INFO  04/07/2022 09:43:06 CommandProcessor WaitForReply - Wait for Reply
+INFO  04/07/2022 09:43:06 CommandProcessor WaitUntilTimeOut - WaitTime=200.0016
+INFO  04/07/2022 09:43:06 CommandProcessor ClearBuffer -  ===== Clear The Buffer =====
+INFO  04/07/2022 09:43:06 CommandProcessor WaitForReply - Resend=2 Command=255
+ERROR 04/07/2022 09:43:06 DeviceConnection CommandPError - RESEND_COMMAND
+INFO  04/07/2022 09:43:06 CommandProcessor ErrorNotification - CommandPError : RESEND_COMMAND
+INFO  04/07/2022 09:43:06 CommandProcessor ReSendLastCommand - Resend Command
+INFO  04/07/2022 09:43:06 DeviceConnection SendChar   - S<FF>
+INFO  04/07/2022 09:43:06 CommandProcessor Delaymils  - WaitTime=1.0029
+INFO  04/07/2022 09:43:06 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:06 CommandProcessor Delaymils  - WaitTime=1.0041
+INFO  04/07/2022 09:43:06 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:06 CommandProcessor Delaymils  - WaitTime=1.0024
+INFO  04/07/2022 09:43:06 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:06 CommandProcessor Delaymils  - WaitTime=1.004
+INFO  04/07/2022 09:43:06 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:06 CommandProcessor Delaymils  - WaitTime=1
+INFO  04/07/2022 09:43:06 CommandProcessor ReSendLastCommand - MESCommandProcessor.clsCommand 000[0]
+ERROR 04/07/2022 09:43:06 DeviceConnection CommandPError - COMMUNICATION_ERROR
+INFO  04/07/2022 09:43:06 CommandProcessor ErrorNotification - CommandPError : TIME_OUT_ERROR
+INFO  04/07/2022 09:43:06 CommandProcessor ClearBuffer -  ===== Clear The Buffer =====
+INFO  04/07/2022 09:43:06 CommandProcessor WaitForReply - Timeout= Command=255
+INFO  04/07/2022 09:43:06 CommandProcessor OnTimer    - Port (6) is not Valid!
+INFO  04/07/2022 09:43:06 CommandProcessor OnTimer    - Port=5
+INFO  04/07/2022 09:43:06 CommandProcessor OnTimer    - Port (5) is scanned, PortStatus = -1
+INFO  04/07/2022 09:43:07 CommandProcessor OnTimer    - Port=2
+INFO  04/07/2022 09:43:07 CommandProcessor OnTimer    - Port (2) is scanned, PortStatus = 1
+INFO  04/07/2022 09:43:07 CommandProcessor OnTimer    - Port (2) is Valid ?
+INFO  04/07/2022 09:43:07 DeviceConnection SendChar   - S<FF>
+INFO  04/07/2022 09:43:07 CommandProcessor Delaymils  - WaitTime=1.0177
+INFO  04/07/2022 09:43:07 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:07 CommandProcessor Delaymils  - WaitTime=1.0059
+INFO  04/07/2022 09:43:07 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:07 CommandProcessor Delaymils  - WaitTime=1.0036
+INFO  04/07/2022 09:43:07 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:07 CommandProcessor Delaymils  - WaitTime=1.0006
+INFO  04/07/2022 09:43:07 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:07 CommandProcessor Delaymils  - WaitTime=1.0023
+INFO  04/07/2022 09:43:07 CommandProcessor SendCommad - 255 000[0]
+INFO  04/07/2022 09:43:07 CommandProcessor WaitForReply - Wait for Reply
+INFO  04/07/2022 09:43:07 CommandProcessor WaitUntilTimeOut - WaitTime=200.0041
+INFO  04/07/2022 09:43:07 CommandProcessor ClearBuffer -  ===== Clear The Buffer =====
+INFO  04/07/2022 09:43:07 CommandProcessor WaitForReply - Resend=0 Command=255
+ERROR 04/07/2022 09:43:07 DeviceConnection CommandPError - RESEND_COMMAND
+INFO  04/07/2022 09:43:07 CommandProcessor ErrorNotification - CommandPError : RESEND_COMMAND
+INFO  04/07/2022 09:43:07 CommandProcessor ReSendLastCommand - Resend Command
+INFO  04/07/2022 09:43:07 DeviceConnection SendChar   - S<FF>
+INFO  04/07/2022 09:43:07 CommandProcessor Delaymils  - WaitTime=1.0043
+INFO  04/07/2022 09:43:07 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:07 CommandProcessor Delaymils  - WaitTime=1.0022
+INFO  04/07/2022 09:43:07 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:07 CommandProcessor Delaymils  - WaitTime=1.0009
+INFO  04/07/2022 09:43:07 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:07 CommandProcessor Delaymils  - WaitTime=1
+INFO  04/07/2022 09:43:07 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:07 CommandProcessor Delaymils  - WaitTime=1.0011
+INFO  04/07/2022 09:43:07 CommandProcessor ReSendLastCommand - MESCommandProcessor.clsCommand 000[0]
+INFO  04/07/2022 09:43:07 CommandProcessor WaitForReply - Wait for Reply
+INFO  04/07/2022 09:43:07 CommandProcessor WaitUntilTimeOut - WaitTime=200.0024
+INFO  04/07/2022 09:43:07 CommandProcessor ClearBuffer -  ===== Clear The Buffer =====
+INFO  04/07/2022 09:43:07 CommandProcessor WaitForReply - Resend=1 Command=255
+ERROR 04/07/2022 09:43:07 DeviceConnection CommandPError - RESEND_COMMAND
+INFO  04/07/2022 09:43:07 CommandProcessor ErrorNotification - CommandPError : RESEND_COMMAND
+INFO  04/07/2022 09:43:07 CommandProcessor ReSendLastCommand - Resend Command
+INFO  04/07/2022 09:43:07 DeviceConnection SendChar   - S<FF>
+INFO  04/07/2022 09:43:07 CommandProcessor Delaymils  - WaitTime=1.0011
+INFO  04/07/2022 09:43:07 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:07 CommandProcessor Delaymils  - WaitTime=1
+INFO  04/07/2022 09:43:07 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:07 CommandProcessor Delaymils  - WaitTime=1.002
+INFO  04/07/2022 09:43:07 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:07 CommandProcessor Delaymils  - WaitTime=1.0039
+INFO  04/07/2022 09:43:07 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:07 CommandProcessor Delaymils  - WaitTime=1.0012
+INFO  04/07/2022 09:43:07 CommandProcessor ReSendLastCommand - MESCommandProcessor.clsCommand 000[0]
+INFO  04/07/2022 09:43:07 CommandProcessor WaitForReply - Wait for Reply
+INFO  04/07/2022 09:43:07 CommandProcessor WaitUntilTimeOut - WaitTime=200.004
+INFO  04/07/2022 09:43:07 CommandProcessor ClearBuffer -  ===== Clear The Buffer =====
+INFO  04/07/2022 09:43:07 CommandProcessor WaitForReply - Resend=2 Command=255
+ERROR 04/07/2022 09:43:07 DeviceConnection CommandPError - RESEND_COMMAND
+INFO  04/07/2022 09:43:07 CommandProcessor ErrorNotification - CommandPError : RESEND_COMMAND
+INFO  04/07/2022 09:43:07 CommandProcessor ReSendLastCommand - Resend Command
+INFO  04/07/2022 09:43:07 DeviceConnection SendChar   - S<FF>
+INFO  04/07/2022 09:43:07 CommandProcessor Delaymils  - WaitTime=1.0046
+INFO  04/07/2022 09:43:07 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:07 CommandProcessor Delaymils  - WaitTime=1.0024
+INFO  04/07/2022 09:43:07 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:07 CommandProcessor Delaymils  - WaitTime=1.0001
+INFO  04/07/2022 09:43:07 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:07 CommandProcessor Delaymils  - WaitTime=1.0028
+INFO  04/07/2022 09:43:07 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:07 CommandProcessor Delaymils  - WaitTime=1.0024
+INFO  04/07/2022 09:43:07 CommandProcessor ReSendLastCommand - MESCommandProcessor.clsCommand 000[0]
+ERROR 04/07/2022 09:43:07 DeviceConnection CommandPError - COMMUNICATION_ERROR
+INFO  04/07/2022 09:43:07 CommandProcessor ErrorNotification - CommandPError : TIME_OUT_ERROR
+INFO  04/07/2022 09:43:07 CommandProcessor ClearBuffer -  ===== Clear The Buffer =====
+INFO  04/07/2022 09:43:07 CommandProcessor WaitForReply - Timeout= Command=255
+INFO  04/07/2022 09:43:07 CommandProcessor OnTimer    - Port (2) is not Valid!
+INFO  04/07/2022 09:43:07 CommandProcessor OnTimer    - Port=3
+INFO  04/07/2022 09:43:07 CommandProcessor OnTimer    - Port (3) is scanned, PortStatus = 1
+INFO  04/07/2022 09:43:08 CommandProcessor OnTimer    - Port (3) is Valid ?
+INFO  04/07/2022 09:43:08 DeviceConnection SendChar   - S<FF>
+INFO  04/07/2022 09:43:08 CommandProcessor Delaymils  - WaitTime=1.6943
+INFO  04/07/2022 09:43:08 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:08 CommandProcessor Delaymils  - WaitTime=1.0122
+INFO  04/07/2022 09:43:08 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:08 CommandProcessor Delaymils  - WaitTime=1.0149
+INFO  04/07/2022 09:43:08 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:08 CommandProcessor Delaymils  - WaitTime=1.0055
+INFO  04/07/2022 09:43:08 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:08 CommandProcessor Delaymils  - WaitTime=1.0178
+INFO  04/07/2022 09:43:08 CommandProcessor SendCommad - 255 000[0]
+INFO  04/07/2022 09:43:08 CommandProcessor WaitForReply - Wait for Reply
+INFO  04/07/2022 09:43:08 CommandProcessor WaitUntilTimeOut - WaitTime=200.0005
+INFO  04/07/2022 09:43:08 CommandProcessor ClearBuffer -  ===== Clear The Buffer =====
+INFO  04/07/2022 09:43:08 CommandProcessor WaitForReply - Resend=0 Command=255
+ERROR 04/07/2022 09:43:08 DeviceConnection CommandPError - RESEND_COMMAND
+INFO  04/07/2022 09:43:08 CommandProcessor ErrorNotification - CommandPError : RESEND_COMMAND
+INFO  04/07/2022 09:43:08 CommandProcessor ReSendLastCommand - Resend Command
+INFO  04/07/2022 09:43:08 DeviceConnection SendChar   - S<FF>
+INFO  04/07/2022 09:43:08 CommandProcessor Delaymils  - WaitTime=1.0002
+INFO  04/07/2022 09:43:08 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:08 CommandProcessor Delaymils  - WaitTime=1.0018
+INFO  04/07/2022 09:43:08 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:08 CommandProcessor Delaymils  - WaitTime=1.0031
+INFO  04/07/2022 09:43:08 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:08 CommandProcessor Delaymils  - WaitTime=1.001
+INFO  04/07/2022 09:43:08 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:08 CommandProcessor Delaymils  - WaitTime=1.0045
+INFO  04/07/2022 09:43:08 CommandProcessor ReSendLastCommand - MESCommandProcessor.clsCommand 000[0]
+INFO  04/07/2022 09:43:08 CommandProcessor WaitForReply - Wait for Reply
+INFO  04/07/2022 09:43:08 CommandProcessor WaitUntilTimeOut - WaitTime=200.0029
+INFO  04/07/2022 09:43:08 CommandProcessor ClearBuffer -  ===== Clear The Buffer =====
+INFO  04/07/2022 09:43:08 CommandProcessor WaitForReply - Resend=1 Command=255
+ERROR 04/07/2022 09:43:08 DeviceConnection CommandPError - RESEND_COMMAND
+INFO  04/07/2022 09:43:08 CommandProcessor ErrorNotification - CommandPError : RESEND_COMMAND
+INFO  04/07/2022 09:43:08 CommandProcessor ReSendLastCommand - Resend Command
+INFO  04/07/2022 09:43:08 DeviceConnection SendChar   - S<FF>
+INFO  04/07/2022 09:43:08 CommandProcessor Delaymils  - WaitTime=1.004
+INFO  04/07/2022 09:43:08 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:08 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  04/07/2022 09:43:08 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:08 CommandProcessor Delaymils  - WaitTime=1.0004
+INFO  04/07/2022 09:43:08 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:08 CommandProcessor Delaymils  - WaitTime=1.0011
+INFO  04/07/2022 09:43:08 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:08 CommandProcessor Delaymils  - WaitTime=1.0035
+INFO  04/07/2022 09:43:08 CommandProcessor ReSendLastCommand - MESCommandProcessor.clsCommand 000[0]
+INFO  04/07/2022 09:43:08 CommandProcessor WaitForReply - Wait for Reply
+INFO  04/07/2022 09:43:08 CommandProcessor WaitUntilTimeOut - WaitTime=200.0065
+INFO  04/07/2022 09:43:08 CommandProcessor ClearBuffer -  ===== Clear The Buffer =====
+INFO  04/07/2022 09:43:08 CommandProcessor WaitForReply - Resend=2 Command=255
+ERROR 04/07/2022 09:43:08 DeviceConnection CommandPError - RESEND_COMMAND
+INFO  04/07/2022 09:43:08 CommandProcessor ErrorNotification - CommandPError : RESEND_COMMAND
+INFO  04/07/2022 09:43:08 CommandProcessor ReSendLastCommand - Resend Command
+INFO  04/07/2022 09:43:08 DeviceConnection SendChar   - S<FF>
+INFO  04/07/2022 09:43:08 CommandProcessor Delaymils  - WaitTime=1.0026
+INFO  04/07/2022 09:43:08 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:08 CommandProcessor Delaymils  - WaitTime=1.003
+INFO  04/07/2022 09:43:08 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:08 CommandProcessor Delaymils  - WaitTime=1.0028
+INFO  04/07/2022 09:43:08 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:08 CommandProcessor Delaymils  - WaitTime=1.0018
+INFO  04/07/2022 09:43:08 DeviceConnection SendChar   - S<0>
+INFO  04/07/2022 09:43:08 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  04/07/2022 09:43:08 CommandProcessor ReSendLastCommand - MESCommandProcessor.clsCommand 000[0]
+ERROR 04/07/2022 09:43:08 DeviceConnection CommandPError - COMMUNICATION_ERROR
+INFO  04/07/2022 09:43:08 CommandProcessor ErrorNotification - CommandPError : TIME_OUT_ERROR
+INFO  04/07/2022 09:43:08 CommandProcessor ClearBuffer -  ===== Clear The Buffer =====
+INFO  04/07/2022 09:43:08 CommandProcessor WaitForReply - Timeout= Command=255
+INFO  04/07/2022 09:43:08 CommandProcessor OnTimer    - Port (3) is not Valid!
+INFO  04/07/2022 09:43:08 mainMDI    _PortScanIsCompletedEvent>b__b - FD_PortScanIsCompletedEvent
+INFO  04/07/2022 09:43:08 NavManagement Menu_Click - Menu_Click 0
+INFO  04/07/2022 09:43:08 NavManagement CloseForm  - CloseForm
+INFO  04/07/2022 09:43:08 BusyForm   .ctor      - BusyForm 2
+INFO  04/07/2022 09:43:08 BusyForm   BusyForm_Shown - BusyForm_Shown 3
+INFO  04/07/2022 09:43:08 NavManagement LoadingForm - LoadingForm 0
+INFO  04/07/2022 09:43:08 NavManagement LoadFormHeader - LoadFormHeader 0
+INFO  04/07/2022 09:43:08 NavManagement LoadForm   - LoadForm 0
+INFO  04/07/2022 09:43:08 frmHome    .ctor      - Start Initialize
+INFO  04/07/2022 09:43:08 LanguageManagement SetControl - SetControl 4 I_RemainTests
+INFO  04/07/2022 09:43:08 LanguageManagement SetControl - SetControl 4 I_LastBackup
+INFO  04/07/2022 09:43:08 LanguageManagement SetControl - SetControl 4 I_UseSpace
+INFO  04/07/2022 09:43:08 LanguageManagement SetControl - SetControl 4 I_NextBackup
+INFO  04/07/2022 09:43:08 LanguageManagement SetControl - SetControl 4 I_LEVEL3
+INFO  04/07/2022 09:43:08 LanguageManagement SetControl - SetControl 4 I_LEVEL2
+INFO  04/07/2022 09:43:08 LanguageManagement SetControl - SetControl 4 I_LEVEL1
+INFO  04/07/2022 09:43:08 LanguageManagement SetControl - SetControl 4 I_AMP
+INFO  04/07/2022 09:43:08 LanguageManagement SetControl - SetControl 4 I_STStatus
+INFO  04/07/2022 09:43:08 LanguageManagement SetControl - SetControl 4 I_ZL
+INFO  04/07/2022 09:43:08 LanguageManagement SetControl - SetControl 4 I_LC2
+INFO  04/07/2022 09:43:08 LanguageManagement SetControl - SetControl 4 I_REF2
+INFO  04/07/2022 09:43:08 LanguageManagement SetControl - SetControl 4 I_LC1
+INFO  04/07/2022 09:43:08 LanguageManagement SetControl - SetControl 4 I_REF1
+INFO  04/07/2022 09:43:08 LanguageManagement SetControl - SetControl 4 I_ACStatus
+INFO  04/07/2022 09:43:08 frmHome    .ctor      - End Initialize
+INFO  04/07/2022 09:43:08 frmHome    frmHome_Load - frmHome_Load
+INFO  04/07/2022 09:43:08 NavManagement SetLeftRoundButtons - SetLeftRoundButtons
+INFO  04/07/2022 09:43:08 frmHome    LoadFormButtons - LoadFormButtons
+INFO  04/07/2022 09:43:08 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:08 frmHome    ReLoadHome - ReLoadHome
+INFO  04/07/2022 09:43:08 BusyForm   .ctor      - BusyForm 4
+INFO  04/07/2022 09:43:08 BusyForm   BusyForm_Shown - BusyForm_Shown 11
+INFO  04/07/2022 09:43:08 BusyForm   LoadVidGrab - LoadVidGrab
+INFO  04/07/2022 09:43:08 VideoManagement .ctor      - Start initializing VideoManagement object
+INFO  04/07/2022 09:43:08 VideoManagement set_FullScreenWindow - Full screen size was set to Width: 1280 Height: 1024
+INFO  04/07/2022 09:43:08 VideoManagement set_LargeUserWindow - Large user window size was set to Width: 945 Height: 756
+INFO  04/07/2022 09:43:08 VideoManagement set_SmallUserWindow - Small user window size was set to Width: 725 Height: 580
+INFO  04/07/2022 09:43:08 VideoManagement set_GridRows - Video grid's rows number was set to 4
+INFO  04/07/2022 09:43:08 VideoManagement set_GridColumns - Video grid's columns number was set to 5
+INFO  04/07/2022 09:43:08 VideoManagement set_GridLineWidth - Grid line width was set to: 1
+INFO  04/07/2022 09:43:08 VideoManagement UpdateOverlayString - Update overlay string Key: 0
+INFO  04/07/2022 09:43:08 VideoManagement UpdateOverlayString - Update overlay string Key: 2
+INFO  04/07/2022 09:43:08 VideoManagement set_RecordMaxDuration - Record max. duration was set to 30 secs.
+INFO  04/07/2022 09:43:08 VideoManagement InitializeVideoGrabbers - Start initializing video grabbers objects
+INFO  04/07/2022 09:43:09 VideoManagement InitializeVideoGrabbers - Load video grabbers properties
+INFO  04/07/2022 09:43:09 VideoManagement LoadVideoGrabber - Start loading VideoGrabber object
+INFO  04/07/2022 09:43:09 VideoManagement SetVideoGrabberProperties - VideoGrabber settings are set
+INFO  04/07/2022 09:43:09 VideoManagement LoadVideoGrabber - Start loading VideoGrabber object
+INFO  04/07/2022 09:43:09 VideoManagement SetVideoGrabberProperties - VideoGrabber settings are set
+INFO  04/07/2022 09:43:09 VideoManagement LoadVideoGrabber - Start loading VideoGrabber object
+INFO  04/07/2022 09:43:09 VideoManagement SetVideoGrabberProperties - VideoGrabber settings are set
+INFO  04/07/2022 09:43:09 VideoManagement LoadVideoGrabber - Start loading VideoGrabber object
+INFO  04/07/2022 09:43:09 VideoManagement SetVideoGrabberProperties - VideoGrabber settings are set
+INFO  04/07/2022 09:43:09 VideoManagement LoadVideoGrabber - Start loading VideoGrabber object
+INFO  04/07/2022 09:43:09 VideoManagement SetVideoGrabberProperties - VideoGrabber settings are set
+INFO  04/07/2022 09:43:09 VideoManagement .ctor      - VideoGrabber objects were initialized
+INFO  04/07/2022 09:43:09 VideoManagement RetrievePropertyValuesList - Retrieving list of properties values
+INFO  04/07/2022 09:43:09 VideoManagement .ctor      - Atleast one video device was found. Setting video source to ICube
+INFO  04/07/2022 09:43:09 VideoManagement SetVideoResolution - Video source resolution was set to f
+INFO  04/07/2022 09:43:09 VideoManagement SetDefectedPixelsCorrection - Pixel correction value was updated to 1
+INFO  04/07/2022 09:43:09 BusyForm   LoadVidGrab - LoadVidGrab  Device Video
+INFO  04/07/2022 09:43:09 VideoManagement set_LargeUserWindow - Large user window size was set to Width: 950 Height: 760
+INFO  04/07/2022 09:43:09 VideoManagement OnLoad     - Start loading video grabbers
+INFO  04/07/2022 09:43:09 VideoManagement OnLoad     - Window size type was set to: LARGE
+INFO  04/07/2022 09:43:09 VideoManagement SetUserDisplaySettings - Switching to new window size - LARGE
+INFO  04/07/2022 09:43:09 VideoManagement SetGrabberUserDisplaySettings - Start setting grabber display setting (Window size: LARGE)
+INFO  04/07/2022 09:43:09 VideoManagement SetGrabberUserDisplaySettings - User display settings are set (Window: LARGE)
+INFO  04/07/2022 09:43:09 VideoManagement SetGrabberUserDisplaySettings - Start setting grabber display setting (Window size: LARGE)
+INFO  04/07/2022 09:43:09 VideoManagement SetGrabberUserDisplaySettings - User display settings are set (Window: LARGE)
+INFO  04/07/2022 09:43:09 VideoManagement SetGrabberUserDisplaySettings - Start setting grabber display setting (Window size: LARGE)
+INFO  04/07/2022 09:43:09 VideoManagement SetGrabberUserDisplaySettings - User display settings are set (Window: LARGE)
+INFO  04/07/2022 09:43:09 VideoManagement SetGrabberUserDisplaySettings - Start setting grabber display setting (Window size: LARGE)
+INFO  04/07/2022 09:43:09 VideoManagement SetGrabberUserDisplaySettings - User display settings are set (Window: LARGE)
+INFO  04/07/2022 09:43:09 VideoManagement SetGrabberUserDisplaySettings - Start setting grabber display setting (Window size: LARGE)
+INFO  04/07/2022 09:43:09 VideoManagement SetGrabberUserDisplaySettings - User display settings are set (Window: LARGE)
+INFO  04/07/2022 09:43:09 VideoManagement ResetVideoSettings - Resetting video settings
+INFO  04/07/2022 09:43:09 VideoManagement ResetVideoSettings - Resetting video settings
+INFO  04/07/2022 09:43:09 VideoManagement ResetVideoSettings - Resetting video settings
+INFO  04/07/2022 09:43:09 VideoManagement ResetVideoSettings - Resetting video settings
+INFO  04/07/2022 09:43:09 VideoManagement ResetVideoSettings - Resetting video settings
+WARN  04/07/2022 09:43:09 VideoManagement GetStartPreview - Resetting video module to new device (Device: 0)
+WARN  04/07/2022 09:43:09 VideoManagement IsVideoDeviceConnected - Video device ICube  is not connected to the PC
+WARN  04/07/2022 09:43:09 VideoManagement GetStartPreview - Video stream initialization failed. VideoDevice:ICube 
+WARN  04/07/2022 09:43:09 VideoManagement GetStartPreview - Video preview has encountered an error.
+INFO  04/07/2022 09:43:09 BusyForm   LoadVidGrab - LoadVidGrab  Set Settings
+INFO  04/07/2022 09:43:09 VideoManagement CloseVideo - Closing video
+INFO  04/07/2022 09:43:09 BusyForm   BusyForm_FormClosed - BusyForm_FormClosed
+INFO  04/07/2022 09:43:09 NavManagement SetEnableLeftButtonAll - SetEnableLeftButtonAll
+INFO  04/07/2022 09:43:09 frmHome    LoadIButton_Offline - LoadIButton_Offline
+INFO  04/07/2022 09:43:09 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:09 frmHome    SetDisableButton - SetDisableButton
+INFO  04/07/2022 09:43:09 frmHome    LoadLastControl - LoadLastControl
+INFO  04/07/2022 09:43:09 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:09 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:09 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:09 frmHome    LoadBackup - LoadBackup
+INFO  04/07/2022 09:43:09 frmHome    SetDisableButton - SetDisableButton
+INFO  04/07/2022 09:43:09 BusyForm   BusyForm_FormClosed - BusyForm_FormClosed
+INFO  04/07/2022 09:43:09 BusyForm   BusyForm_FormClosed - BusyForm_FormClosed
+INFO  04/07/2022 09:43:09 frmHome    frmHome_Shown - frmHome_Shown
+INFO  04/07/2022 09:43:11 NavManagement LeftMenu_Click - LeftMenu_Click
+INFO  04/07/2022 09:43:11 NavManagement LeftClick  - LeftClick 6
+INFO  04/07/2022 09:43:11 NavManagement CloseForm  - CloseForm
+INFO  04/07/2022 09:43:11 frmHome    frmHome_FormClosing - frmHome_FormClosing
+INFO  04/07/2022 09:43:11 frmHome    frmHome_FormClosed - frmHome_FormClosed
+INFO  04/07/2022 09:43:11 NavManagement SetLeftRoundButtons - SetLeftRoundButtons
+INFO  04/07/2022 09:43:11 NavManagement Menu_Click - Menu_Click 6
+INFO  04/07/2022 09:43:11 NavManagement LoadingForm - LoadingForm 6
+INFO  04/07/2022 09:43:11 NavManagement SetLeftRoundButtons - SetLeftRoundButtons
+INFO  04/07/2022 09:43:11 NavManagement LoadFormHeader - LoadFormHeader 0
+INFO  04/07/2022 09:43:11 NavManagement LoadForm   - LoadForm 6
+INFO  04/07/2022 09:43:11 frmSetup   .ctor      - Start Initialize
+INFO  04/07/2022 09:43:11 frmSetup   .ctor      - End Initialize
+INFO  04/07/2022 09:43:11 frmSetup   frmSetup_Load - frmSetup_Load
+INFO  04/07/2022 09:43:11 frmSetup   LoadFormButtons - LoadFormButtons
+INFO  04/07/2022 09:43:11 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:11 frmSetup   SetDisableButtonOne - SetDisableButtonOne
+INFO  04/07/2022 09:43:11 frmControlSetup .ctor      - Start Initialize
+INFO  04/07/2022 09:43:11 frmControlSetup .ctor      - Start Initialize
+INFO  04/07/2022 09:43:11 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:11 frmControlSetup LoadFormButtons - LoadFormButtons 1
+INFO  04/07/2022 09:43:11 frmControlSetup LoadFormButtons - LoadFormButtons 2
+INFO  04/07/2022 09:43:11 frmControlSetup LoadFormButtons - LoadFormButtons 3
+INFO  04/07/2022 09:43:11 frmControlSetup LoadFormButtons - LoadFormButtons 4
+INFO  04/07/2022 09:43:11 frmControlSetup LoadFormButtons - LoadFormButtons 5
+INFO  04/07/2022 09:43:11 frmControlSetup LoadFormButtons - LoadFormButtons 6
+INFO  04/07/2022 09:43:11 frmControlSetup LoadDataAfterInit - LoadDataAfterInit
+INFO  04/07/2022 09:43:11 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  04/07/2022 09:43:11 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  04/07/2022 09:43:11 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  04/07/2022 09:43:11 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  04/07/2022 09:43:11 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  04/07/2022 09:43:11 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  04/07/2022 09:43:11 frmSetup   SetSetTextButton - SetSetTextButton
+INFO  04/07/2022 09:43:11 frmSetup   SelectInsetForm - SelectInsetForm
+INFO  04/07/2022 09:43:11 frmControlSetup frmControlSetup_VisibleChanged - frmControlSetup_VisibleChanged
+INFO  04/07/2022 09:43:11 frmControlSetup LoadDataAfterInit - LoadDataAfterInit
+INFO  04/07/2022 09:43:11 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  04/07/2022 09:43:11 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  04/07/2022 09:43:11 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  04/07/2022 09:43:11 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  04/07/2022 09:43:11 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  04/07/2022 09:43:11 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  04/07/2022 09:43:11 frmControlSetup C2ED3_ValueChanged - C2ED3_ValueChanged
+INFO  04/07/2022 09:43:11 frmControlSetup C2ED2_ValueChanged - C2ED2_ValueChanged
+INFO  04/07/2022 09:43:11 frmControlSetup C2ED1_ValueChanged - C2ED1_ValueChanged
+INFO  04/07/2022 09:43:11 frmControlSetup C1ED3_ValueChanged - C1ED3_ValueChanged
+INFO  04/07/2022 09:43:11 frmControlSetup C1ED2_ValueChanged - C1ED2_ValueChanged
+INFO  04/07/2022 09:43:11 frmControlSetup C1ED1_ValueChanged - C1ED1_ValueChanged
+INFO  04/07/2022 09:43:11 frmControlSetup frmControlSetup_Load - frmControlSetup_Load
+INFO  04/07/2022 09:43:11 frmControlSetup LoadSetupData - LoadSetupData
+INFO  04/07/2022 09:43:11 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:11 frmControlSetup rdLB_CheckedChanged - rdLB_CheckedChanged
+INFO  04/07/2022 09:43:11 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:11 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:11 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:11 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:11 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:11 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:11 frmSetup   frmSetup_Shown - frmSetup_Shown
+INFO  04/07/2022 09:43:11 frmSetup   Load_AfterFormShown - Load_AfterFormShown
+INFO  04/07/2022 09:43:11 frmSetup   LoadSubFormsControls - LoadSubFormsControls
+INFO  04/07/2022 09:43:11 frmControlSetupProp LoadFormButtons - LoadFormButtons
+INFO  04/07/2022 09:43:11 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:11 frmControlSetupProp .ctor      - frmControlSetupProp con
+INFO  04/07/2022 09:43:11 frmMainSetup .ctor      - Start Initialize
+INFO  04/07/2022 09:43:11 LanguageManagement SetControl - SetControl 4 TFLogo
+INFO  04/07/2022 09:43:11 frmMainSetup LoadFormButtons - LoadFormButtons
+INFO  04/07/2022 09:43:11 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:11 frmMainSetup .ctor      - End Initialize
+INFO  04/07/2022 09:43:11 frmPatientSetup .ctor      - Start Initialize
+INFO  04/07/2022 09:43:11 frmPatientSetup LoadFormButtons - LoadFormButtons
+INFO  04/07/2022 09:43:11 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:11 frmPatientSetup .ctor      - End Initialize
+INFO  04/07/2022 09:43:11 frmVisualSetup .ctor      - Start Initialize
+INFO  04/07/2022 09:43:11 LanguageManagement SetControl - SetControl 4 picError
+INFO  04/07/2022 09:43:11 frmVisualSetup .ctor      - End Initialize
+INFO  04/07/2022 09:43:11 frmQwikLinkSetup .ctor      - Start Initialize
+INFO  04/07/2022 09:43:11 frmQwikLinkSetup LoadData   - LoadData
+INFO  04/07/2022 09:43:11 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:11 frmQwikLinkSetup SetPorts   - SetPorts
+INFO  04/07/2022 09:43:11 frmQwikLinkSetup P_COMPort_SelectedIndexChanged - P_COMPort_SelectedIndexChanged
+INFO  04/07/2022 09:43:11 frmQwikLinkSetup SetProtocol - SetProtocol
+INFO  04/07/2022 09:43:11 frmQwikLinkSetup tocolType_SelectedIndexChanged - P_ProtocolType_SelectedIndexChanged
+INFO  04/07/2022 09:43:11 frmQwikLinkSetup C_TT_CheckedChanged - C_LF_CheckedChanged
+INFO  04/07/2022 09:43:11 frmQwikLinkSetup LoadData   - LoadData
+INFO  04/07/2022 09:43:11 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:11 frmQwikLinkSetup LoadFormButtons - LoadFormButtons
+INFO  04/07/2022 09:43:11 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:11 frmQwikLinkSetup LoadSetup  - LoadSetup
+INFO  04/07/2022 09:43:11 frmQwikLinkSetup C_LF_CheckedChanged - C_LF_CheckedChanged
+INFO  04/07/2022 09:43:11 frmQwikLinkSetup C_HE_CheckedChanged - C_HE_CheckedChanged
+INFO  04/07/2022 09:43:11 frmQwikLinkSetup C_EN_CheckedChanged - C_EN_CheckedChanged
+INFO  04/07/2022 09:43:11 frmQwikLinkSetup C_SE_CheckedChanged - C_SE_CheckedChanged
+INFO  04/07/2022 09:43:11 frmQwikLinkSetup SetDisable - SetDisable
+INFO  04/07/2022 09:43:11 frmQwikLinkSetup SetDisableButtonAll - SetDisableButtonAll
+INFO  04/07/2022 09:43:11 frmQwikLinkSetup LoadPatientID - LoadPatientID
+INFO  04/07/2022 09:43:11 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:12 frmQwikLinkSetup .ctor      - End Initialize
+INFO  04/07/2022 09:43:12 frmMainSetup .ctor      - Start Initialize
+INFO  04/07/2022 09:43:12 frmMainSetup LoadFormButtons - LoadFormButtons
+INFO  04/07/2022 09:43:12 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:12 frmMainSetup .ctor      - End Initialize
+INFO  04/07/2022 09:43:14 frmSetup   SelectClick - SelectClick
+INFO  04/07/2022 09:43:14 frmSetup   SelectClick - SelectClick B_Patients
+INFO  04/07/2022 09:43:14 frmSetup   tabSetup_Selecting - tabSetup_Selecting
+INFO  04/07/2022 09:43:14 frmSetup   tabSetup_Selecting - tabSetup_Selecting frmControlSetup
+INFO  04/07/2022 09:43:14 frmSetup   SelectInsetForm - SelectInsetForm
+INFO  04/07/2022 09:43:14 frmControlSetup frmControlSetup_VisibleChanged - frmControlSetup_VisibleChanged
+INFO  04/07/2022 09:43:14 frmPatientSetup frmPatientSetup_VisibleChanged - frmPatientSetup_VisibleChanged
+INFO  04/07/2022 09:43:14 frmPatientSetup LoadDataAfterInit - LoadDataAfterInit
+INFO  04/07/2022 09:43:14 frmPatientSetup LoadDataPar - LoadDataPar
+INFO  04/07/2022 09:43:14 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:14 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:14 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:14 frmPatientSetup LoadOperators - LoadOperators
+INFO  04/07/2022 09:43:14 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:14 frmPatientSetup frmPatientSetup_Load - frmPatientSetup_Load
+INFO  04/07/2022 09:43:14 frmPatientSetup LoadFormButtons - LoadFormButtons
+INFO  04/07/2022 09:43:14 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:14 frmPatientSetup LoadSetup  - LoadSetup
+INFO  04/07/2022 09:43:14 frmPatientSetup Rad_CheckedChanged - Rad_CheckedChanged
+INFO  04/07/2022 09:43:14 frmPatientSetup Rad_CheckedChanged - Rad_CheckedChanged
+INFO  04/07/2022 09:43:14 frmPatientSetup R_MorphType4_CheckedChanged - R_MorphType3_CheckedChanged
+INFO  04/07/2022 09:43:14 frmPatientSetup Rad_CheckedChanged - Rad_CheckedChanged
+INFO  04/07/2022 09:43:14 frmPatientSetup Rad_CheckedChanged - Rad_CheckedChanged
+INFO  04/07/2022 09:43:14 frmPatientSetup txtStep3_TextChanged - txtStep3_TextChanged
+INFO  04/07/2022 09:43:14 frmPatientSetup txtStep4_TextChanged - txtStep4_TextChanged
+INFO  04/07/2022 09:43:14 frmPatientSetup C_VIS1_CheckedChanged - C_VIS1_CheckedChanged
+INFO  04/07/2022 09:43:14 frmPatientSetup C_ShowRanges_CheckedChanged - C_ShowRanges_CheckedChanged
+INFO  04/07/2022 09:43:14 frmPatientSetup C_10MICRO_CheckedChanged - C_10MICRO_CheckedChanged
+INFO  04/07/2022 09:43:14 frmPatientSetup C_AgeTest_CheckedChanged - C_AgeTest_CheckedChanged
+INFO  04/07/2022 09:43:14 frmPatientSetup LoadOptionalFields - LoadOptionalFields
+INFO  04/07/2022 09:43:14 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:14 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:14 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:14 frmSetup   SetSetTextButton - SetSetTextButton
+INFO  04/07/2022 09:43:16 frmPatientSetup C_AgeTest_CheckedChanged - C_AgeTest_CheckedChanged
+INFO  04/07/2022 09:43:16 frmPatientSetup SaveChange - SaveChange
+INFO  04/07/2022 09:43:16 frmSetup   SetEnableButton - SetEnableButton
+INFO  04/07/2022 09:43:19 frmSetup   ButtonClick - ButtonClick
+INFO  04/07/2022 09:43:19 frmSetup   ButtonClick - ButtonClick B_Save
+INFO  04/07/2022 09:43:19 frmPatientSetup SaveForm   - SaveForm
+INFO  04/07/2022 09:43:19 frmPatientSetup SaveData   - SaveData 
+INFO  04/07/2022 09:43:19 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:19 SaveData   .ctor      - Initialize SaveData(mainMDI tmpCurrentMDI)
+INFO  04/07/2022 09:43:19 SaveData   SaveSetup  - SaveSetup
+INFO  04/07/2022 09:43:19 frmPatientSetup SaveRanges - SaveRanges
+INFO  04/07/2022 09:43:19 ParameterManagement UpdateMorphType - UpdateMorphType
+INFO  04/07/2022 09:43:19 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:19 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:19 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:19 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:19 frmPatientSetup AfterSave  - AfterSave
+INFO  04/07/2022 09:43:19 frmSetup   SetDisableButtonOne - SetDisableButtonOne
+INFO  04/07/2022 09:43:20 mainMDI    picExit_Click - picExit_Click
+INFO  04/07/2022 09:43:20 ppucMessageBox .ctor      - Start ppucMessageBox(mainMDI tmpCurrentMDI, byte tmpOpenID) Initialize
+INFO  04/07/2022 09:43:20 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  04/07/2022 09:43:20 ppucMessageBox LoadFormButtons - LoadFormButtons 1
+INFO  04/07/2022 09:43:20 ppucMessageBox LoadFormButtons - LoadFormButtons 2
+INFO  04/07/2022 09:43:20 ppucMessageBox LoadFormButtons - LoadFormButtons 3
+INFO  04/07/2022 09:43:20 ppucMessageBox OpenMsgFrm - OpenMsgFrm 0
+INFO  04/07/2022 09:43:20 ppucMessageBox LoadMsgStatusHtm - LoadMsgStatusHtm
+INFO  04/07/2022 09:43:20 ppucMessageBox SetMSGType - SetMSGType
+INFO  04/07/2022 09:43:20 ppucMessageBox .ctor      - End ppucMessageBox(mainMDI tmpCurrentMDI, byte tmpOpenID) Initialize
+INFO  04/07/2022 09:43:20 ppucMessageBox Show       - Show
+INFO  04/07/2022 09:43:20 mainMDI    DisableControls - DisableControls
+INFO  04/07/2022 09:43:20 ppucMessageBox lblHtml_DocumentCompleted - lblHtml_DocumentCompleted
+INFO  04/07/2022 09:43:21 ppucMessageBox ButtonClick - ButtonClick B_Yes
+INFO  04/07/2022 09:43:21 ppucMessageBox Close      - Close
+INFO  04/07/2022 09:43:21 mainMDI    EnableControls - EnableControls
+INFO  04/07/2022 09:43:21 frmSetup   frmSetup_FormClosing - frmSetup_FormClosing
+INFO  04/07/2022 09:43:21 frmPatientSetup frmPatientSetup_VisibleChanged - frmPatientSetup_VisibleChanged
+INFO  04/07/2022 09:43:21 frmVisualSetup CloseForm  - CloseForm
+INFO  04/07/2022 09:43:21 frmQwikLinkSetup CloseForm  - CloseForm
+INFO  04/07/2022 09:43:21 frmSetup   tabSetup_Selecting - tabSetup_Selecting
+INFO  04/07/2022 09:43:21 frmSetup   tabSetup_Selecting - tabSetup_Selecting
+INFO  04/07/2022 09:43:21 frmSetup   tabSetup_Selecting - tabSetup_Selecting
+INFO  04/07/2022 09:43:21 frmSetup   tabSetup_Selecting - tabSetup_Selecting
+INFO  04/07/2022 09:43:21 frmSetup   tabSetup_Selecting - tabSetup_Selecting
+INFO  04/07/2022 09:43:21 frmSetup   tabSetup_Selecting - tabSetup_Selecting
+INFO  04/07/2022 09:43:21 frmSetup   frmSetup_FormClosed - frmSetup_FormClosed
+INFO  04/07/2022 09:43:21 mainMDI    mainMDI_FormClosing - mainMDI_FormClosing
+INFO  04/07/2022 09:43:21 mainMDI    mainMDI_FormClosed - mainMDI_FormClosed
+INFO  04/07/2022 09:43:21 VideoManagement DisposeVideo - Entered
+INFO  04/07/2022 09:43:21 VideoManagement DisposeVideo - Video stream is stopped
+INFO  04/07/2022 09:43:21 VideoManagement DisposeVideo - Video grabbers are disposed
+INFO  04/07/2022 09:43:21 DeviceConnection CloseConnection - CloseConnection
+INFO  04/07/2022 09:43:21 DeviceConnection CloseConnection - CloseConnection
+INFO  04/07/2022 09:43:21 DatabaseSQAManagment CloseSQLDatabase - CloseSQLDatabase
+INFO  04/07/2022 09:43:21 mainMDI    mainMDI_FormClosed - Close Vision ================================================================================================================
