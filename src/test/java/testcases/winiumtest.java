@@ -1,14 +1,14 @@
 package testcases;
 import java.io.File;
 import java.io.IOException;
-import java.net.MalformedURLException;
+
 import java.net.URL;
-import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.winium.DesktopOptions;
 import org.openqa.selenium.winium.WiniumDriver;
-import org.testng.annotations.BeforeTest;
+
 import org.testng.annotations.Test;
 
 public class winiumtest {
