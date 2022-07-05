@@ -36,7 +36,7 @@ System.out.print("*******Local host is run and software is opened*******");
 Thread.sleep(20000); 
 Thread.sleep(20000); 
 //Find vision elements
-var userName = vision.findElement(By.id("txtUser"));
+/*var userName = vision.findElement(By.id("txtUser"));
 userName.sendKeys("administrator");
 Thread.sleep(10000); 
 var password = vision.findElement(By.id("txtPass"));
@@ -59,6 +59,6 @@ vision.findElement(By.id("C_AgeTest")).click();
 Thread.sleep(1000);
 vision.findElement(By.id("B_B_Save")).click();
 
-
+*/
 }
 }
