@@ -25738,3 +25738,19 @@ INFO  04/07/2022 09:43:21 DeviceConnection CloseConnection - CloseConnection
 INFO  04/07/2022 09:43:21 DeviceConnection CloseConnection - CloseConnection
 INFO  04/07/2022 09:43:21 DatabaseSQAManagment CloseSQLDatabase - CloseSQLDatabase
 INFO  04/07/2022 09:43:21 mainMDI    mainMDI_FormClosed - Close Vision ================================================================================================================
+INFO  05/07/2022 09:14:51 DatabaseSQAManagment .ctor      - nitialize
+INFO  05/07/2022 09:14:52 ppLogOn    .ctor      - Open Vision ================================================================================================================
+INFO  05/07/2022 09:14:52 ppLogOn    .ctor      - Start Initialize
+INFO  05/07/2022 09:14:52 ppLogOn    LoadLocalText - LoadLocalText
+INFO  05/07/2022 09:14:52 ppLogOn    .ctor      - End Initialize
+INFO  05/07/2022 09:14:52 ppLogOn    ppLogOn_Load - ppLogOn_Load
+INFO  05/07/2022 09:14:52 DatabaseSQAManagment OpenSQLDatabase - OpenSQLDatabase
+INFO  05/07/2022 09:16:11 DatabaseSQAManagment .ctor      - nitialize
+INFO  05/07/2022 09:16:11 ppLogOn    .ctor      - Open Vision ================================================================================================================
+INFO  05/07/2022 09:16:11 ppLogOn    .ctor      - Start Initialize
+INFO  05/07/2022 09:16:11 ppLogOn    LoadLocalText - LoadLocalText
+INFO  05/07/2022 09:16:11 ppLogOn    .ctor      - End Initialize
+INFO  05/07/2022 09:16:11 ppLogOn    ppLogOn_Load - ppLogOn_Load
+INFO  05/07/2022 09:16:11 DatabaseSQAManagment OpenSQLDatabase - OpenSQLDatabase
+ERROR 05/07/2022 09:16:26 DatabaseSQAManagment OpenSQLDatabase - OpenSQLDatabase  error - Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=293; handshake=288; [Login] initialization=0; authentication=74; [Post-Login] complete=13771;  Server=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|MESSQAV.fdb\MESSQAV.mdf;Integrated Security=True;User Instance=True;MultipleActiveResultSets=true;
+INFO  05/07/2022 09:18:11 ppLogOn    ppLogOn_FormClosing - ppLogOn_FormClosing
