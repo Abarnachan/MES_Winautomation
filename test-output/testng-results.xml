@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-05T09:15:54 IST" name="SampleSuite" finished-at="2022-07-05T09:16:28 IST" duration-ms="34399">
+  <suite started-at="2022-07-05T10:02:54 IST" name="SampleSuite" finished-at="2022-07-05T10:03:20 IST" duration-ms="25454">
     <groups>
     </groups>
-    <test started-at="2022-07-05T09:15:54 IST" name="Test" finished-at="2022-07-05T09:16:28 IST" duration-ms="34399">
+    <test started-at="2022-07-05T10:02:54 IST" name="Test" finished-at="2022-07-05T10:03:20 IST" duration-ms="25454">
       <class name="testcases.winiumtest">
-        <test-method signature="test()[pri:0, instance:testcases.winiumtest@4082ba93]" started-at="2022-07-05T09:15:54 IST" name="test" finished-at="2022-07-05T09:16:28 IST" duration-ms="34366" status="FAIL">
+        <test-method signature="test()[pri:0, instance:testcases.winiumtest@dc9876b]" started-at="2022-07-05T10:02:54 IST" name="test" finished-at="2022-07-05T10:03:20 IST" duration-ms="25424" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Element cannot be found (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24.85 seconds
+Command duration or timeout: 20.43 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
 System info: host: '----', ip: '192.168.1.21', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
@@ -22,7 +22,7 @@ Session ID: AwesomeSession
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Element cannot be found (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 24.85 seconds
+Command duration or timeout: 20.43 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
 System info: host: '----', ip: '192.168.1.21', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'

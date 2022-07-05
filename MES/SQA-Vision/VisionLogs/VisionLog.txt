@@ -25754,3 +25754,12 @@ INFO  05/07/2022 09:16:11 ppLogOn    ppLogOn_Load - ppLogOn_Load
 INFO  05/07/2022 09:16:11 DatabaseSQAManagment OpenSQLDatabase - OpenSQLDatabase
 ERROR 05/07/2022 09:16:26 DatabaseSQAManagment OpenSQLDatabase - OpenSQLDatabase  error - Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=293; handshake=288; [Login] initialization=0; authentication=74; [Post-Login] complete=13771;  Server=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|MESSQAV.fdb\MESSQAV.mdf;Integrated Security=True;User Instance=True;MultipleActiveResultSets=true;
 INFO  05/07/2022 09:18:11 ppLogOn    ppLogOn_FormClosing - ppLogOn_FormClosing
+INFO  05/07/2022 10:02:56 DatabaseSQAManagment .ctor      - nitialize
+INFO  05/07/2022 10:02:56 ppLogOn    .ctor      - Open Vision ================================================================================================================
+INFO  05/07/2022 10:02:56 ppLogOn    .ctor      - Start Initialize
+INFO  05/07/2022 10:02:56 ppLogOn    LoadLocalText - LoadLocalText
+INFO  05/07/2022 10:02:56 ppLogOn    .ctor      - End Initialize
+INFO  05/07/2022 10:02:56 ppLogOn    ppLogOn_Load - ppLogOn_Load
+INFO  05/07/2022 10:02:56 DatabaseSQAManagment OpenSQLDatabase - OpenSQLDatabase
+ERROR 05/07/2022 10:03:14 DatabaseSQAManagment OpenSQLDatabase - OpenSQLDatabase  error - Failed to generate a user instance of SQL Server due to a failure in starting the process for the user instance. The connection will be closed. Server=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|MESSQAV.fdb\MESSQAV.mdf;Integrated Security=True;User Instance=True;MultipleActiveResultSets=true;
+INFO  05/07/2022 10:03:16 ppLogOn    ppLogOn_FormClosing - ppLogOn_FormClosing
