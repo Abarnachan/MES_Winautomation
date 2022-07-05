@@ -33,25 +33,25 @@ public static void test() throws InterruptedException, IOException {  //main(Str
 	
 vision = new WiniumDriver(new URL("http://localhost:9999"), option);
 System.out.print("*******Local host is run and software is opened*******");
-Thread.sleep(10000); 
-
+Thread.sleep(20000); 
+Thread.sleep(20000); 
 //Find vision elements
 var userName = vision.findElement(By.id("txtUser"));
 userName.sendKeys("administrator");
 Thread.sleep(10000); 
 var password = vision.findElement(By.id("txtPass"));
 password.sendKeys("fertility");
-Thread.sleep(10000); 
+Thread.sleep(20000); 
 vision.findElement(By.id("bOK")).click();
-Thread.sleep(10000); 
+Thread.sleep(20000); 
 System.out.print("Hi");
 
-Thread.sleep(4000); 
+Thread.sleep(20000); 
 
 vision.findElement(By.id("frmHome")).click();
 Thread.sleep(10);
 vision.findElement(By.id("B_6")).click();
-Thread.sleep(1000);
+Thread.sleep(20000);
 
 vision.findElement(By.id("B_B_Patients")).click();
 Thread.sleep(1000);
