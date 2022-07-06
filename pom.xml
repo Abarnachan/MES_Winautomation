@@ -10,12 +10,16 @@
   <version>0.0.1-SNAPSHOT</version>
 <name>WiniumDemo</name>
    <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+ <url>http://maven.apache.org</url>
+
+  
+   
+ 
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+      <suiteXmlFile>testng.xml</suiteXmlFile>
+      <slf4j-api.version>1.7.30</slf4j-api.version>
   </properties>
 
   <dependencies>
