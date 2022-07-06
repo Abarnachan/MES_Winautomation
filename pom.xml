@@ -4,33 +4,28 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-
   <groupId>WiniumDemo</groupId>
   <artifactId>WiniumDemo</artifactId>
 
   <version>0.0.1-SNAPSHOT</version>
 <name>WiniumDemo</name>
-  <packaging>jar</packaging>
-  <url>http://maven.apache.org</url>
-  
+   <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
-
-
   <dependencies>
-      <dependency>
+    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    
-
-          <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+            <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
 <dependency>
     <groupId>org.slf4j</groupId>
     <artifactId>slf4j-log4j12</artifactId>
@@ -38,13 +33,11 @@
     <type>pom</type>
     <scope>test</scope>
 </dependency>
-
-   <dependency>
+<dependency>
     <groupId>com.github.2gis.winium</groupId>
     <artifactId>winium-webdriver</artifactId>
     <version>0.1.0-1</version>
 </dependency>
-
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 
    <dependency>
@@ -108,6 +101,3 @@
     </pluginManagement>
   </build>
 </project>
-    
-  <!-- https://mvnrepository.com/artifact/com.github.2gis.winium/winium-webdriver -->
-
