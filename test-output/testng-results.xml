@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-05T17:42:07 IST" name="SampleSuite" finished-at="2022-07-05T17:42:09 IST" duration-ms="1419">
+  <suite started-at="2022-07-06T10:38:16 IST" name="SampleSuite" finished-at="2022-07-06T10:38:17 IST" duration-ms="832">
     <groups>
     </groups>
-    <test started-at="2022-07-05T17:42:07 IST" name="Test" finished-at="2022-07-05T17:42:09 IST" duration-ms="1419">
+    <test started-at="2022-07-06T10:38:16 IST" name="Test" finished-at="2022-07-06T10:38:17 IST" duration-ms="832">
       <class name="testcases.winiumtest">
-        <test-method signature="test()[pri:0, instance:testcases.winiumtest@dc9876b]" started-at="2022-07-05T17:42:07 IST" name="test" finished-at="2022-07-05T17:42:09 IST" duration-ms="1393" status="PASS">
+        <test-method signature="test()[pri:0, instance:testcases.winiumtest@1de76cc7]" started-at="2022-07-06T10:38:17 IST" name="test" finished-at="2022-07-06T10:38:17 IST" duration-ms="807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
