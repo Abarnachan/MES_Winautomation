@@ -25957,3 +25957,33 @@ INFO  08/07/2022 10:15:39 DatabaseSQAManagment OpenSQLDatabase - OpenSQLDatabase
 INFO  08/07/2022 10:16:14 DatabaseSQAManagment OpenTable  - OpenTable
 INFO  08/07/2022 10:16:14 DatabaseSQAManagment OpenTable  - OpenTable
 INFO  08/07/2022 10:16:17 ppLogOn    ppLogOn_FormClosing - ppLogOn_FormClosing
+INFO  08/07/2022 10:24:55 DatabaseSQAManagment .ctor      - nitialize
+INFO  08/07/2022 10:24:55 ppLogOn    .ctor      - Open Vision ================================================================================================================
+INFO  08/07/2022 10:24:55 ppLogOn    .ctor      - Start Initialize
+INFO  08/07/2022 10:24:55 ppLogOn    LoadLocalText - LoadLocalText
+INFO  08/07/2022 10:24:55 ppLogOn    .ctor      - End Initialize
+INFO  08/07/2022 10:24:55 ppLogOn    ppLogOn_Load - ppLogOn_Load
+INFO  08/07/2022 10:24:55 DatabaseSQAManagment OpenSQLDatabase - OpenSQLDatabase
+INFO  08/07/2022 10:24:55 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  08/07/2022 10:24:55 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  08/07/2022 10:24:57 ppLogOn    ppLogOn_FormClosing - ppLogOn_FormClosing
+INFO  08/07/2022 10:25:29 DatabaseSQAManagment .ctor      - nitialize
+INFO  08/07/2022 10:25:29 ppLogOn    .ctor      - Open Vision ================================================================================================================
+INFO  08/07/2022 10:25:29 ppLogOn    .ctor      - Start Initialize
+INFO  08/07/2022 10:25:29 ppLogOn    LoadLocalText - LoadLocalText
+INFO  08/07/2022 10:25:29 ppLogOn    .ctor      - End Initialize
+INFO  08/07/2022 10:25:29 ppLogOn    ppLogOn_Load - ppLogOn_Load
+INFO  08/07/2022 10:25:29 DatabaseSQAManagment OpenSQLDatabase - OpenSQLDatabase
+INFO  08/07/2022 10:25:29 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  08/07/2022 10:25:29 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  08/07/2022 10:25:31 ppLogOn    ppLogOn_FormClosing - ppLogOn_FormClosing
+INFO  08/07/2022 10:26:17 DatabaseSQAManagment .ctor      - nitialize
+INFO  08/07/2022 10:26:17 ppLogOn    .ctor      - Open Vision ================================================================================================================
+INFO  08/07/2022 10:26:17 ppLogOn    .ctor      - Start Initialize
+INFO  08/07/2022 10:26:17 ppLogOn    LoadLocalText - LoadLocalText
+INFO  08/07/2022 10:26:17 ppLogOn    .ctor      - End Initialize
+INFO  08/07/2022 10:26:17 ppLogOn    ppLogOn_Load - ppLogOn_Load
+INFO  08/07/2022 10:26:17 DatabaseSQAManagment OpenSQLDatabase - OpenSQLDatabase
+INFO  08/07/2022 10:26:18 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  08/07/2022 10:26:18 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  08/07/2022 10:26:19 ppLogOn    ppLogOn_FormClosing - ppLogOn_FormClosing
