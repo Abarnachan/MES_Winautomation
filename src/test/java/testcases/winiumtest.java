@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.net.URL;
 
 import org.openqa.selenium.By;
-
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.winium.DesktopOptions;
 import org.openqa.selenium.winium.WiniumDriver;
 
@@ -17,25 +17,21 @@ public static WiniumDriver vision=null;
 @Test
 public static void test() throws InterruptedException, IOException {  //main(String[] args) throws MalformedURLException {
 
-	
+	    String command = new File("WiniumDriver\\Winium.Desktop.Driver.exe").getAbsolutePath(); 
+	    ProcessBuilder builder = new ProcessBuilder(command).inheritIO();
+	    Process process = builder.start();	
+	     
 	 
 	String path = new File("MES\\SQA-Vision\\SQA-Vision.exe").getAbsolutePath();
 	DesktopOptions option= new DesktopOptions();
 	option.setApplicationPath(path);
 
-	// Start the WinAppDriver Programmatically
-	   
-	//
-	String command = new File("WiniumDriver\\Winium.Desktop.Driver.exe").getAbsolutePath(); 
-    ProcessBuilder builder = new ProcessBuilder(command).inheritIO();
-    Process process = builder.start();	
-
-	
+		
 vision = new WiniumDriver(new URL("http://localhost:9999"), option);
 System.out.print("*******Local host is run and software is opened*******");
-
+Thread.sleep(10000);
 //Find vision elements
-/*var userName = vision.findElement(By.id("txtUser"));
+var userName = vision.findElement(By.id("txtUser"));
 userName.sendKeys("administrator");
 Thread.sleep(10000); 
 
@@ -59,6 +55,6 @@ vision.findElement(By.id("C_AgeTest")).click();
 Thread.sleep(1000);
 vision.findElement(By.id("B_B_Save")).click();
 
-*/
+
 }
 }
