@@ -2,50 +2,25 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-11T08:21:36 IST" name="SampleSuite" finished-at="2022-07-11T08:22:26 IST" duration-ms="50052">
+  <suite started-at="2022-07-11T08:33:32 IST" name="SampleSuite" finished-at="2022-07-11T08:33:32 IST" duration-ms="34">
     <groups>
     </groups>
-    <test started-at="2022-07-11T08:21:36 IST" name="Test" finished-at="2022-07-11T08:22:26 IST" duration-ms="50052">
+    <test started-at="2022-07-11T08:33:32 IST" name="Test" finished-at="2022-07-11T08:33:32 IST" duration-ms="34">
       <class name="testcases.winiumtest">
-        <test-method signature="test()[pri:0, instance:testcases.winiumtest@7c711375]" started-at="2022-07-11T08:21:36 IST" name="test" finished-at="2022-07-11T08:22:26 IST" duration-ms="50025" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="test()[pri:0, instance:testcases.winiumtest@1de76cc7]" started-at="2022-07-11T08:33:32 IST" name="test" finished-at="2022-07-11T08:33:32 IST" duration-ms="7" status="FAIL">
+          <exception class="java.lang.Error">
             <message>
-              <![CDATA[Element cannot be found (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
-System info: host: '----', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
-Driver info: org.openqa.selenium.winium.WiniumDriver
-Command: [AwesomeSession, findElement {using=id, value=txtPass}]
-Capabilities {app: C:\Users\Vision\eclipse-wor..., args: , debugConnectToRunningApp: false, innerPort: 9998, javascriptEnabled: true, keyboardSimulator: 1, launchDelay: 0, platform: ANY, platformName: ANY}
-Session ID: AwesomeSession]]>
+              <![CDATA[Unresolved compilation problems: 
+var cannot be resolved to a type
+var cannot be resolved to a type
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Element cannot be found (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
-System info: host: '----', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
-Driver info: org.openqa.selenium.winium.WiniumDriver
-Command: [AwesomeSession, findElement {using=id, value=txtPass}]
-Capabilities {app: C:\Users\Vision\eclipse-wor..., args: , debugConnectToRunningApp: false, innerPort: 9998, javascriptEnabled: true, keyboardSimulator: 1, launchDelay: 0, platform: ANY, platformName: ANY}
-Session ID: AwesomeSession
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:217)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:169)
-at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
-at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:83)
-at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:47)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.winium.WiniumDriverCommandExecutor.execute(WiniumDriverCommandExecutor.java:78)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:381)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:373)
-at testcases.winiumtest.test(winiumtest.java:38)
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+var cannot be resolved to a type
+var cannot be resolved to a type
+
+at testcases.winiumtest.test(winiumtest.java:34)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -74,7 +49,7 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
