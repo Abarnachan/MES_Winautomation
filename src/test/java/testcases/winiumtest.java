@@ -31,7 +31,7 @@ public class winiumtest {
 
 		Thread.sleep(100000);
 //Find vision elements
-
+/*
 		var userName = vision.findElement(By.id("txtUser"));
 		userName.sendKeys("administrator");
 		Thread.sleep(10000);
@@ -55,6 +55,6 @@ public class winiumtest {
 		vision.findElement(By.id("C_AgeTest")).click();
 		Thread.sleep(1000);
 		vision.findElement(By.id("B_B_Save")).click();
-
+*/
 	}
 }
