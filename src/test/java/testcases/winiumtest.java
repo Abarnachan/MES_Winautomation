@@ -29,9 +29,9 @@ public class winiumtest {
 		vision = new WiniumDriver(new URL("http://localhost:9999"), option); //Define the local host url
 		System.out.print("*******Local host is run and software is opened*******");
 
-		Thread.sleep(60000);
+		Thread.sleep(10000);
 //Find vision elements
-/*
+
 		var userName = vision.findElement(By.id("txtUser"));
 		userName.sendKeys("administrator");
 		Thread.sleep(10000);
@@ -55,6 +55,6 @@ public class winiumtest {
 		vision.findElement(By.id("C_AgeTest")).click();
 		Thread.sleep(1000);
 		vision.findElement(By.id("B_B_Save")).click();
-*/
+
 	}
 }
