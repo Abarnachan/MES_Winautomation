@@ -30,7 +30,7 @@ public static void test() throws InterruptedException, IOException {  //main(Str
 vision = new WiniumDriver(new URL("http://localhost:9999"), option);
 System.out.print("*******Local host is run and software is opened*******");
 
-Thread.sleep(30000);
+Thread.sleep(60000);
 //Find vision elements
 
 var userName = vision.findElement(By.id("txtUser"));
