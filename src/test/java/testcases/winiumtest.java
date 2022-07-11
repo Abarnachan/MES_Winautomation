@@ -29,7 +29,7 @@ public class winiumtest {
 		vision = new WiniumDriver(new URL("http://localhost:9999"), option); //Define the local host url
 		System.out.print("*******Local host is run and software is opened*******");
 
-		Thread.sleep(10000);
+		Thread.sleep(100000);
 //Find vision elements
 
 		var userName = vision.findElement(By.id("txtUser"));
