@@ -27803,3 +27803,13 @@ INFO  11/07/2022 08:49:42 DatabaseSQAManagment OpenSQLDatabase - OpenSQLDatabase
 INFO  11/07/2022 08:49:42 DatabaseSQAManagment OpenTable  - OpenTable
 INFO  11/07/2022 08:49:42 DatabaseSQAManagment OpenTable  - OpenTable
 INFO  11/07/2022 08:49:55 ppLogOn    ppLogOn_FormClosing - ppLogOn_FormClosing
+INFO  11/07/2022 09:11:16 DatabaseSQAManagment .ctor      - nitialize
+INFO  11/07/2022 09:11:16 ppLogOn    .ctor      - Open Vision ================================================================================================================
+INFO  11/07/2022 09:11:16 ppLogOn    .ctor      - Start Initialize
+INFO  11/07/2022 09:11:16 ppLogOn    LoadLocalText - LoadLocalText
+INFO  11/07/2022 09:11:16 ppLogOn    .ctor      - End Initialize
+INFO  11/07/2022 09:11:16 ppLogOn    ppLogOn_Load - ppLogOn_Load
+INFO  11/07/2022 09:11:16 DatabaseSQAManagment OpenSQLDatabase - OpenSQLDatabase
+INFO  11/07/2022 09:11:17 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  11/07/2022 09:11:17 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  11/07/2022 09:11:43 ppLogOn    ppLogOn_FormClosing - ppLogOn_FormClosing
