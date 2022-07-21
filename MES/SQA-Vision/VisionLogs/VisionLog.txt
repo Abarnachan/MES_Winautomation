@@ -27813,3 +27813,2707 @@ INFO  11/07/2022 09:11:16 DatabaseSQAManagment OpenSQLDatabase - OpenSQLDatabase
 INFO  11/07/2022 09:11:17 DatabaseSQAManagment OpenTable  - OpenTable
 INFO  11/07/2022 09:11:17 DatabaseSQAManagment OpenTable  - OpenTable
 INFO  11/07/2022 09:11:43 ppLogOn    ppLogOn_FormClosing - ppLogOn_FormClosing
+INFO  21/07/2022 17:17:26 DatabaseSQAManagment .ctor      - nitialize
+INFO  21/07/2022 17:17:26 ppLogOn    .ctor      - Open Vision ================================================================================================================
+INFO  21/07/2022 17:17:26 ppLogOn    .ctor      - Start Initialize
+INFO  21/07/2022 17:17:26 ppLogOn    LoadLocalText - LoadLocalText
+INFO  21/07/2022 17:17:26 ppLogOn    .ctor      - End Initialize
+INFO  21/07/2022 17:17:26 ppLogOn    ppLogOn_Load - ppLogOn_Load
+INFO  21/07/2022 17:17:26 DatabaseSQAManagment OpenSQLDatabase - OpenSQLDatabase
+INFO  21/07/2022 17:17:27 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:17:27 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:08 ppLogOn    bOK_Click  - bOK_Click
+INFO  21/07/2022 17:18:08 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:08 ppLogOn    ppLogOn_FormClosing - ppLogOn_FormClosing
+INFO  21/07/2022 17:18:08 DatabaseSQAManagment .ctor      - nitialize
+INFO  21/07/2022 17:18:09 mainMDI    .ctor      - Start Initialize
+INFO  21/07/2022 17:18:09 DeviceConnection .ctor      - Start Initialize
+INFO  21/07/2022 17:18:09 DeviceConnection .ctor      - End Initialize
+INFO  21/07/2022 17:18:09 mainMDI    LoadScreenData - LoadScreenData
+INFO  21/07/2022 17:18:09 NavManagement .ctor      - Initialize
+INFO  21/07/2022 17:18:09 LanguageManagement .ctor      - Initialize
+INFO  21/07/2022 17:18:09 NavManagement BuildNavigationCollection - BuildNavigationCollection
+INFO  21/07/2022 17:18:09 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:09 ParameterManagement .ctor      - ParameterManagement
+INFO  21/07/2022 17:18:09 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:09 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:09 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:09 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:09 mainMDI    LoadTimer  - LoadTimer
+INFO  21/07/2022 17:18:09 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:09 NavManagement LoadFirstMenu - LoadFirstMenu
+INFO  21/07/2022 17:18:09 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:09 NavManagement SetEnableLeftButtonAll - SetEnableLeftButtonAll
+INFO  21/07/2022 17:18:09 LanguageManagement SetControl - SetControl 6 L_Time
+INFO  21/07/2022 17:18:09 LanguageManagement SetControl - SetControl 4 picLogo
+INFO  21/07/2022 17:18:09 LanguageManagement SetControl - SetControl 4 picSwitch
+INFO  21/07/2022 17:18:09 LanguageManagement SetControl - SetControl 4 picHeadName
+INFO  21/07/2022 17:18:09 LanguageManagement SetControl - SetControl 4 picExit
+INFO  21/07/2022 17:18:09 LanguageManagement SetControl - SetControl 4 picQM
+INFO  21/07/2022 17:18:09 LanguageManagement SetControl - SetControl 4 picHome
+INFO  21/07/2022 17:18:09 LanguageManagement SetControl - SetControl 4 picMin
+INFO  21/07/2022 17:18:09 LanguageManagement SetControl - SetControl 4 picPrev
+INFO  21/07/2022 17:18:09 LanguageManagement SetControl - SetControl 4 picTimer
+INFO  21/07/2022 17:18:09 mainMDI    .ctor      - End Initialize
+INFO  21/07/2022 17:18:09 mainMDI    mainMDI_SizeChanged - mainMDI_SizeChanged
+INFO  21/07/2022 17:18:09 mainMDI    mainMDI_SizeChanged - mainMDI_SizeChanged
+INFO  21/07/2022 17:18:09 mainMDI    mainMDI_SizeChanged - mainMDI_SizeChanged
+INFO  21/07/2022 17:18:09 mainMDI    mainMDI_Load - mainMDI_Load
+INFO  21/07/2022 17:18:10 mainMDI    mainMDI_Shown - mainMDI_Shown
+INFO  21/07/2022 17:18:10 mainMDI    ReloadDevice - ReloadDevice
+INFO  21/07/2022 17:18:10 BusyForm   .ctor      - BusyForm 4
+INFO  21/07/2022 17:18:10 BusyForm   BusyForm_Shown - BusyForm_Shown 8
+INFO  21/07/2022 17:18:10 mainMDI    Connect    - Connect
+INFO  21/07/2022 17:18:10 CommandProcessor ScanforValidPorts - Port=COM3
+INFO  21/07/2022 17:18:10 CommandProcessor ScanforValidPorts - Add Com port to ports : COM3
+INFO  21/07/2022 17:18:10 CommandProcessor OnTimer    - Port=3
+INFO  21/07/2022 17:18:10 CommandProcessor OnTimer    - Port (3) is scanned, PortStatus = 1
+INFO  21/07/2022 17:18:11 CommandProcessor OnTimer    - Port (3) is Valid ?
+INFO  21/07/2022 17:18:11 DeviceConnection SendChar   - S<FF>
+INFO  21/07/2022 17:18:11 CommandProcessor Delaymils  - WaitTime=1.6973
+INFO  21/07/2022 17:18:11 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:11 CommandProcessor Delaymils  - WaitTime=1.0054
+INFO  21/07/2022 17:18:11 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:11 CommandProcessor Delaymils  - WaitTime=1.0031
+INFO  21/07/2022 17:18:11 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:11 CommandProcessor Delaymils  - WaitTime=1.0198
+INFO  21/07/2022 17:18:11 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:11 CommandProcessor Delaymils  - WaitTime=1.0002
+INFO  21/07/2022 17:18:11 CommandProcessor SendCommad - 255 000[0]
+INFO  21/07/2022 17:18:11 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:11 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:11 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:11 CommandProcessor WaitUntilTimeOut - WaitTime=9.1932
+INFO  21/07/2022 17:18:11 CommandProcessor OnTimer    - Port (3) is Valid!
+INFO  21/07/2022 17:18:11 mainMDI    _PortScanIsCompletedEvent>b__b - FD_PortScanIsCompletedEvent
+INFO  21/07/2022 17:18:11 DeviceConnection SendChar   - S<FF>
+INFO  21/07/2022 17:18:11 CommandProcessor Delaymils  - WaitTime=5.073
+INFO  21/07/2022 17:18:11 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:11 CommandProcessor Delaymils  - WaitTime=1
+INFO  21/07/2022 17:18:11 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:11 CommandProcessor Delaymils  - WaitTime=1.0002
+INFO  21/07/2022 17:18:11 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:11 CommandProcessor Delaymils  - WaitTime=1
+INFO  21/07/2022 17:18:11 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:11 CommandProcessor Delaymils  - WaitTime=1.0005
+INFO  21/07/2022 17:18:11 CommandProcessor SendCommad - 255 000[0]
+INFO  21/07/2022 17:18:11 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:11 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:11 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:11 CommandProcessor WaitUntilTimeOut - WaitTime=14.6424
+INFO  21/07/2022 17:18:11 mainMDI    shown_after_fd_completed - shown_after_fd_completed
+INFO  21/07/2022 17:18:11 BusyForm   BusyForm_FormClosed - BusyForm_FormClosed
+INFO  21/07/2022 17:18:12 mainMDI    StartSDSave - StartSDSave
+INFO  21/07/2022 17:18:12 DeviceConnection SendChar   - S<11>
+INFO  21/07/2022 17:18:12 CommandProcessor Delaymils  - WaitTime=1.0005
+INFO  21/07/2022 17:18:12 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:12 CommandProcessor Delaymils  - WaitTime=1.0003
+INFO  21/07/2022 17:18:12 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:12 CommandProcessor Delaymils  - WaitTime=1.0008
+INFO  21/07/2022 17:18:12 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:12 CommandProcessor Delaymils  - WaitTime=1.0001
+INFO  21/07/2022 17:18:12 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:12 CommandProcessor Delaymils  - WaitTime=1.0007
+INFO  21/07/2022 17:18:12 CommandProcessor SendCommad - 17 000[1]
+INFO  21/07/2022 17:18:12 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:12 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:12 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:12 CommandProcessor WaitUntilTimeOut - WaitTime=1.0238
+INFO  21/07/2022 17:18:12 ppucWait   .ctor      - Start ppucWait(mainMDI tmpCurrentMDI, byte tmpOpenType) Initialize
+INFO  21/07/2022 17:18:12 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:12 ppucWait   LoadFormButtons - LoadFormButtons1
+INFO  21/07/2022 17:18:12 ppucWait   .ctor      - End ppucWait(mainMDI tmpCurrentMDI, byte tmpOpenType) Initialize
+INFO  21/07/2022 17:18:12 ppucWait   Show       - Show
+INFO  21/07/2022 17:18:12 mainMDI    DisableControls - DisableControls
+INFO  21/07/2022 17:18:12 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:12 CommandProcessor Delaymils  - WaitTime=1.0028
+INFO  21/07/2022 17:18:12 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:12 CommandProcessor Delaymils  - WaitTime=1.0026
+INFO  21/07/2022 17:18:12 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:12 CommandProcessor Delaymils  - WaitTime=1.0042
+INFO  21/07/2022 17:18:12 DeviceConnection SendChar   - S<56>
+INFO  21/07/2022 17:18:12 CommandProcessor Delaymils  - WaitTime=1.0055
+INFO  21/07/2022 17:18:12 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:12 CommandProcessor Delaymils  - WaitTime=1.0005
+INFO  21/07/2022 17:18:12 CommandProcessor SendCommad - 2 0056[1]
+INFO  21/07/2022 17:18:12 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:12 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:12 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:12 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:12 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:12 CommandProcessor WaitUntilTimeOut - WaitTime=10.8337
+INFO  21/07/2022 17:18:12 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:12 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:12 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:12 CommandProcessor Delaymils  - WaitTime=1.0028
+INFO  21/07/2022 17:18:12 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:12 CommandProcessor Delaymils  - WaitTime=1.004
+INFO  21/07/2022 17:18:12 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:12 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:12 DeviceConnection SendChar   - S<59>
+INFO  21/07/2022 17:18:12 CommandProcessor Delaymils  - WaitTime=1.0024
+INFO  21/07/2022 17:18:12 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:12 CommandProcessor Delaymils  - WaitTime=1.0036
+INFO  21/07/2022 17:18:12 CommandProcessor SendCommad - 2 0059[1]
+INFO  21/07/2022 17:18:12 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:12 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:12 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:12 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:12 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:12 CommandProcessor WaitUntilTimeOut - WaitTime=12.8869
+INFO  21/07/2022 17:18:12 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:12 CommandProcessor Delaymils  - WaitTime=1.0039
+INFO  21/07/2022 17:18:12 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:12 CommandProcessor Delaymils  - WaitTime=1.0033
+INFO  21/07/2022 17:18:12 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:12 CommandProcessor Delaymils  - WaitTime=1.0042
+INFO  21/07/2022 17:18:12 DeviceConnection SendChar   - S<5A>
+INFO  21/07/2022 17:18:12 CommandProcessor Delaymils  - WaitTime=1.0008
+INFO  21/07/2022 17:18:12 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:12 CommandProcessor Delaymils  - WaitTime=1.0043
+INFO  21/07/2022 17:18:12 CommandProcessor SendCommad - 2 005A[1]
+INFO  21/07/2022 17:18:12 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:12 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:12 DeviceConnection GetChar    - R<80>
+INFO  21/07/2022 17:18:12 DeviceConnection GetChar    - R<3E>
+INFO  21/07/2022 17:18:12 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:12 CommandProcessor WaitUntilTimeOut - WaitTime=15.5901
+INFO  21/07/2022 17:18:12 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:12 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0004
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0016
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0019
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<E>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0041
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0027
+INFO  21/07/2022 17:18:13 CommandProcessor SendCommad - 2 00E[1]
+INFO  21/07/2022 17:18:13 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<C4>
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:13 CommandProcessor WaitUntilTimeOut - WaitTime=16.8652
+INFO  21/07/2022 17:18:13 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:13 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0029
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.2251
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<12>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0014
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0033
+INFO  21/07/2022 17:18:13 CommandProcessor SendCommad - 2 0012[1]
+INFO  21/07/2022 17:18:13 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:13 CommandProcessor WaitUntilTimeOut - WaitTime=17.7025
+INFO  21/07/2022 17:18:13 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:13 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0006
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0049
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<64>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0017
+INFO  21/07/2022 17:18:13 CommandProcessor SendCommad - 2 0064[1]
+INFO  21/07/2022 17:18:13 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<D9>
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<F8>
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:13 CommandProcessor WaitUntilTimeOut - WaitTime=6.3901
+INFO  21/07/2022 17:18:13 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:13 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0012
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<66>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0029
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0001
+INFO  21/07/2022 17:18:13 CommandProcessor SendCommad - 2 0066[1]
+INFO  21/07/2022 17:18:13 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<EA>
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<AB>
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:13 CommandProcessor WaitUntilTimeOut - WaitTime=7.7278
+INFO  21/07/2022 17:18:13 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:13 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.001
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0044
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0016
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<91>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0008
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0008
+INFO  21/07/2022 17:18:13 CommandProcessor SendCommad - 2 0091[1]
+INFO  21/07/2022 17:18:13 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<39>
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:13 CommandProcessor WaitUntilTimeOut - WaitTime=9.5717
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0017
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0038
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0025
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<92>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0004
+INFO  21/07/2022 17:18:13 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:13 CommandProcessor Delaymils  - WaitTime=1.0015
+INFO  21/07/2022 17:18:13 CommandProcessor SendCommad - 2 0092[1]
+INFO  21/07/2022 17:18:13 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<35>
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:13 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:13 CommandProcessor WaitUntilTimeOut - WaitTime=12.679
+INFO  21/07/2022 17:18:13 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:13 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:14 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:14 CommandProcessor Delaymils  - WaitTime=1.0023
+INFO  21/07/2022 17:18:14 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:14 CommandProcessor Delaymils  - WaitTime=1.0026
+INFO  21/07/2022 17:18:14 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:14 CommandProcessor Delaymils  - WaitTime=1.0026
+INFO  21/07/2022 17:18:14 DeviceConnection SendChar   - S<93>
+INFO  21/07/2022 17:18:14 CommandProcessor Delaymils  - WaitTime=1.0027
+INFO  21/07/2022 17:18:14 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:14 CommandProcessor Delaymils  - WaitTime=1
+INFO  21/07/2022 17:18:14 CommandProcessor SendCommad - 2 0093[1]
+INFO  21/07/2022 17:18:14 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:14 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:14 DeviceConnection GetChar    - R<33>
+INFO  21/07/2022 17:18:14 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:14 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:14 CommandProcessor WaitUntilTimeOut - WaitTime=14.4238
+INFO  21/07/2022 17:18:14 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:14 CommandProcessor Delaymils  - WaitTime=1.0038
+INFO  21/07/2022 17:18:14 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:14 CommandProcessor Delaymils  - WaitTime=1.0016
+INFO  21/07/2022 17:18:14 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:14 CommandProcessor Delaymils  - WaitTime=1.003
+INFO  21/07/2022 17:18:14 DeviceConnection SendChar   - S<94>
+INFO  21/07/2022 17:18:14 CommandProcessor Delaymils  - WaitTime=1.0018
+INFO  21/07/2022 17:18:14 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:14 CommandProcessor Delaymils  - WaitTime=1.0039
+INFO  21/07/2022 17:18:14 CommandProcessor SendCommad - 2 0094[1]
+INFO  21/07/2022 17:18:14 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:14 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:14 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:14 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:14 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:14 CommandProcessor WaitUntilTimeOut - WaitTime=15.9755
+INFO  21/07/2022 17:18:14 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:14 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:14 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:14 CommandProcessor Delaymils  - WaitTime=1.0024
+INFO  21/07/2022 17:18:14 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:14 CommandProcessor Delaymils  - WaitTime=1.0037
+INFO  21/07/2022 17:18:14 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:14 CommandProcessor Delaymils  - WaitTime=1.0005
+INFO  21/07/2022 17:18:14 DeviceConnection SendChar   - S<95>
+INFO  21/07/2022 17:18:14 CommandProcessor Delaymils  - WaitTime=1.0036
+INFO  21/07/2022 17:18:14 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:14 CommandProcessor Delaymils  - WaitTime=1.0008
+INFO  21/07/2022 17:18:14 CommandProcessor SendCommad - 2 0095[1]
+INFO  21/07/2022 17:18:14 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:14 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:14 DeviceConnection GetChar    - R<38>
+INFO  21/07/2022 17:18:14 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:14 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:14 CommandProcessor WaitUntilTimeOut - WaitTime=2.1156
+INFO  21/07/2022 17:18:14 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:14 CommandProcessor Delaymils  - WaitTime=1.002
+INFO  21/07/2022 17:18:14 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:14 CommandProcessor Delaymils  - WaitTime=1.0033
+INFO  21/07/2022 17:18:14 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:14 CommandProcessor Delaymils  - WaitTime=1.0017
+INFO  21/07/2022 17:18:14 DeviceConnection SendChar   - S<96>
+INFO  21/07/2022 17:18:14 CommandProcessor Delaymils  - WaitTime=1.0026
+INFO  21/07/2022 17:18:14 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:14 CommandProcessor Delaymils  - WaitTime=1.0022
+INFO  21/07/2022 17:18:14 CommandProcessor SendCommad - 2 0096[1]
+INFO  21/07/2022 17:18:14 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:14 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:14 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:14 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:14 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:14 CommandProcessor WaitUntilTimeOut - WaitTime=6.0479
+INFO  21/07/2022 17:18:14 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:14 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:15 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:15 CommandProcessor Delaymils  - WaitTime=1.0026
+INFO  21/07/2022 17:18:15 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:15 CommandProcessor Delaymils  - WaitTime=1.0043
+INFO  21/07/2022 17:18:15 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:15 CommandProcessor Delaymils  - WaitTime=1.186
+INFO  21/07/2022 17:18:15 DeviceConnection SendChar   - S<97>
+INFO  21/07/2022 17:18:15 CommandProcessor Delaymils  - WaitTime=1.0043
+INFO  21/07/2022 17:18:15 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:15 CommandProcessor Delaymils  - WaitTime=1.0008
+INFO  21/07/2022 17:18:15 CommandProcessor SendCommad - 2 0097[1]
+INFO  21/07/2022 17:18:15 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:15 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:15 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:15 DeviceConnection GetChar    - R<35>
+INFO  21/07/2022 17:18:15 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:15 CommandProcessor WaitUntilTimeOut - WaitTime=6.0935
+INFO  21/07/2022 17:18:15 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:15 CommandProcessor Delaymils  - WaitTime=1.0033
+INFO  21/07/2022 17:18:15 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:15 CommandProcessor Delaymils  - WaitTime=1.0036
+INFO  21/07/2022 17:18:15 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:15 CommandProcessor Delaymils  - WaitTime=1.0038
+INFO  21/07/2022 17:18:15 DeviceConnection SendChar   - S<98>
+INFO  21/07/2022 17:18:15 CommandProcessor Delaymils  - WaitTime=1.0027
+INFO  21/07/2022 17:18:15 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:15 CommandProcessor Delaymils  - WaitTime=1.0024
+INFO  21/07/2022 17:18:15 CommandProcessor SendCommad - 2 0098[1]
+INFO  21/07/2022 17:18:15 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:15 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:15 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:15 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:15 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:15 CommandProcessor WaitUntilTimeOut - WaitTime=8.8405
+INFO  21/07/2022 17:18:15 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:15 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:15 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:15 CommandProcessor Delaymils  - WaitTime=1.0006
+INFO  21/07/2022 17:18:15 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:15 CommandProcessor Delaymils  - WaitTime=1.0029
+INFO  21/07/2022 17:18:15 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:15 CommandProcessor Delaymils  - WaitTime=1.0037
+INFO  21/07/2022 17:18:15 DeviceConnection SendChar   - S<79>
+INFO  21/07/2022 17:18:15 CommandProcessor Delaymils  - WaitTime=1.0025
+INFO  21/07/2022 17:18:15 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:15 CommandProcessor Delaymils  - WaitTime=1.0009
+INFO  21/07/2022 17:18:15 CommandProcessor SendCommad - 2 0279[1]
+INFO  21/07/2022 17:18:15 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:15 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:15 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:15 DeviceConnection GetChar    - R<32>
+INFO  21/07/2022 17:18:15 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:15 CommandProcessor WaitUntilTimeOut - WaitTime=10.2446
+INFO  21/07/2022 17:18:15 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:15 CommandProcessor Delaymils  - WaitTime=1.0016
+INFO  21/07/2022 17:18:15 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:15 CommandProcessor Delaymils  - WaitTime=1.0002
+INFO  21/07/2022 17:18:15 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:15 CommandProcessor Delaymils  - WaitTime=1.3563
+INFO  21/07/2022 17:18:15 DeviceConnection SendChar   - S<7A>
+INFO  21/07/2022 17:18:15 CommandProcessor Delaymils  - WaitTime=1.002
+INFO  21/07/2022 17:18:15 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:15 CommandProcessor Delaymils  - WaitTime=1.0022
+INFO  21/07/2022 17:18:15 CommandProcessor SendCommad - 2 027A[1]
+INFO  21/07/2022 17:18:15 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:15 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:15 DeviceConnection GetChar    - R<33>
+INFO  21/07/2022 17:18:15 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:15 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:15 CommandProcessor WaitUntilTimeOut - WaitTime=11.8289
+INFO  21/07/2022 17:18:16 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:16 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:16 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:16 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:16 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:16 CommandProcessor Delaymils  - WaitTime=1.0132
+INFO  21/07/2022 17:18:16 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:16 CommandProcessor Delaymils  - WaitTime=1.0028
+INFO  21/07/2022 17:18:16 DeviceConnection SendChar   - S<7B>
+INFO  21/07/2022 17:18:16 CommandProcessor Delaymils  - WaitTime=1.0017
+INFO  21/07/2022 17:18:16 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:16 CommandProcessor Delaymils  - WaitTime=1.0018
+INFO  21/07/2022 17:18:16 CommandProcessor SendCommad - 2 027B[1]
+INFO  21/07/2022 17:18:16 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:16 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:16 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:16 DeviceConnection GetChar    - R<32>
+INFO  21/07/2022 17:18:16 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:16 CommandProcessor WaitUntilTimeOut - WaitTime=12.3046
+INFO  21/07/2022 17:18:16 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:16 CommandProcessor Delaymils  - WaitTime=1.0066
+INFO  21/07/2022 17:18:16 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:16 CommandProcessor Delaymils  - WaitTime=1.0093
+INFO  21/07/2022 17:18:16 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:16 CommandProcessor Delaymils  - WaitTime=1.0037
+INFO  21/07/2022 17:18:16 DeviceConnection SendChar   - S<7C>
+INFO  21/07/2022 17:18:16 CommandProcessor Delaymils  - WaitTime=1.0008
+INFO  21/07/2022 17:18:16 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:16 CommandProcessor Delaymils  - WaitTime=1.0042
+INFO  21/07/2022 17:18:16 CommandProcessor SendCommad - 2 027C[1]
+INFO  21/07/2022 17:18:16 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:16 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:16 DeviceConnection GetChar    - R<33>
+INFO  21/07/2022 17:18:16 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:16 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:16 CommandProcessor WaitUntilTimeOut - WaitTime=15.2896
+INFO  21/07/2022 17:18:16 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:16 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:16 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:16 CommandProcessor Delaymils  - WaitTime=1.0026
+INFO  21/07/2022 17:18:16 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:16 CommandProcessor Delaymils  - WaitTime=1.0004
+INFO  21/07/2022 17:18:16 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:16 CommandProcessor Delaymils  - WaitTime=1.0002
+INFO  21/07/2022 17:18:16 DeviceConnection SendChar   - S<78>
+INFO  21/07/2022 17:18:16 CommandProcessor Delaymils  - WaitTime=1.0029
+INFO  21/07/2022 17:18:16 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:16 CommandProcessor Delaymils  - WaitTime=1.0006
+INFO  21/07/2022 17:18:16 CommandProcessor SendCommad - 2 0078[1]
+INFO  21/07/2022 17:18:16 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:16 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:16 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:16 DeviceConnection GetChar    - R<2E>
+INFO  21/07/2022 17:18:16 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:16 CommandProcessor WaitUntilTimeOut - WaitTime=15.657
+INFO  21/07/2022 17:18:16 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:16 CommandProcessor Delaymils  - WaitTime=1.0038
+INFO  21/07/2022 17:18:16 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:16 CommandProcessor Delaymils  - WaitTime=1.0015
+INFO  21/07/2022 17:18:16 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:16 CommandProcessor Delaymils  - WaitTime=1.0043
+INFO  21/07/2022 17:18:16 DeviceConnection SendChar   - S<79>
+INFO  21/07/2022 17:18:16 CommandProcessor Delaymils  - WaitTime=1.002
+INFO  21/07/2022 17:18:16 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:16 CommandProcessor Delaymils  - WaitTime=1.0027
+INFO  21/07/2022 17:18:16 CommandProcessor SendCommad - 2 0079[1]
+INFO  21/07/2022 17:18:16 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:16 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:16 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:16 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:16 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:16 CommandProcessor WaitUntilTimeOut - WaitTime=2.2629
+INFO  21/07/2022 17:18:17 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:17 CommandProcessor Delaymils  - WaitTime=1.002
+INFO  21/07/2022 17:18:17 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:17 CommandProcessor Delaymils  - WaitTime=1.0118
+INFO  21/07/2022 17:18:17 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:17 CommandProcessor Delaymils  - WaitTime=1.0031
+INFO  21/07/2022 17:18:17 DeviceConnection SendChar   - S<7A>
+INFO  21/07/2022 17:18:17 CommandProcessor Delaymils  - WaitTime=1.0053
+INFO  21/07/2022 17:18:17 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:17 CommandProcessor Delaymils  - WaitTime=1.0004
+INFO  21/07/2022 17:18:17 CommandProcessor SendCommad - 2 007A[1]
+INFO  21/07/2022 17:18:17 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:17 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:17 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:17 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:17 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:17 CommandProcessor WaitUntilTimeOut - WaitTime=2.9654
+INFO  21/07/2022 17:18:17 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:17 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:17 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:17 CommandProcessor Delaymils  - WaitTime=1.0027
+INFO  21/07/2022 17:18:17 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:17 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:17 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:17 CommandProcessor Delaymils  - WaitTime=1.0008
+INFO  21/07/2022 17:18:17 DeviceConnection SendChar   - S<3F>
+INFO  21/07/2022 17:18:17 CommandProcessor Delaymils  - WaitTime=1.0065
+INFO  21/07/2022 17:18:17 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:17 CommandProcessor Delaymils  - WaitTime=1.0042
+INFO  21/07/2022 17:18:17 CommandProcessor SendCommad - 2 013F[1]
+INFO  21/07/2022 17:18:17 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:17 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:17 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:17 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:17 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:17 CommandProcessor WaitUntilTimeOut - WaitTime=3.427
+INFO  21/07/2022 17:18:17 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:17 CommandProcessor Delaymils  - WaitTime=1.0009
+INFO  21/07/2022 17:18:17 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:17 CommandProcessor Delaymils  - WaitTime=1.0022
+INFO  21/07/2022 17:18:17 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:17 CommandProcessor Delaymils  - WaitTime=1.0039
+INFO  21/07/2022 17:18:17 DeviceConnection SendChar   - S<40>
+INFO  21/07/2022 17:18:17 CommandProcessor Delaymils  - WaitTime=1.0033
+INFO  21/07/2022 17:18:17 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:17 CommandProcessor Delaymils  - WaitTime=1.002
+INFO  21/07/2022 17:18:17 CommandProcessor SendCommad - 2 0140[1]
+INFO  21/07/2022 17:18:17 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:17 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:17 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:17 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:17 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:17 CommandProcessor WaitUntilTimeOut - WaitTime=6.0352
+INFO  21/07/2022 17:18:18 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:18 CommandProcessor Delaymils  - WaitTime=1.0087
+INFO  21/07/2022 17:18:18 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:18 CommandProcessor Delaymils  - WaitTime=1.0034
+INFO  21/07/2022 17:18:18 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:18 CommandProcessor Delaymils  - WaitTime=1.0033
+INFO  21/07/2022 17:18:18 DeviceConnection SendChar   - S<41>
+INFO  21/07/2022 17:18:18 CommandProcessor Delaymils  - WaitTime=1.0007
+INFO  21/07/2022 17:18:18 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:18 CommandProcessor Delaymils  - WaitTime=1.0041
+INFO  21/07/2022 17:18:18 CommandProcessor SendCommad - 2 0141[1]
+INFO  21/07/2022 17:18:18 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:18 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:18 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:18 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:18 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:18 CommandProcessor WaitUntilTimeOut - WaitTime=6.8989
+INFO  21/07/2022 17:18:18 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:18 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:18 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:18 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:18 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:18 CommandProcessor Delaymils  - WaitTime=1.0008
+INFO  21/07/2022 17:18:18 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:18 CommandProcessor Delaymils  - WaitTime=1.0033
+INFO  21/07/2022 17:18:18 DeviceConnection SendChar   - S<7E>
+INFO  21/07/2022 17:18:18 CommandProcessor Delaymils  - WaitTime=1.0017
+INFO  21/07/2022 17:18:18 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:18 CommandProcessor Delaymils  - WaitTime=1.004
+INFO  21/07/2022 17:18:18 CommandProcessor SendCommad - 2 007E[1]
+INFO  21/07/2022 17:18:18 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:18 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:18 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:18 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:18 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:18 CommandProcessor WaitUntilTimeOut - WaitTime=7.3
+INFO  21/07/2022 17:18:18 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:18 CommandProcessor Delaymils  - WaitTime=1.4282
+INFO  21/07/2022 17:18:18 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:18 CommandProcessor Delaymils  - WaitTime=1.001
+INFO  21/07/2022 17:18:18 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:18 CommandProcessor Delaymils  - WaitTime=1.0015
+INFO  21/07/2022 17:18:18 DeviceConnection SendChar   - S<7F>
+INFO  21/07/2022 17:18:18 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:18 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:18 CommandProcessor Delaymils  - WaitTime=1.0022
+INFO  21/07/2022 17:18:18 CommandProcessor SendCommad - 2 007F[1]
+INFO  21/07/2022 17:18:18 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:18 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:18 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:18 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:18 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:18 CommandProcessor WaitUntilTimeOut - WaitTime=10.4989
+INFO  21/07/2022 17:18:18 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:18 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:18 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:18 CommandProcessor Delaymils  - WaitTime=1.0047
+INFO  21/07/2022 17:18:18 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:18 CommandProcessor Delaymils  - WaitTime=1
+INFO  21/07/2022 17:18:18 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:18 CommandProcessor Delaymils  - WaitTime=1.0034
+INFO  21/07/2022 17:18:18 DeviceConnection SendChar   - S<9C>
+INFO  21/07/2022 17:18:18 CommandProcessor Delaymils  - WaitTime=1.0003
+INFO  21/07/2022 17:18:18 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:18 CommandProcessor Delaymils  - WaitTime=1.0033
+INFO  21/07/2022 17:18:18 CommandProcessor SendCommad - 2 009C[1]
+INFO  21/07/2022 17:18:18 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:18 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:18 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:18 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:18 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:18 CommandProcessor WaitUntilTimeOut - WaitTime=10.9534
+INFO  21/07/2022 17:18:19 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:19 CommandProcessor Delaymils  - WaitTime=1.0007
+INFO  21/07/2022 17:18:19 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:19 CommandProcessor Delaymils  - WaitTime=1.0024
+INFO  21/07/2022 17:18:19 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:19 CommandProcessor Delaymils  - WaitTime=1.0023
+INFO  21/07/2022 17:18:19 DeviceConnection SendChar   - S<9D>
+INFO  21/07/2022 17:18:19 CommandProcessor Delaymils  - WaitTime=1.0005
+INFO  21/07/2022 17:18:19 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:19 CommandProcessor Delaymils  - WaitTime=1.0002
+INFO  21/07/2022 17:18:19 CommandProcessor SendCommad - 2 009D[1]
+INFO  21/07/2022 17:18:19 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:19 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:19 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:19 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:19 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:19 CommandProcessor WaitUntilTimeOut - WaitTime=15.9817
+INFO  21/07/2022 17:18:19 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:19 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:19 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:19 CommandProcessor Delaymils  - WaitTime=1.0035
+INFO  21/07/2022 17:18:19 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:19 CommandProcessor Delaymils  - WaitTime=1.0006
+INFO  21/07/2022 17:18:19 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:19 CommandProcessor Delaymils  - WaitTime=1.0039
+INFO  21/07/2022 17:18:19 DeviceConnection SendChar   - S<80>
+INFO  21/07/2022 17:18:19 CommandProcessor Delaymils  - WaitTime=1.0009
+INFO  21/07/2022 17:18:19 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:19 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:19 CommandProcessor SendCommad - 2 0080[1]
+INFO  21/07/2022 17:18:19 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:19 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:19 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:19 DeviceConnection GetChar    - R<2E>
+INFO  21/07/2022 17:18:19 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:19 CommandProcessor WaitUntilTimeOut - WaitTime=13.4435
+INFO  21/07/2022 17:18:19 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:19 CommandProcessor Delaymils  - WaitTime=1.0038
+INFO  21/07/2022 17:18:19 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:19 CommandProcessor Delaymils  - WaitTime=1.0008
+INFO  21/07/2022 17:18:19 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:19 CommandProcessor Delaymils  - WaitTime=1.0033
+INFO  21/07/2022 17:18:19 DeviceConnection SendChar   - S<81>
+INFO  21/07/2022 17:18:19 CommandProcessor Delaymils  - WaitTime=1.0036
+INFO  21/07/2022 17:18:19 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:19 CommandProcessor Delaymils  - WaitTime=1.0025
+INFO  21/07/2022 17:18:19 CommandProcessor SendCommad - 2 0081[1]
+INFO  21/07/2022 17:18:19 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:19 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:19 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:19 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:19 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:19 CommandProcessor WaitUntilTimeOut - WaitTime=3.0512
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0018
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0034
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0002
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<82>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0024
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:20 CommandProcessor SendCommad - 2 0082[1]
+INFO  21/07/2022 17:18:20 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:20 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:20 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:20 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:20 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:20 CommandProcessor WaitUntilTimeOut - WaitTime=17.5428
+INFO  21/07/2022 17:18:20 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:20 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0002
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0001
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0007
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<D9>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0577
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0035
+INFO  21/07/2022 17:18:20 CommandProcessor SendCommad - 2 00D9[1]
+INFO  21/07/2022 17:18:20 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:20 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:20 DeviceConnection GetChar    - R<32>
+INFO  21/07/2022 17:18:20 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:20 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:20 CommandProcessor WaitUntilTimeOut - WaitTime=4.8291
+INFO  21/07/2022 17:18:20 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:20 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0009
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0037
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0006
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<76>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0017
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0041
+INFO  21/07/2022 17:18:20 CommandProcessor SendCommad - 2 0076[1]
+INFO  21/07/2022 17:18:20 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:20 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:20 DeviceConnection GetChar    - R<35>
+INFO  21/07/2022 17:18:20 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:20 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:20 CommandProcessor WaitUntilTimeOut - WaitTime=5.4272
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0031
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0041
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<77>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0048
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0009
+INFO  21/07/2022 17:18:20 CommandProcessor SendCommad - 2 0077[1]
+INFO  21/07/2022 17:18:20 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:20 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:20 DeviceConnection GetChar    - R<32>
+INFO  21/07/2022 17:18:20 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:20 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:20 CommandProcessor WaitUntilTimeOut - WaitTime=11.033
+INFO  21/07/2022 17:18:20 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:20 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0006
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0002
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<99>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0016
+INFO  21/07/2022 17:18:20 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:20 CommandProcessor Delaymils  - WaitTime=1.0016
+INFO  21/07/2022 17:18:20 CommandProcessor SendCommad - 2 0099[1]
+INFO  21/07/2022 17:18:20 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:20 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:20 DeviceConnection GetChar    - R<36>
+INFO  21/07/2022 17:18:20 DeviceConnection GetChar    - R<39>
+INFO  21/07/2022 17:18:20 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:20 CommandProcessor WaitUntilTimeOut - WaitTime=10.3958
+INFO  21/07/2022 17:18:21 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:21 CommandProcessor Delaymils  - WaitTime=1.0139
+INFO  21/07/2022 17:18:21 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:21 CommandProcessor Delaymils  - WaitTime=1.0001
+INFO  21/07/2022 17:18:21 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:21 CommandProcessor Delaymils  - WaitTime=1.0038
+INFO  21/07/2022 17:18:21 DeviceConnection SendChar   - S<9A>
+INFO  21/07/2022 17:18:21 CommandProcessor Delaymils  - WaitTime=1.0039
+INFO  21/07/2022 17:18:21 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:21 CommandProcessor Delaymils  - WaitTime=1.0154
+INFO  21/07/2022 17:18:21 CommandProcessor SendCommad - 2 009A[1]
+INFO  21/07/2022 17:18:21 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:21 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:21 DeviceConnection GetChar    - R<2E>
+INFO  21/07/2022 17:18:21 DeviceConnection GetChar    - R<34>
+INFO  21/07/2022 17:18:21 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:21 CommandProcessor WaitUntilTimeOut - WaitTime=15.2685
+INFO  21/07/2022 17:18:21 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:21 CommandProcessor Delaymils  - WaitTime=1.0019
+INFO  21/07/2022 17:18:21 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:21 CommandProcessor Delaymils  - WaitTime=1.0016
+INFO  21/07/2022 17:18:21 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:21 CommandProcessor Delaymils  - WaitTime=1.0047
+INFO  21/07/2022 17:18:21 DeviceConnection SendChar   - S<9B>
+INFO  21/07/2022 17:18:21 CommandProcessor Delaymils  - WaitTime=1.0038
+INFO  21/07/2022 17:18:21 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:21 CommandProcessor Delaymils  - WaitTime=1.0029
+INFO  21/07/2022 17:18:21 CommandProcessor SendCommad - 2 009B[1]
+INFO  21/07/2022 17:18:21 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:21 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:21 DeviceConnection GetChar    - R<32>
+INFO  21/07/2022 17:18:21 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:21 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:21 CommandProcessor WaitUntilTimeOut - WaitTime=11.8852
+INFO  21/07/2022 17:18:21 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:21 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:21 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:21 CommandProcessor Delaymils  - WaitTime=1.003
+INFO  21/07/2022 17:18:21 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:21 CommandProcessor Delaymils  - WaitTime=1.0002
+INFO  21/07/2022 17:18:21 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:21 CommandProcessor Delaymils  - WaitTime=1.003
+INFO  21/07/2022 17:18:21 DeviceConnection SendChar   - S<30>
+INFO  21/07/2022 17:18:21 CommandProcessor Delaymils  - WaitTime=1.0011
+INFO  21/07/2022 17:18:21 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:21 CommandProcessor Delaymils  - WaitTime=1.0011
+INFO  21/07/2022 17:18:21 CommandProcessor SendCommad - 2 0230[1]
+INFO  21/07/2022 17:18:21 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:21 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:21 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:21 DeviceConnection GetChar    - R<2E>
+INFO  21/07/2022 17:18:21 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:21 CommandProcessor WaitUntilTimeOut - WaitTime=11.3469
+INFO  21/07/2022 17:18:22 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:22 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:22 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:22 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:22 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:22 CommandProcessor Delaymils  - WaitTime=1.0018
+INFO  21/07/2022 17:18:22 DeviceConnection SendChar   - S<31>
+INFO  21/07/2022 17:18:22 CommandProcessor Delaymils  - WaitTime=1.002
+INFO  21/07/2022 17:18:22 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:22 CommandProcessor Delaymils  - WaitTime=1.0015
+INFO  21/07/2022 17:18:22 CommandProcessor SendCommad - 2 0231[1]
+INFO  21/07/2022 17:18:22 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:22 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:22 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:22 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:22 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:22 CommandProcessor WaitUntilTimeOut - WaitTime=16.7514
+INFO  21/07/2022 17:18:22 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:22 CommandProcessor Delaymils  - WaitTime=1.0027
+INFO  21/07/2022 17:18:22 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:22 CommandProcessor Delaymils  - WaitTime=1.0005
+INFO  21/07/2022 17:18:22 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:22 CommandProcessor Delaymils  - WaitTime=1.0044
+INFO  21/07/2022 17:18:22 DeviceConnection SendChar   - S<32>
+INFO  21/07/2022 17:18:22 CommandProcessor Delaymils  - WaitTime=1.0028
+INFO  21/07/2022 17:18:22 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:22 CommandProcessor Delaymils  - WaitTime=1.0041
+INFO  21/07/2022 17:18:22 CommandProcessor SendCommad - 2 0232[1]
+INFO  21/07/2022 17:18:22 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:22 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:22 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:22 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:22 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:22 CommandProcessor WaitUntilTimeOut - WaitTime=7.231
+INFO  21/07/2022 17:18:22 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:22 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:22 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:22 CommandProcessor Delaymils  - WaitTime=1.0026
+INFO  21/07/2022 17:18:22 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:22 CommandProcessor Delaymils  - WaitTime=1.0007
+INFO  21/07/2022 17:18:22 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:22 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:22 DeviceConnection SendChar   - S<34>
+INFO  21/07/2022 17:18:22 CommandProcessor Delaymils  - WaitTime=1.4309
+INFO  21/07/2022 17:18:22 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:22 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:22 CommandProcessor SendCommad - 2 0234[1]
+INFO  21/07/2022 17:18:22 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:22 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:22 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:22 DeviceConnection GetChar    - R<2E>
+INFO  21/07/2022 17:18:22 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:22 CommandProcessor WaitUntilTimeOut - WaitTime=5.9079
+INFO  21/07/2022 17:18:22 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:22 CommandProcessor Delaymils  - WaitTime=1.0034
+INFO  21/07/2022 17:18:22 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:22 CommandProcessor Delaymils  - WaitTime=1
+INFO  21/07/2022 17:18:22 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:22 CommandProcessor Delaymils  - WaitTime=1.0014
+INFO  21/07/2022 17:18:22 DeviceConnection SendChar   - S<35>
+INFO  21/07/2022 17:18:22 CommandProcessor Delaymils  - WaitTime=1.0022
+INFO  21/07/2022 17:18:22 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:22 CommandProcessor Delaymils  - WaitTime=1.0014
+INFO  21/07/2022 17:18:22 CommandProcessor SendCommad - 2 0235[1]
+INFO  21/07/2022 17:18:22 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:22 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:22 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:22 DeviceConnection GetChar    - R<32>
+INFO  21/07/2022 17:18:22 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:22 CommandProcessor WaitUntilTimeOut - WaitTime=5.1337
+INFO  21/07/2022 17:18:23 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:23 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:23 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:23 CommandProcessor Delaymils  - WaitTime=1.0036
+INFO  21/07/2022 17:18:23 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:23 CommandProcessor Delaymils  - WaitTime=1.002
+INFO  21/07/2022 17:18:23 DeviceConnection SendChar   - S<36>
+INFO  21/07/2022 17:18:23 CommandProcessor Delaymils  - WaitTime=1.003
+INFO  21/07/2022 17:18:23 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:23 CommandProcessor Delaymils  - WaitTime=1.0016
+INFO  21/07/2022 17:18:23 CommandProcessor SendCommad - 2 0236[1]
+INFO  21/07/2022 17:18:23 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:23 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:23 DeviceConnection GetChar    - R<34>
+INFO  21/07/2022 17:18:23 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:23 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:23 CommandProcessor WaitUntilTimeOut - WaitTime=9.8224
+INFO  21/07/2022 17:18:23 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:23 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:23 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:23 CommandProcessor Delaymils  - WaitTime=1.002
+INFO  21/07/2022 17:18:23 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:23 CommandProcessor Delaymils  - WaitTime=1.0019
+INFO  21/07/2022 17:18:23 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:23 CommandProcessor Delaymils  - WaitTime=1.0041
+INFO  21/07/2022 17:18:23 DeviceConnection SendChar   - S<A5>
+INFO  21/07/2022 17:18:23 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:23 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:23 CommandProcessor Delaymils  - WaitTime=1.0011
+INFO  21/07/2022 17:18:23 CommandProcessor SendCommad - 2 00A5[1]
+INFO  21/07/2022 17:18:23 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:23 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:23 DeviceConnection GetChar    - R<32>
+INFO  21/07/2022 17:18:23 DeviceConnection GetChar    - R<2E>
+INFO  21/07/2022 17:18:23 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:23 CommandProcessor WaitUntilTimeOut - WaitTime=13.2624
+INFO  21/07/2022 17:18:23 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:23 CommandProcessor Delaymils  - WaitTime=1.0025
+INFO  21/07/2022 17:18:23 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:23 CommandProcessor Delaymils  - WaitTime=1.0017
+INFO  21/07/2022 17:18:23 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:23 CommandProcessor Delaymils  - WaitTime=1.0012
+INFO  21/07/2022 17:18:23 DeviceConnection SendChar   - S<A6>
+INFO  21/07/2022 17:18:23 CommandProcessor Delaymils  - WaitTime=1.0007
+INFO  21/07/2022 17:18:23 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:23 CommandProcessor Delaymils  - WaitTime=1.002
+INFO  21/07/2022 17:18:23 CommandProcessor SendCommad - 2 00A6[1]
+INFO  21/07/2022 17:18:23 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:23 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:23 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:23 DeviceConnection GetChar    - R<38>
+INFO  21/07/2022 17:18:23 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:23 CommandProcessor WaitUntilTimeOut - WaitTime=12.5004
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0007
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0038
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0004
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<A7>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0014
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:24 CommandProcessor SendCommad - 2 00A7[1]
+INFO  21/07/2022 17:18:24 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:24 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:24 DeviceConnection GetChar    - R<39>
+INFO  21/07/2022 17:18:24 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:24 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:24 CommandProcessor WaitUntilTimeOut - WaitTime=2.8859
+INFO  21/07/2022 17:18:24 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:24 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0035
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.2091
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<6D>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0037
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0034
+INFO  21/07/2022 17:18:24 CommandProcessor SendCommad - 2 006D[1]
+INFO  21/07/2022 17:18:24 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:24 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:24 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:24 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:24 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:24 CommandProcessor WaitUntilTimeOut - WaitTime=17.7381
+INFO  21/07/2022 17:18:24 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:24 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0026
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0007
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0046
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<6E>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0025
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0033
+INFO  21/07/2022 17:18:24 CommandProcessor SendCommad - 2 006E[1]
+INFO  21/07/2022 17:18:24 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:24 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:24 DeviceConnection GetChar    - R<1>
+INFO  21/07/2022 17:18:24 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:24 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:24 CommandProcessor WaitUntilTimeOut - WaitTime=14.4416
+INFO  21/07/2022 17:18:24 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:24 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0027
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0015
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0029
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<6F>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0029
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0003
+INFO  21/07/2022 17:18:24 CommandProcessor SendCommad - 2 006F[1]
+INFO  21/07/2022 17:18:24 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:24 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:24 DeviceConnection GetChar    - R<1>
+INFO  21/07/2022 17:18:24 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:24 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:24 CommandProcessor WaitUntilTimeOut - WaitTime=17.2243
+INFO  21/07/2022 17:18:24 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:24 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0042
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.003
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.2282
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<85>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0003
+INFO  21/07/2022 17:18:24 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:24 CommandProcessor Delaymils  - WaitTime=1.0016
+INFO  21/07/2022 17:18:24 CommandProcessor SendCommad - 2 0085[1]
+INFO  21/07/2022 17:18:24 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:24 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:24 DeviceConnection GetChar    - R<36>
+INFO  21/07/2022 17:18:24 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:24 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:24 CommandProcessor WaitUntilTimeOut - WaitTime=16.3446
+INFO  21/07/2022 17:18:25 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:25 CommandProcessor Delaymils  - WaitTime=1.0004
+INFO  21/07/2022 17:18:25 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:25 CommandProcessor Delaymils  - WaitTime=1.0019
+INFO  21/07/2022 17:18:25 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:25 CommandProcessor Delaymils  - WaitTime=1.0028
+INFO  21/07/2022 17:18:25 DeviceConnection SendChar   - S<86>
+INFO  21/07/2022 17:18:25 CommandProcessor Delaymils  - WaitTime=1.0004
+INFO  21/07/2022 17:18:25 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:25 CommandProcessor Delaymils  - WaitTime=1.0043
+INFO  21/07/2022 17:18:25 CommandProcessor SendCommad - 2 0086[1]
+INFO  21/07/2022 17:18:25 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:25 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:25 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:25 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:25 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:25 CommandProcessor WaitUntilTimeOut - WaitTime=6.528
+INFO  21/07/2022 17:18:25 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:25 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:25 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:25 CommandProcessor Delaymils  - WaitTime=1.0009
+INFO  21/07/2022 17:18:25 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:25 CommandProcessor Delaymils  - WaitTime=1.0036
+INFO  21/07/2022 17:18:25 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:25 CommandProcessor Delaymils  - WaitTime=1.0003
+INFO  21/07/2022 17:18:25 DeviceConnection SendChar   - S<87>
+INFO  21/07/2022 17:18:25 CommandProcessor Delaymils  - WaitTime=1.0028
+INFO  21/07/2022 17:18:25 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:25 CommandProcessor Delaymils  - WaitTime=1.0154
+INFO  21/07/2022 17:18:25 CommandProcessor SendCommad - 2 0087[1]
+INFO  21/07/2022 17:18:25 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:25 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:25 DeviceConnection GetChar    - R<35>
+INFO  21/07/2022 17:18:25 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:25 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:25 CommandProcessor WaitUntilTimeOut - WaitTime=8.9588
+INFO  21/07/2022 17:18:25 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:25 CommandProcessor Delaymils  - WaitTime=1.0003
+INFO  21/07/2022 17:18:25 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:25 CommandProcessor Delaymils  - WaitTime=1.0027
+INFO  21/07/2022 17:18:25 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:25 CommandProcessor Delaymils  - WaitTime=1.0039
+INFO  21/07/2022 17:18:25 DeviceConnection SendChar   - S<88>
+INFO  21/07/2022 17:18:25 CommandProcessor Delaymils  - WaitTime=1.0002
+INFO  21/07/2022 17:18:25 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:25 CommandProcessor Delaymils  - WaitTime=1.0001
+INFO  21/07/2022 17:18:25 CommandProcessor SendCommad - 2 0088[1]
+INFO  21/07/2022 17:18:25 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:25 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:25 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:25 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:25 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:25 CommandProcessor WaitUntilTimeOut - WaitTime=13.8667
+INFO  21/07/2022 17:18:25 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:25 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:25 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:25 CommandProcessor Delaymils  - WaitTime=1.0003
+INFO  21/07/2022 17:18:25 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:25 CommandProcessor Delaymils  - WaitTime=1.0031
+INFO  21/07/2022 17:18:25 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:25 CommandProcessor Delaymils  - WaitTime=1.0026
+INFO  21/07/2022 17:18:25 DeviceConnection SendChar   - S<89>
+INFO  21/07/2022 17:18:25 CommandProcessor Delaymils  - WaitTime=1.0075
+INFO  21/07/2022 17:18:25 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:25 CommandProcessor Delaymils  - WaitTime=1.0036
+INFO  21/07/2022 17:18:25 CommandProcessor SendCommad - 2 0089[1]
+INFO  21/07/2022 17:18:25 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:25 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:25 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:25 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:25 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:25 CommandProcessor WaitUntilTimeOut - WaitTime=15.0071
+INFO  21/07/2022 17:18:26 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:26 CommandProcessor Delaymils  - WaitTime=1.0003
+INFO  21/07/2022 17:18:26 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:26 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:26 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:26 CommandProcessor Delaymils  - WaitTime=1.0001
+INFO  21/07/2022 17:18:26 DeviceConnection SendChar   - S<8A>
+INFO  21/07/2022 17:18:26 CommandProcessor Delaymils  - WaitTime=1.0034
+INFO  21/07/2022 17:18:26 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:26 CommandProcessor Delaymils  - WaitTime=1.0041
+INFO  21/07/2022 17:18:26 CommandProcessor SendCommad - 2 008A[1]
+INFO  21/07/2022 17:18:26 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:26 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:26 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:26 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:26 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:26 CommandProcessor WaitUntilTimeOut - WaitTime=4.2821
+INFO  21/07/2022 17:18:26 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:26 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:26 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:26 CommandProcessor Delaymils  - WaitTime=1.0042
+INFO  21/07/2022 17:18:26 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:26 CommandProcessor Delaymils  - WaitTime=1.0018
+INFO  21/07/2022 17:18:26 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:26 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:26 DeviceConnection SendChar   - S<8B>
+INFO  21/07/2022 17:18:26 CommandProcessor Delaymils  - WaitTime=1.0034
+INFO  21/07/2022 17:18:26 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:26 CommandProcessor Delaymils  - WaitTime=1.0028
+INFO  21/07/2022 17:18:26 CommandProcessor SendCommad - 2 008B[1]
+INFO  21/07/2022 17:18:26 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:26 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:26 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:26 DeviceConnection GetChar    - R<35>
+INFO  21/07/2022 17:18:26 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:26 CommandProcessor WaitUntilTimeOut - WaitTime=3.8167
+INFO  21/07/2022 17:18:26 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:26 CommandProcessor Delaymils  - WaitTime=1.002
+INFO  21/07/2022 17:18:26 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:26 CommandProcessor Delaymils  - WaitTime=1.0035
+INFO  21/07/2022 17:18:26 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:26 CommandProcessor Delaymils  - WaitTime=1.0004
+INFO  21/07/2022 17:18:26 DeviceConnection SendChar   - S<8C>
+INFO  21/07/2022 17:18:26 CommandProcessor Delaymils  - WaitTime=1.0025
+INFO  21/07/2022 17:18:26 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:26 CommandProcessor Delaymils  - WaitTime=1.0033
+INFO  21/07/2022 17:18:26 CommandProcessor SendCommad - 2 008C[1]
+INFO  21/07/2022 17:18:26 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:26 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:26 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:26 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:26 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:26 CommandProcessor WaitUntilTimeOut - WaitTime=8.9497
+INFO  21/07/2022 17:18:26 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:26 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:26 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:26 CommandProcessor Delaymils  - WaitTime=1.0012
+INFO  21/07/2022 17:18:26 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:26 CommandProcessor Delaymils  - WaitTime=1.0042
+INFO  21/07/2022 17:18:26 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:26 CommandProcessor Delaymils  - WaitTime=1.003
+INFO  21/07/2022 17:18:26 DeviceConnection SendChar   - S<8D>
+INFO  21/07/2022 17:18:26 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:26 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:26 CommandProcessor Delaymils  - WaitTime=1.0031
+INFO  21/07/2022 17:18:26 CommandProcessor SendCommad - 2 008D[1]
+INFO  21/07/2022 17:18:26 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:26 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:26 DeviceConnection GetChar    - R<33>
+INFO  21/07/2022 17:18:26 DeviceConnection GetChar    - R<35>
+INFO  21/07/2022 17:18:26 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:26 CommandProcessor WaitUntilTimeOut - WaitTime=11.9737
+INFO  21/07/2022 17:18:27 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:27 CommandProcessor Delaymils  - WaitTime=1.0031
+INFO  21/07/2022 17:18:27 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:27 CommandProcessor Delaymils  - WaitTime=1.0041
+INFO  21/07/2022 17:18:27 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:27 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:27 DeviceConnection SendChar   - S<8E>
+INFO  21/07/2022 17:18:27 CommandProcessor Delaymils  - WaitTime=1.0014
+INFO  21/07/2022 17:18:27 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:27 CommandProcessor Delaymils  - WaitTime=1.002
+INFO  21/07/2022 17:18:27 CommandProcessor SendCommad - 2 008E[1]
+INFO  21/07/2022 17:18:27 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:27 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:27 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:27 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:27 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:27 CommandProcessor WaitUntilTimeOut - WaitTime=17.3131
+INFO  21/07/2022 17:18:27 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:27 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:27 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:27 CommandProcessor Delaymils  - WaitTime=1.0026
+INFO  21/07/2022 17:18:27 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:27 CommandProcessor Delaymils  - WaitTime=1.0017
+INFO  21/07/2022 17:18:27 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:27 CommandProcessor Delaymils  - WaitTime=1.0037
+INFO  21/07/2022 17:18:27 DeviceConnection SendChar   - S<8F>
+INFO  21/07/2022 17:18:27 CommandProcessor Delaymils  - WaitTime=1.0026
+INFO  21/07/2022 17:18:27 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:27 CommandProcessor Delaymils  - WaitTime=1.0008
+INFO  21/07/2022 17:18:27 CommandProcessor SendCommad - 2 008F[1]
+INFO  21/07/2022 17:18:27 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:27 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:27 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:27 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:27 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:27 CommandProcessor WaitUntilTimeOut - WaitTime=17.864
+INFO  21/07/2022 17:18:27 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:27 CommandProcessor Delaymils  - WaitTime=1.0031
+INFO  21/07/2022 17:18:27 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:27 CommandProcessor Delaymils  - WaitTime=1.1407
+INFO  21/07/2022 17:18:27 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:27 CommandProcessor Delaymils  - WaitTime=1.0014
+INFO  21/07/2022 17:18:27 DeviceConnection SendChar   - S<90>
+INFO  21/07/2022 17:18:27 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:27 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:27 CommandProcessor Delaymils  - WaitTime=1.0015
+INFO  21/07/2022 17:18:27 CommandProcessor SendCommad - 2 0090[1]
+INFO  21/07/2022 17:18:27 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:27 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:27 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:27 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:27 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:27 CommandProcessor WaitUntilTimeOut - WaitTime=6.6852
+INFO  21/07/2022 17:18:27 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:27 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:27 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:27 CommandProcessor Delaymils  - WaitTime=1.0028
+INFO  21/07/2022 17:18:27 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:27 CommandProcessor Delaymils  - WaitTime=1.0038
+INFO  21/07/2022 17:18:27 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:27 CommandProcessor Delaymils  - WaitTime=1.0044
+INFO  21/07/2022 17:18:27 DeviceConnection SendChar   - S<9E>
+INFO  21/07/2022 17:18:27 CommandProcessor Delaymils  - WaitTime=1.0014
+INFO  21/07/2022 17:18:27 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:27 CommandProcessor Delaymils  - WaitTime=1.0019
+INFO  21/07/2022 17:18:27 CommandProcessor SendCommad - 2 009E[1]
+INFO  21/07/2022 17:18:27 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:27 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:27 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:27 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:27 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:27 CommandProcessor WaitUntilTimeOut - WaitTime=6.1756
+INFO  21/07/2022 17:18:28 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:28 CommandProcessor Delaymils  - WaitTime=1.0004
+INFO  21/07/2022 17:18:28 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:28 CommandProcessor Delaymils  - WaitTime=1.0029
+INFO  21/07/2022 17:18:28 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:28 CommandProcessor Delaymils  - WaitTime=1.0026
+INFO  21/07/2022 17:18:28 DeviceConnection SendChar   - S<9F>
+INFO  21/07/2022 17:18:28 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:28 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:28 CommandProcessor Delaymils  - WaitTime=1.0005
+INFO  21/07/2022 17:18:28 CommandProcessor SendCommad - 2 009F[1]
+INFO  21/07/2022 17:18:28 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:28 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:28 DeviceConnection GetChar    - R<36>
+INFO  21/07/2022 17:18:28 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:28 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:28 CommandProcessor WaitUntilTimeOut - WaitTime=11.994
+INFO  21/07/2022 17:18:28 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:28 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:28 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:28 CommandProcessor Delaymils  - WaitTime=1.0007
+INFO  21/07/2022 17:18:28 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:28 CommandProcessor Delaymils  - WaitTime=1.0005
+INFO  21/07/2022 17:18:28 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:28 CommandProcessor Delaymils  - WaitTime=1
+INFO  21/07/2022 17:18:28 DeviceConnection SendChar   - S<C5>
+INFO  21/07/2022 17:18:28 CommandProcessor Delaymils  - WaitTime=1.0038
+INFO  21/07/2022 17:18:28 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:28 CommandProcessor Delaymils  - WaitTime=1.0034
+INFO  21/07/2022 17:18:28 CommandProcessor SendCommad - 2 00C5[1]
+INFO  21/07/2022 17:18:28 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:28 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:28 DeviceConnection GetChar    - R<38>
+INFO  21/07/2022 17:18:28 DeviceConnection GetChar    - R<32>
+INFO  21/07/2022 17:18:28 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:28 CommandProcessor WaitUntilTimeOut - WaitTime=15.1614
+INFO  21/07/2022 17:18:28 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:28 CommandProcessor Delaymils  - WaitTime=1.0028
+INFO  21/07/2022 17:18:28 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:28 CommandProcessor Delaymils  - WaitTime=1.0003
+INFO  21/07/2022 17:18:28 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:28 CommandProcessor Delaymils  - WaitTime=1.0044
+INFO  21/07/2022 17:18:28 DeviceConnection SendChar   - S<C6>
+INFO  21/07/2022 17:18:28 CommandProcessor Delaymils  - WaitTime=1.0038
+INFO  21/07/2022 17:18:28 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:28 CommandProcessor Delaymils  - WaitTime=1.0008
+INFO  21/07/2022 17:18:28 CommandProcessor SendCommad - 2 00C6[1]
+INFO  21/07/2022 17:18:28 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:28 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:28 DeviceConnection GetChar    - R<2E>
+INFO  21/07/2022 17:18:28 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:28 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:28 CommandProcessor WaitUntilTimeOut - WaitTime=14.9978
+INFO  21/07/2022 17:18:28 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:28 CommandProcessor Delaymils  - WaitTime=1.0007
+INFO  21/07/2022 17:18:28 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:28 CommandProcessor Delaymils  - WaitTime=1
+INFO  21/07/2022 17:18:28 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:28 CommandProcessor Delaymils  - WaitTime=1.004
+INFO  21/07/2022 17:18:28 DeviceConnection SendChar   - S<C7>
+INFO  21/07/2022 17:18:28 CommandProcessor Delaymils  - WaitTime=1.0034
+INFO  21/07/2022 17:18:28 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:28 CommandProcessor Delaymils  - WaitTime=1.1375
+INFO  21/07/2022 17:18:28 CommandProcessor SendCommad - 2 00C7[1]
+INFO  21/07/2022 17:18:28 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:28 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:28 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:28 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:28 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:28 CommandProcessor WaitUntilTimeOut - WaitTime=3.6016
+INFO  21/07/2022 17:18:28 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:28 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:29 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:29 CommandProcessor Delaymils  - WaitTime=1.0019
+INFO  21/07/2022 17:18:29 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:29 CommandProcessor Delaymils  - WaitTime=1.0042
+INFO  21/07/2022 17:18:29 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:29 CommandProcessor Delaymils  - WaitTime=1.0009
+INFO  21/07/2022 17:18:29 DeviceConnection SendChar   - S<CC>
+INFO  21/07/2022 17:18:29 CommandProcessor Delaymils  - WaitTime=1
+INFO  21/07/2022 17:18:29 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:29 CommandProcessor Delaymils  - WaitTime=1.0034
+INFO  21/07/2022 17:18:29 CommandProcessor SendCommad - 2 00CC[1]
+INFO  21/07/2022 17:18:29 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:29 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:29 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:29 DeviceConnection GetChar    - R<2E>
+INFO  21/07/2022 17:18:29 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:29 CommandProcessor WaitUntilTimeOut - WaitTime=3.5733
+INFO  21/07/2022 17:18:29 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:29 CommandProcessor Delaymils  - WaitTime=1.0026
+INFO  21/07/2022 17:18:29 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:29 CommandProcessor Delaymils  - WaitTime=1.0031
+INFO  21/07/2022 17:18:29 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:29 CommandProcessor Delaymils  - WaitTime=1.0039
+INFO  21/07/2022 17:18:29 DeviceConnection SendChar   - S<CD>
+INFO  21/07/2022 17:18:29 CommandProcessor Delaymils  - WaitTime=1.0002
+INFO  21/07/2022 17:18:29 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:29 CommandProcessor Delaymils  - WaitTime=1.0031
+INFO  21/07/2022 17:18:29 CommandProcessor SendCommad - 2 00CD[1]
+INFO  21/07/2022 17:18:29 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:29 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:29 DeviceConnection GetChar    - R<35>
+INFO  21/07/2022 17:18:29 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:29 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:29 CommandProcessor WaitUntilTimeOut - WaitTime=17.1267
+INFO  21/07/2022 17:18:29 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:29 CommandProcessor Delaymils  - WaitTime=1.0027
+INFO  21/07/2022 17:18:29 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:29 CommandProcessor Delaymils  - WaitTime=1.0027
+INFO  21/07/2022 17:18:29 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:29 CommandProcessor Delaymils  - WaitTime=1.0002
+INFO  21/07/2022 17:18:29 DeviceConnection SendChar   - S<CE>
+INFO  21/07/2022 17:18:29 CommandProcessor Delaymils  - WaitTime=1
+INFO  21/07/2022 17:18:29 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:29 CommandProcessor Delaymils  - WaitTime=1.0024
+INFO  21/07/2022 17:18:29 CommandProcessor SendCommad - 2 00CE[1]
+INFO  21/07/2022 17:18:29 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:29 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:29 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:29 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:29 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:29 CommandProcessor WaitUntilTimeOut - WaitTime=2.3647
+INFO  21/07/2022 17:18:29 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:29 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:29 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:29 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:29 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:29 CommandProcessor Delaymils  - WaitTime=1.002
+INFO  21/07/2022 17:18:29 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:29 CommandProcessor Delaymils  - WaitTime=1.0034
+INFO  21/07/2022 17:18:29 DeviceConnection SendChar   - S<C9>
+INFO  21/07/2022 17:18:29 CommandProcessor Delaymils  - WaitTime=1.0027
+INFO  21/07/2022 17:18:29 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:29 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:29 CommandProcessor SendCommad - 2 00C9[1]
+INFO  21/07/2022 17:18:29 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:29 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:29 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:29 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:29 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:29 CommandProcessor WaitUntilTimeOut - WaitTime=5.3931
+INFO  21/07/2022 17:18:30 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:30 CommandProcessor Delaymils  - WaitTime=1.0039
+INFO  21/07/2022 17:18:30 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:30 CommandProcessor Delaymils  - WaitTime=1.0035
+INFO  21/07/2022 17:18:30 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:30 CommandProcessor Delaymils  - WaitTime=1.0038
+INFO  21/07/2022 17:18:30 DeviceConnection SendChar   - S<CA>
+INFO  21/07/2022 17:18:30 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:30 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:30 CommandProcessor Delaymils  - WaitTime=1.0033
+INFO  21/07/2022 17:18:30 CommandProcessor SendCommad - 2 00CA[1]
+INFO  21/07/2022 17:18:30 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:30 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:30 DeviceConnection GetChar    - R<32>
+INFO  21/07/2022 17:18:30 DeviceConnection GetChar    - R<2E>
+INFO  21/07/2022 17:18:30 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:30 CommandProcessor WaitUntilTimeOut - WaitTime=11.0948
+INFO  21/07/2022 17:18:30 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:30 CommandProcessor Delaymils  - WaitTime=1.0001
+INFO  21/07/2022 17:18:30 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:30 CommandProcessor Delaymils  - WaitTime=1.002
+INFO  21/07/2022 17:18:30 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:30 CommandProcessor Delaymils  - WaitTime=1.0023
+INFO  21/07/2022 17:18:30 DeviceConnection SendChar   - S<CB>
+INFO  21/07/2022 17:18:30 CommandProcessor Delaymils  - WaitTime=1.0038
+INFO  21/07/2022 17:18:30 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:30 CommandProcessor Delaymils  - WaitTime=1.0043
+INFO  21/07/2022 17:18:30 CommandProcessor SendCommad - 2 00CB[1]
+INFO  21/07/2022 17:18:30 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:30 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:30 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:30 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:30 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:30 CommandProcessor WaitUntilTimeOut - WaitTime=12.3718
+INFO  21/07/2022 17:18:30 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:30 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:30 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:30 CommandProcessor Delaymils  - WaitTime=1.0046
+INFO  21/07/2022 17:18:30 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:30 CommandProcessor Delaymils  - WaitTime=1.0028
+INFO  21/07/2022 17:18:30 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:30 CommandProcessor Delaymils  - WaitTime=1.0022
+INFO  21/07/2022 17:18:30 DeviceConnection SendChar   - S<BA>
+INFO  21/07/2022 17:18:30 CommandProcessor Delaymils  - WaitTime=1.0006
+INFO  21/07/2022 17:18:30 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:30 CommandProcessor Delaymils  - WaitTime=1.0022
+INFO  21/07/2022 17:18:30 CommandProcessor SendCommad - 2 02BA[1]
+INFO  21/07/2022 17:18:30 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:30 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:30 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:30 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:30 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:30 CommandProcessor WaitUntilTimeOut - WaitTime=15.6483
+INFO  21/07/2022 17:18:31 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:31 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:31 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:31 CommandProcessor Delaymils  - WaitTime=1.0018
+INFO  21/07/2022 17:18:31 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:31 CommandProcessor Delaymils  - WaitTime=1.0006
+INFO  21/07/2022 17:18:31 DeviceConnection SendChar   - S<BB>
+INFO  21/07/2022 17:18:31 CommandProcessor Delaymils  - WaitTime=1.0005
+INFO  21/07/2022 17:18:31 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:31 CommandProcessor Delaymils  - WaitTime=1.0012
+INFO  21/07/2022 17:18:31 CommandProcessor SendCommad - 2 02BB[1]
+INFO  21/07/2022 17:18:31 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:31 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:31 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:31 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:31 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:31 CommandProcessor WaitUntilTimeOut - WaitTime=6.1174
+INFO  21/07/2022 17:18:31 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:31 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:31 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:31 CommandProcessor Delaymils  - WaitTime=1.0019
+INFO  21/07/2022 17:18:31 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:31 CommandProcessor Delaymils  - WaitTime=1.0029
+INFO  21/07/2022 17:18:31 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:31 CommandProcessor Delaymils  - WaitTime=1.0043
+INFO  21/07/2022 17:18:31 DeviceConnection SendChar   - S<B4>
+INFO  21/07/2022 17:18:31 CommandProcessor Delaymils  - WaitTime=1.0041
+INFO  21/07/2022 17:18:31 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:31 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:31 CommandProcessor SendCommad - 2 00B4[1]
+INFO  21/07/2022 17:18:31 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:31 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:31 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:31 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:31 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:31 CommandProcessor WaitUntilTimeOut - WaitTime=5.6112
+INFO  21/07/2022 17:18:31 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:31 CommandProcessor Delaymils  - WaitTime=1.0003
+INFO  21/07/2022 17:18:31 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:31 CommandProcessor Delaymils  - WaitTime=1.004
+INFO  21/07/2022 17:18:31 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:31 CommandProcessor Delaymils  - WaitTime=1.0022
+INFO  21/07/2022 17:18:31 DeviceConnection SendChar   - S<B5>
+INFO  21/07/2022 17:18:31 CommandProcessor Delaymils  - WaitTime=1.0003
+INFO  21/07/2022 17:18:31 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:31 CommandProcessor Delaymils  - WaitTime=1.0016
+INFO  21/07/2022 17:18:31 CommandProcessor SendCommad - 2 00B5[1]
+INFO  21/07/2022 17:18:31 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:31 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:31 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:31 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:31 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:31 CommandProcessor WaitUntilTimeOut - WaitTime=10.8679
+INFO  21/07/2022 17:18:31 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:31 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:31 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:31 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:31 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:31 CommandProcessor Delaymils  - WaitTime=1.0001
+INFO  21/07/2022 17:18:31 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:31 CommandProcessor Delaymils  - WaitTime=1.0023
+INFO  21/07/2022 17:18:31 DeviceConnection SendChar   - S<BB>
+INFO  21/07/2022 17:18:31 CommandProcessor Delaymils  - WaitTime=1.0019
+INFO  21/07/2022 17:18:31 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:31 CommandProcessor Delaymils  - WaitTime=1.0041
+INFO  21/07/2022 17:18:31 CommandProcessor SendCommad - 2 00BB[1]
+INFO  21/07/2022 17:18:31 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:31 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:31 DeviceConnection GetChar    - R<39>
+INFO  21/07/2022 17:18:31 DeviceConnection GetChar    - R<39>
+INFO  21/07/2022 17:18:31 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:31 CommandProcessor WaitUntilTimeOut - WaitTime=14.7211
+INFO  21/07/2022 17:18:32 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:32 CommandProcessor Delaymils  - WaitTime=1.0101
+INFO  21/07/2022 17:18:32 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:32 CommandProcessor Delaymils  - WaitTime=1.0024
+INFO  21/07/2022 17:18:32 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:32 CommandProcessor Delaymils  - WaitTime=1.0007
+INFO  21/07/2022 17:18:32 DeviceConnection SendChar   - S<BC>
+INFO  21/07/2022 17:18:32 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:32 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:32 CommandProcessor Delaymils  - WaitTime=1.0034
+INFO  21/07/2022 17:18:32 CommandProcessor SendCommad - 2 00BC[1]
+INFO  21/07/2022 17:18:32 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:32 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:32 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:32 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:32 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:32 CommandProcessor WaitUntilTimeOut - WaitTime=12.1802
+INFO  21/07/2022 17:18:32 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:32 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:32 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:32 CommandProcessor Delaymils  - WaitTime=1.0012
+INFO  21/07/2022 17:18:32 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:32 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:32 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:32 CommandProcessor Delaymils  - WaitTime=1.004
+INFO  21/07/2022 17:18:32 DeviceConnection SendChar   - S<BD>
+INFO  21/07/2022 17:18:32 CommandProcessor Delaymils  - WaitTime=1.0006
+INFO  21/07/2022 17:18:32 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:32 CommandProcessor Delaymils  - WaitTime=1.0043
+INFO  21/07/2022 17:18:32 CommandProcessor SendCommad - 2 00BD[1]
+INFO  21/07/2022 17:18:32 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:32 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:32 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:32 DeviceConnection GetChar    - R<33>
+INFO  21/07/2022 17:18:32 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:32 CommandProcessor WaitUntilTimeOut - WaitTime=13.0395
+INFO  21/07/2022 17:18:32 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:32 CommandProcessor Delaymils  - WaitTime=1.0007
+INFO  21/07/2022 17:18:32 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:32 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:32 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:32 CommandProcessor Delaymils  - WaitTime=1.0015
+INFO  21/07/2022 17:18:32 DeviceConnection SendChar   - S<BE>
+INFO  21/07/2022 17:18:32 CommandProcessor Delaymils  - WaitTime=1.0009
+INFO  21/07/2022 17:18:32 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:32 CommandProcessor Delaymils  - WaitTime=1.0036
+INFO  21/07/2022 17:18:32 CommandProcessor SendCommad - 2 00BE[1]
+INFO  21/07/2022 17:18:32 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:32 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:32 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:32 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:32 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:32 CommandProcessor WaitUntilTimeOut - WaitTime=17.8836
+INFO  21/07/2022 17:18:32 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:32 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:32 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:32 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:32 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:32 CommandProcessor Delaymils  - WaitTime=1.0029
+INFO  21/07/2022 17:18:32 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:32 CommandProcessor Delaymils  - WaitTime=1.0044
+INFO  21/07/2022 17:18:32 DeviceConnection SendChar   - S<BF>
+INFO  21/07/2022 17:18:32 CommandProcessor Delaymils  - WaitTime=1.5542
+INFO  21/07/2022 17:18:32 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:32 CommandProcessor Delaymils  - WaitTime=1.0026
+INFO  21/07/2022 17:18:32 CommandProcessor SendCommad - 2 00BF[1]
+INFO  21/07/2022 17:18:32 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:32 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:32 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:32 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:32 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:32 CommandProcessor WaitUntilTimeOut - WaitTime=4.4614
+INFO  21/07/2022 17:18:33 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:33 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:33 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:33 CommandProcessor Delaymils  - WaitTime=1.004
+INFO  21/07/2022 17:18:33 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:33 CommandProcessor Delaymils  - WaitTime=1.002
+INFO  21/07/2022 17:18:33 DeviceConnection SendChar   - S<C0>
+INFO  21/07/2022 17:18:33 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:33 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:33 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:33 CommandProcessor SendCommad - 2 00C0[1]
+INFO  21/07/2022 17:18:33 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:33 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:33 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:33 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:33 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:33 CommandProcessor WaitUntilTimeOut - WaitTime=3.9428
+INFO  21/07/2022 17:18:33 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:33 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:33 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:33 CommandProcessor Delaymils  - WaitTime=1.0003
+INFO  21/07/2022 17:18:33 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:33 CommandProcessor Delaymils  - WaitTime=1.0008
+INFO  21/07/2022 17:18:33 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:33 CommandProcessor Delaymils  - WaitTime=1.0003
+INFO  21/07/2022 17:18:33 DeviceConnection SendChar   - S<CF>
+INFO  21/07/2022 17:18:33 CommandProcessor Delaymils  - WaitTime=1.0004
+INFO  21/07/2022 17:18:33 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:33 CommandProcessor Delaymils  - WaitTime=1.0015
+INFO  21/07/2022 17:18:33 CommandProcessor SendCommad - 2 00CF[1]
+INFO  21/07/2022 17:18:33 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:33 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:33 DeviceConnection GetChar    - R<39>
+INFO  21/07/2022 17:18:33 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:33 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:33 CommandProcessor WaitUntilTimeOut - WaitTime=3.506
+INFO  21/07/2022 17:18:33 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:33 CommandProcessor Delaymils  - WaitTime=1.0025
+INFO  21/07/2022 17:18:33 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:33 CommandProcessor Delaymils  - WaitTime=1
+INFO  21/07/2022 17:18:33 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:33 CommandProcessor Delaymils  - WaitTime=1.3774
+INFO  21/07/2022 17:18:33 DeviceConnection SendChar   - S<D0>
+INFO  21/07/2022 17:18:33 CommandProcessor Delaymils  - WaitTime=1.0033
+INFO  21/07/2022 17:18:33 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:33 CommandProcessor Delaymils  - WaitTime=1.0005
+INFO  21/07/2022 17:18:33 CommandProcessor SendCommad - 2 00D0[1]
+INFO  21/07/2022 17:18:33 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:33 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:33 DeviceConnection GetChar    - R<2E>
+INFO  21/07/2022 17:18:33 DeviceConnection GetChar    - R<32>
+INFO  21/07/2022 17:18:33 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:33 CommandProcessor WaitUntilTimeOut - WaitTime=6.1726
+INFO  21/07/2022 17:18:34 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:34 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:34 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:34 CommandProcessor Delaymils  - WaitTime=1.003
+INFO  21/07/2022 17:18:34 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:34 CommandProcessor Delaymils  - WaitTime=1.0019
+INFO  21/07/2022 17:18:34 DeviceConnection SendChar   - S<D1>
+INFO  21/07/2022 17:18:34 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:34 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:34 CommandProcessor Delaymils  - WaitTime=1.0037
+INFO  21/07/2022 17:18:34 CommandProcessor SendCommad - 2 00D1[1]
+INFO  21/07/2022 17:18:34 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:34 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:34 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:34 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:34 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:34 CommandProcessor WaitUntilTimeOut - WaitTime=8.0551
+INFO  21/07/2022 17:18:34 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:34 CommandProcessor Delaymils  - WaitTime=1.001
+INFO  21/07/2022 17:18:34 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:34 CommandProcessor Delaymils  - WaitTime=1.0025
+INFO  21/07/2022 17:18:34 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:34 CommandProcessor Delaymils  - WaitTime=1.0037
+INFO  21/07/2022 17:18:34 DeviceConnection SendChar   - S<D2>
+INFO  21/07/2022 17:18:34 CommandProcessor Delaymils  - WaitTime=1.0001
+INFO  21/07/2022 17:18:34 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:34 CommandProcessor Delaymils  - WaitTime=1.0012
+INFO  21/07/2022 17:18:34 CommandProcessor SendCommad - 2 00D2[1]
+INFO  21/07/2022 17:18:34 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:34 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:34 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:34 DeviceConnection GetChar    - R<2E>
+INFO  21/07/2022 17:18:34 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:34 CommandProcessor WaitUntilTimeOut - WaitTime=14.6365
+INFO  21/07/2022 17:18:34 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:34 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:34 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:34 CommandProcessor Delaymils  - WaitTime=1.0008
+INFO  21/07/2022 17:18:34 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:34 CommandProcessor Delaymils  - WaitTime=1.0016
+INFO  21/07/2022 17:18:34 DeviceConnection SendChar   - S<D3>
+INFO  21/07/2022 17:18:34 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:34 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:34 CommandProcessor Delaymils  - WaitTime=1.0016
+INFO  21/07/2022 17:18:34 CommandProcessor SendCommad - 2 00D3[1]
+INFO  21/07/2022 17:18:34 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:34 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:34 DeviceConnection GetChar    - R<FF>
+INFO  21/07/2022 17:18:34 DeviceConnection GetChar    - R<35>
+INFO  21/07/2022 17:18:34 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:34 CommandProcessor WaitUntilTimeOut - WaitTime=4.0569
+INFO  21/07/2022 17:18:34 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:34 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:34 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:34 CommandProcessor Delaymils  - WaitTime=1.0025
+INFO  21/07/2022 17:18:34 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:34 CommandProcessor Delaymils  - WaitTime=1.0029
+INFO  21/07/2022 17:18:34 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:34 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:34 DeviceConnection SendChar   - S<49>
+INFO  21/07/2022 17:18:34 CommandProcessor Delaymils  - WaitTime=1.0015
+INFO  21/07/2022 17:18:34 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:34 CommandProcessor Delaymils  - WaitTime=1.0034
+INFO  21/07/2022 17:18:34 CommandProcessor SendCommad - 2 0249[1]
+INFO  21/07/2022 17:18:34 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:34 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:34 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:34 DeviceConnection GetChar    - R<38>
+INFO  21/07/2022 17:18:34 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:34 CommandProcessor WaitUntilTimeOut - WaitTime=3.9505
+INFO  21/07/2022 17:18:35 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:35 CommandProcessor Delaymils  - WaitTime=1.0006
+INFO  21/07/2022 17:18:35 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:35 CommandProcessor Delaymils  - WaitTime=1.0017
+INFO  21/07/2022 17:18:35 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:35 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:35 DeviceConnection SendChar   - S<4A>
+INFO  21/07/2022 17:18:35 CommandProcessor Delaymils  - WaitTime=1.003
+INFO  21/07/2022 17:18:35 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:35 CommandProcessor Delaymils  - WaitTime=1.0009
+INFO  21/07/2022 17:18:35 CommandProcessor SendCommad - 2 024A[1]
+INFO  21/07/2022 17:18:35 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:35 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:35 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:35 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:35 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:35 CommandProcessor WaitUntilTimeOut - WaitTime=8.8163
+INFO  21/07/2022 17:18:35 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:35 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:35 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:35 CommandProcessor Delaymils  - WaitTime=1.0006
+INFO  21/07/2022 17:18:35 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:35 CommandProcessor Delaymils  - WaitTime=1.0025
+INFO  21/07/2022 17:18:35 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:35 CommandProcessor Delaymils  - WaitTime=1.0008
+INFO  21/07/2022 17:18:35 DeviceConnection SendChar   - S<4B>
+INFO  21/07/2022 17:18:35 CommandProcessor Delaymils  - WaitTime=1.0004
+INFO  21/07/2022 17:18:35 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:35 CommandProcessor Delaymils  - WaitTime=1.0037
+INFO  21/07/2022 17:18:35 CommandProcessor SendCommad - 2 024B[1]
+INFO  21/07/2022 17:18:35 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:35 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:35 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:35 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:35 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:35 CommandProcessor WaitUntilTimeOut - WaitTime=11.8243
+INFO  21/07/2022 17:18:35 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:35 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:35 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:35 CommandProcessor Delaymils  - WaitTime=1.0001
+INFO  21/07/2022 17:18:35 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:35 CommandProcessor Delaymils  - WaitTime=1.0026
+INFO  21/07/2022 17:18:35 DeviceConnection SendChar   - S<4C>
+INFO  21/07/2022 17:18:35 CommandProcessor Delaymils  - WaitTime=1.0001
+INFO  21/07/2022 17:18:35 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:35 CommandProcessor Delaymils  - WaitTime=1.0037
+INFO  21/07/2022 17:18:35 CommandProcessor SendCommad - 2 024C[1]
+INFO  21/07/2022 17:18:35 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:35 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:35 DeviceConnection GetChar    - R<53>
+INFO  21/07/2022 17:18:35 DeviceConnection GetChar    - R<CF>
+INFO  21/07/2022 17:18:35 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:35 CommandProcessor WaitUntilTimeOut - WaitTime=16.9616
+INFO  21/07/2022 17:18:35 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:35 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:35 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:35 CommandProcessor Delaymils  - WaitTime=1.0041
+INFO  21/07/2022 17:18:35 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:35 CommandProcessor Delaymils  - WaitTime=1.0001
+INFO  21/07/2022 17:18:35 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:35 CommandProcessor Delaymils  - WaitTime=1.0035
+INFO  21/07/2022 17:18:35 DeviceConnection SendChar   - S<70>
+INFO  21/07/2022 17:18:35 CommandProcessor Delaymils  - WaitTime=1.0009
+INFO  21/07/2022 17:18:35 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:35 CommandProcessor Delaymils  - WaitTime=1.0007
+INFO  21/07/2022 17:18:35 CommandProcessor SendCommad - 2 0270[1]
+INFO  21/07/2022 17:18:35 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:35 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:35 DeviceConnection GetChar    - R<35>
+INFO  21/07/2022 17:18:35 DeviceConnection GetChar    - R<32>
+INFO  21/07/2022 17:18:35 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:35 CommandProcessor WaitUntilTimeOut - WaitTime=17.1429
+INFO  21/07/2022 17:18:36 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:36 CommandProcessor Delaymils  - WaitTime=1.0031
+INFO  21/07/2022 17:18:36 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:36 CommandProcessor Delaymils  - WaitTime=1.004
+INFO  21/07/2022 17:18:36 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:36 CommandProcessor Delaymils  - WaitTime=1.0016
+INFO  21/07/2022 17:18:36 DeviceConnection SendChar   - S<71>
+INFO  21/07/2022 17:18:36 CommandProcessor Delaymils  - WaitTime=1.0034
+INFO  21/07/2022 17:18:36 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:36 CommandProcessor Delaymils  - WaitTime=1.0008
+INFO  21/07/2022 17:18:36 CommandProcessor SendCommad - 2 0271[1]
+INFO  21/07/2022 17:18:36 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:36 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:36 DeviceConnection GetChar    - R<35>
+INFO  21/07/2022 17:18:36 DeviceConnection GetChar    - R<36>
+INFO  21/07/2022 17:18:36 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:36 CommandProcessor WaitUntilTimeOut - WaitTime=6.4628
+INFO  21/07/2022 17:18:36 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:36 CommandProcessor Delaymils  - WaitTime=1.0006
+INFO  21/07/2022 17:18:36 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:36 CommandProcessor Delaymils  - WaitTime=1.0034
+INFO  21/07/2022 17:18:36 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:36 CommandProcessor Delaymils  - WaitTime=1.0041
+INFO  21/07/2022 17:18:36 DeviceConnection SendChar   - S<72>
+INFO  21/07/2022 17:18:36 CommandProcessor Delaymils  - WaitTime=1.0003
+INFO  21/07/2022 17:18:36 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:36 CommandProcessor Delaymils  - WaitTime=1.0022
+INFO  21/07/2022 17:18:36 CommandProcessor SendCommad - 2 0272[1]
+INFO  21/07/2022 17:18:36 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:36 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:36 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:36 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:36 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:36 CommandProcessor WaitUntilTimeOut - WaitTime=11.3305
+INFO  21/07/2022 17:18:36 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:36 CommandProcessor Delaymils  - WaitTime=1.004
+INFO  21/07/2022 17:18:36 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:36 CommandProcessor Delaymils  - WaitTime=1
+INFO  21/07/2022 17:18:36 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:36 CommandProcessor Delaymils  - WaitTime=1.0039
+INFO  21/07/2022 17:18:36 DeviceConnection SendChar   - S<73>
+INFO  21/07/2022 17:18:36 CommandProcessor Delaymils  - WaitTime=1.0014
+INFO  21/07/2022 17:18:36 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:36 CommandProcessor Delaymils  - WaitTime=1.0009
+INFO  21/07/2022 17:18:36 CommandProcessor SendCommad - 2 0273[1]
+INFO  21/07/2022 17:18:36 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:37 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:37 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:37 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:37 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:37 CommandProcessor WaitUntilTimeOut - WaitTime=15.0751
+INFO  21/07/2022 17:18:37 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:37 CommandProcessor Delaymils  - WaitTime=1.0042
+INFO  21/07/2022 17:18:37 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:37 CommandProcessor Delaymils  - WaitTime=1.0002
+INFO  21/07/2022 17:18:37 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:37 CommandProcessor Delaymils  - WaitTime=1.2095
+INFO  21/07/2022 17:18:37 DeviceConnection SendChar   - S<74>
+INFO  21/07/2022 17:18:37 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:37 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:37 CommandProcessor Delaymils  - WaitTime=1.0038
+INFO  21/07/2022 17:18:37 CommandProcessor SendCommad - 2 0274[1]
+INFO  21/07/2022 17:18:37 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:37 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:37 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:37 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:37 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:37 CommandProcessor WaitUntilTimeOut - WaitTime=13.2211
+INFO  21/07/2022 17:18:37 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:37 ppucWait   UpdateMainprogress - UpdateMainprogress(int value_, int CountPar,string strStatus)
+INFO  21/07/2022 17:18:37 CommandProcessor ClearBuffer -  ===== Clear The Buffer =====
+INFO  21/07/2022 17:18:37 mainMDI    P_ReadParametersCompleted>b__9 - TestP_ReadParametersCompleted
+INFO  21/07/2022 17:18:37 mainMDI    LoadSDPar  - LoadSDPar
+INFO  21/07/2022 17:18:37 mainMDI    LoadPar    - LoadPar
+INFO  21/07/2022 17:18:37 mainMDI    LoadStatusPar - LoadStatusPar
+INFO  21/07/2022 17:18:37 mainMDI    SetSDStatus - SetStatusField
+INFO  21/07/2022 17:18:37 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:37 SaveData   .ctor      - Initialize SaveData(mainMDI tmpCurrentMDI)
+INFO  21/07/2022 17:18:37 SaveData   SaveToDBSD - SaveToDB
+INFO  21/07/2022 17:18:37 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:37 ppucWait   Close      - Close
+INFO  21/07/2022 17:18:37 mainMDI    EnableControls - EnableControls
+INFO  21/07/2022 17:18:37 NavManagement Menu_Click - Menu_Click 0
+INFO  21/07/2022 17:18:37 BusyForm   .ctor      - BusyForm 2
+INFO  21/07/2022 17:18:37 BusyForm   BusyForm_Shown - BusyForm_Shown 3
+INFO  21/07/2022 17:18:37 NavManagement LoadingForm - LoadingForm 0
+INFO  21/07/2022 17:18:37 NavManagement LoadFormHeader - LoadFormHeader 0
+INFO  21/07/2022 17:18:37 NavManagement LoadForm   - LoadForm 0
+INFO  21/07/2022 17:18:37 frmHome    .ctor      - Start Initialize
+INFO  21/07/2022 17:18:37 LanguageManagement SetControl - SetControl 4 I_RemainTests
+INFO  21/07/2022 17:18:37 LanguageManagement SetControl - SetControl 4 I_LastBackup
+INFO  21/07/2022 17:18:37 LanguageManagement SetControl - SetControl 4 I_UseSpace
+INFO  21/07/2022 17:18:37 LanguageManagement SetControl - SetControl 4 I_NextBackup
+INFO  21/07/2022 17:18:37 LanguageManagement SetControl - SetControl 4 I_LEVEL3
+INFO  21/07/2022 17:18:37 LanguageManagement SetControl - SetControl 4 I_LEVEL2
+INFO  21/07/2022 17:18:37 LanguageManagement SetControl - SetControl 4 I_LEVEL1
+INFO  21/07/2022 17:18:37 LanguageManagement SetControl - SetControl 4 I_AMP
+INFO  21/07/2022 17:18:37 LanguageManagement SetControl - SetControl 4 I_STStatus
+INFO  21/07/2022 17:18:37 LanguageManagement SetControl - SetControl 4 I_ZL
+INFO  21/07/2022 17:18:37 LanguageManagement SetControl - SetControl 4 I_LC2
+INFO  21/07/2022 17:18:37 LanguageManagement SetControl - SetControl 4 I_REF2
+INFO  21/07/2022 17:18:37 LanguageManagement SetControl - SetControl 4 I_LC1
+INFO  21/07/2022 17:18:37 LanguageManagement SetControl - SetControl 4 I_REF1
+INFO  21/07/2022 17:18:37 LanguageManagement SetControl - SetControl 4 I_ACStatus
+INFO  21/07/2022 17:18:37 frmHome    .ctor      - End Initialize
+INFO  21/07/2022 17:18:37 frmHome    frmHome_Load - frmHome_Load
+INFO  21/07/2022 17:18:37 NavManagement SetLeftRoundButtons - SetLeftRoundButtons
+INFO  21/07/2022 17:18:37 frmHome    LoadFormButtons - LoadFormButtons
+INFO  21/07/2022 17:18:37 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:37 frmHome    ReLoadHome - ReLoadHome
+INFO  21/07/2022 17:18:37 BusyForm   .ctor      - BusyForm 4
+INFO  21/07/2022 17:18:37 BusyForm   BusyForm_Shown - BusyForm_Shown 11
+INFO  21/07/2022 17:18:37 BusyForm   LoadVidGrab - LoadVidGrab
+INFO  21/07/2022 17:18:38 VideoManagement .ctor      - Start initializing VideoManagement object
+INFO  21/07/2022 17:18:38 VideoManagement set_FullScreenWindow - Full screen size was set to Width: 1280 Height: 1024
+INFO  21/07/2022 17:18:38 VideoManagement set_LargeUserWindow - Large user window size was set to Width: 945 Height: 756
+INFO  21/07/2022 17:18:38 VideoManagement set_SmallUserWindow - Small user window size was set to Width: 725 Height: 580
+INFO  21/07/2022 17:18:38 VideoManagement set_GridRows - Video grid's rows number was set to 4
+INFO  21/07/2022 17:18:38 VideoManagement set_GridColumns - Video grid's columns number was set to 5
+INFO  21/07/2022 17:18:38 VideoManagement set_GridLineWidth - Grid line width was set to: 1
+INFO  21/07/2022 17:18:38 VideoManagement UpdateOverlayString - Update overlay string Key: 0
+INFO  21/07/2022 17:18:38 VideoManagement UpdateOverlayString - Update overlay string Key: 2
+INFO  21/07/2022 17:18:38 VideoManagement set_RecordMaxDuration - Record max. duration was set to 30 secs.
+INFO  21/07/2022 17:18:38 VideoManagement InitializeVideoGrabbers - Start initializing video grabbers objects
+INFO  21/07/2022 17:18:38 VideoManagement InitializeVideoGrabbers - Load video grabbers properties
+INFO  21/07/2022 17:18:38 VideoManagement LoadVideoGrabber - Start loading VideoGrabber object
+INFO  21/07/2022 17:18:38 VideoManagement SetVideoGrabberProperties - VideoGrabber settings are set
+INFO  21/07/2022 17:18:38 VideoManagement LoadVideoGrabber - Start loading VideoGrabber object
+INFO  21/07/2022 17:18:38 VideoManagement SetVideoGrabberProperties - VideoGrabber settings are set
+INFO  21/07/2022 17:18:38 VideoManagement LoadVideoGrabber - Start loading VideoGrabber object
+INFO  21/07/2022 17:18:38 VideoManagement SetVideoGrabberProperties - VideoGrabber settings are set
+INFO  21/07/2022 17:18:38 VideoManagement LoadVideoGrabber - Start loading VideoGrabber object
+INFO  21/07/2022 17:18:38 VideoManagement SetVideoGrabberProperties - VideoGrabber settings are set
+INFO  21/07/2022 17:18:38 VideoManagement LoadVideoGrabber - Start loading VideoGrabber object
+INFO  21/07/2022 17:18:38 VideoManagement SetVideoGrabberProperties - VideoGrabber settings are set
+INFO  21/07/2022 17:18:38 VideoManagement .ctor      - VideoGrabber objects were initialized
+INFO  21/07/2022 17:18:38 VideoManagement RetrievePropertyValuesList - Retrieving list of properties values
+INFO  21/07/2022 17:18:38 VideoManagement .ctor      - Atleast one video device was found. Setting video source to ICube
+INFO  21/07/2022 17:18:38 VideoManagement SetVideoResolution - Video source resolution was set to f
+INFO  21/07/2022 17:18:38 VideoManagement SetDefectedPixelsCorrection - Pixel correction value was updated to 1
+INFO  21/07/2022 17:18:38 BusyForm   LoadVidGrab - LoadVidGrab  Device Video
+INFO  21/07/2022 17:18:38 VideoManagement set_LargeUserWindow - Large user window size was set to Width: 950 Height: 760
+INFO  21/07/2022 17:18:38 VideoManagement OnLoad     - Start loading video grabbers
+INFO  21/07/2022 17:18:38 VideoManagement OnLoad     - Window size type was set to: LARGE
+INFO  21/07/2022 17:18:38 VideoManagement SetUserDisplaySettings - Switching to new window size - LARGE
+INFO  21/07/2022 17:18:38 VideoManagement SetGrabberUserDisplaySettings - Start setting grabber display setting (Window size: LARGE)
+INFO  21/07/2022 17:18:38 VideoManagement SetGrabberUserDisplaySettings - User display settings are set (Window: LARGE)
+INFO  21/07/2022 17:18:38 VideoManagement SetGrabberUserDisplaySettings - Start setting grabber display setting (Window size: LARGE)
+INFO  21/07/2022 17:18:38 VideoManagement SetGrabberUserDisplaySettings - User display settings are set (Window: LARGE)
+INFO  21/07/2022 17:18:38 VideoManagement SetGrabberUserDisplaySettings - Start setting grabber display setting (Window size: LARGE)
+INFO  21/07/2022 17:18:38 VideoManagement SetGrabberUserDisplaySettings - User display settings are set (Window: LARGE)
+INFO  21/07/2022 17:18:38 VideoManagement SetGrabberUserDisplaySettings - Start setting grabber display setting (Window size: LARGE)
+INFO  21/07/2022 17:18:38 VideoManagement SetGrabberUserDisplaySettings - User display settings are set (Window: LARGE)
+INFO  21/07/2022 17:18:38 VideoManagement SetGrabberUserDisplaySettings - Start setting grabber display setting (Window size: LARGE)
+INFO  21/07/2022 17:18:38 VideoManagement SetGrabberUserDisplaySettings - User display settings are set (Window: LARGE)
+INFO  21/07/2022 17:18:38 VideoManagement ResetVideoSettings - Resetting video settings
+INFO  21/07/2022 17:18:38 VideoManagement ResetVideoSettings - Resetting video settings
+INFO  21/07/2022 17:18:38 VideoManagement ResetVideoSettings - Resetting video settings
+INFO  21/07/2022 17:18:38 VideoManagement ResetVideoSettings - Resetting video settings
+INFO  21/07/2022 17:18:38 VideoManagement ResetVideoSettings - Resetting video settings
+WARN  21/07/2022 17:18:38 VideoManagement GetStartPreview - Resetting video module to new device (Device: 0)
+INFO  21/07/2022 17:18:38 VideoManagement SetActiveVideoGrabber - Setting active video grabber to vidGrabber
+WARN  21/07/2022 17:18:38 VideoManagement SetActiveVideoGrabber - Video control is null, or grabber is already the active one
+INFO  21/07/2022 17:18:39 VideoManagement GetStartPreview - Video stream is restarted
+INFO  21/07/2022 17:18:39 BusyForm   LoadVidGrab - LoadVidGrab  Set Settings
+INFO  21/07/2022 17:18:39 VideoManagement CloseVideo - Closing video
+INFO  21/07/2022 17:18:39 VideoManagement PauseStream - Video stream paused
+INFO  21/07/2022 17:18:39 BusyForm   BusyForm_FormClosed - BusyForm_FormClosed
+INFO  21/07/2022 17:18:39 CommandProcessor WaitForEndProcess -  Start WaitForEndProcess  
+INFO  21/07/2022 17:18:39 VideoManagement VidGrab_OnLog - VideoGrabber log - preview started
+ERROR 21/07/2022 17:18:41 CommandProcessor WaitForEndProcess - Wait process timeout TestP.Isbusy=True cp.busy=False MemMan.isbusy=True
+INFO  21/07/2022 17:18:41 frmHome    ReLoadHome - WaitForEndProcess
+INFO  21/07/2022 17:18:41 DeviceConnection SendChar   - S<11>
+INFO  21/07/2022 17:18:41 CommandProcessor Delaymils  - WaitTime=1.0005
+INFO  21/07/2022 17:18:41 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:41 CommandProcessor Delaymils  - WaitTime=1.0001
+INFO  21/07/2022 17:18:41 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:41 CommandProcessor Delaymils  - WaitTime=1.0007
+INFO  21/07/2022 17:18:41 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:41 CommandProcessor Delaymils  - WaitTime=1.0001
+INFO  21/07/2022 17:18:41 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:41 CommandProcessor Delaymils  - WaitTime=1.0008
+INFO  21/07/2022 17:18:41 CommandProcessor SendCommad - 17 000[1]
+INFO  21/07/2022 17:18:41 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:41 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:41 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:41 CommandProcessor WaitUntilTimeOut - WaitTime=6.4337
+INFO  21/07/2022 17:18:41 frmHome    ReLoadHome - KeyLock
+INFO  21/07/2022 17:18:41 frmHome    LoadMainSDData - LoadMainSDData
+INFO  21/07/2022 17:18:41 frmHome    ReLoadHome - LoadMainSDData
+INFO  21/07/2022 17:18:41 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:41 CommandProcessor Delaymils  - WaitTime=1.0025
+INFO  21/07/2022 17:18:41 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:41 CommandProcessor Delaymils  - WaitTime=1.0006
+INFO  21/07/2022 17:18:41 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:41 CommandProcessor Delaymils  - WaitTime=1.001
+INFO  21/07/2022 17:18:41 DeviceConnection SendChar   - S<6E>
+INFO  21/07/2022 17:18:41 CommandProcessor Delaymils  - WaitTime=1.0018
+INFO  21/07/2022 17:18:41 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:41 CommandProcessor Delaymils  - WaitTime=1.0076
+INFO  21/07/2022 17:18:41 CommandProcessor SendCommad - 2 006E[1]
+INFO  21/07/2022 17:18:41 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:41 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:41 DeviceConnection GetChar    - R<1>
+INFO  21/07/2022 17:18:41 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:41 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:41 CommandProcessor WaitUntilTimeOut - WaitTime=15.1339
+INFO  21/07/2022 17:18:41 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:41 frmHome    P_ReadSingleParameterCompleted - TestP_ReadSingleParameterCompleted
+INFO  21/07/2022 17:18:41 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:41 CommandProcessor Delaymils  - WaitTime=1.0019
+INFO  21/07/2022 17:18:41 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:41 CommandProcessor Delaymils  - WaitTime=1.0044
+INFO  21/07/2022 17:18:41 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:41 CommandProcessor Delaymils  - WaitTime=1.001
+INFO  21/07/2022 17:18:41 DeviceConnection SendChar   - S<6F>
+INFO  21/07/2022 17:18:41 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:41 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:41 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:41 CommandProcessor SendCommad - 2 006F[1]
+INFO  21/07/2022 17:18:41 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:41 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:41 DeviceConnection GetChar    - R<1>
+INFO  21/07/2022 17:18:41 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:41 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:41 CommandProcessor WaitUntilTimeOut - WaitTime=5.5018
+INFO  21/07/2022 17:18:41 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:41 frmHome    P_ReadSingleParameterCompleted - TestP_ReadSingleParameterCompleted
+INFO  21/07/2022 17:18:42 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:42 CommandProcessor Delaymils  - WaitTime=1
+INFO  21/07/2022 17:18:42 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:42 CommandProcessor Delaymils  - WaitTime=1.002
+INFO  21/07/2022 17:18:42 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:42 CommandProcessor Delaymils  - WaitTime=1.0024
+INFO  21/07/2022 17:18:42 DeviceConnection SendChar   - S<76>
+INFO  21/07/2022 17:18:42 CommandProcessor Delaymils  - WaitTime=1.0036
+INFO  21/07/2022 17:18:42 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:42 CommandProcessor Delaymils  - WaitTime=1.0035
+INFO  21/07/2022 17:18:42 CommandProcessor SendCommad - 2 0076[1]
+INFO  21/07/2022 17:18:42 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:42 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:42 DeviceConnection GetChar    - R<35>
+INFO  21/07/2022 17:18:42 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:42 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:42 CommandProcessor WaitUntilTimeOut - WaitTime=7.763
+INFO  21/07/2022 17:18:42 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:42 CommandProcessor Delaymils  - WaitTime=1.0023
+INFO  21/07/2022 17:18:42 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:42 CommandProcessor Delaymils  - WaitTime=1.0017
+INFO  21/07/2022 17:18:42 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:42 CommandProcessor Delaymils  - WaitTime=1.0004
+INFO  21/07/2022 17:18:42 DeviceConnection SendChar   - S<77>
+INFO  21/07/2022 17:18:42 CommandProcessor Delaymils  - WaitTime=1.0042
+INFO  21/07/2022 17:18:42 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:42 CommandProcessor Delaymils  - WaitTime=1.0034
+INFO  21/07/2022 17:18:42 CommandProcessor SendCommad - 2 0077[1]
+INFO  21/07/2022 17:18:42 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:42 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:42 DeviceConnection GetChar    - R<32>
+INFO  21/07/2022 17:18:42 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:42 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:42 CommandProcessor WaitUntilTimeOut - WaitTime=16.1104
+INFO  21/07/2022 17:18:42 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:42 frmHome    P_ReadSingleParameterCompleted - TestP_ReadSingleParameterCompleted
+INFO  21/07/2022 17:18:42 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:42 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:42 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:42 CommandProcessor Delaymils  - WaitTime=1.0022
+INFO  21/07/2022 17:18:42 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:42 CommandProcessor Delaymils  - WaitTime=1.0002
+INFO  21/07/2022 17:18:42 DeviceConnection SendChar   - S<99>
+INFO  21/07/2022 17:18:42 CommandProcessor Delaymils  - WaitTime=1.0023
+INFO  21/07/2022 17:18:42 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:42 CommandProcessor Delaymils  - WaitTime=1.0028
+INFO  21/07/2022 17:18:42 CommandProcessor SendCommad - 2 0099[1]
+INFO  21/07/2022 17:18:42 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:42 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:42 DeviceConnection GetChar    - R<36>
+INFO  21/07/2022 17:18:42 DeviceConnection GetChar    - R<39>
+INFO  21/07/2022 17:18:42 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:42 CommandProcessor WaitUntilTimeOut - WaitTime=3.9328
+INFO  21/07/2022 17:18:42 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:42 CommandProcessor Delaymils  - WaitTime=1.0016
+INFO  21/07/2022 17:18:42 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:42 CommandProcessor Delaymils  - WaitTime=1.0022
+INFO  21/07/2022 17:18:42 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:42 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:42 DeviceConnection SendChar   - S<9A>
+INFO  21/07/2022 17:18:42 CommandProcessor Delaymils  - WaitTime=1.0017
+INFO  21/07/2022 17:18:42 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:42 CommandProcessor Delaymils  - WaitTime=1.0041
+INFO  21/07/2022 17:18:42 CommandProcessor SendCommad - 2 009A[1]
+INFO  21/07/2022 17:18:42 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:42 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:42 DeviceConnection GetChar    - R<2E>
+INFO  21/07/2022 17:18:42 DeviceConnection GetChar    - R<34>
+INFO  21/07/2022 17:18:42 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:42 CommandProcessor WaitUntilTimeOut - WaitTime=12.0501
+INFO  21/07/2022 17:18:43 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:43 CommandProcessor Delaymils  - WaitTime=1
+INFO  21/07/2022 17:18:43 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:43 CommandProcessor Delaymils  - WaitTime=1.0016
+INFO  21/07/2022 17:18:43 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:43 CommandProcessor Delaymils  - WaitTime=1.0019
+INFO  21/07/2022 17:18:43 DeviceConnection SendChar   - S<9B>
+INFO  21/07/2022 17:18:43 CommandProcessor Delaymils  - WaitTime=1.0023
+INFO  21/07/2022 17:18:43 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:43 CommandProcessor Delaymils  - WaitTime=1.004
+INFO  21/07/2022 17:18:43 CommandProcessor SendCommad - 2 009B[1]
+INFO  21/07/2022 17:18:43 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:43 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:43 DeviceConnection GetChar    - R<32>
+INFO  21/07/2022 17:18:43 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:43 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:43 CommandProcessor WaitUntilTimeOut - WaitTime=4.9632
+INFO  21/07/2022 17:18:43 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:43 frmHome    P_ReadSingleParameterCompleted - TestP_ReadSingleParameterCompleted
+INFO  21/07/2022 17:18:43 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:43 CommandProcessor Delaymils  - WaitTime=1.0031
+INFO  21/07/2022 17:18:43 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:43 CommandProcessor Delaymils  - WaitTime=1.0025
+INFO  21/07/2022 17:18:43 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:43 CommandProcessor Delaymils  - WaitTime=1.0026
+INFO  21/07/2022 17:18:43 DeviceConnection SendChar   - S<91>
+INFO  21/07/2022 17:18:43 CommandProcessor Delaymils  - WaitTime=1.0002
+INFO  21/07/2022 17:18:43 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:43 CommandProcessor Delaymils  - WaitTime=1.0049
+INFO  21/07/2022 17:18:43 CommandProcessor SendCommad - 2 0091[1]
+INFO  21/07/2022 17:18:43 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:43 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:43 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:43 DeviceConnection GetChar    - R<39>
+INFO  21/07/2022 17:18:43 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:43 CommandProcessor WaitUntilTimeOut - WaitTime=4.8146
+INFO  21/07/2022 17:18:43 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:43 CommandProcessor Delaymils  - WaitTime=1.0034
+INFO  21/07/2022 17:18:43 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:43 CommandProcessor Delaymils  - WaitTime=1.0036
+INFO  21/07/2022 17:18:43 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:43 CommandProcessor Delaymils  - WaitTime=1.0008
+INFO  21/07/2022 17:18:43 DeviceConnection SendChar   - S<92>
+INFO  21/07/2022 17:18:43 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:43 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:43 CommandProcessor Delaymils  - WaitTime=1.0015
+INFO  21/07/2022 17:18:43 CommandProcessor SendCommad - 2 0092[1]
+INFO  21/07/2022 17:18:43 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:43 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:43 DeviceConnection GetChar    - R<35>
+INFO  21/07/2022 17:18:43 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:43 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:43 CommandProcessor WaitUntilTimeOut - WaitTime=11.4398
+INFO  21/07/2022 17:18:43 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:43 frmHome    P_ReadSingleParameterCompleted - TestP_ReadSingleParameterCompleted
+INFO  21/07/2022 17:18:43 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:43 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:43 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:43 CommandProcessor Delaymils  - WaitTime=1.001
+INFO  21/07/2022 17:18:43 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:43 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:43 DeviceConnection SendChar   - S<93>
+INFO  21/07/2022 17:18:43 CommandProcessor Delaymils  - WaitTime=1.0035
+INFO  21/07/2022 17:18:43 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:43 CommandProcessor Delaymils  - WaitTime=1.0006
+INFO  21/07/2022 17:18:43 CommandProcessor SendCommad - 2 0093[1]
+INFO  21/07/2022 17:18:43 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:43 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:43 DeviceConnection GetChar    - R<33>
+INFO  21/07/2022 17:18:43 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:43 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:43 CommandProcessor WaitUntilTimeOut - WaitTime=17.5031
+INFO  21/07/2022 17:18:44 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:44 CommandProcessor Delaymils  - WaitTime=1.0024
+INFO  21/07/2022 17:18:44 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:44 CommandProcessor Delaymils  - WaitTime=1.0011
+INFO  21/07/2022 17:18:44 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:44 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:44 DeviceConnection SendChar   - S<94>
+INFO  21/07/2022 17:18:44 CommandProcessor Delaymils  - WaitTime=1.0044
+INFO  21/07/2022 17:18:44 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:44 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:44 CommandProcessor SendCommad - 2 0094[1]
+INFO  21/07/2022 17:18:44 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:44 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:44 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:44 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:44 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:44 CommandProcessor WaitUntilTimeOut - WaitTime=9.3128
+INFO  21/07/2022 17:18:44 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:44 frmHome    P_ReadSingleParameterCompleted - TestP_ReadSingleParameterCompleted
+INFO  21/07/2022 17:18:44 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:44 CommandProcessor Delaymils  - WaitTime=1.0023
+INFO  21/07/2022 17:18:44 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:44 CommandProcessor Delaymils  - WaitTime=1.0035
+INFO  21/07/2022 17:18:44 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:44 CommandProcessor Delaymils  - WaitTime=1.0002
+INFO  21/07/2022 17:18:44 DeviceConnection SendChar   - S<95>
+INFO  21/07/2022 17:18:44 CommandProcessor Delaymils  - WaitTime=1.0019
+INFO  21/07/2022 17:18:44 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:44 CommandProcessor Delaymils  - WaitTime=1.0034
+INFO  21/07/2022 17:18:44 CommandProcessor SendCommad - 2 0095[1]
+INFO  21/07/2022 17:18:44 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:44 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:44 DeviceConnection GetChar    - R<38>
+INFO  21/07/2022 17:18:44 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:44 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:44 CommandProcessor WaitUntilTimeOut - WaitTime=9.232
+INFO  21/07/2022 17:18:44 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:44 CommandProcessor Delaymils  - WaitTime=1.0024
+INFO  21/07/2022 17:18:44 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:44 CommandProcessor Delaymils  - WaitTime=1.0001
+INFO  21/07/2022 17:18:44 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:44 CommandProcessor Delaymils  - WaitTime=1.0014
+INFO  21/07/2022 17:18:44 DeviceConnection SendChar   - S<96>
+INFO  21/07/2022 17:18:44 CommandProcessor Delaymils  - WaitTime=1.0011
+INFO  21/07/2022 17:18:44 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:44 CommandProcessor Delaymils  - WaitTime=1.0009
+INFO  21/07/2022 17:18:44 CommandProcessor SendCommad - 2 0096[1]
+INFO  21/07/2022 17:18:44 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:44 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:44 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:44 DeviceConnection GetChar    - R<0>
+INFO  21/07/2022 17:18:44 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:44 CommandProcessor WaitUntilTimeOut - WaitTime=15.4414
+INFO  21/07/2022 17:18:44 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:44 frmHome    P_ReadSingleParameterCompleted - TestP_ReadSingleParameterCompleted
+INFO  21/07/2022 17:18:44 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:44 CommandProcessor Delaymils  - WaitTime=1.0041
+INFO  21/07/2022 17:18:44 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:44 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:44 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:44 CommandProcessor Delaymils  - WaitTime=1.0001
+INFO  21/07/2022 17:18:44 DeviceConnection SendChar   - S<97>
+INFO  21/07/2022 17:18:44 CommandProcessor Delaymils  - WaitTime=1.0045
+INFO  21/07/2022 17:18:44 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:44 CommandProcessor Delaymils  - WaitTime=1.0036
+INFO  21/07/2022 17:18:44 CommandProcessor SendCommad - 2 0097[1]
+INFO  21/07/2022 17:18:44 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:44 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:44 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:44 DeviceConnection GetChar    - R<35>
+INFO  21/07/2022 17:18:44 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:44 CommandProcessor WaitUntilTimeOut - WaitTime=5.7488
+INFO  21/07/2022 17:18:45 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:45 CommandProcessor Delaymils  - WaitTime=1.0039
+INFO  21/07/2022 17:18:45 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:45 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:45 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:45 CommandProcessor Delaymils  - WaitTime=1.0003
+INFO  21/07/2022 17:18:45 DeviceConnection SendChar   - S<98>
+INFO  21/07/2022 17:18:45 CommandProcessor Delaymils  - WaitTime=1.0034
+INFO  21/07/2022 17:18:45 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:45 CommandProcessor Delaymils  - WaitTime=1.002
+INFO  21/07/2022 17:18:45 CommandProcessor SendCommad - 2 0098[1]
+INFO  21/07/2022 17:18:45 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:45 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:45 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:45 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:45 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:45 CommandProcessor WaitUntilTimeOut - WaitTime=16.3797
+INFO  21/07/2022 17:18:45 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:45 frmHome    P_ReadSingleParameterCompleted - TestP_ReadSingleParameterCompleted
+INFO  21/07/2022 17:18:45 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:45 CommandProcessor Delaymils  - WaitTime=1.004
+INFO  21/07/2022 17:18:45 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:45 CommandProcessor Delaymils  - WaitTime=1.0012
+INFO  21/07/2022 17:18:45 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:45 CommandProcessor Delaymils  - WaitTime=1.5836
+INFO  21/07/2022 17:18:45 DeviceConnection SendChar   - S<70>
+INFO  21/07/2022 17:18:45 CommandProcessor Delaymils  - WaitTime=1.005
+INFO  21/07/2022 17:18:45 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:45 CommandProcessor Delaymils  - WaitTime=1.0033
+INFO  21/07/2022 17:18:45 CommandProcessor SendCommad - 2 0270[1]
+INFO  21/07/2022 17:18:45 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:45 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:45 DeviceConnection GetChar    - R<35>
+INFO  21/07/2022 17:18:45 DeviceConnection GetChar    - R<32>
+INFO  21/07/2022 17:18:45 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:45 CommandProcessor WaitUntilTimeOut - WaitTime=2.1479
+INFO  21/07/2022 17:18:45 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:45 CommandProcessor Delaymils  - WaitTime=1.0031
+INFO  21/07/2022 17:18:45 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:45 CommandProcessor Delaymils  - WaitTime=1.0036
+INFO  21/07/2022 17:18:45 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:45 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:45 DeviceConnection SendChar   - S<71>
+INFO  21/07/2022 17:18:45 CommandProcessor Delaymils  - WaitTime=1.0027
+INFO  21/07/2022 17:18:45 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:45 CommandProcessor Delaymils  - WaitTime=1.0017
+INFO  21/07/2022 17:18:45 CommandProcessor SendCommad - 2 0271[1]
+INFO  21/07/2022 17:18:45 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:45 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:45 DeviceConnection GetChar    - R<35>
+INFO  21/07/2022 17:18:45 DeviceConnection GetChar    - R<36>
+INFO  21/07/2022 17:18:45 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:45 CommandProcessor WaitUntilTimeOut - WaitTime=8.5195
+INFO  21/07/2022 17:18:45 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:45 CommandProcessor Delaymils  - WaitTime=1.0003
+INFO  21/07/2022 17:18:45 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:45 CommandProcessor Delaymils  - WaitTime=1.0004
+INFO  21/07/2022 17:18:45 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:45 CommandProcessor Delaymils  - WaitTime=1.4153
+INFO  21/07/2022 17:18:45 DeviceConnection SendChar   - S<72>
+INFO  21/07/2022 17:18:45 CommandProcessor Delaymils  - WaitTime=1.0019
+INFO  21/07/2022 17:18:45 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:45 CommandProcessor Delaymils  - WaitTime=1.0015
+INFO  21/07/2022 17:18:45 CommandProcessor SendCommad - 2 0272[1]
+INFO  21/07/2022 17:18:45 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:45 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:45 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:45 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:45 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:45 CommandProcessor WaitUntilTimeOut - WaitTime=16.6758
+INFO  21/07/2022 17:18:46 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:46 CommandProcessor Delaymils  - WaitTime=1.0011
+INFO  21/07/2022 17:18:46 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:46 CommandProcessor Delaymils  - WaitTime=1.0018
+INFO  21/07/2022 17:18:46 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:46 CommandProcessor Delaymils  - WaitTime=1.0041
+INFO  21/07/2022 17:18:46 DeviceConnection SendChar   - S<73>
+INFO  21/07/2022 17:18:46 CommandProcessor Delaymils  - WaitTime=1.0003
+INFO  21/07/2022 17:18:46 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:46 CommandProcessor Delaymils  - WaitTime=1.0027
+INFO  21/07/2022 17:18:46 CommandProcessor SendCommad - 2 0273[1]
+INFO  21/07/2022 17:18:46 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:46 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:46 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:46 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:46 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:46 CommandProcessor WaitUntilTimeOut - WaitTime=5.7858
+INFO  21/07/2022 17:18:46 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:46 CommandProcessor Delaymils  - WaitTime=1.0017
+INFO  21/07/2022 17:18:46 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:46 CommandProcessor Delaymils  - WaitTime=1.0017
+INFO  21/07/2022 17:18:46 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:46 CommandProcessor Delaymils  - WaitTime=1.0004
+INFO  21/07/2022 17:18:46 DeviceConnection SendChar   - S<74>
+INFO  21/07/2022 17:18:46 CommandProcessor Delaymils  - WaitTime=1.0016
+INFO  21/07/2022 17:18:46 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:46 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:46 CommandProcessor SendCommad - 2 0274[1]
+INFO  21/07/2022 17:18:46 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:46 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:46 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:46 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:46 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:46 CommandProcessor WaitUntilTimeOut - WaitTime=16.5477
+INFO  21/07/2022 17:18:46 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:46 frmHome    P_ReadSingleParameterCompleted - TestP_ReadSingleParameterCompleted
+INFO  21/07/2022 17:18:46 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:46 CommandProcessor Delaymils  - WaitTime=1
+INFO  21/07/2022 17:18:46 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:46 CommandProcessor Delaymils  - WaitTime=1.0001
+INFO  21/07/2022 17:18:46 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:46 CommandProcessor Delaymils  - WaitTime=1.0041
+INFO  21/07/2022 17:18:46 DeviceConnection SendChar   - S<49>
+INFO  21/07/2022 17:18:46 CommandProcessor Delaymils  - WaitTime=1
+INFO  21/07/2022 17:18:46 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:46 CommandProcessor Delaymils  - WaitTime=1.0018
+INFO  21/07/2022 17:18:46 CommandProcessor SendCommad - 2 0249[1]
+INFO  21/07/2022 17:18:46 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:46 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:46 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:46 DeviceConnection GetChar    - R<38>
+INFO  21/07/2022 17:18:46 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:46 CommandProcessor WaitUntilTimeOut - WaitTime=16.7345
+INFO  21/07/2022 17:18:47 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:47 CommandProcessor Delaymils  - WaitTime=1.0035
+INFO  21/07/2022 17:18:47 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:47 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:47 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:47 CommandProcessor Delaymils  - WaitTime=1.0009
+INFO  21/07/2022 17:18:47 DeviceConnection SendChar   - S<4A>
+INFO  21/07/2022 17:18:47 CommandProcessor Delaymils  - WaitTime=1.0025
+INFO  21/07/2022 17:18:47 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:47 CommandProcessor Delaymils  - WaitTime=1
+INFO  21/07/2022 17:18:47 CommandProcessor SendCommad - 2 024A[1]
+INFO  21/07/2022 17:18:47 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:47 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:47 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:47 DeviceConnection GetChar    - R<20>
+INFO  21/07/2022 17:18:47 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:47 CommandProcessor WaitUntilTimeOut - WaitTime=12.5727
+INFO  21/07/2022 17:18:47 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:47 frmHome    P_ReadSingleParameterCompleted - TestP_ReadSingleParameterCompleted
+INFO  21/07/2022 17:18:47 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:47 CommandProcessor Delaymils  - WaitTime=1.0007
+INFO  21/07/2022 17:18:47 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:47 CommandProcessor Delaymils  - WaitTime=1.0034
+INFO  21/07/2022 17:18:47 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:47 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:47 DeviceConnection SendChar   - S<CF>
+INFO  21/07/2022 17:18:47 CommandProcessor Delaymils  - WaitTime=1.0004
+INFO  21/07/2022 17:18:47 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:47 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:47 CommandProcessor SendCommad - 2 00CF[1]
+INFO  21/07/2022 17:18:47 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:47 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:47 DeviceConnection GetChar    - R<39>
+INFO  21/07/2022 17:18:47 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:47 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:47 CommandProcessor WaitUntilTimeOut - WaitTime=17.5997
+INFO  21/07/2022 17:18:47 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:47 CommandProcessor Delaymils  - WaitTime=1.0013
+INFO  21/07/2022 17:18:47 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:47 CommandProcessor Delaymils  - WaitTime=1.0037
+INFO  21/07/2022 17:18:47 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:47 CommandProcessor Delaymils  - WaitTime=1.0019
+INFO  21/07/2022 17:18:47 DeviceConnection SendChar   - S<D0>
+INFO  21/07/2022 17:18:47 CommandProcessor Delaymils  - WaitTime=1.0006
+INFO  21/07/2022 17:18:47 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:47 CommandProcessor Delaymils  - WaitTime=1.0011
+INFO  21/07/2022 17:18:47 CommandProcessor SendCommad - 2 00D0[1]
+INFO  21/07/2022 17:18:47 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:47 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:47 DeviceConnection GetChar    - R<2E>
+INFO  21/07/2022 17:18:47 DeviceConnection GetChar    - R<32>
+INFO  21/07/2022 17:18:47 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:47 CommandProcessor WaitUntilTimeOut - WaitTime=4.2645
+INFO  21/07/2022 17:18:47 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:47 CommandProcessor Delaymils  - WaitTime=1.0032
+INFO  21/07/2022 17:18:47 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:47 CommandProcessor Delaymils  - WaitTime=1.0029
+INFO  21/07/2022 17:18:47 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:47 CommandProcessor Delaymils  - WaitTime=1.0024
+INFO  21/07/2022 17:18:47 DeviceConnection SendChar   - S<D1>
+INFO  21/07/2022 17:18:47 CommandProcessor Delaymils  - WaitTime=1.003
+INFO  21/07/2022 17:18:47 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:47 CommandProcessor Delaymils  - WaitTime=1.0011
+INFO  21/07/2022 17:18:47 CommandProcessor SendCommad - 2 00D1[1]
+INFO  21/07/2022 17:18:47 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:47 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:47 DeviceConnection GetChar    - R<31>
+INFO  21/07/2022 17:18:47 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:47 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:47 CommandProcessor WaitUntilTimeOut - WaitTime=14.2576
+INFO  21/07/2022 17:18:48 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:48 CommandProcessor Delaymils  - WaitTime=1.0045
+INFO  21/07/2022 17:18:48 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:48 CommandProcessor Delaymils  - WaitTime=1.0021
+INFO  21/07/2022 17:18:48 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:48 CommandProcessor Delaymils  - WaitTime=1.0038
+INFO  21/07/2022 17:18:48 DeviceConnection SendChar   - S<D2>
+INFO  21/07/2022 17:18:48 CommandProcessor Delaymils  - WaitTime=1.0009
+INFO  21/07/2022 17:18:48 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:48 CommandProcessor Delaymils  - WaitTime=1.0011
+INFO  21/07/2022 17:18:48 CommandProcessor SendCommad - 2 00D2[1]
+INFO  21/07/2022 17:18:48 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:48 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:48 DeviceConnection GetChar    - R<30>
+INFO  21/07/2022 17:18:48 DeviceConnection GetChar    - R<2E>
+INFO  21/07/2022 17:18:48 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:48 CommandProcessor WaitUntilTimeOut - WaitTime=8.4455
+INFO  21/07/2022 17:18:48 DeviceConnection SendChar   - S<2>
+INFO  21/07/2022 17:18:48 CommandProcessor Delaymils  - WaitTime=1.0042
+INFO  21/07/2022 17:18:48 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:48 CommandProcessor Delaymils  - WaitTime=1.0019
+INFO  21/07/2022 17:18:48 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:48 CommandProcessor Delaymils  - WaitTime=1.0005
+INFO  21/07/2022 17:18:48 DeviceConnection SendChar   - S<D3>
+INFO  21/07/2022 17:18:48 CommandProcessor Delaymils  - WaitTime=1.0006
+INFO  21/07/2022 17:18:48 DeviceConnection SendChar   - S<1>
+INFO  21/07/2022 17:18:48 CommandProcessor Delaymils  - WaitTime=1.0035
+INFO  21/07/2022 17:18:48 CommandProcessor SendCommad - 2 00D3[1]
+INFO  21/07/2022 17:18:48 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:48 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:48 DeviceConnection GetChar    - R<FF>
+INFO  21/07/2022 17:18:48 DeviceConnection GetChar    - R<35>
+INFO  21/07/2022 17:18:48 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:48 CommandProcessor WaitUntilTimeOut - WaitTime=17.4494
+INFO  21/07/2022 17:18:48 mainMDI    dSingleParameterCompleted>b__6 - TestP_ReadSingleParameterCompleted1
+INFO  21/07/2022 17:18:48 frmHome    P_ReadSingleParameterCompleted - TestP_ReadSingleParameterCompleted
+INFO  21/07/2022 17:18:48 CommandProcessor ClearBuffer -  ===== Clear The Buffer =====
+INFO  21/07/2022 17:18:48 mainMDI    P_ReadParametersCompleted>b__9 - TestP_ReadParametersCompleted
+INFO  21/07/2022 17:18:48 frmHome    TestP_ReadParametersCompleted - TestP_ReadParametersCompleted
+INFO  21/07/2022 17:18:48 frmHome    P_ReadParametersCompleted>b__6 - TestP_ReadParametersCompleted GetBatchData 1
+INFO  21/07/2022 17:18:48 CommandProcessor emMan_ReadBatchMemoryCompleted - SelfTest : WaitforSelfTestData = 0
+INFO  21/07/2022 17:18:48 frmHome    SetStatusField - SetStatusField
+INFO  21/07/2022 17:18:48 frmHome    LoadFirstPar - LoadFirstPar
+INFO  21/07/2022 17:18:48 frmHome    GetFormat  - GetFormat
+INFO  21/07/2022 17:18:48 frmHome    ReLoadHome - LoadFirstPar
+INFO  21/07/2022 17:18:48 frmHome    LoadIButton - LoadIButton
+INFO  21/07/2022 17:18:48 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:48 NavManagement SetEnableLeftButtonAllNoSelect - SetEnableLeftButtonAll
+INFO  21/07/2022 17:18:48 frmHome    SetEnableButton - SetEnableButton
+INFO  21/07/2022 17:18:48 CommandProcessor WaitForEndProcess -  Start WaitForEndProcess  
+INFO  21/07/2022 17:18:48 CommandProcessor WaitForEndProcess -  WaitForEndProcess completed Time : 0.0001
+INFO  21/07/2022 17:18:48 DeviceConnection SendChar   - S<11>
+INFO  21/07/2022 17:18:48 CommandProcessor Delaymils  - WaitTime=92.268
+INFO  21/07/2022 17:18:48 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:48 CommandProcessor Delaymils  - WaitTime=1.0007
+INFO  21/07/2022 17:18:48 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:48 CommandProcessor Delaymils  - WaitTime=1.0002
+INFO  21/07/2022 17:18:48 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:48 CommandProcessor Delaymils  - WaitTime=1
+INFO  21/07/2022 17:18:48 DeviceConnection SendChar   - S<0>
+INFO  21/07/2022 17:18:48 CommandProcessor Delaymils  - WaitTime=1
+INFO  21/07/2022 17:18:48 CommandProcessor SendCommad - 17 000[0]
+INFO  21/07/2022 17:18:48 CommandProcessor WaitForReply - Wait for Reply
+INFO  21/07/2022 17:18:48 DeviceConnection GetChar    - R<AA>
+INFO  21/07/2022 17:18:48 DeviceConnection GetChar    - R<BB>
+INFO  21/07/2022 17:18:48 CommandProcessor WaitUntilTimeOut - WaitTime=14.6459
+INFO  21/07/2022 17:18:48 frmHome    LoadLastControl - LoadLastControl
+INFO  21/07/2022 17:18:48 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:48 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:49 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:49 frmHome    LoadBackup - LoadBackup
+INFO  21/07/2022 17:18:49 BusyForm   BusyForm_FormClosed - BusyForm_FormClosed
+INFO  21/07/2022 17:18:49 CommandProcessor emMan_ReadBatchMemoryCompleted - SelfTest : WaitforSelfTestData = 0
+INFO  21/07/2022 17:18:49 frmHome    frmHome_Shown - frmHome_Shown
+INFO  21/07/2022 17:18:51 NavManagement LeftMenu_Click - LeftMenu_Click
+INFO  21/07/2022 17:18:51 NavManagement LeftClick  - LeftClick 6
+INFO  21/07/2022 17:18:51 NavManagement CloseForm  - CloseForm
+INFO  21/07/2022 17:18:51 frmHome    frmHome_FormClosing - frmHome_FormClosing
+INFO  21/07/2022 17:18:51 CommandProcessor WaitForEndProcess -  Start WaitForEndProcess  
+INFO  21/07/2022 17:18:51 CommandProcessor WaitForEndProcess -  WaitForEndProcess completed Time : 0.0001
+INFO  21/07/2022 17:18:51 CommandProcessor WaitForEndProcess -  Start WaitForEndProcess  
+INFO  21/07/2022 17:18:51 CommandProcessor WaitForEndProcess -  WaitForEndProcess completed Time : 0.0001
+INFO  21/07/2022 17:18:51 frmHome    frmHome_FormClosed - frmHome_FormClosed
+INFO  21/07/2022 17:18:51 NavManagement SetLeftRoundButtons - SetLeftRoundButtons
+INFO  21/07/2022 17:18:51 NavManagement Menu_Click - Menu_Click 6
+INFO  21/07/2022 17:18:51 NavManagement LoadingForm - LoadingForm 6
+INFO  21/07/2022 17:18:51 NavManagement SetLeftRoundButtons - SetLeftRoundButtons
+INFO  21/07/2022 17:18:51 NavManagement LoadFormHeader - LoadFormHeader 0
+INFO  21/07/2022 17:18:51 NavManagement LoadForm   - LoadForm 6
+INFO  21/07/2022 17:18:51 frmSetup   .ctor      - Start Initialize
+INFO  21/07/2022 17:18:51 frmSetup   .ctor      - End Initialize
+INFO  21/07/2022 17:18:51 frmSetup   frmSetup_Load - frmSetup_Load
+INFO  21/07/2022 17:18:51 frmSetup   LoadFormButtons - LoadFormButtons
+INFO  21/07/2022 17:18:51 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:51 frmSetup   SetDisableButtonOne - SetDisableButtonOne
+INFO  21/07/2022 17:18:51 frmControlSetup .ctor      - Start Initialize
+INFO  21/07/2022 17:18:51 frmControlSetup .ctor      - Start Initialize
+INFO  21/07/2022 17:18:51 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:51 frmControlSetup LoadFormButtons - LoadFormButtons 1
+INFO  21/07/2022 17:18:51 frmControlSetup LoadFormButtons - LoadFormButtons 2
+INFO  21/07/2022 17:18:51 frmControlSetup LoadFormButtons - LoadFormButtons 3
+INFO  21/07/2022 17:18:51 frmControlSetup LoadFormButtons - LoadFormButtons 4
+INFO  21/07/2022 17:18:51 frmControlSetup LoadFormButtons - LoadFormButtons 5
+INFO  21/07/2022 17:18:51 frmControlSetup LoadFormButtons - LoadFormButtons 6
+INFO  21/07/2022 17:18:51 frmControlSetup LoadDataAfterInit - LoadDataAfterInit
+INFO  21/07/2022 17:18:51 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  21/07/2022 17:18:51 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  21/07/2022 17:18:51 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  21/07/2022 17:18:51 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  21/07/2022 17:18:51 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  21/07/2022 17:18:51 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  21/07/2022 17:18:51 frmSetup   SetSetTextButton - SetSetTextButton
+INFO  21/07/2022 17:18:51 frmSetup   SelectInsetForm - SelectInsetForm
+INFO  21/07/2022 17:18:51 frmControlSetup frmControlSetup_VisibleChanged - frmControlSetup_VisibleChanged
+INFO  21/07/2022 17:18:51 frmControlSetup LoadDataAfterInit - LoadDataAfterInit
+INFO  21/07/2022 17:18:51 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  21/07/2022 17:18:51 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  21/07/2022 17:18:51 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  21/07/2022 17:18:51 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  21/07/2022 17:18:51 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  21/07/2022 17:18:51 frmControlSetup SetSetTextButton - SetSetTextButton
+INFO  21/07/2022 17:18:51 frmControlSetup C2ED3_ValueChanged - C2ED3_ValueChanged
+INFO  21/07/2022 17:18:51 frmControlSetup C2ED2_ValueChanged - C2ED2_ValueChanged
+INFO  21/07/2022 17:18:51 frmControlSetup C2ED1_ValueChanged - C2ED1_ValueChanged
+INFO  21/07/2022 17:18:51 frmControlSetup C1ED3_ValueChanged - C1ED3_ValueChanged
+INFO  21/07/2022 17:18:51 frmControlSetup C1ED2_ValueChanged - C1ED2_ValueChanged
+INFO  21/07/2022 17:18:51 frmControlSetup C1ED1_ValueChanged - C1ED1_ValueChanged
+INFO  21/07/2022 17:18:51 frmControlSetup frmControlSetup_Load - frmControlSetup_Load
+INFO  21/07/2022 17:18:51 frmControlSetup LoadSetupData - LoadSetupData
+INFO  21/07/2022 17:18:51 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:51 frmControlSetup rdLB_CheckedChanged - rdLB_CheckedChanged
+INFO  21/07/2022 17:18:51 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:51 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:51 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:51 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:51 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:51 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:51 frmSetup   frmSetup_Shown - frmSetup_Shown
+INFO  21/07/2022 17:18:51 frmSetup   Load_AfterFormShown - Load_AfterFormShown
+INFO  21/07/2022 17:18:51 frmSetup   LoadSubFormsControls - LoadSubFormsControls
+INFO  21/07/2022 17:18:51 frmControlSetupProp LoadFormButtons - LoadFormButtons
+INFO  21/07/2022 17:18:51 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:51 frmControlSetupProp .ctor      - frmControlSetupProp con
+INFO  21/07/2022 17:18:51 frmMainSetup .ctor      - Start Initialize
+INFO  21/07/2022 17:18:51 LanguageManagement SetControl - SetControl 4 TFLogo
+INFO  21/07/2022 17:18:51 frmMainSetup LoadFormButtons - LoadFormButtons
+INFO  21/07/2022 17:18:51 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:51 frmMainSetup .ctor      - End Initialize
+INFO  21/07/2022 17:18:51 frmPatientSetup .ctor      - Start Initialize
+INFO  21/07/2022 17:18:51 frmPatientSetup LoadFormButtons - LoadFormButtons
+INFO  21/07/2022 17:18:51 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:51 frmPatientSetup .ctor      - End Initialize
+INFO  21/07/2022 17:18:51 frmVisualSetup .ctor      - Start Initialize
+INFO  21/07/2022 17:18:51 LanguageManagement SetControl - SetControl 4 picError
+INFO  21/07/2022 17:18:51 frmVisualSetup .ctor      - End Initialize
+INFO  21/07/2022 17:18:51 frmQwikLinkSetup .ctor      - Start Initialize
+INFO  21/07/2022 17:18:51 frmQwikLinkSetup LoadData   - LoadData
+INFO  21/07/2022 17:18:51 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:51 frmQwikLinkSetup SetPorts   - SetPorts
+INFO  21/07/2022 17:18:51 frmQwikLinkSetup SetProtocol - SetProtocol
+INFO  21/07/2022 17:18:51 frmQwikLinkSetup tocolType_SelectedIndexChanged - P_ProtocolType_SelectedIndexChanged
+INFO  21/07/2022 17:18:51 frmQwikLinkSetup C_TT_CheckedChanged - C_LF_CheckedChanged
+INFO  21/07/2022 17:18:51 frmQwikLinkSetup LoadData   - LoadData
+INFO  21/07/2022 17:18:51 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:52 frmQwikLinkSetup LoadFormButtons - LoadFormButtons
+INFO  21/07/2022 17:18:52 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:52 frmQwikLinkSetup LoadSetup  - LoadSetup
+INFO  21/07/2022 17:18:52 frmQwikLinkSetup C_LF_CheckedChanged - C_LF_CheckedChanged
+INFO  21/07/2022 17:18:52 frmQwikLinkSetup C_HE_CheckedChanged - C_HE_CheckedChanged
+INFO  21/07/2022 17:18:52 frmQwikLinkSetup C_EN_CheckedChanged - C_EN_CheckedChanged
+INFO  21/07/2022 17:18:52 frmQwikLinkSetup C_SE_CheckedChanged - C_SE_CheckedChanged
+INFO  21/07/2022 17:18:52 frmQwikLinkSetup SetDisable - SetDisable
+INFO  21/07/2022 17:18:52 frmQwikLinkSetup SetDisableButtonAll - SetDisableButtonAll
+INFO  21/07/2022 17:18:52 frmQwikLinkSetup LoadPatientID - LoadPatientID
+INFO  21/07/2022 17:18:52 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:52 frmQwikLinkSetup .ctor      - End Initialize
+INFO  21/07/2022 17:18:52 frmMainSetup .ctor      - Start Initialize
+INFO  21/07/2022 17:18:52 frmMainSetup LoadFormButtons - LoadFormButtons
+INFO  21/07/2022 17:18:52 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:18:52 frmMainSetup .ctor      - End Initialize
+INFO  21/07/2022 17:19:13 frmSetup   SelectClick - SelectClick
+INFO  21/07/2022 17:19:13 frmSetup   SelectClick - SelectClick B_Patients
+INFO  21/07/2022 17:19:13 frmSetup   tabSetup_Selecting - tabSetup_Selecting
+INFO  21/07/2022 17:19:13 frmSetup   tabSetup_Selecting - tabSetup_Selecting frmControlSetup
+INFO  21/07/2022 17:19:13 frmSetup   SelectInsetForm - SelectInsetForm
+INFO  21/07/2022 17:19:13 frmControlSetup frmControlSetup_VisibleChanged - frmControlSetup_VisibleChanged
+INFO  21/07/2022 17:19:13 frmPatientSetup frmPatientSetup_VisibleChanged - frmPatientSetup_VisibleChanged
+INFO  21/07/2022 17:19:13 frmPatientSetup LoadDataAfterInit - LoadDataAfterInit
+INFO  21/07/2022 17:19:13 frmPatientSetup LoadDataPar - LoadDataPar
+INFO  21/07/2022 17:19:13 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:19:13 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:19:13 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:19:13 frmPatientSetup LoadOperators - LoadOperators
+INFO  21/07/2022 17:19:13 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:19:13 frmPatientSetup frmPatientSetup_Load - frmPatientSetup_Load
+INFO  21/07/2022 17:19:13 frmPatientSetup LoadFormButtons - LoadFormButtons
+INFO  21/07/2022 17:19:13 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:19:13 frmPatientSetup LoadSetup  - LoadSetup
+INFO  21/07/2022 17:19:13 frmPatientSetup Rad_CheckedChanged - Rad_CheckedChanged
+INFO  21/07/2022 17:19:13 frmPatientSetup Rad_CheckedChanged - Rad_CheckedChanged
+INFO  21/07/2022 17:19:13 frmPatientSetup R_MorphType4_CheckedChanged - R_MorphType3_CheckedChanged
+INFO  21/07/2022 17:19:13 frmPatientSetup Rad_CheckedChanged - Rad_CheckedChanged
+INFO  21/07/2022 17:19:13 frmPatientSetup Rad_CheckedChanged - Rad_CheckedChanged
+INFO  21/07/2022 17:19:13 frmPatientSetup txtStep3_TextChanged - txtStep3_TextChanged
+INFO  21/07/2022 17:19:13 frmPatientSetup txtStep4_TextChanged - txtStep4_TextChanged
+INFO  21/07/2022 17:19:13 frmPatientSetup C_VIS1_CheckedChanged - C_VIS1_CheckedChanged
+INFO  21/07/2022 17:19:13 frmPatientSetup C_ShowRanges_CheckedChanged - C_ShowRanges_CheckedChanged
+INFO  21/07/2022 17:19:13 frmPatientSetup C_10MICRO_CheckedChanged - C_10MICRO_CheckedChanged
+INFO  21/07/2022 17:19:13 frmPatientSetup C_AgeTest_CheckedChanged - C_AgeTest_CheckedChanged
+INFO  21/07/2022 17:19:13 frmPatientSetup LoadOptionalFields - LoadOptionalFields
+INFO  21/07/2022 17:19:13 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:19:13 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:19:13 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:19:13 frmSetup   SetSetTextButton - SetSetTextButton
+INFO  21/07/2022 17:19:16 frmPatientSetup C_AgeTest_CheckedChanged - C_AgeTest_CheckedChanged
+INFO  21/07/2022 17:19:16 frmPatientSetup SaveChange - SaveChange
+INFO  21/07/2022 17:19:16 frmSetup   SetEnableButton - SetEnableButton
+INFO  21/07/2022 17:19:19 frmSetup   ButtonClick - ButtonClick
+INFO  21/07/2022 17:19:19 frmSetup   ButtonClick - ButtonClick B_Save
+INFO  21/07/2022 17:19:19 frmPatientSetup SaveForm   - SaveForm
+INFO  21/07/2022 17:19:19 frmPatientSetup SaveData   - SaveData 
+INFO  21/07/2022 17:19:19 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:19:19 SaveData   .ctor      - Initialize SaveData(mainMDI tmpCurrentMDI)
+INFO  21/07/2022 17:19:19 SaveData   SaveSetup  - SaveSetup
+INFO  21/07/2022 17:19:19 frmPatientSetup SaveRanges - SaveRanges
+INFO  21/07/2022 17:19:19 ParameterManagement UpdateMorphType - UpdateMorphType
+INFO  21/07/2022 17:19:19 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:19:19 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:19:19 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:19:19 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:19:19 frmPatientSetup AfterSave  - AfterSave
+INFO  21/07/2022 17:19:19 frmSetup   SetDisableButtonOne - SetDisableButtonOne
+INFO  21/07/2022 17:19:23 frmSetup   SelectClick - SelectClick
+INFO  21/07/2022 17:19:23 frmSetup   SelectClick - SelectClick B_System
+INFO  21/07/2022 17:19:23 frmSetup   tabSetup_Selecting - tabSetup_Selecting
+INFO  21/07/2022 17:19:23 frmSetup   tabSetup_Selecting - tabSetup_Selecting frmPatientSetup
+INFO  21/07/2022 17:19:23 frmSetup   SelectInsetForm - SelectInsetForm
+INFO  21/07/2022 17:19:23 frmPatientSetup frmPatientSetup_VisibleChanged - frmPatientSetup_VisibleChanged
+INFO  21/07/2022 17:19:23 frmMainSetup frmMainSetup_VisibleChanged - frmMainSetup_VisibleChanged
+INFO  21/07/2022 17:19:23 frmMainSetup frmMainSetup_Load - frmMainSetup_Load
+INFO  21/07/2022 17:19:23 frmMainSetup LoadTimeUnit - LoadTimeUnit
+INFO  21/07/2022 17:19:23 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:19:23 frmMainSetup LoadExtSteps - LoadExtSteps
+INFO  21/07/2022 17:19:23 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:19:23 frmMainSetup LoadSetup  - LoadSetup
+INFO  21/07/2022 17:19:23 frmMainSetup SetEnableButton - SetEnableButton
+INFO  21/07/2022 17:19:23 frmMainSetup SetDisableButton - SetDisableButtonAll
+INFO  21/07/2022 17:19:23 frmMainSetup chkAEImage_CheckedChanged - chkAEImage_CheckedChanged
+ERROR 21/07/2022 17:19:23 frmMainSetup LoadSetup  - LoadSetup error - Could not find a part of the path 'C:\Users\Vision\eclipse-workspace\WiniumDemo\MES\SQA-Vision\Sounds'.
+INFO  21/07/2022 17:19:23 frmMainSetup LoadLanguage - LoadLanguage
+INFO  21/07/2022 17:19:23 frmMainSetup bLanguage_SelectedIndexChanged - cmbLanguage_SelectedIndexChanged
+INFO  21/07/2022 17:19:23 frmMainSetup LoadTF     - LoadTF
+INFO  21/07/2022 17:19:23 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:19:23 frmSetup   SetSetTextButton - SetSetTextButton
+INFO  21/07/2022 17:19:29 mainMDI    picExit_Click - picExit_Click
+INFO  21/07/2022 17:19:29 ppucMessageBox .ctor      - Start ppucMessageBox(mainMDI tmpCurrentMDI, byte tmpOpenID) Initialize
+INFO  21/07/2022 17:19:29 DatabaseSQAManagment OpenTable  - OpenTable
+INFO  21/07/2022 17:19:29 ppucMessageBox LoadFormButtons - LoadFormButtons 1
+INFO  21/07/2022 17:19:29 ppucMessageBox LoadFormButtons - LoadFormButtons 2
+INFO  21/07/2022 17:19:29 ppucMessageBox LoadFormButtons - LoadFormButtons 3
+INFO  21/07/2022 17:19:29 ppucMessageBox OpenMsgFrm - OpenMsgFrm 0
+INFO  21/07/2022 17:19:29 ppucMessageBox LoadMsgStatusHtm - LoadMsgStatusHtm
+INFO  21/07/2022 17:19:29 ppucMessageBox SetMSGType - SetMSGType
+INFO  21/07/2022 17:19:29 ppucMessageBox .ctor      - End ppucMessageBox(mainMDI tmpCurrentMDI, byte tmpOpenID) Initialize
+INFO  21/07/2022 17:19:29 ppucMessageBox Show       - Show
+INFO  21/07/2022 17:19:29 mainMDI    DisableControls - DisableControls
+INFO  21/07/2022 17:19:29 ppucMessageBox lblHtml_DocumentCompleted - lblHtml_DocumentCompleted
+INFO  21/07/2022 17:19:30 ppucMessageBox ButtonClick - ButtonClick B_Yes
+INFO  21/07/2022 17:19:30 ppucMessageBox Close      - Close
+INFO  21/07/2022 17:19:30 mainMDI    EnableControls - EnableControls
+INFO  21/07/2022 17:19:30 frmSetup   frmSetup_FormClosing - frmSetup_FormClosing
+INFO  21/07/2022 17:19:30 frmMainSetup frmMainSetup_VisibleChanged - frmMainSetup_VisibleChanged
+INFO  21/07/2022 17:19:30 frmVisualSetup CloseForm  - CloseForm
+INFO  21/07/2022 17:19:30 frmQwikLinkSetup CloseForm  - CloseForm
+INFO  21/07/2022 17:19:30 frmSetup   tabSetup_Selecting - tabSetup_Selecting
+INFO  21/07/2022 17:19:30 frmSetup   tabSetup_Selecting - tabSetup_Selecting
+INFO  21/07/2022 17:19:30 frmSetup   tabSetup_Selecting - tabSetup_Selecting
+INFO  21/07/2022 17:19:30 frmSetup   tabSetup_Selecting - tabSetup_Selecting
+INFO  21/07/2022 17:19:30 frmSetup   frmSetup_FormClosed - frmSetup_FormClosed
+INFO  21/07/2022 17:19:30 mainMDI    mainMDI_FormClosing - mainMDI_FormClosing
+INFO  21/07/2022 17:19:30 mainMDI    mainMDI_FormClosed - mainMDI_FormClosed
+INFO  21/07/2022 17:19:30 VideoManagement DisposeVideo - Entered
+INFO  21/07/2022 17:19:30 VideoManagement DisposeVideo - Video stream is stopped
+INFO  21/07/2022 17:19:30 VideoManagement DisposeVideo - Video grabbers are disposed
+INFO  21/07/2022 17:19:30 DeviceConnection CloseConnection - CloseConnection
+INFO  21/07/2022 17:19:31 DeviceConnection CloseConnection - CloseConnection
+INFO  21/07/2022 17:19:31 DatabaseSQAManagment CloseSQLDatabase - CloseSQLDatabase
+INFO  21/07/2022 17:19:31 mainMDI    mainMDI_FormClosed - Close Vision ================================================================================================================

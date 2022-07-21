@@ -29,32 +29,34 @@ public class winiumtest {
 		vision = new WiniumDriver(new URL("http://localhost:9999"), option); //Define the local host url
 		System.out.print("*******Local host is run and software is opened*******");
 
-		Thread.sleep(100000);
-//Find vision elements
-/*
+		Thread.sleep(10000);
+      //Find vision elements
+
 		var userName = vision.findElement(By.id("txtUser"));
 		userName.sendKeys("administrator");
 		Thread.sleep(10000);
 
 		var password = vision.findElement(By.id("txtPass"));
 		password.sendKeys("fertility");
-		Thread.sleep(20000);
+		//Thread.sleep(20000);
 		vision.findElement(By.id("bOK")).click();
-		Thread.sleep(20000);
-		System.out.print("Hi");
+		Thread.sleep(10000);
+		//Thread.sleep(20000);
+		System.out.print("Login success");
 
 		Thread.sleep(20000);
 
 		vision.findElement(By.id("frmHome")).click();
 		Thread.sleep(10);
 		vision.findElement(By.id("B_6")).click();
-		Thread.sleep(20000);
+		Thread.sleep(10000);
+		//Thread.sleep(20000);
 
 		vision.findElement(By.id("B_B_Patients")).click();
 		Thread.sleep(1000);
 		vision.findElement(By.id("C_AgeTest")).click();
 		Thread.sleep(1000);
 		vision.findElement(By.id("B_B_Save")).click();
-*/
+
 	}
 }
